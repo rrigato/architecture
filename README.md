@@ -16,6 +16,8 @@ The goal is to slim down the source material into the smallest amount of actiona
 - [eloquent_javascript](#eloquent_javascript)
   - [summary](#summary-3)
   - [recommendation](#recommendation-3)
+- [npm](#npm)
+- [webpack](#webpack)
 
 # aws_news_feed
 
@@ -62,3 +64,9 @@ Overview of programming and javascript language
 
 ## recommendation
 Yes, skip chapters on topics you are familiar with and any of the game design chapters. Skip any sections that focus on building an interpreter for javascript
+
+# npm
+general npm notes
+
+# webpack
+General webpack notes from the docs
