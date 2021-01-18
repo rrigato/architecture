@@ -1,5 +1,7 @@
 - [introduction](#introduction)
 - [chapter_3](#chapter_3)
+- [chapter_4](#chapter_4)
+- [chapter_5](#chapter_5)
 # introduction
 - session storage = only accessible within the same tab, removed on tab close, 5 mb
 - local storage = 10 mb, never expires and stored in browser
@@ -64,3 +66,34 @@ function myFunction(...varName){
 ```
 
 - ```let``` or ```const``` prevents a variable from binding to the global namespace
+
+- destructuring
+```javascript
+//myName will have value of 1
+let {myName} = { myName: 1, x: 2 };
+```
+
+# chapter_4
+```javascript
+//converts object to JSON
+JSON.stringify();
+//reads JSON and returns an Object
+JSON.parse();
+
+//[3, 4]
+[1, 2, 3, 4].filter((x) =>{ return(x > 2)});
+
+//provides hints on what should/should'nt be provided to javascript
+"use strict"; 
+
+//true
+[1] instanceof Array;
+```
+
+- map function = apply a function to each element of the array 
+
+- all JS objects have an Object.prototype which passes common functionality to functions like .toString()
+- protoypes are static 
+- encapsulation and polymorphism decouple, while inheritance tightly couples
+
+# chapter_5
