@@ -13,6 +13,9 @@ The goal is to slim down the source material into the smallest amount of actiona
 - [clean_architectures_in_python](#clean_architectures_in_python)
   - [summary](#summary-2)
   - [recommendation](#recommendation-2)
+- [eloquent_javascript](#eloquent_javascript)
+  - [summary](#summary-3)
+  - [recommendation](#recommendation-3)
 
 # aws_news_feed
 
@@ -49,3 +52,13 @@ Overview of the Clean Architecture with test driven examples with python
 ## recommendation
 Yes, the second edition. The first edition tries to do too much with the test driven development.
 One criticism I do have with this book is far too many external dependencies in my opinion.
+
+# eloquent_javascript
+author:
+- Marijn Haverbeke
+
+## summary
+Overview of programming and javascript language
+
+## recommendation
+Yes, skip chapters on topics you are familiar with and any of the game design chapters. Skip any sections that focus on building an interpreter for javascript
