@@ -13,3 +13,5 @@ npm run <command>
 ``` 
 
 - local installs are placed in ./node_modules
+
+- package-lock.json = full dependency tree (your dependencies and the dependencies of your dependencies)
