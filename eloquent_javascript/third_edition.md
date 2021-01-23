@@ -1,7 +1,9 @@
 - [introduction](#introduction)
 - [chapter_3](#chapter_3)
 - [chapter_4](#chapter_4)
-- [chapter_5](#chapter_5)
+- [chapter_11](#chapter_11)
+- [chapter_13](#chapter_13)
+- [chapter_15](#chapter_15)
 # introduction
 - session storage = only accessible within the same tab, removed on tab close, 5 mb
 - local storage = 10 mb, never expires and stored in browser
@@ -96,4 +98,53 @@ JSON.parse();
 - protoypes are static 
 - encapsulation and polymorphism decouple, while inheritance tightly couples
 
-# chapter_5
+# chapter_11
+- INI file = ; and blank lines ignored
+  - [] = new sections
+
+- exports in commonJS are not available in the local scope
+- ES modules can export functions, classes or let/const
+- if something can be done with a function, use a function instead of going through the rituals of moving your objects through various states
+- Promise = class that is an asyncoronous actions whose ```.then``` method returns the result to the callback from the promise 
+
+- Promise can be resolved(succeded) or rejected(failed)
+- ```Promise.All()``` returns an array of resolved promises
+  - if any of the resolved promises in the array failed, the whole 
+  ```javascript 
+  Promise.All()
+  ``` 
+  fails
+- async function returns a promise
+```javascript
+// yields the result of the async function
+await async_func_call();
+
+//arrow function can be made async
+['url1.example.com', 'url2.example.com', 'url3.example.com'].map(async hostname =>{
+    return(await axios.get(hostname));
+
+});
+```
+
+# chapter_13
+
+``` html
+<!--Block elements = take up the whole width of the document-->
+<h1></h1>
+<p></p>
+
+<!--inline elements = rendered on the same line as the surrounding text-->
+<b></b>
+<a></a>
+```
+
+``` css
+/*applies to p elements with id main and classes a and b*/
+p#main.a.b{}
+/*applies to all a tags inside of p tags*/
+p a {}
+```
+- sandboxing = limitations to underlying resources placed on .js files by the browser
+- when multiple css rules have the same property selector, the most recently read rule wins
+
+# chapter_15
