@@ -18,6 +18,9 @@ The goal is to slim down the source material into the smallest amount of actiona
   - [summary](#summary-3)
   - [recommendation](#recommendation-3)
 - [npm](#npm)
+- [refactoring](#refactoring)
+  - [summary](#summary-4)
+  - [recommendation](#recommendation-4)
 - [webpack](#webpack)
 
 # aws_news_feed
@@ -71,6 +74,18 @@ Yes, skip chapters on topics you are familiar with and any of the game design ch
 
 # npm
 general npm notes
+
+
+# refactoring
+author:
+- Martin Fowler
+- Kent Beck
+
+## summary
+Applying refactoring as a proactive part of the development process
+
+## recommendation
+Yes, an interesting take on how to continually improve your code base. Not every refactoring pattern will hit home, but some certainly will
 
 # webpack
 General webpack notes from the docs
