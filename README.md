@@ -4,7 +4,7 @@ The goal is to slim down the source material into the smallest amount of actiona
 
 # table_of_contents
 - [table_of_contents](#table_of_contents)
-- [aws_news_feed](#aws_news_feed)
+- [aws_news](#aws_news)
   - [summary](#summary)
   - [recommendation](#recommendation)
 - [architecture_patterns_with_python](#architecture_patterns_with_python)
@@ -23,7 +23,7 @@ The goal is to slim down the source material into the smallest amount of actiona
   - [recommendation](#recommendation-4)
 - [webpack](#webpack)
 
-# aws_news_feed
+# aws_news
 
 ## summary
 aws has an rss style feed that describes
