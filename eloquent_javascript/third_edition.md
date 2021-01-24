@@ -3,7 +3,7 @@
 - [chapter_4](#chapter_4)
 - [chapter_11](#chapter_11)
 - [chapter_13](#chapter_13)
-- [chapter_15](#chapter_15)
+- [ch15_event_handlers](#ch15_event_handlers)
 # introduction
 - session storage = only accessible within the same tab, removed on tab close, 5 mb
 - local storage = 10 mb, never expires and stored in browser
@@ -147,4 +147,36 @@ p a {}
 - sandboxing = limitations to underlying resources placed on .js files by the browser
 - when multiple css rules have the same property selector, the most recently read rule wins
 
-# chapter_15
+# ch15_event_handlers
+- window.addEventListener = register a callback handler taht is called when an event occurs
+- the most specific event handler is called first
+
+```javascript
+//stop the event from propagating to the parent node event
+event.stopPropagation()
+
+//Prevents the default action such as link, down arrow from occurring
+event.preventDefault()
+
+//reference to end a timeout early
+let x = setTimeout(() =>{
+  console.log('hello');
+
+}, 500);
+clearTimeout(x);
+
+
+setInterval(() =>{
+  console.log('prints every 2 seconds');
+}, 2000);
+
+
+```
+- common events:
+  - mousedown event = click down on mouse
+  - mouseup event = release click of a mouse
+  - click event = mouseup followed by a mouse down
+  - touch event for touchscreens
+  - focus/blur = when user moves from or to the browser tab/window
+  - load = fires when the document/image is loaded
+  - beforeunload = fires before the page is closed to prevent user from losing work
