@@ -5,9 +5,10 @@ The goal is to slim down the source material into the smallest amount of actiona
 # table_of_contents
 - [table_of_contents](#table_of_contents)
 - [aws_news](#aws_news)
+  - [builders_library](#builders_library)
+  - [whats_new](#whats_new)
   - [summary](#summary)
   - [recommendation](#recommendation)
-    - [whats_new](#whats_new)
 - [architecture_patterns_with_python](#architecture_patterns_with_python)
   - [summary](#summary-1)
   - [recommendation](#recommendation-1)
@@ -26,6 +27,13 @@ The goal is to slim down the source material into the smallest amount of actiona
 
 # aws_news
 
+
+## builders_library
+Notes on white papers [published by AWS architects](https://aws.amazon.com/builders-library/) describing best practices learned when building aws.
+
+## whats_new
+Folder that contains notes from the [whats new on aws news feed](https://aws.amazon.com/new/) for service announcements/upgrades.
+
 ## summary
 aws has an rss style feed that describes
 https://aws.amazon.com/new/
@@ -37,8 +45,6 @@ I personally skip stuff that is not applicable to me (Game tech, IoT, etc.)
 
 The biggest benefit is I can find a new service or feature I was unaware of previously.
 
-### whats_new
-Folder that contains notes from the [whats new on aws news feed](https://aws.amazon.com/new/) for service announcements/upgrades.
 
 # architecture_patterns_with_python
 authors:
