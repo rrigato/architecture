@@ -4,6 +4,7 @@
 - [chapter_11](#chapter_11)
 - [chapter_13](#chapter_13)
 - [ch15_event_handlers](#ch15_event_handlers)
+- [web_design_and_ajax](#web_design_and_ajax)
 # introduction
 - session storage = only accessible within the same tab, removed on tab close, 5 mb
 - local storage = 10 mb, never expires and stored in browser
@@ -180,3 +181,14 @@ setInterval(() =>{
   - focus/blur = when user moves from or to the browser tab/window
   - load = fires when the document/image is loaded
   - beforeunload = fires before the page is closed to prevent user from losing work
+
+
+
+# web_design_and_ajax
+
+- Draw a site map on a paper where every page is represented
+- Sketch the information needed for each page on a piece of paper before beginning the design
+
+- Keep your primary navigation bar the same across all of the content on your site
+
+- When the browser comes across a ```html <script>``` tag it will stop processing the page and wait for the script to finish processing

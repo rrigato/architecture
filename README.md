@@ -23,6 +23,9 @@ The goal is to slim down the source material into the smallest amount of actiona
 - [refactoring](#refactoring)
   - [summary](#summary-4)
   - [recommendation](#recommendation-4)
+- [the_mythical_man_month](#the_mythical_man_month)
+  - [summary](#summary-5)
+  - [recommendation](#recommendation-5)
 - [webpack](#webpack)
 
 # aws_news
@@ -96,6 +99,17 @@ Applying refactoring as a proactive part of the development process
 
 ## recommendation
 Yes, an interesting take on how to continually improve your code base. Not every refactoring pattern will hit home, but some certainly will
+
+# the_mythical_man_month
+author:
+- Frederick Brooks
+
+## summary
+
+## recommendation
+
+
+
 
 # webpack
 General webpack notes from the docs
