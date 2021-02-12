@@ -3,8 +3,12 @@
 - [chapter_4](#chapter_4)
 - [chapter_11](#chapter_11)
 - [chapter_13](#chapter_13)
+- [ch14_dom_browser_api](#ch14_dom_browser_api)
 - [ch15_event_handlers](#ch15_event_handlers)
 - [web_design_and_ajax](#web_design_and_ajax)
+- [jquery](#jquery)
+- [js_runtime_context_scope](#js_runtime_context_scope)
+- [web_architecture](#web_architecture)
 # introduction
 - session storage = only accessible within the same tab, removed on tab close, 5 mb
 - local storage = 10 mb, never expires and stored in browser
@@ -148,6 +152,24 @@ p a {}
 - sandboxing = limitations to underlying resources placed on .js files by the browser
 - when multiple css rules have the same property selector, the most recently read rule wins
 
+# ch14_dom_browser_api
+- The document object model (DOM) is an api that allows scripts to access and update the contents of a web page while loaded in the browser
+
+- HTML5 common javascript API's
+ - geolocation = where the user is location
+ - localStorage = stores data even after the browser is closed
+ - sessionStorage = keeps info while the browser tab is open
+ - history = items from the browser history
+
+- Always consider the cross compatibility implications when using newer browser javascript APIS
+
+- you can modify the browser history call stack
+
+- Key-value pairs in objects are unordered
+
+- Date object stores the number of milliseconds since the epoch
+
+
 # ch15_event_handlers
 - window.addEventListener = register a callback handler taht is called when an event occurs
 - the most specific event handler is called first
@@ -192,3 +214,20 @@ setInterval(() =>{
 - Keep your primary navigation bar the same across all of the content on your site
 
 - When the browser comes across a ```html <script>``` tag it will stop processing the page and wait for the script to finish processing
+
+# jquery
+- jQuery plugins = extensions for jQuery where you first include jquery and then include the plugin
+  - plugins are just IIFE (immediately invoked function expressions) that you can assign to ```HTML $.fn.<plugin_name>``` and then are invoke with ```HTML $('<some_selector>').<plugin_name>(function_arguements)```
+
+
+# js_runtime_context_scope
+- js has both global and function level context/scope
+
+- each execution context (function or global) has its own variables object that holds variables/functions/parameters
+
+- nested functions can access their parents variables but parent functions cannot access the variables of functions they invoke
+- There are 7 types of built in JS errors, each with a name and a message
+
+# web_architecture
+- HTML is responsible for structuring content, CSS is responsible for presentation, and javascript is responsible for behaviors
+- Editing HTML/CSS should not necessitate updating your JS scripts and vice-versa
