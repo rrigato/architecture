@@ -1,9 +1,16 @@
 - [introduction](#introduction)
+- [analytics](#analytics)
 - [database](#database)
+- [infrastructure_as_code](#infrastructure_as_code)
+- [miscellaneous](#miscellaneous)
+- [networking](#networking)
 - [serverless](#serverless)
 - [storage](#storage)
 # introduction
 The theme of reinvent 2020 was new integrations between AWS services, in addition to integrations between aws services and third party SAAS from the AWS marketplace
+
+# analytics
+- Connect provides real time sentiment analysis of calls, voice identitification for customer authentication based on the voice of the caller
 
 # database
 - [aws redshift federated query](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) = allows you to query across S3, RDS
@@ -12,6 +19,17 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 - [partiql](https://partiql.org/faqs.html) is a sql language that allows you to use the same syntax across Amazon S3 Select, Amazon Glacier Select, Amazon Redshift Spectrum, Amazon Quantum Ledger Database, dynamodb
   - Doesn't change how the data is stored, but might help with the cloud transition since more developers are familiar with SQL
 
+- AWS Glue supports materialized views
+
+
+# infrastructure_as_code
+- service catalog can group multiple cloudformation templates and metadata into a centrailized product offering
+
+# miscellaneous
+- monitron = hardware gateway/monitoring system for e2e equipment monitoring of temperature/machine vibrations/etc.
+
+# networking
+- transit gateway support IP multicast for one-to-many notifications
 
 # serverless
 - [aws lambda now supports up to 10 gb ram and 6 vcpus](https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-supports-10gb-memory-6-vcpu-cores-lambda-functions/)
