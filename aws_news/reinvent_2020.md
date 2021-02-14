@@ -1,5 +1,7 @@
 - [introduction](#introduction)
 - [analytics](#analytics)
+- [compute](#compute)
+- [containers](#containers)
 - [database](#database)
 - [infrastructure_as_code](#infrastructure_as_code)
 - [miscellaneous](#miscellaneous)
@@ -12,9 +14,21 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 # analytics
 - Connect provides real time sentiment analysis of calls, voice identitification for customer authentication based on the voice of the caller
 
+# compute
+- [Ec2 has a MacOs instance type](https://aws.amazon.com/ec2/instance-types/mac/)
+
+# containers
+- [ECR Public](https://aws.amazon.com/about-aws/whats-new/2020/12/announcing-amazon-ecr-public-and-amazon-ecr-public-gallery/) = basically docker hub but on aws
+
+
+- [aws proton](https://aws.amazon.com/proton/) = is a managed deployment service that can help platform teams build pipelines for developers
+- 
+
 # database
 - [aws redshift federated query](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) = allows you to query across S3, RDS
 - [aws redshift naitively supports json](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-redshift-announces-support-native-json-semi-structured-data-processing/)
+
+- [babelfish](https://aws.amazon.com/rds/aurora/babelfish/) allows you to mnigrate SQL Server clients to Amazon Aurora Postgresql without changing drivers or T-SQL code
 
 - [partiql](https://partiql.org/faqs.html) is a sql language that allows you to use the same syntax across Amazon S3 Select, Amazon Glacier Select, Amazon Redshift Spectrum, Amazon Quantum Ledger Database, dynamodb
   - Doesn't change how the data is stored, but might help with the cloud transition since more developers are familiar with SQL
@@ -36,7 +50,15 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 - [you can bring your own container image to run a lambda function](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support/)
 - [lambda billing duration is at the millisecond level](https://aws.amazon.com/about-aws/whats-new/2020/12/aws-lambda-changes-duration-billing-granularity-from-100ms-to-1ms/)
 
+- [lambdci/lambda](https://hub.docker.com/r/lambci/lambda/) = docker image runtime environment for python3.7/python3.8/node/etc.that closely mimics the lambda runtime environment
+  - use for running your python source code locally before archiving and uploading to lambda
+  - use for building aws layers that contain your application dependencies (pip/npm install) as an archive
+  
+- [lambda runtime interface emulator](https://github.com/aws/aws-lambda-runtime-interface-emulator) = used to locally test container images you plan to invoke from lambda
 
-- [aws proton](https://aws.amazon.com/proton/) = is a managed deployment service that can help platform teams build pipelines for developers
 
 # storage
+- [EBS gp3](https://aws.amazon.com/ebs/general-purpose/) = improved through and higher I/O that can be changed independently of EBS volume storage size
+- [s3 intelligent tiering](https://aws.amazon.com/s3/storage-classes/#Unknown_or_changing_access) = automatically moves objects to lower priced storage tiers based on access patterns
+
+- [s3 replication](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-replication-adds-support-for-multiple-destinations-in-the-same-or-different-aws-regions/) can have multiple targets in the same or different regions
