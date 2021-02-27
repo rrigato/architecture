@@ -4,6 +4,7 @@
 - [containers](#containers)
 - [database](#database)
 - [infrastructure_as_code](#infrastructure_as_code)
+- [machine_learning](#machine_learning)
 - [miscellaneous](#miscellaneous)
 - [networking](#networking)
 - [serverless](#serverless)
@@ -39,6 +40,16 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 # infrastructure_as_code
 - service catalog can group multiple cloudformation templates and metadata into a centrailized product offering
 
+# machine_learning
+- [AWS neuron](https://github.com/aws/aws-neuron-sdk) sdk for using aws custom inference and training optimized cpu/gpus
+
+- [aws data wrangler](https://aws.amazon.com/sagemaker/data-wrangler/) visual ui for etl into sagemaker 
+- [sagemaker pipelines](https://aws.amazon.com/sagemaker/pipelines/) CI/CD for machine learning
+- [sagemaker model monitor](https://docs.aws.amazon.com/sagemaker/latest/dg/model-monitor.html) detect drift in your prod machine learning model
+
+
+- Sagemaker supports[ distributed training ](https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html ) across multiple gpus
+- Sagemaker supports [edge device](https://aws.amazon.com/sagemaker/neo/) monitoring and deployment
 # miscellaneous
 - monitron = hardware gateway/monitoring system for e2e equipment monitoring of temperature/machine vibrations/etc.
 
@@ -62,3 +73,7 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 - [s3 intelligent tiering](https://aws.amazon.com/s3/storage-classes/#Unknown_or_changing_access) = automatically moves objects to lower priced storage tiers based on access patterns
 
 - [s3 replication](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-replication-adds-support-for-multiple-destinations-in-the-same-or-different-aws-regions/) can have multiple targets in the same or different regions
+
+- [aws s3 ](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-now-delivers-strong-read-after-write-consistency-automatically-for-all-applications/) has strong read after write consistentcy!!
+
+- [aws s3 supports 2 way replication](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-replication-adds-support-two-way-replication/)
