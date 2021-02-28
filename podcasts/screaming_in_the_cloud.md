@@ -9,5 +9,12 @@ https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
 - [Nora Jones](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/a-chaos-engineering-jeli-sandwich-with-nora-jones/)
 
 
+
+- think about infrastructure in terms of cost per tenet 
+  - How much you pay for each user, each analysis, each customer acquisition
 - the power of infrastructure as code is the ability to store configuration in version control and having a consistent deployment approach without having to rdp/ssh into a server
 [Regis Wilson](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/reconnecting-with-an-old-boss-with-regis-wilson/)
+
+
+- the end unit of work for a developer is a function, not an executable or server
+[james urquhart](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/flow-architectures-the-future-of-streaming-data-with-james-urquhart/)

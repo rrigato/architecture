@@ -20,12 +20,15 @@ The goal is to slim down the source material into the smallest amount of actiona
   - [summary](#summary-3)
   - [recommendation](#recommendation-3)
 - [npm](#npm)
-- [refactoring](#refactoring)
+- [podcasts](#podcasts)
   - [summary](#summary-4)
   - [recommendation](#recommendation-4)
-- [the_mythical_man_month](#the_mythical_man_month)
+- [refactoring](#refactoring)
   - [summary](#summary-5)
   - [recommendation](#recommendation-5)
+- [the_mythical_man_month](#the_mythical_man_month)
+  - [summary](#summary-6)
+  - [recommendation](#recommendation-6)
 - [webpack](#webpack)
 
 # aws_news
@@ -87,6 +90,16 @@ Yes, skip chapters on topics you are familiar with and any of the game design ch
 
 # npm
 general npm notes
+
+
+# podcasts
+
+## summary
+My best attempt to curate software engineering advice that I have internalized from listening to various tech podcasts over the years
+
+## recommendation
+Yes
+
 
 
 # refactoring
