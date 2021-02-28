@@ -24,7 +24,8 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 
 - [aws proton](https://aws.amazon.com/proton/) = is a managed deployment service that can help platform teams build pipelines for developers
 - 
-
+- [managed Prometheus](https://aws.amazon.com/prometheus/) which is an open source tool for container monitoring
+- 
 # database
 - [aws redshift federated query](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) = allows you to query across S3, RDS
 - [aws redshift naitively supports json](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-redshift-announces-support-native-json-semi-structured-data-processing/)
@@ -53,6 +54,8 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 # miscellaneous
 - monitron = hardware gateway/monitoring system for e2e equipment monitoring of temperature/machine vibrations/etc.
 
+- [managed grafana](https://aws.amazon.com/grafana/)grafana is a visualization dashboard for monitoring
+
 # networking
 - transit gateway support IP multicast for one-to-many notifications
 
@@ -77,3 +80,14 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 - [aws s3 ](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-now-delivers-strong-read-after-write-consistency-automatically-for-all-applications/) has strong read after write consistentcy!!
 
 - [aws s3 supports 2 way replication](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-s3-replication-adds-support-two-way-replication/)
+
+
+- # tooling
+- [aws cloud shell](https://docs.aws.amazon.com/cloudshell/latest/userguide/vm-specs.html#vm-configuration) has nodejs, python 3, aws cli and git pre installed
+
+- aws cloudshell uses the same sts credentials you use in the console
+
+- [cloud shell](https://docs.aws.amazon.com/cloudshell/latest/userguide/vm-specs.html#pre-installed-software) has persistent storage, vcpus and 2 GB of ram
+
+
+- Systems Manager agent can be run on servers across on premises and cloud servers
