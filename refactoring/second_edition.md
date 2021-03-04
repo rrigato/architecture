@@ -1,6 +1,8 @@
 - [introduction](#introduction)
 - [chapter_1](#chapter_1)
 - [chapter_2](#chapter_2)
+- [ch3_when_to_refactor](#ch3_when_to_refactor)
+- [ch4_testing_best_practices](#ch4_testing_best_practices)
 # introduction
 
 # chapter_1
@@ -35,3 +37,34 @@
 - Integrate with the mainline branch at least once a day and do not have any long lived feature branches
 - Refactoring makes your code more modular for performance tuning
   - do not assume you know the bottleneck of your performance issues, use a profiler
+  
+# ch3_when_to_refactor
+- unclear function/variable name
+- long functions
+- duplicated code
+- dicts/objects that are mutated in multiple places
+  - encapsulate global data mutation behind functions, all other dicts are passed by value to client
+  - limit the scope of where variables can be mutated
+- comments explaining bad code
+- comments should be used when you need to explain something
+- extract a loop/if statement into a function
+- mimize the interactions a function has with data/functions outside of its module/architectural layer
+
+# ch4_testing_best_practices
+- Writing the test case first enables you to focus on the interface instead of the implementation
+- There is a law of diminishing returns with tests, tests should be risk driven
+
+- mutable shared fixtures produce the most difficult to debug errors
+
+> setup -> invoke -> assert -> teardown
+
+  - General test case flow
+
+- Do not let the reality that testing can not catch all bugs stop you from writing tests that catch most bugs
+- Before fixing a bug, first write a test that clearly reveals the bug
+- Test case creation is an iterative activity that is a first class concern of any software engineer
+
+- test coverage reports are only good for identifying untested areas of code, not for assessing the quality of a test suite
+
+- How confident are you that if someone else introduces a bug into your code it will cause your test suite to fail?
+- 
