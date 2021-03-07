@@ -2,6 +2,7 @@
 - [software_guidelines_ch1](#software_guidelines_ch1)
 - [functionality_versus_maintainability_ch2](#functionality_versus_maintainability_ch2)
 - [programming_paradigms_ch3_ch6](#programming_paradigms_ch3_ch6)
+- [solid_ch7_ch11](#solid_ch7_ch11)
 # author
 Robert C Martin
 
@@ -23,3 +24,37 @@ Robert C Martin
 - We should never use break statements and strongly bias towards if/for loops transfering control to a function call?
 
 - testing shows that a software product is correct enough for our purposes, not that a program is bug free
+
+- Encapsulation and polymorphism are programming techniques that can be implemented just as easily in a functional style as an object oriented class-based style?
+
+- Device independence = strive to make our programs able to complete the same jobs on different devices
+
+- **Dependency Inversion (p.44-46)** = Business Rules(entities/usecase) call the interfaces of of lower level modules (repo/UI/externals)
+  - The lower level modules can be developed and deployed independently as long as they implement the design by contract outlined in the interface
+
+- Main entry point calls you usecase as part of the flow of control, but does not depend on anything other than the interface(name of the function) for intializing the program
+
+
+- There should be a clear separation between immutable and mutable components, where mutable components are encapsulated behind an abstraction/interface and we strongly preference immutable components?
+
+
+- event sourcing = store all transactions and when state is required, we apply all the transactions from the beginning of time
+
+
+# solid_ch7_ch11
+- The clean architecture is applied at the directory level (repo/entities/usecase), while SOLID is applicable to modules(file name) and components(public interface functions/private implementation functions)?
+
+- Design by contract is validated with test cases for public components?
+- For private functions, we are testing to make sure our implementation applies the necessary logic to implement the interface? 
+  - These test are independent of interface test cases for complicated applications?
+  - Try to test as many components as possible in one test case if there is no external I/O in any of the individual components?
+
+- Don't patch what you don't own, use fakes instead?
+
+- Single responsibility principle guidelines:
+  
+  - In python, only public functions are allowed to be imported outside a module(file name), while anything that starts with an underscore ```_``` should not be used outside the module?
+  
+  - In JS, only exported functions/data can be called outside a module(file name)?
+    - Should we test complicated implementation, because jest cannot patch non-exported private functions like you can test private functions in python?
+    - DHH point that you should only mock external network calls 
