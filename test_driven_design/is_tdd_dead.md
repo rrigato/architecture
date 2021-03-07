@@ -35,5 +35,6 @@ https://www.youtube.com/watch?v=z9quxZsLcfo
 
 
 - TDD goes really well with the clean architecture and cloud computing since all the layers are independent?
-    - DHH's testing style works really well for monolithic architectures
+    - DHH's testing style works really well for monolithic architectures where you control everything on the server
+
  
