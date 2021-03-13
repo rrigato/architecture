@@ -1,0 +1,1 @@
+- brotli compression = loseless compression with smaller footprint than gzip
