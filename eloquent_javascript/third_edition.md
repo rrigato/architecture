@@ -203,6 +203,7 @@ setInterval(() =>{
   - focus/blur = when user moves from or to the browser tab/window
   - load = fires when the document/image is loaded
   - beforeunload = fires before the page is closed to prevent user from losing work
+  - submit = fired when a button of type="submit" is clicked on a form
 
 
 
@@ -228,6 +229,8 @@ setInterval(() =>{
 - nested functions can access their parents variables but parent functions cannot access the variables of functions they invoke
 - There are 7 types of built in JS errors, each with a name and a message
 
+- optimizing is only useful when you have code that is already taking a lot of time
+- 
 # web_architecture
 - HTML is responsible for structuring content, CSS is responsible for presentation, and javascript is responsible for behaviors
 - Editing HTML/CSS should not necessitate updating your JS scripts and vice-versa

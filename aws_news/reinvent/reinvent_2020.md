@@ -30,6 +30,8 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 - [aws redshift federated query](https://docs.aws.amazon.com/redshift/latest/dg/federated-overview.html) = allows you to query across S3, RDS
 - [aws redshift naitively supports json](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-redshift-announces-support-native-json-semi-structured-data-processing/)
 
+- [redshift ML](https://aws.amazon.com/redshift/features/redshift-ml/) = leverages sagemaker for machine learning built into redshift
+
 - [babelfish](https://aws.amazon.com/rds/aurora/babelfish/) allows you to mnigrate SQL Server clients to Amazon Aurora Postgresql without changing drivers or T-SQL code
 
 - [partiql](https://partiql.org/faqs.html) is a sql language that allows you to use the same syntax across Amazon S3 Select, Amazon Glacier Select, Amazon Redshift Spectrum, Amazon Quantum Ledger Database, dynamodb
@@ -51,6 +53,8 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 
 - Sagemaker supports[ distributed training ](https://docs.aws.amazon.com/sagemaker/latest/dg/distributed-training.html ) across multiple gpus
 - Sagemaker supports [edge device](https://aws.amazon.com/sagemaker/neo/) monitoring and deployment
+
+- [deep graph library](https://github.com/dmlc/dgl) = python library for building neural networks on top of TensorFlow, apache MXNet, pyTorch
 # miscellaneous
 - monitron = hardware gateway/monitoring system for e2e equipment monitoring of temperature/machine vibrations/etc.
 
@@ -91,3 +95,6 @@ The theme of reinvent 2020 was new integrations between AWS services, in additio
 
 
 - Systems Manager agent can be run on servers across on premises and cloud servers
+
+
+- [aws javascript sdk ](https://aws.amazon.com/blogs/developer/modular-aws-sdk-for-javascript-is-now-generally-available/) is now modular where you can import only the packages needed for a particular service
