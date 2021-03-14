@@ -27,6 +27,10 @@
 - dependency inversion principle = the usecase layer depends on the repository abstraction and the implementation details in the repository also depend on that abstraction
 - test web stuff as E2E tests
 
+- strive to have the business team and software engineers using the same terminology to describe the problems faced in meeting requirements
+
+- Be cautious when one usecase calls multiple repository interfaces that the mutation is atomic across all repository invocations
+
 # chapter_5
 - if you extend the existing functionality while keeping your existing code closed for modification, you will not need to modify each existing test
 

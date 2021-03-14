@@ -12,23 +12,29 @@ The goal is to slim down the source material into the smallest amount of actiona
 - [architecture_patterns_with_python](#architecture_patterns_with_python)
   - [summary](#summary-1)
   - [recommendation](#recommendation-1)
-- [clean_architectures_in_python](#clean_architectures_in_python)
+- [clean_architecture](#clean_architecture)
   - [summary](#summary-2)
   - [recommendation](#recommendation-2)
-- [datastores](#datastores)
-- [eloquent_javascript](#eloquent_javascript)
+- [clean_architectures_in_python](#clean_architectures_in_python)
   - [summary](#summary-3)
   - [recommendation](#recommendation-3)
-- [npm](#npm)
-- [podcasts](#podcasts)
+- [datastores](#datastores)
+- [eloquent_javascript](#eloquent_javascript)
   - [summary](#summary-4)
   - [recommendation](#recommendation-4)
-- [refactoring](#refactoring)
+- [http](#http)
+- [javascript](#javascript)
+- [npm](#npm)
+- [podcasts](#podcasts)
   - [summary](#summary-5)
   - [recommendation](#recommendation-5)
-- [the_mythical_man_month](#the_mythical_man_month)
+- [refactoring](#refactoring)
   - [summary](#summary-6)
   - [recommendation](#recommendation-6)
+- [test_driven_design](#test_driven_design)
+- [the_mythical_man_month](#the_mythical_man_month)
+  - [summary](#summary-7)
+  - [recommendation](#recommendation-7)
 - [webpack](#webpack)
 
 # aws_news
@@ -64,6 +70,18 @@ Mostly focuses on domain driven design, event based architecture.
 Skip, examples are way too specific to the retail use case. Some general material, but not enough to justify the time investment
 
 
+
+# clean_architecture
+authors:
+- Robert Martin
+
+## summary 
+Clean architecture, SOLID design principles, how to minimize the number of resource to build/maintain software systems
+
+## recommendation
+Yes, highly recommend
+
+
 # clean_architectures_in_python
 authors:
 - Leonardo Giordani
@@ -87,6 +105,14 @@ Overview of programming and javascript language
 
 ## recommendation
 Yes, skip chapters on topics you are familiar with and any of the game design chapters. Skip any sections that focus on building an interpreter for javascript
+
+# http
+http protocols notes
+
+
+# javascript
+- node, javascript specific notes
+
 
 # npm
 general npm notes
@@ -113,15 +139,19 @@ Applying refactoring as a proactive part of the development process
 ## recommendation
 Yes, an interesting take on how to continually improve your code base. Not every refactoring pattern will hit home, but some certainly will
 
+
+# test_driven_design
+- theories on the best approaches for building up an automated test suite you can believe in
+
+
 # the_mythical_man_month
 author:
 - Frederick Brooks
 
 ## summary
+- Collections of essays on how to estimate timeline and structure teams for enterprise software development projects
 
 ## recommendation
-
-
 
 
 # webpack

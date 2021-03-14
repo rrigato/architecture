@@ -24,3 +24,5 @@ Read, great info on making systems safe for client retries
 
 - Input validation to store both the client ID and request parameters
 - return an input validation error if the client calls with the same token but different request parameters
+
+- idempotency is key to reliability, because it enables the safe retry of logic
