@@ -3,6 +3,8 @@
 - [functionality_versus_maintainability_ch2](#functionality_versus_maintainability_ch2)
 - [programming_paradigms_ch3_ch6](#programming_paradigms_ch3_ch6)
 - [solid_ch7_ch11](#solid_ch7_ch11)
+- [open_closed_principle_ch8](#open_closed_principle_ch8)
+- [liskov_substitution_principle_ch9](#liskov_substitution_principle_ch9)
 # author
 Robert C Martin
 
@@ -58,3 +60,15 @@ Robert C Martin
   - In JS, only exported functions/data can be called outside a module(file name)?
     - Should we test complicated implementation, because jest cannot patch non-exported private functions like you can test private functions in python?
     - DHH point that you should only mock external network calls 
+
+# open_closed_principle_ch8
+- components should not have circular dependencies, all dependencies should flow in one direction between modules
+- if component A needs to be protected from changes in component B, component B should import component A and component A should have no knowledge of component B
+
+- Higher level components should be protected from lower level components by having the lower level components implement interfaces since they are closer to the input/output
+  - higher level components use/import these public interfaces, allowing the implementations to be easily modified without affecting higher level structures
+
+# liskov_substitution_principle_ch9
+- REST API's should have well defined input/output via an OpenAPI and **consistently** follow these design by contract behaviors reguardless of the implementation
+
+- Having a public functions interface that can easily swap private implementations without affecting the public functions contract is most critical for functions are invoked by other layers
