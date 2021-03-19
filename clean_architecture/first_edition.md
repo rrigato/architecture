@@ -5,6 +5,7 @@
 - [solid_ch7_ch11](#solid_ch7_ch11)
 - [open_closed_principle_ch8](#open_closed_principle_ch8)
 - [liskov_substitution_principle_ch9](#liskov_substitution_principle_ch9)
+- [interface_segregation_principle_ch10](#interface_segregation_principle_ch10)
 # author
 Robert C Martin
 
@@ -72,3 +73,10 @@ Robert C Martin
 - REST API's should have well defined input/output via an OpenAPI and **consistently** follow these design by contract behaviors reguardless of the implementation
 
 - Having a public functions interface that can easily swap private implementations without affecting the public functions contract is most critical for functions are invoked by other layers
+
+
+# interface_segregation_principle_ch10
+- It is harmful to depend on modules that export more public functions than what you use
+  - Where do you set the tradeoff between module initialization overhead versus the decoupling having many modules provides?
+
+- We should preference many small public functions over large functions with lots of parameters that can be reused in different contexts?
