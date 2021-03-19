@@ -3,11 +3,12 @@ from abc import abstractmethod
 
 class IoPlugin(ABC):
     @abstractmethod
-    def load_data(self, file_name):
-        """Initializes client
+    def load_data(self, entity_name):
+        """Interface specification to retrieve dict
 
             Parameters
             ----------
+            entity_name : str
 
             Returns
             -------
