@@ -3,6 +3,7 @@
 - [chapter_2](#chapter_2)
 - [ch3_when_to_refactor](#ch3_when_to_refactor)
 - [ch4_testing_best_practices](#ch4_testing_best_practices)
+- [refactoring_fundamentals_ch6](#refactoring_fundamentals_ch6)
 # introduction
 
 # chapter_1
@@ -67,4 +68,20 @@
 - test coverage reports are only good for identifying untested areas of code, not for assessing the quality of a test suite
 
 - How confident are you that if someone else introduces a bug into your code it will cause your test suite to fail?
-- 
+
+
+
+# refactoring_fundamentals_ch6
+- change a function name and its parameter names with separate steps of testing in between
+- When changing a heavily used interface, create a duplicate function with a different name and migrate clients to the new function name
+
+- add an assert statement when adding a new parameter to make sure all clients are passing in the new arguement
+
+- encapsulating data mutation in a setter function interface helps avoid the problem of needing to simultaneously update clients and your repository to keep everything working
+
+- Return a copy of data for getters
+
+- const prevents that variables data type from changing, but it will not prevent you from mutating attribute values in a JS object
+
+- split phase = when you have two independent calculations populating the same object, turn them into separate functions so you can easily modify the independent calculations without side effects
+
