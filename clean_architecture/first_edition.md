@@ -6,6 +6,7 @@
 - [open_closed_principle_ch8](#open_closed_principle_ch8)
 - [liskov_substitution_principle_ch9](#liskov_substitution_principle_ch9)
 - [interface_segregation_principle_ch10](#interface_segregation_principle_ch10)
+- [dependency_inversion_principle_ch11](#dependency_inversion_principle_ch11)
 # author
 Robert C Martin
 
@@ -80,3 +81,16 @@ Robert C Martin
   - Where do you set the tradeoff between module initialization overhead versus the decoupling having many modules provides?
 
 - We should preference many small public functions over large functions with lots of parameters that can be reused in different contexts?
+
+
+# dependency_inversion_principle_ch11
+- dependency inversion principle = preference having source code dependencies on interfaces/abstractions, not on concrete implementations
+
+- Statically typed languages enforces the interfaces/abstractions at compile time, where dynamic languages like python are not as strictly enforced, so it is up to the software engineer to design and implement clearly defined interfaces/abstractions
+
+- changes to an interface/abstraction always result in a change in implementation, while an implmentation change can still meet the interface
+
+> Don't derive from volatile concrete classes
+
+
+- The abstraction/interface components (public functions) contain all the business rules, while the concrete implementation provides the details of how to meet the abstraction/interface
