@@ -1,14 +1,23 @@
 from externals.request_object_api import CustomerInfo
-from externals.request_network_failure import NetworkFailure
 from usecase.business_rules import customer_count
 
-if __name__ == "__main__":
-    valid_input = CustomerInfo().input_validation({"entity_name": "HighLevelObject"})
-    
-    print(valid_input.get_filters())
-    print(NetworkFailure(error_message="Network timeout").get_error_message())
+def invalid_customer_example():
+    invalid_customer_request = CustomerInfo().input_validation({"not_a_valid_key": 1234})
 
-    if bool(valid_input) == True:
+    if bool(invalid_customer_request) == False:
+        print(invalid_customer_request.get_error_message())
+
+
+def valid_customer_example():
+    valid_customer_request = CustomerInfo().input_validation({"entity_name": "HighLevelObject"})
+    
+    print(valid_customer_request.get_filters())
+
+    if bool(valid_customer_request) == True:
         print(customer_count()) 
-    #invalid input example
-    #print(NetworkFailure(error_message=12).get_error_message())
+
+
+if __name__ == "__main__":
+    invalid_customer_example()
+    valid_customer_example()
+
