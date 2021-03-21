@@ -3,7 +3,7 @@ from externals.request_network_failure import NetworkFailure
 from usecase.business_rules import customer_count
 
 if __name__ == "__main__":
-    valid_input = FileInfo().request_wfilters({"entity_name": "HighLevelObject"})
+    valid_input = FileInfo().input_validation({"entity_name": "HighLevelObject"})
     print(valid_input.get_filters())
     print(NetworkFailure(error_message="Network timeout").get_error_message())
     if bool(valid_input) == True:

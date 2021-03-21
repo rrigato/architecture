@@ -11,14 +11,14 @@ class ValidRequest(ABC):
 
     '''
         TODO 
-        - how to enforce all objects go through request_wfilters
+        - how to enforce all objects go through input_validation
         - ex: FileInfo() creates a valid FileInfo, but you would not be able to call
             your usecase with that
         - make filters a property?
         
     '''
     @abstractmethod
-    def request_wfilters(self, input_parameters):
+    def input_validation(self, input_parameters):
         """Define all input_parameters data types when inheriting
 
         Parameters
