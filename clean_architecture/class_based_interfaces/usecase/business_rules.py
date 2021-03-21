@@ -12,7 +12,7 @@ def get_file_size():
         ------
     """
     file_client = HardDriveStorage()
-    file_client.load_data("mock_filename")
+    loaded_data = file_client.load_data("mock_entity")
 
-if __name__ == "__main__":
-    get_file_size()
+    return("File size is " + str(len(loaded_data.keys())))
+

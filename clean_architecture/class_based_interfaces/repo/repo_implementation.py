@@ -19,4 +19,9 @@ class HardDriveStorage(IoPlugin):
             Raises
             ------
         """
-        print("helloworld")
+        return(
+            {
+                "hello": 5,
+                "world": "trivial example that will run into unexpected problems in prod"
+            }
+        )
