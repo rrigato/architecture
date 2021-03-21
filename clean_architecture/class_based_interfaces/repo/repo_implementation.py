@@ -1,5 +1,7 @@
 from usecase.interface_spec import IoPlugin
-
+'''
+    TODO - determine limit on how many interfaces can be inherited?
+'''
 class HardDriveStorage(IoPlugin):
     def load_data(self, file_name):
         """implementation of interface

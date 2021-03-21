@@ -10,8 +10,12 @@ class ValidRequest(ABC):
         return(True)
 
     '''
-        TODO - how to enforce all objects go through request_wfilters
-        - make filters a property
+        TODO 
+        - how to enforce all objects go through request_wfilters
+        - ex: FileInfo() creates a valid FileInfo, but you would not be able to call
+            your usecase with that
+        - make filters a property?
+        
     '''
     @abstractmethod
     def request_wfilters(self, input_parameters):
@@ -30,6 +34,23 @@ class ValidRequest(ABC):
         """
         pass
 
+    '''
+        strongly preference returning immutable copy of filters
+    '''
+    @abstractmethod
+    def get_filters(self):
+        """Returns filters for request object
+
+        Parameters
+        ----------
+
+        Returns
+        -------
+        input_filters : dict
+            dict that represents all input needed to invoke a usecase
+
+        """
+        pass
 
 
 class InvalidRequest:

@@ -1,3 +1,4 @@
+from copy import deepcopy
 from usecase.request_object_contract import InvalidRequest
 from usecase.request_object_contract import ValidRequest
 
@@ -5,9 +6,6 @@ class FileInfo(ValidRequest):
     """Gets File information about an entity
     """
 
-    '''
-        TODO - how to enforce all objects go through request_wfilters
-    '''
     def request_wfilters(self, input_parameters):
         """input_parameters for a get_file_info usecase call
 
@@ -30,4 +28,37 @@ class FileInfo(ValidRequest):
         if type(input_parameters["entity_name"]) != str:
             return(InvalidRequest(error_message="request_wfilters - entity_name must be type str"))
 
+        if len(input_parameters.keys()) != 1:
+            return(InvalidRequest(error_message="request_wfilters - too many keys"))
+
+        self._set_input_filters(input_filters=input_parameters)
+
         return(self)
+
+
+    def _set_input_filters(self, input_filters):
+        """input_parameters for a get_file_info usecase call
+
+        Parameters
+        ----------
+        input_filters : dict
+            {
+                entity_name: str
+            }
+        """
+        self._input_filters = input_filters
+
+
+    def get_filters(self):
+        """Returns filters for request object
+
+        Parameters
+        ----------
+
+        Returns
+        -------
+        input_filters : dict
+            dict that represents all input needed to invoke a usecase
+
+        """
+        return(deepcopy(self._input_filters))
