@@ -9,8 +9,26 @@ class ValidRequest(ABC):
         """Returns True"""
         return(True)
 
+    @abstractmethod
+    def request_wfilters(self, input_parameters):
+        """Define all input_parameters data types when inheriting
 
-class InvalidRequest(ABC):
+        Parameters
+        ----------
+        input_parameters : dict
+            dict that represents all input needed to invoke a usecase
+
+        Returns
+        -------
+        request_object : ValidRequest or InvalidRequest
+            Depending on if input_parameters meets validation requirements
+
+        """
+        pass
+
+
+
+class InvalidRequest:
     """Input/security requirements did not pass validation.
     Do not call usecase and return error to client
     """
