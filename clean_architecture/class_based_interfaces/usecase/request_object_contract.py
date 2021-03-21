@@ -12,9 +12,9 @@ class ValidRequest(ABC):
     '''
         TODO 
         - how to enforce all objects go through input_validation
-        - ex: FileInfo() creates a valid FileInfo, but you would not be able to call
+        - ex: CustomerInfo() creates a valid CustomerInfo, but you would not be able to call
             your usecase with that
-        - make filters a property?
+        - make _input_filters a property?
         
     '''
     @abstractmethod

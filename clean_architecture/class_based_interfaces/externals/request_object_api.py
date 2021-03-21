@@ -2,7 +2,7 @@ from copy import deepcopy
 from usecase.request_object_contract import InvalidRequest
 from usecase.request_object_contract import ValidRequest
 
-class FileInfo(ValidRequest):
+class CustomerInfo(ValidRequest):
     """Gets File information about an entity
     """
 
