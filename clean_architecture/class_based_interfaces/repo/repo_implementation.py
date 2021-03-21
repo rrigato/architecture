@@ -15,15 +15,15 @@ class HardDriveStorage(IoPlugin):
             loaded_json_file : dict
                 deserialized dict with the following schema
                 {
-                    "hello": int,
-                    "world": str
+                    "entity_count": int,
+                    "entity_description": str
                 }
             Raises
             ------
         """
         return(
             {
-                "hello": 5,
-                "world": "trivial example that will run into unexpected problems in prod"
+                "entity_count": 5,
+                "entity_description": "trivial example that will run into unexpected problems in prod"
             }
         )

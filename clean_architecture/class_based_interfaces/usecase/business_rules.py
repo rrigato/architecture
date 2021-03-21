@@ -1,18 +1,24 @@
 from repo.repo_implementation import HardDriveStorage
 
-def get_file_size():
-    """Initializes client
+def customer_count():
+    """Gets number of customers
 
         Parameters
         ----------
 
         Returns
         -------
+        file_size : float
+            size of the file with custom business logic applied
+
         Raises
         ------
     """
     file_client = HardDriveStorage()
     loaded_data = file_client.load_data("mock_entity")
 
-    return("File size is " + str(len(loaded_data.keys())))
+    '''
+        This is a pretty good example of how random business rules are -_-
+    '''
+    return((((loaded_data["entity_count"] * 8) - 10)/10))
 

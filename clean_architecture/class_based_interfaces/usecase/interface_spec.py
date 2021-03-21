@@ -15,8 +15,8 @@ class IoPlugin(ABC):
             loaded_json_file : dict
                 deserialized dict with the following schema
                 {
-                    "hello": int,
-                    "world": str
+                    "entity_count": int,
+                    "entity_description": str
                 }
             Raises
             ------
