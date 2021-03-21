@@ -9,6 +9,10 @@ class ValidRequest(ABC):
         """Returns True"""
         return(True)
 
+    '''
+        TODO - how to enforce all objects go through request_wfilters
+        - make filters a property
+    '''
     @abstractmethod
     def request_wfilters(self, input_parameters):
         """Define all input_parameters data types when inheriting
