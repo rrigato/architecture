@@ -5,6 +5,7 @@
 - [ch4_testing_best_practices](#ch4_testing_best_practices)
 - [refactoring_fundamentals_ch6](#refactoring_fundamentals_ch6)
 - [encapsulation_ch7](#encapsulation_ch7)
+- [moving_elements_ch8](#moving_elements_ch8)
 # introduction
 
 # chapter_1
@@ -91,3 +92,15 @@
 - Bias towards providing unnecessary copys of collections as opposed to having to debug errors from unexpected dict/js object modifications
 
 - extract calculation behavior into a function to make sure you are not duplicating across a code base
+
+# moving_elements_ch8
+- The key to modular design is grouping related components and clearly defining the links between different modules
+- modularity = ability to make software design modifications while only understanding a small subset of the design
+
+- apply assertions when refactoring shared data among multiple clients to validate behaviors output by client callers
+
+- Breaking one loop that does multiple things at once into multiple loops each doing one thing makes the code easier to understand and easier to extract into its own functions
+
+- preference using map (applies a function to transform each element in the input collection) and filter (uses a function to select a subset of the input collection) over looping
+
+- remove unused code, not because it is a performance hit, but because it makes it more difficult for the developer to understand
