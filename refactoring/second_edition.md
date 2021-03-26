@@ -4,6 +4,7 @@
 - [ch3_when_to_refactor](#ch3_when_to_refactor)
 - [ch4_testing_best_practices](#ch4_testing_best_practices)
 - [refactoring_fundamentals_ch6](#refactoring_fundamentals_ch6)
+- [encapsulation_ch7](#encapsulation_ch7)
 # introduction
 
 # chapter_1
@@ -85,3 +86,8 @@
 
 - split phase = when you have two independent calculations populating the same object, turn them into separate functions so you can easily modify the independent calculations without side effects
 
+# encapsulation_ch7
+- making updates on dicts/JS object visible and gathered ina single place is key to encapsulation
+- Bias towards providing unnecessary copys of collections as opposed to having to debug errors from unexpected dict/js object modifications
+
+- extract calculation behavior into a function to make sure you are not duplicating across a code base

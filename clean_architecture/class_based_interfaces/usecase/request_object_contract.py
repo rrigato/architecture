@@ -11,7 +11,11 @@ class ValidRequest(ABC):
 
     '''
         TODO 
-        - how to enforce all objects go through input_validation
+        - how to enforce all objects go through input_validation with a factory function 
+         that intiailizes the class?
+
+        - make classes either static virtual functions or data classes with 
+        attributes?
         - ex: CustomerInfo() creates a valid CustomerInfo, but you would not be able to call
             your usecase with that
         - make _input_filters a property?
