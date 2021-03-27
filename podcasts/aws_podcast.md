@@ -7,7 +7,5 @@
 
 - start in a non prod environment for chaos engineering
 
-
-
--[aws Aurora can invoke a lambda function](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-aurora-postgresql-integrates-with-aws-lambda/)
+- [aws Aurora can invoke a lambda function](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-aurora-postgresql-integrates-with-aws-lambda/)
 

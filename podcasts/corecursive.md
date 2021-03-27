@@ -1,18 +1,15 @@
 
-# legacy_code
-[podcast link](https://corecursive.com/loving-legacy-code-with-jonathan-boccara/)
-- accept that you will always have to work with legacy code
+# [andy hunt](https://corecursive.com/029-learn-to-think-andy-hunt/)
 
-- Document the specific reasons why the legacy code is bad
-  - Criticise only for learning purposes for improving the code 
-  - Take ownership of the legacy code
-  - Have empathy for the original developer 
+- In a production down situation train yourself to take a deep breath, relax and understand the situation logically not in a panic state
 
-- Do not do a refactoring project for legacy code if it does not drive business value
+- Engineering is not about right and wrong it's about trade-offs and consequences
 
-- Don't do documentation just to do it, but because it helps the business
-  - Document things because you will need it when you look at this code in the future
+- Don't try to make your software maintainable or extensible, try to make it replaceable because it is difficult to predict what will need to be maintained or replaced
 
+- The majority of the solutions to your problems will come to you when you are away from a computer so always be willing to step away from your computer and take a break
+
+- Don't document just to document
 
 
 
@@ -29,6 +26,22 @@
 - the input/output of a function is more important than the method body implementation
 
 - Just getting more experience will not make you a better software engineer, you need to deliberately focus on trying new techniques to continually improve over time
+
+
+
+# [jonathan-boccara](https://corecursive.com/loving-legacy-code-with-jonathan-boccara/)
+- accept that you will always have to work with legacy code
+
+- Document the specific reasons why the legacy code is bad
+  - Criticise only for learning purposes for improving the code 
+  - Take ownership of the legacy code
+  - Have empathy for the original developer 
+
+- Do not do a refactoring project for legacy code if it does not drive business value
+
+- Don't do documentation just to do it, but because it helps the business
+  - Document things because you will need it when you look at this code in the future
+
 
 
 # [david heinemeier hansson](https://corecursive.com/045-david-heinemeier-hansson-software-contrarian/)
