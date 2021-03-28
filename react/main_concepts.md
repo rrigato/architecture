@@ -21,10 +21,17 @@
 
 > In React apps, whether a component is stateful or stateless is considered an implementation detail of the component that may change over time. You can use stateless components inside stateful components, and vice versa.
 
-- I like this idea, I am a little concerned about testable if you have a lot of global state
-
+- Testability could be a concern if you have a react component violating the single responsibility principle
+  
 - mounting = life cycle event describing when a react component is rendered to the DOM 
 
-- can you add typing to your state/props declaration?
-- can you have a stateful function based component?
 - this.setState is asynchronous 
+
+
+> React synthetic events do not work exactly the same as native events
+
+
+> You have to be careful about the meaning of this in JSX callbacks. In JavaScript, class methods are not bound by default.
+
+
+- Concerning that react components are coupled to js classes you have to deal with problems like these?
