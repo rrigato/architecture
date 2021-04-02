@@ -35,3 +35,17 @@
 
 
 - Concerning that react components are coupled to js classes you have to deal with problems like these?
+
+
+
+- controlled components = forms whose single source of truth is stored in component state
+ 
+- do not try to sync state between react components, all state should have a single source of truth in the highest parent component that needs that state
+
+- use [react developer tools](https://github.com/facebook/react/tree/master/packages/react-devtools) to inspect props and move up the component hierarchy tree
+
+- if something can be derived from existing props or state, do not store it as state, calculate it when it is needed.
+
+> At Facebook, we use React in thousands of components, and we haven’t found any use cases where we would recommend creating component inheritance hierarchies.
+
+- if you ensure that your react components are following the single responsibility principle and the props/state are statically typed, not using inheritance is a real benefit.
