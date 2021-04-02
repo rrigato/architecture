@@ -49,3 +49,25 @@
 > At Facebook, we use React in thousands of components, and we haven’t found any use cases where we would recommend creating component inheritance hierarchies.
 
 - if you ensure that your react components are following the single responsibility principle and the props/state are statically typed, not using inheritance is a real benefit.
+
+
+  
+> Figure out the absolute minimal representation of state your application needs and compute everything else using immutable props
+
+- since all data flow between react components is one way, you need to find the shared parent component that will be the owner of any state that will be passed as props to child components
+
+
+
+- return null to prevent a component from rendering
+
+> Also remember that whenever conditions become too complex, it might be a good time to extract a component.
+
+- the docs do a good job of mentioning this, but I am concerned that in many prod environments, the scope of components becomes so large it becomes a real chore to maintain 
+
+- I really do not like how you have to assign keys to an array, what is the point of having an index?
+
+
+> A good rule of thumb is that elements inside the map() call need keys.
+- I am struggling to think of a use case where the key is anything other than the string representation of the array value, because in that case why don’t you just use an object?
+
+
