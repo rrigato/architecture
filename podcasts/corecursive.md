@@ -83,3 +83,8 @@
 
 
 
+# [pat helland](https://www.stitcher.com/show/corecursive-with-adam-bell/episode/data-and-scale-with-pat-helland-the-long-view-on-distributed-databases-59756734)
+
+- Think about distributed systems as a series of immutable transactions that whenever you need the current state you calculate all of the historical transactions from the last save point up to the current point time
+- 
+- Separate the portions of your software workloads that can be replayed without side effects from those that replaying causes side effects 
