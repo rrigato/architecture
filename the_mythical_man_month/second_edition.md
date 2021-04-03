@@ -4,6 +4,9 @@
 - [ch4_architecture_versus_implementation](#ch4_architecture_versus_implementation)
 - [ch6_team_structure](#ch6_team_structure)
 - [ch8_project_time_estimation](#ch8_project_time_estimation)
+- [performance_optimization_ch9](#performance_optimization_ch9)
+- [documentation_ch10](#documentation_ch10)
+- [throw_away_design_ch11](#throw_away_design_ch11)
 
 # ch1
 
@@ -57,3 +60,11 @@
   - "Linear extrapolation of the 100 yard dash shows that humans can run a mile in under 3 minutes"
   - 
 - Author posits that developers only spend 50% of their allocated man hours doing technical work, with the rest of the day filled with meetings, short term firedrills, support, etc.
+
+# performance_optimization_ch9
+- System architects must maintain vigilance throughout an implementation that all interfaces match their required specifications
+
+# documentation_ch10
+- Creating a design documentation before beginning implementation enables clear and exact interfaces
+
+# throw_away_design_ch11
