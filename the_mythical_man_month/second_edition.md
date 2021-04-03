@@ -68,3 +68,23 @@
 - Creating a design documentation before beginning implementation enables clear and exact interfaces
 
 # throw_away_design_ch11
+- Plan with the assumption that the first version of a large scale system will barely be usabe and will almost always require a version 2 redesign
+
+- The user need and the perception of that solution will change as the program is built, tested and used
+
+- Attributes that encourage code to be open for extension but closed for modification:
+  - Careful modularization
+  - extensive subroutining
+  - complete specification of inter-module interfaces
+
+- Every product should have its own numered version and release date
+
+- The reluctance to document design is not that the developer is lazy, just that once the designs are documented the developer opens himself up to criticism on every design decision made
+
+- The author posits that software maitenance is roughly 40% of the time it takes to develop the software originally
+
+- Maitenance/support work is lineraly related to the number of users, because more users find more bugs
+
+- The problem with maitenance work is that often fixing one bug introduces another if you do not have a strong test suite for regression testing
+
+- The total number of modules increases linearly with each new feature realease, while the number of modules impacted/changed by each feature release increases exponentially over time
