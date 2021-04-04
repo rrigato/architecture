@@ -11,14 +11,25 @@ class ValidRequest(ABC):
 
     '''
         TODO 
-        - how to enforce all objects go through input_validation with a factory function 
-         that intiailizes the class?
+        - how to enforce all objects go through input_validation with 
+        a factory function that intiailizes the class?
+            - @staticmethod that returns a ValidRequest object if input
+            passes sanitation checks or just have a 
+            function that returns a ValidRequest object if input passes
+            santitation checks?
 
-        - make classes either static virtual functions or data classes with 
-        attributes?
-        - ex: CustomerInfo() creates a valid CustomerInfo, but you would not be able to call
-            your usecase with that
-        - make _input_filters a property?
+            - Have separate classes for each ValidRequest type or just
+            have a property or getter on ValidRequest for the request_type
+            to avoid multiple inheritance
+            - Ensure the returned ValidRequest object is a value object
+            whose input dict cannot be modified/set after initiailization
+
+        - make classes either a collection of static virtual
+         functions or data classes (value objects) with 
+         properties?
+
+        - Is there any benefit to using properties over writing 
+        your own getter/setter in python?
         
     '''
     @abstractmethod

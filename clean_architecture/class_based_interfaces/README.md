@@ -31,14 +31,14 @@ class ImplementationIgnoringInterface(ContractInterface):
         print("Ignoring interface without TypeError")
 
 '''
-prints "This is not static" when this 
-ideally would throw a TypeError when run
+    prints "This is not static" when this 
+    ideally would throw a TypeError when run
 '''
 ImplementationInterface().should_be_static()
 
 '''
-prints "Ignoring interface without TypeError" when this 
-ideally would throw a TypeError when run
+    prints "Ignoring interface without TypeError" when this 
+    ideally would throw a TypeError when run
 '''
 ImplementationIgnoringInterface.not_using_interface()
 ```
@@ -65,8 +65,8 @@ class ImplementationValueObject(ContractValueObject):
 
 
 '''
-prints "This is not a property" when this 
-ideally would throw a TypeError when run
+    prints "This is not a property" when this 
+    ideally would throw a TypeError when run
 '''
 ImplementationValueObject().important_data()
 
