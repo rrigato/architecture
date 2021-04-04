@@ -10,6 +10,9 @@ Example with staticmethod:
 
 ```python
 
+from abc import ABC
+from abc import abstractmethod
+
 class ContractInterface(ABC):
     @staticmethod
     @abstractmethod
@@ -17,7 +20,7 @@ class ContractInterface(ABC):
         pass
 
 
-class ImplementationDetails(ContractInterface):
+class ImplementationInterface(ContractInterface):
     def should_be_static(self):
         print("This is not static")
 
@@ -31,7 +34,7 @@ class ImplementationIgnoringInterface(ContractInterface):
 prints "This is not static" when this 
 ideally would throw a TypeError when run
 '''
-ImplementationDetails().should_be_static()
+ImplementationInterface().should_be_static()
 
 '''
 prints "Ignoring interface without TypeError" when this 
@@ -46,33 +49,26 @@ ImplementationIgnoringInterface.not_using_interface()
 Example with property:
 
 ```python
+from abc import ABC
+from abc import abstractmethod
 
-class ContractInterface(ABC):
+class ContractValueObject(ABC):
     @property
     @abstractmethod
-    def should_be_static():
+    def important_data(self):
         pass
 
 
-class ImplementationDetails(ContractInterface):
-    def should_be_static(self):
-        print("This is not static")
+class ImplementationValueObject(ContractValueObject):
+    def important_data(self):
+        print("This is not a property")
 
-
-class ImplementationIgnoringInterface(ContractInterface):
-    @staticmethod
-    def not_using_interface():
-        print("Ignoring interface without TypeError")
 
 '''
-prints "This is not static" when this 
+prints "This is not a property" when this 
 ideally would throw a TypeError when run
 '''
-ImplementationDetails().should_be_static()
+ImplementationValueObject().important_data()
 
-'''
-prints "Ignoring interface without TypeError" when this 
-ideally would throw a TypeError when run
-'''
-ImplementationIgnoringInterface.not_using_interface()
+
 ```
