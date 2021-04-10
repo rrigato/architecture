@@ -15,6 +15,9 @@ The goal is to slim down the source material into the smallest amount of actiona
 - [clean_architecture](#clean_architecture)
   - [summary](#summary-2)
   - [recommendation](#recommendation-2)
+    - [design_takeaways](#design_takeaways)
+      - [software_design_phases](#software_design_phases)
+      - [python_directory_structure](#python_directory_structure)
 - [clean_architectures_in_python](#clean_architectures_in_python)
   - [summary](#summary-3)
   - [recommendation](#recommendation-3)
@@ -81,6 +84,14 @@ Clean architecture, SOLID design principles, how to minimize the number of resou
 ## recommendation
 Yes, highly recommend
 
+### design_takeaways
+
+#### software_design_phases
+![Architecture design process](clean_architecture/software_design.png)
+
+
+#### python_directory_structure
+![Clean Architecture python directory structure](clean_architecture/python_directory_structure.png)
 
 # clean_architectures_in_python
 authors:
