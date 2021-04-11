@@ -3,6 +3,7 @@
   - [Nora Jones](#nora-jones)
   - [Regis Wilson](#regis-wilson)
   - [james_urquhart](#james_urquhart)
+  - [eric brandwine](#eric-brandwine)
 # introduction
 Podcasts about general cloud related innovations
 https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
@@ -29,3 +30,8 @@ https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
 
 - the end unit of work for a developer is a function, not an executable or server
 
+## [eric brandwine](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/the-darth-vader-of-aws-with-eric-brandwine/)
+
+- their is no security incident that has crashed a business
+
+- the most important thing in security is not that you have a particular security setting, but that you have a feedback loop so when something happens that you do not like you are able to write that back into your automated deployment processes
