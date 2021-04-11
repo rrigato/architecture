@@ -8,6 +8,7 @@
 - [documentation_ch10](#documentation_ch10)
 - [throw_away_design_ch11](#throw_away_design_ch11)
 - [developer_tooling_ch12](#developer_tooling_ch12)
+- [debugging_ch13](#debugging_ch13)
 
 # ch1
 
@@ -97,5 +98,15 @@
 
 - Use a PR from the implementer to the architect to gate integration of components and the CI/CD pipeline merging from a dev branch to a master branch as marking the progression from feature branch to integration to release
 
-- Author mentions the IBM OS/360 documentation was 6 feet tall to demonstrate that the key to good docs is that they are modular
+- The IBM OS/360 documentation was 6 feet tall to demonstrate that the key to good docs is that they are modular
 - The user should have the option treat docs as a library, not trying to read everything, but able to easily find what they are looking for
+
+
+# debugging_ch13
+- Architect a system starting from the top-down design of modules/interfaces, while stubbing lower level functions, through a series of refinement steps without getting into implementation concerns
+  
+- The use of clean, debugged components saves time in system, integration and E2E tests
+- Invest heavily in test fixture sacffolding that can be reused
+- There should be a clear distinction between quick patches and well thought through, tested, and documented bug fixes
+
+- Assume your system has many bugs, snake them out by only adding one component/changing at a time
