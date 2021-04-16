@@ -9,6 +9,7 @@
 - [throw_away_design_ch11](#throw_away_design_ch11)
 - [developer_tooling_ch12](#developer_tooling_ch12)
 - [debugging_ch13](#debugging_ch13)
+- [project_estimation_ch14](#project_estimation_ch14)
 
 # ch1
 
@@ -110,3 +111,11 @@
 - There should be a clear distinction between quick patches and well thought through, tested, and documented bug fixes
 
 - Assume your system has many bugs, snake them out by only adding one component/changing at a time
+
+
+# project_estimation_ch14
+- Have concrete, sharp edged milestones that are atomic instead of vague phases of planning, coding and debugging
+  - Is the business usecase complete or not?
+
+- When discussing a project with your boss, it is important to differentiate between status updates that ar meant to keep your boss in the know versus escalation updates where you are requiring action from your boss
+
