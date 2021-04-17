@@ -1,3 +1,15 @@
+# [shipping software with bugs](https://www.se-radio.net/2021/01/episode-441-shipping-software-with-bugs/)
+
+- after ensuring you are following best practices, ci/cd/tdd/etc. you aren’t going to catch all bugs so just ship
+
+- microservices force you to conform to your design by contract and document your public interfaces
+
+- evaluate 3rd party libraries carefully before integrating into your app
+
+- unit/integration tests are run in a clean environment, the reason bugs only appear when your users get their hands on the product is because prod code has all different types of state that is difficult to anticipate
+ 
+- the software engineer that writes the code should own it
+ 
 
 # [Vladimir Khorikov](https://www.se-radio.net/2020/07/episode-418-functional-programming-in-enterprise-applications/)
 - functional programming occurs when you have no hidden inputs or hidden outputs
