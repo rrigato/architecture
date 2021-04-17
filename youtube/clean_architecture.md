@@ -12,10 +12,3 @@
   - ports = converts adapters into representation that can be used by the application logic
 
 
-- usecase and entities layers should have no I/O, be base python, be pure functions, and easy to test
-- entities layer = enterprise business rules representing current state as data classes
-- usecase layer = application specific business rules and orchestration
-
-- request/response objects
-  - validators that provide an abstraction from externals (lambda, frameworks, libraries, UI) trying to call business logic
-
