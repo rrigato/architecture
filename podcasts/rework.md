@@ -18,3 +18,8 @@ Podcast from employees at basecamp
   
 - disagreeing and committing
   - vigorous discussion where one person makes the final call after everyone has provided their input
+
+
+# [mailbag 2](https://rework.fm/mailbag-2/)
+- management should actually write out/ document culture and work norms
+- if you do not tell somebody why something happened, they will fill in why they think something happened with their own rendition
