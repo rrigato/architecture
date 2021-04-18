@@ -4,8 +4,13 @@ class ValidRequest():
     def __bool__(self):
         return(True)
 
-    def __init__(request_filters):
+    def __init__(self, request_filters):
         self._request_filters = request_filters
+
+    @property
+    def request_filters(self):
+        return(self._request_filters)
+
 
 
 class InvalidRequest():
@@ -15,5 +20,9 @@ class InvalidRequest():
     def __bool__(self):
         return(False)
 
-    def __init__(error_message):
+    def __init__(self, error_message):
         self._error_message = error_message
+
+    @property
+    def error_message(self):
+        return(self._error_message)
