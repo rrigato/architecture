@@ -1,5 +1,5 @@
 class ValidRequest():
-    """
+    """Value object that can be used to invoke a usecase
     """
     def __bool__(self):
         return(True)
@@ -13,7 +13,7 @@ class InvalidRequest():
     client with error_message
     """
     def __bool__(self):
-        return(True)
+        return(False)
 
     def __init__(error_message):
         self._error_message = error_message
