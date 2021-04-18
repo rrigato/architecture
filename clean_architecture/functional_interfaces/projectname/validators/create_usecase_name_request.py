@@ -29,4 +29,4 @@ def validate_usecase_name(arg1):
     if bool(arg1_range(arg1=arg1)) == False:
         return(InvalidRequest(error_message="arg1 is invalid"))
 
-    return(ValidRequest())
+    return(ValidRequest(request_filters=arg1))
