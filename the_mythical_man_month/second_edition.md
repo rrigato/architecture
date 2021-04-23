@@ -122,10 +122,18 @@
 
 # documentation_ch15
 - highly recommend
-- only have a one page flow chart overview
+- Focus on having a one page high level overview flow chart of the application
 
 - multi page flow charts are a dry violation because they can be generated from the code
 
 - minimize documentation burden by having function docstrings as the safe source of information in your program
 
 - Bias towards block comments that explain why you are doing something over line comments that explain what a program does syntactically
+
+# no_silver_bullet_ch16
+- highly recommend, a precsient and seminal chapter written in 1986
+- abstract data type = object type is defined by a name, set of attributes, and a set of functions rather than how the object is persisted in storage
+
+- the time consuming part of software engineering is the specification/design/testing of how data structures/interfaces/algorithms interact, not the implementation of these representations as code
+
+
