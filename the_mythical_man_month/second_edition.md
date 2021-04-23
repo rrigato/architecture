@@ -119,3 +119,13 @@
 
 - When discussing a project with your boss, it is important to differentiate between status updates that ar meant to keep your boss in the know versus escalation updates where you are requiring action from your boss
 
+
+# documentation_ch15
+- highly recommend
+- only have a one page flow chart overview
+
+- multi page flow charts are a dry violation because they can be generated from the code
+
+- minimize documentation burden by having function docstrings as the safe source of information in your program
+
+- Bias towards block comments that explain why you are doing something over line comments that explain what a program does syntactically
