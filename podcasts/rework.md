@@ -23,3 +23,13 @@ Podcast from employees at basecamp
 # [mailbag 2](https://rework.fm/mailbag-2/)
 - management should actually write out/ document culture and work norms
 - if you do not tell somebody why something happened, they will fill in why they think something happened with their own rendition
+
+
+# [shape up](https://rework.fm/shape-up/)
+- embrace boundaries as they shape your creativity and hammer down scope
+- dont have a giant backlog grooming, just prioritize a few things that are timely
+- bets should have a payoff (once you ship something you should be better off than the baseline)
+- bets should have a fixed downside (time appetite)
+- bets should be respected by having the dedicated time commitment
+- always have your product in a working state, even if the ui looks terrible
+- you cant give an R&D project and a deadline
