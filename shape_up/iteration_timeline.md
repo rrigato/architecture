@@ -20,6 +20,7 @@
       - [day_5](#day_5-2)
   - [week_4](#week_4)
   - [how_to_communicate_progress](#how_to_communicate_progress)
+  - [engineer_expectations](#engineer_expectations)
 
 
 # introduction
@@ -110,3 +111,11 @@ Cooldown:
 ## how_to_communicate_progress
 - hill graph 
 - Demoable link 
+
+
+## engineer_expectations
+Software engineers are trusted to do the following:
+- Meet the core business requirements
+- Unit test code coverage
+- Docstrings
+- Documentation (README's, user guide, 1 page high level diagram of solution, etc.)
