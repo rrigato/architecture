@@ -1,3 +1,14 @@
 # introduction
-Outline of how to break a 4 week agile sprint iteration into software design phases that culminate in a product shipping at the end of each iteration.
+Software design phases of a 4 week agile iteration. 
+
+The culmination of every iteration is a shipped product.
+
+## agile_iteration_prequisites
+- Engineers have uninterrupted allocation for the full iteration 
+
+- disagree and commit
+
+- Engineers empowered to take feedback as feedback and not as a directive
+
+- Engineers empowered to say no to non-essiential bugs/suggestions/feature requests
 
