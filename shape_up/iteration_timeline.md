@@ -12,7 +12,14 @@
       - [day_1](#day_1-1)
       - [day_3](#day_3-1)
       - [day_5](#day_5-1)
-  - [how_to_communicate](#how_to_communicate)
+  - [week_3](#week_3)
+    - [circuit_breakers](#circuit_breakers-2)
+      - [day_1](#day_1-2)
+      - [day_3](#day_3-2)
+      - [day_4](#day_4-1)
+      - [day_5](#day_5-2)
+  - [week_4](#week_4)
+  - [how_to_communicate_progress](#how_to_communicate_progress)
 
 
 # introduction
@@ -60,7 +67,7 @@ Implementation phase where you prioritize the project scopes with the biggest te
 ### circuit_breakers
 
 #### day_1 
-- 1 project scope that is demoable even if it is heavily stubbed
+- Demoable project link
 
 
 
@@ -71,7 +78,25 @@ Implementation phase where you prioritize the project scopes with the biggest te
 - No remaining technical unknowns
 - All risks resolved
 
+## week_3
+
+### circuit_breakers
+
+#### day_1
+- UI style matches shipped product
 
 
-## how_to_communicate
-- hill graph
+#### day_3
+- Integration Testing complete
+
+#### day_4
+
+#### day_5
+
+
+## week_4
+Cooldown phase
+
+## how_to_communicate_progress
+- hill graph 
+- Demoable link that can be checked at any point in time
