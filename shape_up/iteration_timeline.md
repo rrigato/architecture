@@ -8,6 +8,11 @@
       - [day_4](#day_4)
       - [day_5](#day_5)
   - [week_2](#week_2)
+    - [circuit_breakers](#circuit_breakers-1)
+      - [day_1](#day_1-1)
+      - [day_3](#day_3-1)
+      - [day_5](#day_5-1)
+  - [how_to_communicate](#how_to_communicate)
 
 
 # introduction
@@ -45,8 +50,28 @@ Conceptual design of public interfaces and modules defined as code
 - AWS resources
 
 #### day_5
+- independent project scopes/features identified
 - repo layer
 
 
 ## week_2
-Implementation 
+Implementation phase where you prioritize the project scopes with the biggest technical unknowns
+
+### circuit_breakers
+
+#### day_1 
+- 1 project scope that is demoable even if it is heavily stubbed
+
+
+
+#### day_3
+- E2E tracer of 1 project scope/feature
+
+#### day_5
+- No remaining technical unknowns
+- All risks resolved
+
+
+
+## how_to_communicate
+- hill graph
