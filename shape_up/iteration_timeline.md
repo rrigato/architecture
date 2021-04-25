@@ -69,8 +69,6 @@ Implementation phase where you prioritize the project scopes with the biggest te
 #### day_1 
 - Demoable project link
 
-
-
 #### day_3
 - E2E tracer of 1 project scope/feature
 
@@ -90,13 +88,25 @@ Implementation phase where you prioritize the project scopes with the biggest te
 - Integration Testing complete
 
 #### day_4
+- E2E automated UI testing complete
 
 #### day_5
-
+- product is shipped and considered done with
+**No technical debt for future iterations**
 
 ## week_4
-Cooldown phase
+Cooldown:
+
+- technical skill development/POC's
+
+- Big picture best practices/retrospective items
+
+- short adhoc requests/technical debt
+  
+- Shape next iterations project
+  - Scope hammering to smallest number of features that still improves the current baseline for the customer
+
 
 ## how_to_communicate_progress
 - hill graph 
-- Demoable link that can be checked at any point in time
+- Demoable link 
