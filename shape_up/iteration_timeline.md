@@ -15,6 +15,7 @@
   - [week_3](#week_3)
     - [circuit_breakers](#circuit_breakers-2)
       - [day_1](#day_1-2)
+      - [day_2](#day_2-1)
       - [day_3](#day_3-2)
       - [day_4](#day_4-1)
       - [day_5](#day_5-2)
@@ -77,13 +78,17 @@ Implementation phase where you prioritize the project scopes with the biggest te
 - No remaining technical unknowns
 - All risks resolved
 
+
 ## week_3
+Completion of all remaining project scopes and downhill integration tasks 
 
 ### circuit_breakers
 
 #### day_1
 - UI style matches shipped product
 
+#### day_2
+- All essiential project scopes are complete as E2E tracers
 
 #### day_3
 - Integration Testing complete
@@ -92,20 +97,23 @@ Implementation phase where you prioritize the project scopes with the biggest te
 - E2E automated UI testing complete
 
 #### day_5
-- product is shipped and considered done with
-**No technical debt for future iterations**
+- product is shipped and considered done
+  
+- **No technical debt for future iterations**
 
 ## week_4
 Cooldown:
 
 - technical skill development/POC's
 
-- Big picture best practices/retrospective items
+- Review team best practices, retrospective items, continual process improvement suggestions
 
 - short adhoc requests/technical debt
   
-- Shape next iterations project
+- Shape next iterations bet:
   - Scope hammering to smallest number of features that still improves the current baseline for the customer
+  - Time appetite 
+  - Fat marker sketch
 
 
 ## how_to_communicate_progress
