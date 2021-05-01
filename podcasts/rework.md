@@ -60,3 +60,22 @@ Podcast from employees at basecamp
 - end a meeting 5 minutes early and reflect on what was learned 
 
 - if work is the only thing you focus on, any aniexty from work is going to make it seem like your world is falling apart
+
+
+# [rework faq part 1](https://rework.fm/remote-work-q-a-1/)
+- automated status check ups for what your coworkers having been doing both inside and outside of work
+
+- level the playing field- if you have partially remote, make everyone in the office dial in as well
+
+- go from an email to a meeting when there is disagreement 
+
+- value that not everyone needs to be in a meeting
+
+
+# [remote faq part 2](https://rework.fm/remote-work-q-a-2/)
+
+- make it clear that the receiver does not need to respond right away
+
+- accountability is not killing yourself for imaginary deadlines
+
+- the problem with meetings is you have to think of an answer immediately instead of having a full thought out response 
