@@ -38,7 +38,7 @@ Podcast from employees at basecamp
 # [jason freid dhh mailbag](https://rework.fm/rework-mailbag-3/)
 
 
-- set and ** document** expectations for response times
+- set and **document** expectations for response times
 
 - have a relaxed state as the default 
 
@@ -55,3 +55,8 @@ Podcast from employees at basecamp
 - separate things you can control from the things you can’t control
 
 
+# [No hard feelings](https://rework.fm/no-hard-feelings/)
+
+- end a meeting 5 minutes early and reflect on what was learned 
+
+- if work is the only thing you focus on, any aniexty from work is going to make it seem like your world is falling apart
