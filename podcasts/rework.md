@@ -33,3 +33,25 @@ Podcast from employees at basecamp
 - bets should be respected by having the dedicated time commitment
 - always have your product in a working state, even if the ui looks terrible
 - you cant give an R&D project and a deadline
+
+
+# [jason freid dhh mailbag](https://rework.fm/rework-mailbag-3/)
+
+
+- set and ** document** expectations for response times
+
+- have a relaxed state as the default 
+
+- many deadlines are self imposed 
+
+- disagree and commit
+
+- most decisions are reversible and you need to realize you are maximizing decision efficiency over time
+
+- be specific with the questions you are asking your managers if you want better feedback
+
+- having good intentions is key to providing good feedback
+
+- separate things you can control from the things you can’t control
+
+
