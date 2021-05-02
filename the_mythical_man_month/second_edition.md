@@ -137,3 +137,14 @@
 - the time consuming part of software engineering is the specification/design/testing of how data structures/interfaces/algorithms interact, not the implementation of these representations as code
 
 
+- multipage flow charts are often done after the software was designed and constantly out of date with the implementation
+
+
+> the hardest part of a software task is arriving at a complete and consistent specification, and much of the effort of building a program is the dubugging of the specification
+
+
+- It is impossible to completely specify the exact requirements of a software system without having the users trying some built version of the software and providing feedback
+
+- the point of a prototype is to provide a tangible/real demo of the conceptual requirements so that the user can iterate/validate the requirements without the software engineer taking the development time to go from POC to prod
+- Design software top down by first making it run, even if all sub modules are stubbed out
+- 
