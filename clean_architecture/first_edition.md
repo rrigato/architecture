@@ -94,3 +94,10 @@ Robert C Martin
 
 
 - The abstraction/interface components (public functions) contain all the business rules, while the concrete implementation provides the details of how to meet the abstraction/interface
+
+# module_coupling_ch14
+- All module dependencies should be directed acyclic graphs (DAGs) = one way dependencies where it is impossible to follow a modules dependencies back to itself
+- Options for breaking cyclical/circular dependencies:
+1) Dependency inversion principle = Apply a public interface between two modules you want to change the dependency for
+2) Extract the shared dependency into a a new module that has no dependencies
+
