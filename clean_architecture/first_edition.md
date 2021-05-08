@@ -110,6 +110,19 @@ Robert C Martin
 2) Extract the shared dependency into a a new module that has no dependencies
 
 - stable dependencies principle = depend on modules that are more stable
-- When a component depends on many other modules but nothing imports it:
-  - it is easy to change, volatile and independent (loose coupling)
+
+
+- When a component has no dependencies, but is imported in many other components:
+  - It is more difficult to change, more stable and independent of other module changes
+
+- When a component depends on many other modules, but nothing imports it:
+  - it is easy to change, volatile, and dependent of other module changes
+
+- stable abstractions principle = depend of components that will be extended with the open closed principle instead of modified
+  - a functional implementation of this is to never modify public functions but to instead create new ones
+
+
+- all components (modules/functions/classes) should either be:
+1) stable = many other modules import it and closed for modifications
+2) unstable = no/few modules import it and able to change out the private implementation frequently.
 
