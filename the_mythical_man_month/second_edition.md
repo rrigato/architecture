@@ -147,4 +147,10 @@
 
 - the point of a prototype is to provide a tangible/real demo of the conceptual requirements so that the user can iterate/validate the requirements without the software engineer taking the development time to go from POC to prod
 - Design software top down by first making it run, even if all sub modules are stubbed out
-- 
+
+
+# no_silver_bullet_1995
+- Because the architecting of interfaces, data structures, and algorithms will always be the most time consuming portions of software engineering, upgrades to tooling or runtime environments will never produce the 2x YoY improvements seen in the hardware space
+
+- Fight the problem of software complexity heiarchially (layered modules and objects) and incrementally (adding new features one at a time so the system is always in a working state)
+- Focus on building abstract data types that align with the business domain terminology
