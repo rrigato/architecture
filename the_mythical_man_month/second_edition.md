@@ -154,3 +154,13 @@
 
 - Fight the problem of software complexity heiarchially (layered modules and objects) and incrementally (adding new features one at a time so the system is always in a working state)
 - Focus on building abstract data types that align with the business domain terminology
+
+# key_takeaways
+- programming projects converge more slowly as they near completion due to system component/integration testing
+- Adding more engineers to a project increases communication and training effort
+- Teams should be organized around a team lead and a copilot, final architectural decisions come down to the team lead
+- Conceptual integrity is the most important consideration in system design
+
+- Separate the definition of architectural interfaces from the implementation
+- when delegating tasks, each developer does not know/care about the private implementation details of the interface they are using
+- 
