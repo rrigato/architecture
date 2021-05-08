@@ -163,4 +163,14 @@
 
 - Separate the definition of architectural interfaces from the implementation
 - when delegating tasks, each developer does not know/care about the private implementation details of the interface they are using
-- 
+
+
+- Maitenance costs is linearly related to the number of users you have, as more users find more bugs
+- Most projects fail to provide a digestable high level architectural overview in the readme
+- Focus on block comments describing why a block of code is doing something non-standard
+
+
+- The architect is the user's agent representing their requirements as interface specifications
+- Having a system architect who is responsible for the entire e2e conceptual integrity is central to product quality
+- Prefence simple applications that do one thing well
+- Have tangible, explicit and measurable user requirements 
