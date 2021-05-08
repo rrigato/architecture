@@ -95,9 +95,21 @@ Robert C Martin
 
 - The abstraction/interface components (public functions) contain all the business rules, while the concrete implementation provides the details of how to meet the abstraction/interface
 
+
+
+# component_grouping
+- For most applications, maintainability is more important than reusability
+- Shared libraries must be versioned with an upgrade plan
+
+
+
 # module_coupling_ch14
 - All module dependencies should be directed acyclic graphs (DAGs) = one way dependencies where it is impossible to follow a modules dependencies back to itself
 - Options for breaking cyclical/circular dependencies:
 1) Dependency inversion principle = Apply a public interface between two modules you want to change the dependency for
 2) Extract the shared dependency into a a new module that has no dependencies
+
+- stable dependencies principle = depend on modules that are more stable
+- When a component depends on many other modules but nothing imports it:
+  - it is easy to change, volatile and independent (loose coupling)
 
