@@ -9,6 +9,7 @@
 - [dependency_inversion_principle_ch11](#dependency_inversion_principle_ch11)
 - [component_grouping](#component_grouping)
 - [module_coupling_ch14](#module_coupling_ch14)
+- [software_architecture_ch15](#software_architecture_ch15)
 # author
 Robert C Martin
 
@@ -113,7 +114,7 @@ Robert C Martin
 
 
 
-1) Dependency inversion principle = Apply a public interface between two modules you want to change the dependency for
+1) Dependency inversion principle = Apply a public interface between two modules you want to reverse the dependency for
 
 ![dependency_inversion_principle](breaking_circular_dependencies/dependency_inversion_principle.png)
 
@@ -121,7 +122,7 @@ Robert C Martin
 
 
 
-2) Extract the shared dependency into a a new module that has no dependencies
+2) Extract the shared dependency into a new module that has no dependencies
 
 ![create_a_third_module](breaking_circular_dependencies/create_a_third_module.png)
 
@@ -145,3 +146,16 @@ Robert C Martin
 1) stable = many other modules import it and closed for modifications
 2) unstable = no/few modules import it and able to change out the private implementation frequently.
 
+
+
+# software_architecture_ch15
+
+- The tradeoff of microservices is the work needed to configure and connect the different services via service discovery
+
+- Since hardware is cheaper than people, performance efficiency should always be a second tier concern behind ease of development, ease of deployment, minimizing maitenance and minimizing architecture complexity
+
+- Once the high level policy (business rules) is defined (Entities/Usecase), the implementation details can be developed/deployed independently
+
+- Abstract device I/O behind a public interface so the private implementation details can be swapped to make the implementation of your business logic device independent
+
+- Decouple your device dependent storage implementation details from the business rules policy implementation
