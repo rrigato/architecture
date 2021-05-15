@@ -42,6 +42,7 @@ The goal is to slim down the source material into the smallest amount of actiona
   - [summary](#summary-8)
   - [recommendation](#recommendation-8)
 - [webpack](#webpack)
+- [work_life_balance](#work_life_balance)
 
 # aws_news
 

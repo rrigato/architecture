@@ -7,6 +7,8 @@
 - [liskov_substitution_principle_ch9](#liskov_substitution_principle_ch9)
 - [interface_segregation_principle_ch10](#interface_segregation_principle_ch10)
 - [dependency_inversion_principle_ch11](#dependency_inversion_principle_ch11)
+- [component_grouping](#component_grouping)
+- [module_coupling_ch14](#module_coupling_ch14)
 # author
 Robert C Martin
 
@@ -105,9 +107,26 @@ Robert C Martin
 
 # module_coupling_ch14
 - All module dependencies should be directed acyclic graphs (DAGs) = one way dependencies where it is impossible to follow a modules dependencies back to itself
+
+
 - Options for breaking cyclical/circular dependencies:
+
+
+
 1) Dependency inversion principle = Apply a public interface between two modules you want to change the dependency for
+
+![dependency_inversion_principle](breaking_circular_dependencies/dependency_inversion_principle.png)
+
+
+
+
+
 2) Extract the shared dependency into a a new module that has no dependencies
+
+![create_a_third_module](breaking_circular_dependencies/create_a_third_module.png)
+
+
+
 
 - stable dependencies principle = depend on modules that are more stable
 
