@@ -79,3 +79,13 @@ Podcast from employees at basecamp
 - accountability is not killing yourself for imaginary deadlines
 
 - the problem with meetings is you have to think of an answer immediately instead of having a full thought out response 
+
+
+[dhh](https://www.rework.fm/greetings-from-mojito-island/)
+- bugs are not a moral failing, they are the inevitable offshoot of non-trivial software applications 
+
+
+- unless the bug impacts your ability to meet the minimum business requirements it should be treated as a feature request and prioritized accordingly 
+
+- it is easy and cheap to commit to doing something in the future, but planning more than 1 cycle iteration in advance presumes that you know more about a future iteration's priorities now than you will as you get closer to that iteration
+
