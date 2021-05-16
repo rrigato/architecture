@@ -44,3 +44,8 @@ https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
 - dry is great for software design but not for infrastructure as code
 
 - machine learning models are mostly automated at this point, the majority of the work is now in cleaning/gathering data
+
+
+
+[laura thomson](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/minimum-viable-bureaucracy-with-laura-thomson/)
+- approach corporate processes with the same rigor and continual improvement evaluations with which you approach software engineering
