@@ -49,3 +49,15 @@ https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
 
 [laura thomson](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/minimum-viable-bureaucracy-with-laura-thomson/)
 - approach corporate processes with the same rigor and continual improvement evaluations with which you approach software engineering
+
+
+[heidi](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/personalization-the-non-creepy-way-with-heidi-waterhouse/)
+
+
+- decouple pushing code to a server from when a user sees the new feature with a feature flag
+
+
+- permanent feature flags = everything is live in your local environment, just hidden using feature flags in dev/prod
+
+
+- building instead of buying results is like gifting puppies, they are free except for all the responsibility 
