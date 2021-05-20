@@ -174,3 +174,20 @@
 - Having a system architect who is responsible for the entire e2e conceptual integrity is central to product quality
 - Prefence simple applications that do one thing well
 - Have tangible, explicit and measurable user requirements 
+
+
+
+
+
+- Architecture is iterative, avoid situations where the full development cost is realized without any user feedback
+
+- Building a CI/CD pipeline for every project is a lot of work, but it provides a disciplined, well known, and repeatable process for your team
+
+> The function of a manager is not to make people work, but to make it possible for people to work
+
+- Demarco and Lister
+
+
+- primary concerns of software engineering:
+  - how to design and build a program into a robust, tested, documented and supported product
+  - humility to recognize our fallability and limitations
