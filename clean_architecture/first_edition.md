@@ -165,3 +165,14 @@ Robert C Martin
 - Decouple application specific business rules (input validation, output response) from application independent business rules (calculation logic for costs, custom override critieria, etc.)
 - coincidental duplication = two usecases start with the same/similar logic but evolve over time
 - Applications should always horizontally decouple across UI/business rules/peristance storage, but when is the tradeoff of creating a new microservice (API, new repo and CI/CD pipeline) worth the extra overhead?
+
+
+# architecture_layer_development_approach_ch17
+- When beginning development, stub your persistance storage I/O so that your usecase layer knows nothing of your storage implementation other than the repo layers public access methods
+  - Tradeoff with shape up recommendation to always tackle biggest technical risk first in a cycle iteration if the biggest technical risk is in the application externals (UI framework, new database, etc.)?
+
+- Implementing your core business logic as pure functions makes the business logic more testable and provides a quicker development feedback loop
+- The business rules only know about the public contract/function signature of the database layer public interface
+  - The repo layer private implementation imports the business rules (entities/usecase), but the business rules only import the repo layer public function interface 
+
+- The UI and database being plugins that are completely dependent on the business rules enables schema changes, database migrations, web framework modifications to be decoupled/irrelevant to the business logic as long as your public contracts are still met
