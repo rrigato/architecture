@@ -159,3 +159,9 @@ Robert C Martin
 - Abstract device I/O behind a public interface so the private implementation details can be swapped to make the implementation of your business logic device independent
 
 - Decouple your device dependent storage implementation details from the business rules policy implementation
+
+
+# layer_decoupling_ch16
+- Decouple application specific business rules (input validation, output response) from application independent business rules (calculation logic for costs, custom override critieria, etc.)
+- coincidental duplication = two usecases start with the same/similar logic but evolve over time
+- Applications should always horizontally decouple across UI/business rules/peristance storage, but when is the tradeoff of creating a new microservice (API, new repo and CI/CD pipeline) worth the extra overhead?
