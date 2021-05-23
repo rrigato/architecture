@@ -61,3 +61,13 @@ https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
 
 
 - building instead of buying results is like gifting puppies, they are free except for all the responsibility 
+
+
+
+
+
+[talia Nassi](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/splitballing-on-devrel-with-talia-nassi/) 
+- Use a feature flag where you have a subset of internal users who always get the new features enabled in prod, so every local feature development is live behind a feature flag in prod
+
+- Have a dedicated synthetic account in your prod feature flag group
+
