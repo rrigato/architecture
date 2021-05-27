@@ -27,3 +27,15 @@
 - Anybody can suggest expensive and complicated solutions, it takes discipline and reflection to shape a simple idea that fits within a time appetite
 - elements of a pitch: business requirements, time appetite, solution, risk, out of scope
 
+
+# pitch_backlog_ch7
+- Do not have a backlog, evaluate what you are doing before each iteration with a pitch
+- Important ideas do not get lost, they will come up again in a future pitch meeting
+
+# choosing_pitches_ch8
+- Only pick up a feature/pitch if you agree:
+  - it can be completed e2e in 1 iteration
+  - the development team will be given uninterrupted development time for the whole iteration
+  - a circuit breaker will be invoked if the iterations time limit is hit
+
+
