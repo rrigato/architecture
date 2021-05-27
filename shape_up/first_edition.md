@@ -33,9 +33,16 @@
 - Important ideas do not get lost, they will come up again in a future pitch meeting
 
 # choosing_pitches_ch8
+- iterations need to be long enough to complete a project e2e, but short enough so the pressure of a deadline does not can be used to enforce tradeoffs
+
 - Only pick up a feature/pitch if you agree:
   - it can be completed e2e in 1 iteration
   - the development team will be given uninterrupted development time for the whole iteration
   - a circuit breaker will be invoked if the iterations time limit is hit
 
+- There is nothing special about bugs that makes them automatically more important than everything else if your core business requirements are being met by the application
+- All software has bugs, few are critical enough to where you should drop everything to fix a bug instead of prioritizing a fix in a future iteration
 
+- bugs should be prioritized for pickup in an iteration like any feature release
+- Never commit to work more than 1 cycle iteration at a time, because the work in the current iteration always informs prioritazation in the next one.
+- Do not carry any technical debt over from a previous iteration, otherwise you are not honoring your circuit breakers
