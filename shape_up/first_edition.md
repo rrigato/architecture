@@ -15,3 +15,15 @@
 - define how refactors/redesigns affect a specific business problem statement, because otherwise you will never know when a refactor/v2 of a product is truly done
 
 - Each new feature should have a raw idea, business problem statement, risks, and proposed scope that fits within your time appetite
+
+
+# project_risks_ch5
+- you want to bet on projects with independent, well understood parts that assemble together in known ways
+- potential risks:
+  - new technical work never done before
+  - assuming a design solution exists that you havent come up with yourself
+
+# pitching_projects_ch6
+- Anybody can suggest expensive and complicated solutions, it takes discipline and reflection to shape a simple idea that fits within a time appetite
+- elements of a pitch: business requirements, time appetite, solution, risk, out of scope
+
