@@ -46,3 +46,9 @@
 - bugs should be prioritized for pickup in an iteration like any feature release
 - Never commit to work more than 1 cycle iteration at a time, because the work in the current iteration always informs prioritazation in the next one.
 - Do not carry any technical debt over from a previous iteration, otherwise you are not honoring your circuit breakers
+
+- Consider whether a project improves the current customer baseline and if it has long tail risk from a development time perspective
+
+# start_of_projects_ch10
+- Each iteration culminates in a deployment (including testing/qa) or a circuit breaker
+- many programming tasks are not discovered until you actually start working on your first e2e tracer app
