@@ -1,3 +1,12 @@
+- [shaping_projects_ch2](#shaping_projects_ch2)
+- [setting_project_boundaries](#setting_project_boundaries)
+- [project_risks_ch5](#project_risks_ch5)
+- [pitching_projects_ch6](#pitching_projects_ch6)
+- [pitch_backlog_ch7](#pitch_backlog_ch7)
+- [choosing_pitches_ch8](#choosing_pitches_ch8)
+- [start_of_projects_ch10](#start_of_projects_ch10)
+
+
 - fixed time variable scope = do not ask the time it takes to develop a feature, set how much development time the idea is worth 
 - circuit breakers = if you do not deliver a feature within an iteration it does not get an extension
 - Start each iteration cycle by building one demoable e2e piece starting with the biggest technical unknowns
@@ -19,9 +28,16 @@
 
 # project_risks_ch5
 - you want to bet on projects with independent, well understood parts that assemble together in known ways
+
 - potential risks:
   - new technical work never done before
   - assuming a design solution exists that you havent come up with yourself
+
+- preference pitches whose risk profile distribution is centered around your iteration circuit breaker ![evenly_distributed_risk_profile](img/evenly_distributed_risk_profile.png) 
+
+- Over those whose risk profile has a long tail due to a large number of technical unknowns ![long_tail_risk](img/long_tail_risk.png) 
+
+
 
 # pitching_projects_ch6
 - Anybody can suggest expensive and complicated solutions, it takes discipline and reflection to shape a simple idea that fits within a time appetite
@@ -52,3 +68,5 @@
 # start_of_projects_ch10
 - Each iteration culminates in a deployment (including testing/qa) or a circuit breaker
 - many programming tasks are not discovered until you actually start working on your first e2e tracer app
+
+
