@@ -9,3 +9,16 @@
 
 - [aws Aurora can invoke a lambda function](https://aws.amazon.com/about-aws/whats-new/2020/12/amazon-aurora-postgresql-integrates-with-aws-lambda/)
 
+
+
+# [machine learning service lens](https://aws.amazon.com/podcasts/421-aws-well-architected-machine-learning-lens/)
+
+- machine learning production workloads have different ops considerations than traditional applications:
+  - making sure your deployed model has not degraded over time
+  - differences between the hardware used to train the model versus the hardware needed to deploy the model
+
+- constantly validate your solution is meeting the business requirements
+
+
+- ML models have security considerations such as often needing production data in dev environments in order to train the models
+
