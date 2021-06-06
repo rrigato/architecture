@@ -10,6 +10,9 @@
 - [component_grouping](#component_grouping)
 - [module_coupling_ch14](#module_coupling_ch14)
 - [software_architecture_ch15](#software_architecture_ch15)
+- [layer_decoupling_ch16](#layer_decoupling_ch16)
+- [architecture_layer_development_approach_ch17](#architecture_layer_development_approach_ch17)
+- [boundaries_ch18](#boundaries_ch18)
 # author
 Robert C Martin
 
@@ -176,3 +179,8 @@ Robert C Martin
   - The repo layer private implementation imports the business rules (entities/usecase), but the business rules only import the repo layer public function interface 
 
 - The UI and database being plugins that are completely dependent on the business rules enables schema changes, database migrations, web framework modifications to be decoupled/irrelevant to the business logic as long as your public contracts are still met
+
+
+# boundaries_ch18
+- The source code of higher level components, processes and services must not contain any specific knowledge of lower level external entry points
+  - Example: the usecase layer will never know the URI path for a REST API
