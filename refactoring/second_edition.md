@@ -6,6 +6,7 @@
 - [refactoring_fundamentals_ch6](#refactoring_fundamentals_ch6)
 - [encapsulation_ch7](#encapsulation_ch7)
 - [moving_elements_ch8](#moving_elements_ch8)
+- [organizing_data_ch9](#organizing_data_ch9)
 # introduction
 
 # chapter_1
@@ -104,3 +105,11 @@
 - preference using map (applies a function to transform each element in the input collection) and filter (uses a function to select a subset of the input collection) over looping
 
 - remove unused code, not because it is a performance hit, but because it makes it more difficult for the developer to understand
+
+
+# organizing_data_ch9
+- Preference setting a variable only once, because if a variable is set more than once, it is a sign that it has more than one responsibility within a method
+
+- minimize the scope of mutable data by removing variables and replacing them with their calculations/derivations
+
+- Having objects that are pass by copy/value can be confusing if the data is mutable because updates reflecting the mutations will need to be made for each of the client copies

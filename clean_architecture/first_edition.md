@@ -184,3 +184,8 @@ Robert C Martin
 # boundaries_ch18
 - The source code of higher level components, processes and services must not contain any specific knowledge of lower level external entry points
   - Example: the usecase layer will never know the URI path for a REST API
+
+
+- no name of a lower level layer can be known by a higher level layer of abstraction
+
+- The dependency inversion principle is used to ensure the source code dependencies point towards the higher level layers even if the flow of program execution control is dictated by lower level layers.
