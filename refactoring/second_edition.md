@@ -137,3 +137,10 @@ if (_invalid_input):
 #proceed with happy path logic
 
 ```
+
+
+- use a factory function that initializes an object using polymorphism based on the arguement input/object type passed
+
+- assertions for expected code paths are a dry violation of a public interfaces design by contract
+
+- extract reused conditional checks into a dict/record into a function that is returned using deepcopy
