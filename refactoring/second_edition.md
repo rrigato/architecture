@@ -7,6 +7,7 @@
 - [encapsulation_ch7](#encapsulation_ch7)
 - [moving_elements_ch8](#moving_elements_ch8)
 - [organizing_data_ch9](#organizing_data_ch9)
+- [simplify_conditional_logic_ch10](#simplify_conditional_logic_ch10)
 # introduction
 
 # chapter_1
@@ -113,3 +114,26 @@
 - minimize the scope of mutable data by removing variables and replacing them with their calculations/derivations
 
 - Having objects that are pass by copy/value can be confusing if the data is mutable because updates reflecting the mutations will need to be made for each of the client copies
+
+
+# simplify_conditional_logic_ch10
+- Decompose conditional logic and its actions into separate function calls
+
+- For conditional branches that are equally likely:
+```python 
+if:
+  #branch 1
+elif:
+  #branch 2
+else:
+  #branch 3
+```
+
+- For conditional logic that is unusual/unhappy path, use a guard clause:
+```python 
+if (_invalid_input):
+  return("error - wrong datatype ")
+
+#proceed with happy path logic
+
+```
