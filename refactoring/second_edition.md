@@ -8,6 +8,7 @@
 - [moving_elements_ch8](#moving_elements_ch8)
 - [organizing_data_ch9](#organizing_data_ch9)
 - [simplify_conditional_logic_ch10](#simplify_conditional_logic_ch10)
+- [refactoring_apis_ch11](#refactoring_apis_ch11)
 # introduction
 
 # chapter_1
@@ -144,3 +145,16 @@ if (_invalid_input):
 - assertions for expected code paths are a dry violation of a public interfaces design by contract
 
 - extract reused conditional checks into a dict/record into a function that is returned using deepcopy
+
+
+# refactoring_apis_ch11
+- separate functions that query with no side effects from those that modify with side effects
+
+
+- replace any function that uses flag arguements with explicit function calls
+
+
+- Balance the responsibility of providing the needed input for a function between the caller (via a function arguement) and the function body(obtain value via query) with the objective of having as many pure functions as possible (functions that idempotently give the same output for a given input)
+
+
+- To get around constructor limitations (like python ```__init__``` having to return ```None```), wrap the class instantiation into a factory function that instantiates/returns the object while applying any custom business logic
