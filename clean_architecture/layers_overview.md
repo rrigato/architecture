@@ -7,7 +7,7 @@
 - lambda handler calls entry with ValidRequest object
 - entry imports repo/usecase
 - entry only takes ValidRequest objects, returns ResponseSuccess/ResponseFailure objects 
-- entry loads I/O from repo, but only invokes usecase by passing entities or python built ins as arguements
+- entry orchestrates I/O from repo, but only invokes usecase by passing entities or python built ins as arguements
 
 # layer_description
 

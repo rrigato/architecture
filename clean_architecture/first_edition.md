@@ -195,4 +195,12 @@ Robert C Martin
 # component_abstraction_level_ch19
 - low level of abstraction is closest to the the I/O, while the highest level of abstraction is furthest from the the I/O 
 
+- source code dependencies should be coupled to how far a module/function is from the I/O, not the order in which data is passed from function to function in the program
+
+- higher level policies change less frequently and for more important reasons from the business usecase perspective
+
+- lower level policies change mroe frequently and for less important reason from a business perspective
+  - Example: your end users do not care if the data is stored in a relational database, NoSQL, flat files
+
 - higher level components know nothing of lower level components
+- stable abstractions principle = more abstract components should be more stable
