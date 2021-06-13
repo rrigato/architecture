@@ -1,0 +1,18 @@
+- combine function into transform
+- consolidate conditional expression
+- Decompose conditional
+- encapsulate record/collection (explanation section)
+- encapsulate variable
+- extract function
+- inline function
+- inline variable
+- move function (motivation section)
+- parameterize function
+- rename function
+- replace constructor with factory function
+- replace derived variable with query
+- replace nested conditional with guard clauses
+- replace temp with query
+- sliding statements with conditionals (p.226 example section)
+- split loop (motivation section)
+- split phase
