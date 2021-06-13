@@ -13,6 +13,7 @@
 - [layer_decoupling_ch16](#layer_decoupling_ch16)
 - [architecture_layer_development_approach_ch17](#architecture_layer_development_approach_ch17)
 - [boundaries_ch18](#boundaries_ch18)
+- [component_abstraction_level_ch19](#component_abstraction_level_ch19)
 # author
 Robert C Martin
 
@@ -189,3 +190,6 @@ Robert C Martin
 - no name of a lower level layer can be known by a higher level layer of abstraction
 
 - The dependency inversion principle is used to ensure the source code dependencies point towards the higher level layers even if the flow of program execution control is dictated by lower level layers.
+
+
+# component_abstraction_level_ch19
