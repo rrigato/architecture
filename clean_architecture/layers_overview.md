@@ -3,6 +3,12 @@
 
 ![images/layer_dependency_structure.png](images/layer_dependency_structure.png)
 
+- lambda handler imports validators/entry
+- lambda handler calls entry with ValidRequest object
+- entry imports repo/usecase
+- entry only takes ValidRequest objects, returns ResponseSuccess/ResponseFailure objects 
+- entry loads I/O from repo, but only invokes usecase by passing entities or python built ins as arguements
+
 # layer_description
 
 - usecase and entities layers should have no I/O, be pure functions, and easy to test

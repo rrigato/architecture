@@ -194,3 +194,5 @@ Robert C Martin
 
 # component_abstraction_level_ch19
 - low level of abstraction is closest to the the I/O, while the highest level of abstraction is furthest from the the I/O 
+
+- higher level components know nothing of lower level components
