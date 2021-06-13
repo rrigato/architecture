@@ -1,7 +1,7 @@
 
-# layer_dependencies
+# layer_dependency_structure
 
-
+![images/layer_dependency_structure.png](images/layer_dependency_structure.png)
 
 # layer_description
 
