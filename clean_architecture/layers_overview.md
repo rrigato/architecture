@@ -18,6 +18,15 @@
 
 ## entry
 -  requires a ValidRequest object, can invoke repo and usecase layer
+-  returns ResponseSuccess or ResponseFailure
+
+
+### validators
+- module within entry that defines ValidRequest/InvalidRequest objects
+- Defines ResponseSuccess and ResponseFailure objects
+
+- validators that provide an abstraction/can be reused between externals (lambda, frameworks, libraries, UI) trying to call business logic
+
 
 ## repo
 - I/O with persistant storage, apis, 3rd part libraries or frameworks
@@ -29,5 +38,4 @@
 - usecase layer = application specific business rules and orchestration
 
 ## validators
-- request/response objects
-  - validators that provide an abstraction from externals (lambda, frameworks, libraries, UI) trying to call business logic
+
