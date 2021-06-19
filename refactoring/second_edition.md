@@ -9,6 +9,7 @@
 - [organizing_data_ch9](#organizing_data_ch9)
 - [simplify_conditional_logic_ch10](#simplify_conditional_logic_ch10)
 - [refactoring_apis_ch11](#refactoring_apis_ch11)
+- [inheritance_ch13](#inheritance_ch13)
 # introduction
 
 # chapter_1
@@ -158,3 +159,16 @@ if (_invalid_input):
 
 
 - To get around constructor limitations (like python ```__init__``` having to return ```None```), wrap the class instantiation into a factory function that instantiates/returns the object while applying any custom business logic
+
+# inheritance_ch13
+- if you can change and understand the base class without breaking/understanding the sub class, then inheritance might be a good fit
+
+> favor object composition over class inheritance
+
+- create a new object that provides the needed functionality that the base class calls instead of creating subclasses 
+
+- Do not use inheritance if every method on the supertype does not apply to the subtype
+
+- Do not use inheritance if the subclass can be easily broken/is tightly coupled to the superclass
+
+- The impression that the function based refactorings averaged 3-5 pages while the inheritance based refactorings were 5-15 pages on average demonstrates while I bias towards function based solutions
