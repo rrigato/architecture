@@ -208,6 +208,9 @@ Robert C Martin
 
 
 # business_rules_ch20
+- business rules and business data would exist even if there was no application to automate them
+
+
 - entities are enterprise-specific business rules that exist in parallel to your application
 - usecases are independent of whether the application is delivered on the web, cli, dial up, etc.
 - usecases define the application specific business rules that define the interaction between input/output and what entities are used in the process
@@ -215,3 +218,18 @@ Robert C Martin
 - usecases depend on Entities from a flow of control perspective, but are defined according to the needs of the usecase by the dependency inversion principle
 
 > we certainly do not want our usecases to know about our HTML or SQL
+
+
+- usecase should accept and return simple data structures
+  - The data structures are not dependent on anything
+
+- Request/Response objects should be independent of entities because they change for different reasons
+
+- business rules should be the most independent/reusable code in the application
+
+- This chapter aligns with the following layer responsibilities:
+  - entities = Value objects with just properties
+  - usecase = functions that take/return python built ins or entities
+  - repo = any external I/O
+  - entry = validators to be used across externals, takes ValidRequest objects, returns ResponseSuccess/ResponseFailure objects, calls repo, passes repo results to usecase
+   
