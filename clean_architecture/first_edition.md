@@ -14,6 +14,7 @@
 - [architecture_layer_development_approach_ch17](#architecture_layer_development_approach_ch17)
 - [boundaries_ch18](#boundaries_ch18)
 - [component_abstraction_level_ch19](#component_abstraction_level_ch19)
+- [business_rules_ch20](#business_rules_ch20)
 # author
 Robert C Martin
 
@@ -204,3 +205,13 @@ Robert C Martin
 
 - higher level components know nothing of lower level components
 - stable abstractions principle = more abstract components should be more stable
+
+
+# business_rules_ch20
+- entities are enterprise-specific business rules that exist in parallel to your application
+- usecases are independent of whether the application is delivered on the web, cli, dial up, etc.
+- usecases define the application specific business rules that define the interaction between input/output and what entities are used in the process
+
+- usecases depend on Entities from a flow of control perspective, but are defined according to the needs of the usecase by the dependency inversion principle
+
+> we certainly do not want our usecases to know about our HTML or SQL
