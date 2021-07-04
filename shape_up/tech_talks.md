@@ -25,3 +25,15 @@
 - when scope hammering constantly ask yourself:
  
 > if we had to ship tomorrow would this feature be essential or nice to have?
+
+
+
+
+- think about whether the information you are about to communicate to your team is *nice to have* where it is ok if it is missed versus *need to have* where it is mandatory to complete a project.
+
+
+
+- be more deliberate about the different task types you are working on throughout the day alternating between asynchronous emails, meetings, deep concentrated work (in the zone)
+
+
+- for support work you are responsible for a queue, for development work you are responsible for getting *in the zone* at least 3-4 hours a day with the result being you move the project meaningfully forward

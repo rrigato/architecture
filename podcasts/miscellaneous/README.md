@@ -1,0 +1,1 @@
+Place for general architecture guidance from various podcasts consumed
