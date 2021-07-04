@@ -31,6 +31,8 @@ The culmination of every iteration is a shipped product.
 
 Circuit breakers provide hard deadlines where the milestone must be completed or the project is abandonded in order to force tradeoffs.
 
+![iteration_cycle](img/iteration_cycle.png)
+
 ## agile_iteration_prequisites
 - Engineers have uninterrupted allocation for the full iteration 
 
