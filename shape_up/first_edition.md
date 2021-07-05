@@ -5,6 +5,7 @@
 - [pitch_backlog_ch7](#pitch_backlog_ch7)
 - [choosing_pitches_ch8](#choosing_pitches_ch8)
 - [start_of_projects_ch10](#start_of_projects_ch10)
+- [vertical_development_ch11](#vertical_development_ch11)
 
 
 - fixed time variable scope = do not ask the time it takes to develop a feature, set how much development time the idea is worth 
@@ -70,3 +71,13 @@
 - many programming tasks are not discovered until you actually start working on your first e2e tracer app
 
 
+
+
+# vertical_development_ch11
+- The goal of each iteration is to begin with one working implementation of a frontend to backend e2e feature
+
+- begin a UI design with just enough content to wire it up to the backend to test
+  - visual stlying is important for the end product, not in the early stages
+
+
+- Begin each cycle with the business usecases that present the largest technical risk to shipping on time
