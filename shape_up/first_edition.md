@@ -6,6 +6,7 @@
 - [choosing_pitches_ch8](#choosing_pitches_ch8)
 - [start_of_projects_ch10](#start_of_projects_ch10)
 - [vertical_development_ch11](#vertical_development_ch11)
+- [breaking_down_a_project_ch12](#breaking_down_a_project_ch12)
 
 
 - fixed time variable scope = do not ask the time it takes to develop a feature, set how much development time the idea is worth 
@@ -81,3 +82,15 @@
 
 
 - Begin each cycle with the business usecases that present the largest technical risk to shipping on time
+
+
+# breaking_down_a_project_ch12
+
+- Break apart and report iteration progress using the high level business feature name (corresponds to a usecase/project scope/e2e tracer) 
+  - Keep track of technical todos, risks, implmenetations, and unknowns separately 
+
+- scope hammer edge cases into future backlog feature requests instead of expaning project scope that would exceed your time appetite 
+
+- build E2E regaurdless of the distribution of effort between frontend and backend ![https://basecamp.com/shapeup/3.3-chapter-12#icebergs](img/work_distribution.png)
+
+[image source](https://basecamp.com/shapeup/3.3-chapter-12#icebergs)
