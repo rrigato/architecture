@@ -22,3 +22,11 @@
 
 - ML models have security considerations such as often needing production data in dev environments in order to train the models
 
+
+# update_podcasts
+
+- [aws constructs](https://aws.amazon.com/solutions/constructs)
+provides open source common usecases built on top of the cdk 
+
+- [cdk pipelies](https://aws.amazon.com/blogs/developer/cdk-pipelines-continuous-delivery-for-aws-cdk-applications/)
+helps you create a ci/cd pipeline when using cdk
