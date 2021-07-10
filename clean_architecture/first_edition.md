@@ -15,6 +15,7 @@
 - [boundaries_ch18](#boundaries_ch18)
 - [component_abstraction_level_ch19](#component_abstraction_level_ch19)
 - [business_rules_ch20](#business_rules_ch20)
+- [mapping_code_base_to_architecture_ch21](#mapping_code_base_to_architecture_ch21)
 # author
 Robert C Martin
 
@@ -233,3 +234,9 @@ Robert C Martin
   - repo = any external I/O
   - entry = validators to be used across externals, takes ValidRequest objects, returns ResponseSuccess/ResponseFailure objects, calls repo, passes repo results to usecase
    
+
+# mapping_code_base_to_architecture_ch21
+
+- Be aware of the tradeoffs associated with any framework
+- The business logic of your application should be testable independent of your database, network connectivity, cloud provider
+- architecture of an application should be centered on the business usecases, not whether it is a web app, mobile app, running in the cloud
