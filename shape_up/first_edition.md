@@ -8,6 +8,7 @@
 - [vertical_development_ch11](#vertical_development_ch11)
 - [breaking_down_a_project_ch12](#breaking_down_a_project_ch12)
 - [ch13](#ch13)
+- [when_to_stop_ch14](#when_to_stop_ch14)
 
 
 - fixed time variable scope = do not ask the time it takes to develop a feature, set how much development time the idea is worth 
@@ -102,3 +103,12 @@
 - begin an iteration with the most important project scopes with the biggest technical risks before moving onto the tasks your development team has implemented many times in the past
 
 ![project status](img/project_status.png)
+
+
+# when_to_stop_ch14
+- compare the new feature to the existing customer baseline, not a perfect design that doesn't exist
+
+- Evaluate every programming task as *Nice to haves* versus *must haves in order to ship a product before the iteration circuit breaker arrives
+
+- Code quality and critical business requirements must be owned by the software engineer
+  - Any PR's or user feedback should be viewed as optional/nice to haves in the current iteration and prioritized accordingly in future iterations
