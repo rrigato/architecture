@@ -7,6 +7,7 @@
 - [start_of_projects_ch10](#start_of_projects_ch10)
 - [vertical_development_ch11](#vertical_development_ch11)
 - [breaking_down_a_project_ch12](#breaking_down_a_project_ch12)
+- [ch13](#ch13)
 
 
 - fixed time variable scope = do not ask the time it takes to develop a feature, set how much development time the idea is worth 
@@ -94,3 +95,9 @@
 - build E2E regaurdless of the distribution of effort between frontend and backend ![https://basecamp.com/shapeup/3.3-chapter-12#icebergs](img/work_distribution.png)
 
 [image source](https://basecamp.com/shapeup/3.3-chapter-12#icebergs)
+
+
+# ch13
+
+- begin an iteration with the most important project scopes with the biggest technical risks before moving onto the tasks your development team has implemented many times in the past
+- 
