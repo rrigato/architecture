@@ -100,4 +100,5 @@
 # ch13
 
 - begin an iteration with the most important project scopes with the biggest technical risks before moving onto the tasks your development team has implemented many times in the past
-- 
+
+![project status](img/project_status.png)
