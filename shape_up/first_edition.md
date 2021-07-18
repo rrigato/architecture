@@ -137,4 +137,6 @@
 - How much developer time is this feature worth?
 - Evaluate every taks by how it impacts your EV (expected value) of shipping
 
+- Focus on shipping something impactful each iteration instead of daily firedrills
+
 - [glossary defining terms](https://basecamp.com/shapeup/4.5-appendix-06)
