@@ -9,6 +9,8 @@
 - [breaking_down_a_project_ch12](#breaking_down_a_project_ch12)
 - [ch13](#ch13)
 - [when_to_stop_ch14](#when_to_stop_ch14)
+- [feedback_from_shipping_ch15](#feedback_from_shipping_ch15)
+- [key_concepts](#key_concepts)
 
 
 - fixed time variable scope = do not ask the time it takes to develop a feature, set how much development time the idea is worth 
@@ -112,3 +114,14 @@
 
 - Code quality and critical business requirements must be owned by the software engineer
   - Any PR's or user feedback should be viewed as optional/nice to haves in the current iteration and prioritized accordingly in future iterations
+
+
+# feedback_from_shipping_ch15
+- feature releases lead to feature requests, sugggestions and bugs that need to be shaped/prioritized in a future iteration
+  - Default to a soft no as long as the customer is better off than the previous baseline
+
+
+# key_concepts
+
+
+- [glossary defining terms](https://basecamp.com/shapeup/4.5-appendix-06)
