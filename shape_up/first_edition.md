@@ -122,6 +122,19 @@
 
 
 # key_concepts
+- set time appetites
+- shape versus unshaped work
+- having a defined deadline prevents scope creep
+- outline UI with fat marker sketches
+- Make bets with capped downside
+- honor bets with uninterrupted development time
+- circuit breaker
+- cool down between iterations
+- break iterations down into vertically deployed usecases
+- hill graphs for unknown and known development phases
+- scope hammering must-haves from nice-to-haves
 
+- How much developer time is this feature worth?
+- Evaluate every taks by how it impacts your EV (expected value) of shipping
 
 - [glossary defining terms](https://basecamp.com/shapeup/4.5-appendix-06)
