@@ -1,0 +1,5 @@
+- well thought out, meaningful work requires long stretches of uninterrupted focus
+- Consider an individuals productivity before interrupting them to ask a question that does not need an ASAP response
+- Keep your management/larger team involved by showing them a working demo as early as possible, assiging them tasks and soliciting their feedback
+- Doing great work with a positive team is one of the most enduring forms of hapiness humans can tap into
+- The key to a strong work environment is having as many team members as possible have a default optimistic personality
