@@ -16,6 +16,8 @@
 - [component_abstraction_level_ch19](#component_abstraction_level_ch19)
 - [business_rules_ch20](#business_rules_ch20)
 - [mapping_code_base_to_architecture_ch21](#mapping_code_base_to_architecture_ch21)
+- [architecture_layers_ch22](#architecture_layers_ch22)
+- [testable_architecture_ch23](#testable_architecture_ch23)
 # author
 Robert C Martin
 
@@ -240,3 +242,13 @@ Robert C Martin
 - Be aware of the tradeoffs associated with any framework
 - The business logic of your application should be testable independent of your database, network connectivity, cloud provider
 - architecture of an application should be centered on the business usecases, not whether it is a web app, mobile app, running in the cloud
+
+# architecture_layers_ch22
+- all architectures strive for separation of concerns achieved through layered appliction code
+- Architecture should consider the high level peristance storage type (NoSQL, distributed, blob, RDBMS)?
+- higher level layers should never mention/import lower level layers of abstraction
+- adapters (entry and repo layer) = orchestration that converts externals into data structures required by the public contract of usecase/entities
+
+
+# testable_architecture_ch23
+- group modules and components within a layer by whether they are easy or difficult to unit test
