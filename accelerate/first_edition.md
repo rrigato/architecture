@@ -1,0 +1,4 @@
+- Measure software delivery performance by the feature request lead time, deployment frequency, time to restore service and change failure percentage
+- Deliver work in small batches because it allows you to gather user feedback quickly and take an experimental approach to product development
+- use measurement of software delivery performance to improve your processes not as a form of control
+- Production incidents rarely have a single root cause but are often a combination of contributing factors
