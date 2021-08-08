@@ -22,3 +22,10 @@
 - unit tests need to give developers confidence their application will work when passing and have no false positives when they fail
 - Having long lived feature branches discourages refactoring and intra-team communication
 - Info security teams should be involved in all stages of the ci/cd process the moment you have a demoable link in a way that does not slow down the development process
+
+
+# architecture_ch5
+- Developers should be able to complete their work without needing to communicate or coordinate with people outside of their team
+- Testing and deployment should be on-demand without needing to integrate with a third party
+- Security teams need to have the same focus on usability and customer satisfaction for internal 'developer customers' as for building products for external customers
+  - enabling developers to choose their own tools will allow them to not use internal tools that are not helpful
