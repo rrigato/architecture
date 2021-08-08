@@ -18,6 +18,8 @@
 - [mapping_code_base_to_architecture_ch21](#mapping_code_base_to_architecture_ch21)
 - [architecture_layers_ch22](#architecture_layers_ch22)
 - [testable_architecture_ch23](#testable_architecture_ch23)
+- [partial_boundaries_ch24](#partial_boundaries_ch24)
+- [how_many_layers_ch25](#how_many_layers_ch25)
 # author
 Robert C Martin
 
@@ -252,3 +254,12 @@ Robert C Martin
 
 # testable_architecture_ch23
 - group modules and components within a layer by whether they are easy or difficult to unit test
+
+
+# partial_boundaries_ch24
+- for a microservice architecture, start with having multiple endpoints deployed from the same repo with separate modules before splitting out into separate repos if needed
+
+# how_many_layers_ch25
+- The public contract of an interface should be owned by the user rather than the implementer
+- Adding an architectural layer after deployment has begun is incredibly costly, if not impossible without modyfing existing code (breaking OCP)
+- public contracts of lower level layers are designed for the needs of higher level layers
