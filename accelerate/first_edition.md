@@ -29,3 +29,15 @@
 - Testing and deployment should be on-demand without needing to integrate with a third party
 - Security teams need to have the same focus on usability and customer satisfaction for internal 'developer customers' as for building products for external customers
   - enabling developers to choose their own tools will allow them to not use internal tools that are not helpful
+
+
+# security_ch6
+- security team members should be built into the software development life cycle starting with requirements gathering and ensuring automated test features are built into the pipeline instead of acting as a review gate post deployment
+- Enable developers to consider security a top tier concern by providing the needed tools, training, and support during the development process instead of retrofitting security after improves security performance
+
+
+# management_practices_ch7
+- Have work in progress limits with a demoable link that shows visual progress of small, batch sized features
+- approvals by a body external to your team does not increase the stability of production systems but does slow down release velocity
+- Having no changes to production that do not also go through an automated deployment process also provides excellent auditing of historical changes
+- external teams reviewing code they have no context for does nothing to improve software quality
