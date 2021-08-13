@@ -49,6 +49,14 @@
 
 Lean product development practices:
 1) work in small batches
+   - Release an end-to-end tracer with just enough features to validate the business usecase is met
+  
 2) Software engineers understand how a feature release impacts business and customer flows
 3) Actively seek customer feedback
 4) Software engineers have the ability to change requirements/specifications based on what they discover in an iteration without requiring the approval of people outside their team
+
+
+# sustainable_work_ch9
+- continuous delivery practices that automate deployments decrease engineer anixety and improve work/life balance
+- The probability of failed deployments increases when manual changes must be made to deploy to prod or maintain configuration between environments
+- ensure that the state of production systems can be reproduced in an automated fashion via version control
