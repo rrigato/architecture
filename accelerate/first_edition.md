@@ -41,3 +41,14 @@
 - approvals by a body external to your team does not increase the stability of production systems but does slow down release velocity
 - Having no changes to production that do not also go through an automated deployment process also provides excellent auditing of historical changes
 - external teams reviewing code they have no context for does nothing to improve software quality
+
+
+# product_development_ch8
+- perform user research frequently, work in small batches, build/validate prototypes from the start of the iteration, evolve/pivot product and business models early and often
+
+
+Lean product development practices:
+1) work in small batches
+2) Software engineers understand how a feature release impacts business and customer flows
+3) Actively seek customer feedback
+4) Software engineers have the ability to change requirements/specifications based on what they discover in an iteration without requiring the approval of people outside their team
