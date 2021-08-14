@@ -60,3 +60,10 @@ Lean product development practices:
 - continuous delivery practices that automate deployments decrease engineer anixety and improve work/life balance
 - The probability of failed deployments increases when manual changes must be made to deploy to prod or maintain configuration between environments
 - ensure that the state of production systems can be reproduced in an automated fashion via version control
+
+## preventing_engineer_burnout
+- foster a work environment of learning from failures rather than blaming
+- invest time, space and resources during normal working hours for employee upskilling
+- ask engineers what is preventing them from achieving their objectives
+- ensure engineers are given the authority to make decisions that affect their work when they are responsible for the outcomes
+- blame free environment where human error is never the root cause of system failures
