@@ -72,3 +72,11 @@ Lean product development practices:
 - a misalignment of organizational and individual values can also contribute to burnout
 - increasing software delivery velocity increases the speed at which teams can validate their ideas
 - proactive monitoring, testing and deployment automation enable employees to focus on decision making instead of routine, menial tasks
+
+
+# leadership_principles_ch11
+- trust between teams is built on kept promises, open communication and behaving predictably even in stressful situations
+- use disaster recovery gamedays to build relationships between teams
+- treat failures as opportunities to learn by holding blameless postmorteums
+- encourage sharing via demos
+- ensure that a team can choose their tools, engineers who choose their infrastructure are much more invested in their work
