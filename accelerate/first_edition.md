@@ -67,3 +67,8 @@ Lean product development practices:
 - ask engineers what is preventing them from achieving their objectives
 - ensure engineers are given the authority to make decisions that affect their work when they are responsible for the outcomes
 - blame free environment where human error is never the root cause of system failures
+
+# employee_statisfaction_ch10
+- a misalignment of organizational and individual values can also contribute to burnout
+- increasing software delivery velocity increases the speed at which teams can validate their ideas
+- proactive monitoring, testing and deployment automation enable employees to focus on decision making instead of routine, menial tasks
