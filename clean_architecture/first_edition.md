@@ -20,6 +20,7 @@
 - [testable_architecture_ch23](#testable_architecture_ch23)
 - [partial_boundaries_ch24](#partial_boundaries_ch24)
 - [how_many_layers_ch25](#how_many_layers_ch25)
+- [main_ch26](#main_ch26)
 # author
 Robert C Martin
 
@@ -263,3 +264,9 @@ Robert C Martin
 - The public contract of an interface should be owned by the user rather than the implementer
 - Adding an architectural layer after deployment has begun is incredibly costly, if not impossible without modyfing existing code (breaking OCP)
 - public contracts of lower level layers are designed for the needs of higher level layers
+
+
+# main_ch26
+- when running in a lambda function, environment runtime variables, context and event structure are your dependency injection framework for main configuration
+- when running code as a process/daemon/service on a server, the os environment variables are your dependency injection framework for main configuration
+- software engineers should optimize main to be setup with the minimum configuration/orchestration necessary to invoke higher level layers of abstraction in order to maximize testability
