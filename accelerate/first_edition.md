@@ -80,3 +80,11 @@ Lean product development practices:
 - treat failures as opportunities to learn by holding blameless postmorteums
 - encourage sharing via demos
 - ensure that a team can choose their tools, engineers who choose their infrastructure are much more invested in their work
+
+# methodologies_ch13
+- latent construct = measuring something that cannot be measure directly like team culture
+  - latent constructs force you to think carefully about what you are trying to measure by proxy 
+
+- teams that are high trsut, encourage information flow, encourage continuous improvement and share risk among the team have a good culture
+- discriminant validity = tests to make sure items that are not supposed to be related are actually unrelated
+- convergent validity = tests to make sure items that are supposed to be related are actually related
