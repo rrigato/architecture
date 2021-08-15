@@ -21,6 +21,7 @@
 - [partial_boundaries_ch24](#partial_boundaries_ch24)
 - [how_many_layers_ch25](#how_many_layers_ch25)
 - [main_ch26](#main_ch26)
+- [services_ch27](#services_ch27)
 # author
 Robert C Martin
 
@@ -270,3 +271,9 @@ Robert C Martin
 - when running in a lambda function, environment runtime variables, context and event structure are your dependency injection framework for main configuration
 - when running code as a process/daemon/service on a server, the os environment variables are your dependency injection framework for main configuration
 - software engineers should optimize main to be setup with the minimum configuration/orchestration necessary to invoke higher level layers of abstraction in order to maximize testability
+
+
+# services_ch27
+- architecture should define the layers that separate hgiher level abstractions from lower level implementations
+- Service based architectures need to follow the open closed principle when adding functionality
+- My criticism of this chapter is the author does not consider teams with polyglot programming language specialities and assumes modification for cross cutting micro services concerns.
