@@ -277,3 +277,9 @@ Robert C Martin
 - architecture should define the layers that separate hgiher level abstractions from lower level implementations
 - Service based architectures need to follow the open closed principle when adding functionality
 - My criticism of this chapter is the author does not consider teams with polyglot programming language specialities and assumes modification for cross cutting micro services concerns.
+
+
+# testing_ch28
+- tests follow the dependency inversion rule since they are very detailed, concrete, low level implementations
+- fragile tests can make a system more rigid if developers are not following the open closed principle
+- assertions should not be repeated among different test cases to avoid one change causing cascading test failures
