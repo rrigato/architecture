@@ -88,3 +88,25 @@ Lean product development practices:
 - teams that are high trsut, encourage information flow, encourage continuous improvement and share risk among the team have a good culture
 - discriminant validity = tests to make sure items that are not supposed to be related are actually unrelated
 - convergent validity = tests to make sure items that are supposed to be related are actually related
+
+# part_3
+- make improvement activities (upskilling and process improvements) part of an engineers daily workflow
+- standard engineering processes need to be established and consistently re-evaluated by the development team
+
+# appendix
+- review appendix part A (p.201-207) as a summary of key book takeaways
+
+## development_capabilities
+- use version control for all production artifacts
+- feature branches should not have a lifespan longer than a day
+- tests should automatically run for every build
+- invest in test fixtures
+- integrate security into design and development
+
+
+- continuous delivery = development practice where software is in a deployable state throughout its life cycle
+- teams should be empowered to choose their own tools
+
+- MVP should be a production release of a new feature that enables validated learning about the product and its business model from customer feedback
+- Evaluate whether upskilling is viewed as essential or as a cost of development.
+
