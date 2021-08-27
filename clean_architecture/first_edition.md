@@ -22,6 +22,8 @@
 - [how_many_layers_ch25](#how_many_layers_ch25)
 - [main_ch26](#main_ch26)
 - [services_ch27](#services_ch27)
+- [testing_ch28](#testing_ch28)
+- [firmware_ch29](#firmware_ch29)
 # author
 Robert C Martin
 
@@ -282,4 +284,13 @@ Robert C Martin
 # testing_ch28
 - tests follow the dependency inversion rule since they are very detailed, concrete, low level implementations
 - fragile tests can make a system more rigid if developers are not following the open closed principle
-- assertions should not be repeated among different test cases to avoid one change causing cascading test failures
+- assertions should not be repeated among different test cases to avoid one change causing cascading test failure
+
+
+# firmware_ch29
+- any software module that needs to change when the underlying hardware changes is firmware
+- sql code embedded in your business logic is like firmware since any references to sql would need to be change if the persistance storage layer changes
+- a clean architecture is testable indepedent its target hardware
+- Do not allow any references to the underlying hardware/platform outside of your repo layer
+- A layered architecture is designed around modules depending on well defined and stable public contracts
+
