@@ -1,13 +1,9 @@
-- it is better to compose what an object can do as opposed to extend what it is
+- to enable software delivery velocity, you need devops practices, with decoupled teams that are empowered to choose their tools and loosely coupled infrastructure 
 
-- opentelemetry = open source SDKs for collecting/exporting metrics logs
 
-- for user experience, more development time spent results in a better end product
+- try to have small, quickly testable, inexpensive ideas
 
-- for application code, higher internal code quality leads to shorter lead times for feature releases
+- burnout is driven by the outcome of work not aligning with the engineers values as opposed to how much time the engineer spends as input
 
-- microservices are independent processes that often communicate over http api calls
 
-- microservices are independently deployable/developable written in different programming languages and centered on business usecases 
-
-- the trade off of microservices is remote network calls introduce failure points, increased operational complexity and the need to manage eventual consistency 
+- it’s very difficult to control your mind with your mind
