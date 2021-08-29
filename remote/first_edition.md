@@ -15,3 +15,10 @@
 - successful remote work depends on progress being capable of being made at any time and avoids manual roadblocks of *I have to wait 3 hours for coworker X to login and approve this manual process*
 - Be vigilant of overwork, even if you enjoy your job, working more than 40 hours in a week just leads to burnout
 
+
+
+- Have a clear demarcation for work and home activities
+- Use a separate device for work and recreation
+- make the recreation device different from the work device and unable to check work email
+- motivation is the key to intellectual work
+- The best long term motivator is to be working on challenging/engaging/interesting problems with coworkers you enjoy
