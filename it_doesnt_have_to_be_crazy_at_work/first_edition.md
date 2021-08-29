@@ -12,10 +12,21 @@
 
 
 # zen_of_calm
-- protect people's time
-- about 40 hours of work per week
-- reasonable expectations
-- meetings as a last resort
-- asyncronous first, real time second
-- independence over interdependence
-- long term sustainability
+1) protect people's time
+2) about 40 hours of work per week
+3) reasonable expectations
+4) meetings as a last resort
+5) asyncronous first, real time second
+6) independence over interdependence
+7) long term sustainability
+
+
+
+# workflow
+- the best information you will have about a decision is at the moment of execution
+- preference small feature decisions instead of one large year long plan set at the beginning of the year
+- preference small feature decisions instead of one large year long plan set at the beginning of the year
+- The reason 40 hours a week never seems like enough time is because work days are never uninterrupted continuous blocks of time to enable focus
+- workdays have constant interruptions, whereas a 6 hour cross country flight feels like a never ending experience because it is continuous
+- consolidate large chunks of time that can be used to accomplish one big task
+- Constantly ask what features/scope can be cut out to make your software engineering process more effective
