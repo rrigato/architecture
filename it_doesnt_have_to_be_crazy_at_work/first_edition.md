@@ -6,3 +6,16 @@
 - saying no to one feature request closes one door but leaves hunders of other possibilities open
 - default of polite no does not need to be no forever, just that you are not going to drop everything to work on a new project suggestion immediately
 - Having one customer driving feature requests can give them outsized influence on the product and instead of having a standard offering that appeals to many customers, you end up with a customized solution that appeals to one customer
+
+
+- treat your development processes like you do your product: not as a fixed structure, but a malleable framework you are continually iterating on over time
+
+
+# zen_of_calm
+- protect people's time
+- about 40 hours of work per week
+- reasonable expectations
+- meetings as a last resort
+- asyncronous first, real time second
+- independence over interdependence
+- long term sustainability
