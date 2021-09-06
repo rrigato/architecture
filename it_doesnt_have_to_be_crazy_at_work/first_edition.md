@@ -30,3 +30,14 @@
 - workdays have constant interruptions, whereas a 6 hour cross country flight feels like a never ending experience because it is continuous
 - consolidate large chunks of time that can be used to accomplish one big task
 - Constantly ask what features/scope can be cut out to make your software engineering process more effective
+
+
+
+# interruptions
+
+- modern offices are setup to be interruption factories: you can be tapped on the shoulder to start a conversation, pulled into a meeting, have to listen to loud open-office calls
+- when someone takes time to ask a question/schedule a meeting it costs them nothing, but as the recipient you pay the prices
+- The problem with meeting invites is the perception that declining them means you 'are not a team player'
+- Have a culture where it is ok to question/decline meetings
+- Meeting efficiency exponentially declines after 2 people
+- There is value in being able to reach someone on demand in case of a fire drill, but ask yourself if setting policy based on events that occur 1% of the time is truly worth the productivity hit the other 99% of the time
