@@ -24,6 +24,7 @@
 - [services_ch27](#services_ch27)
 - [testing_ch28](#testing_ch28)
 - [firmware_ch29](#firmware_ch29)
+- [the_database_is_only_a_detail_ch30](#the_database_is_only_a_detail_ch30)
 # author
 Robert C Martin
 
@@ -294,3 +295,7 @@ Robert C Martin
 - Do not allow any references to the underlying hardware/platform outside of your repo layer
 - A layered architecture is designed around modules depending on well defined and stable public contracts
 
+
+# the_database_is_only_a_detail_ch30
+- pass only builtin data structure from your persistance storage layer so that you can easily swap out your database implementation without affecting the rest of your application
+- The database is not technically insignificant, just that any database concerns can be completely encapsulated from the business use cases
