@@ -9,3 +9,16 @@
 - prioritize features that customers need and you would also use
 
 - making quick, reversible decisions is a skill
+
+
+
+- being agile is delivering customer value ahead of schedule
+
+
+- write your end user docs as you develop the feature
+
+
+- only being enabled to fix the symptom but not the cause of a system issue is a big cause of burnout for engineers 
+
+
+- ownership of your time is the most valuable resource you can provide your company
