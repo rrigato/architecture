@@ -26,6 +26,8 @@
 - [firmware_ch29](#firmware_ch29)
 - [the_database_is_only_a_detail_ch30](#the_database_is_only_a_detail_ch30)
 - [the_web_is_a_detail_ch31](#the_web_is_a_detail_ch31)
+- [frameworks_are_a_detail_ch32](#frameworks_are_a_detail_ch32)
+- [case_study_ch33](#case_study_ch33)
 # author
 Robert C Martin
 
@@ -307,3 +309,14 @@ Robert C Martin
 - centering your architecture arround your business use cases enables your application to be abstracted away from user interface modifications
 - Technical details can be 99% of development time, but what is important is putting an architectural boundary line with a stable public contract between technical details and your business logic
 - business logic is a suite of usecases/features that each perform some function on behalf of the user
+
+
+# frameworks_are_a_detail_ch32
+- there is an asymmetric relationship between your application and a framework where you cannot break the framework, but a framework breaking an interface may break your application
+- Never pass any library specific datatypes across architectural layers (only built ins and entities)
+
+
+# case_study_ch33
+- Group components across the following criteria:
+  - Change at different rates (based on level of abstraction of architectural layer)
+  - Change for different business reasons (based on different user groups)
