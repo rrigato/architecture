@@ -28,6 +28,7 @@
 - [the_web_is_a_detail_ch31](#the_web_is_a_detail_ch31)
 - [frameworks_are_a_detail_ch32](#frameworks_are_a_detail_ch32)
 - [case_study_ch33](#case_study_ch33)
+- [ch34](#ch34)
 # author
 Robert C Martin
 
@@ -320,3 +321,10 @@ Robert C Martin
 - Group components across the following criteria:
   - Change at different rates (based on level of abstraction of architectural layer)
   - Change for different business reasons (based on different user groups)
+
+
+# ch34
+- ports and adapters is centered aroud have a domain model (business logic) that the UI/databases/3rd parties depend on (outside infrastructure)
+  - The risk is if a UI talks to the database directly without going through the domain model
+
+- Default towards private functions so it is clear they should not be used outide their module and you minimize the of public function contracts you need to maintain
