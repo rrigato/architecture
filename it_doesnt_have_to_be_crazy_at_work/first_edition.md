@@ -49,3 +49,8 @@
 - prioritize poll based updates over push based
 - managers need to be very explicit on what is a suggestion versus what is a mandate
   
+
+- a calm work environment is achieved by living work life balance, not just talking about work life balance
+- Breaking healthy long term sleeping habits is one of the most difficult trends to reverse
+- lack of sleep contributes to decreased patience, understanding and tolerance
+- if its easier for work to claim a Sunday than it is for life to borrow a Thursday, you are not achieving work life balance
