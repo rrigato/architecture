@@ -41,3 +41,11 @@
 - Have a culture where it is ok to question/decline meetings
 - Meeting efficiency exponentially declines after 2 people
 - There is value in being able to reach someone on demand in case of a fire drill, but ask yourself if setting policy based on events that occur 1% of the time is truly worth the productivity hit the other 99% of the time
+
+
+
+- default instant messaging status = I'm trying to do my job, please respect my time and attention
+- fear of missing out trancends social media and bleeds into work chat tools/news feeds leading to unrealistic response time expectations for stuff that ultimately does not matter
+- prioritize poll based updates over push based
+- managers need to be very explicit on what is a suggestion versus what is a mandate
+  
