@@ -54,3 +54,9 @@
 - Breaking healthy long term sleeping habits is one of the most difficult trends to reverse
 - lack of sleep contributes to decreased patience, understanding and tolerance
 - if its easier for work to claim a Sunday than it is for life to borrow a Thursday, you are not achieving work life balance
+
+
+- practice library rules in an office setting = a quiet place where each engineers attention, time and focus is respected
+- if you see someone at their desk do not just walk over and interrupt them, assume they are deep in their work
+- ambiguity breeds aniexty
+- no fakecations = you should have a full technology sabbatical when on vacation in order to recharge
