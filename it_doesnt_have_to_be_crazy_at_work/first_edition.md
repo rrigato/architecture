@@ -62,6 +62,6 @@
 - no fakecations = you should have a full technology sabbatical when on vacation in order to recharge
 
 
-- important topics need time separation and reflection, not the immediate feedback/implied agreement a syncronous instant message/chat message provides
-- send out meeting outcome proposals before hand so that all attendees read and collect their thoughts instead of having a off the cuff/not well thought out feedback when they first hear about an idea in the meeting
+- important topics need time separation and reflection, not the immediate feedback/implied agreement a syncronous meetings/chat message provides
+- send out the meeting outcome proposals before hand so that all attendees read and collect their thoughts instead of having a off the cuff/not well thought out feedback when they first hear about an idea in the meeting
 - Don't have large software releases outside of normal working hours, on fridays or weekends, delay until they can be released calmly
