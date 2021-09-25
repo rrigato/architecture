@@ -65,3 +65,10 @@
 - important topics need time separation and reflection, not the immediate feedback/implied agreement a syncronous meetings/chat message provides
 - send out the meeting outcome proposals before hand so that all attendees read and collect their thoughts instead of having a off the cuff/not well thought out feedback when they first hear about an idea in the meeting
 - Don't have large software releases outside of normal working hours, on fridays or weekends, delay until they can be released calmly
+
+
+
+- there is no way of knowing how often users will use your product until you ship it so do so frequently insted of trying to predict customer usage
+- do not make promises beyond your current iteration as that will just be new technical debt
+- fully address every feature request you turn down because just ignoring a request instead of explaining why you will not be picking it up results in that request becoming a personal crusade for the requestor
+- choose contemplation and consideration over syncronous responses

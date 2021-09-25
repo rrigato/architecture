@@ -29,6 +29,7 @@
 - [frameworks_are_a_detail_ch32](#frameworks_are_a_detail_ch32)
 - [case_study_ch33](#case_study_ch33)
 - [ch34](#ch34)
+- [afterwards](#afterwards)
 # author
 Robert C Martin
 
@@ -328,3 +329,7 @@ Robert C Martin
   - The risk is if a UI talks to the database directly without going through the domain model
 
 - Default towards private functions so it is clear they should not be used outide their module and you minimize the of public function contracts you need to maintain
+
+
+# afterwards
+- every software design decision needs to leave the door open for future changes
