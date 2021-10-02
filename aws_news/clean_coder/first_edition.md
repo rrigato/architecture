@@ -5,3 +5,9 @@
 - never modify software in a way that makes the software more difficult to change in the future
 - professionals spend time outside of work caring for their profession
 
+- doing your daily job is performance, you need to practice outside of your job to become a master performer
+- professionals never demean fellow engineers for making a mistake and will always be willing to acknowledge when they make a mistake
+
+
+# saying_no_ch2
+- focus on providing ```just the facts``` of the timeline estimate not explaining the ```technical why``` unless prompted
