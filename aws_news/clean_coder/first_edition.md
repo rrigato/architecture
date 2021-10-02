@@ -11,3 +11,7 @@
 
 # saying_no_ch2
 - focus on providing ```just the facts``` of the timeline estimate not explaining the ```technical why``` unless prompted
+- being a team player who says yes to trying to meet an impossible feature release timeline is worse than being professional and saying no from the beginning
+- clean code is extendable, maintainable and lends itself to modification
+- the stakeholders/users of an application will never care as much about the feature deadline as you do
+- saying yes to dropping software quality in order to try to meet an unrealistic timeline ultimately slows down release velocity since you will no longer have an extendable code base
