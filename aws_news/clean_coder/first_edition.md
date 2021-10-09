@@ -21,3 +21,10 @@
 - alert stakeholders as soon as you realize a commitment cannot be met
 - If your feature release depends on an exterior team or technical unknowns, commit to actions that will unambiguously move you closer to releasing the feature that are in your control
 - When working weekends, be honest about how (in)efficient your work will be, how much recovery time you will need to avoid burnout, and maintaining code quality standards to make sure you do not impact release velocity 
+
+
+# coding_ch4
+- do not code if you are feeling tired or distracted from aniexty, resolve the source of aniexty before resuming development
+- professionalism involves having the discipline to show to work fully rested and healthy so you will be at peak performance throughout the work day
+- professional developers arrange their personal lives to ensure their time working is as productive as possible
+- be polite when someone interrupts your programming context as you might be the person interrupting someone else in the future
