@@ -5,4 +5,9 @@
 
 - An architect is responsible for a specific technical domain such as API design, frontend stack, cloud infrastructure
 
-- principle engineers need to decide between being a tech lead on one team or whether they would prefer to be an architect who rotates to solve different problems across a large number of teams
+- principle engineers need to decide between being a tech lead focused on one team's domain or whether they would prefer to be an architect who jumps from team-to-team based on specific projects set by leadership priorities
+
+
+- The most consistent way to get approval to work on problems that are interesting to you is to get hired with the requirements of doing them
+
+- Don't pursue a distinguished engineer title if you are not ready to step away from the fully allocated development role of a senior software engineer 
