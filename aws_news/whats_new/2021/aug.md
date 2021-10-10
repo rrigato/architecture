@@ -5,3 +5,5 @@
 - ebs supports idempotent device creation by providing a unique client token
 
 - aws appsync supports openid connect, cognito user pools and custom authorization via aws lambda 
+
+- redshift enables central storage of json configuration files that clients need in order to connect via JDBC/ODBC
