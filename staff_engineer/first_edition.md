@@ -11,3 +11,14 @@
 - The most consistent way to get approval to work on problems that are interesting to you is to get hired with the requirements of doing them
 
 - Don't pursue a distinguished engineer title if you are not ready to step away from the fully allocated development role of a senior software engineer 
+
+
+# engineering_strategy
+- write an engineering strategy to curate technical quality in order to maintain release velocity over time
+
+
+# work_purpose
+- pacing your career and life to maximize long term sustainability is driven by the realization that we only have a finite amount of time on this planet and you want to spend it solving high impact problems
+
+- The most meaningful work projects are those that could not of been delivered without you doing them
+

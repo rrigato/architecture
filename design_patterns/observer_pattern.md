@@ -1,0 +1,1 @@
+- when an object maintains a list of depdent observers that it notifies of any state changes by invoking one of the observer's methods
