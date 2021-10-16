@@ -29,3 +29,10 @@
 
 - The most meaningful work projects are those that could not of been delivered without you doing them
 
+
+
+# managing_technical_quality
+- software engineering code quality should be at a high enough standard to align with your scale and release velocity expectations
+    - continually re-evaluate if your current software quality standards need to be modified to support future release velocity
+
+- avoid processes that do not reduce risk but are instituted in order to make it clear who is to blame when something goes wrong
