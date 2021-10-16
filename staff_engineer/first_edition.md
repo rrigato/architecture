@@ -16,6 +16,13 @@
 # engineering_strategy
 - write an engineering strategy to curate technical quality in order to maintain release velocity over time
 
+- engineering strategy is proactive alignment among all engineers that enable quick and confident decisions about foundational principles
+    - programming language, iteration structure, code quality standards, development/release process, architecture
+
+- engineering strategy should be a catalog of specific and opinionated technical practices 
+    - anyone on the team can dispute, contribute or propose changes
+
+- the key to engineering strategy is to keep it specific and link to general knowledge 
 
 # work_purpose
 - pacing your career and life to maximize long term sustainability is driven by the realization that we only have a finite amount of time on this planet and you want to spend it solving high impact problems
