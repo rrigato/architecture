@@ -1,0 +1,2 @@
+- Continuous security monitoring accross accounts on AWS CloudTrail Management Events (AWS user and API activity in your accounts), AWS CloudTrail S3 Data Events (Amazon S3 activity), Amazon VPC Flow Logs (network traffic data), and DNS Logs (name query patterns).
+    - priced based on number of requests for cloudtrail events and amount of data for vpc flow logs in GB
