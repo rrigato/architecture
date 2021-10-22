@@ -36,3 +36,12 @@
     - continually re-evaluate if your current software quality standards need to be modified to support future release velocity
 
 - avoid processes that do not reduce risk but are instituted in order to make it clear who is to blame when something goes wrong
+
+- adopt one new best practice at a time, view the new rule as maleable/open to change based on feedback rather than being a mandate, don't be afraid to invoke a circuit breaker and admit it was a bad idea
+
+- do not spend software engineering effort on unproven problems
+
+- the best interfaces decouple clients from the implementation while expoing only the essiential complexity, not any accidental complexity
+
+
+> if you are not being selective about which projects to take on, you are not thinking broadly enough
