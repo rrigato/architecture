@@ -1,0 +1,2 @@
+- AWS Orgranizations service control policies (SCP's) = maximum permissions for an account or organizational unit (OU) 
+  - Sets limit of max Identity based policies permissions for IAM entities but does not grant permissions that has to be down account admins by attaching identity based policies to principals
