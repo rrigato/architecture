@@ -1,9 +1,42 @@
 - iam json policies consist of optional policy wide information at the top of the json (version and statement) and one or more individual statements providing allow or deny actions
   - AWS evaluates a logical or for each policy statement
   
-```json
 
+# example_policy
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "FirstStatement",
+      "Effect": "Allow",
+      "Action": ["iam:ChangePassword"],
+      "Resource": "*"
+    },
+    {
+      "Sid": "SecondStatement",
+      "Effect": "Allow",
+      "Action": "s3:ListAllMyBuckets",
+      "Resource": "*"
+    },
+    {
+      "Sid": "ThirdStatement",
+      "Effect": "Allow",
+      "Action": [
+        "s3:List*",
+        "s3:Get*"
+      ],
+      "Resource": [
+        "arn:aws:s3:::confidential-data",
+        "arn:aws:s3:::confidential-data/*"
+      ],
+      "Condition": {"Bool": {"aws:MultiFactorAuthPresent": "true"}}
+    }
+  ]
+}
 ```
+
+[example policy source](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html)  
 
 # statement_elements
 - Sid (optional) = statement id to differentiate between statements
