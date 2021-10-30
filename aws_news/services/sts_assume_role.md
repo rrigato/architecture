@@ -1,0 +1,1 @@
+- sts assume role returns an access key, access secret, expiration, and session id 

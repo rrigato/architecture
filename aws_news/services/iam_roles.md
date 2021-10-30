@@ -1,0 +1,1 @@
+- for a principal in an aws account you do not own, you must specify an external id and account number in the trust policy and the external id must be provided by the trusted account principal with each assume role request
