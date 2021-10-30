@@ -9,7 +9,7 @@
 - trust policy = JSON identifying who can use a role/policy
 
 - resource based policies = attach inline permissions to resources that the principal (either your account or a different aws account) specified in the policy is able to use 
-- permissions boundaries = maximum permissions the IAM entity (user/group/role) can grant to another entity, does not grant permissions or affect resource based policies 
+
 
 - access control lists (ACL's) = legacy xml that only allows access for principals in another aws account
 

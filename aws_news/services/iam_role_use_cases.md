@@ -1,0 +1,2 @@
+- do not embed long term aws credentials into client applications even if they are encrypted
+  - instead use a well known idp to get an authentication token to exchange for sts short term credentials with permissions that map to an iam role
