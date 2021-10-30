@@ -45,3 +45,12 @@
 
 
 > if you are not being selective about which projects to take on, you are not thinking broadly enough
+
+
+- do not create a code stanxard just to have a process, only do so when it is increasing code quality so you can maintain release velocity over time
+
+
+> continued growth requires learning to incorporate your worldview with the worldview of those around you, accelerating overall progress even if it means a deviation from your original values/vision
+
+
+- Remain skeptical of yourself by developing a pragmatism for new solutions and agnosticism to technical religion

@@ -1,0 +1,2 @@
+- attaches a role to an ec2 instance to give it permissions to other aws services
+- user creating the instance profile must have the ability to ```iam:GetRole``` and ```iam:PassRole``` to the instance profile
