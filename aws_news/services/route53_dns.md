@@ -15,3 +15,5 @@
 
 - hosted zones = container of records with the same name as your domain that collects how you want traffic routed to your domain
 
+
+- time to live (tll) how long you want a dns resolver (recursive name server/ISP) to cache a record before checking with the authoritative name server to get the updated values for that record

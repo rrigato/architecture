@@ -1,0 +1,5 @@
+- you create A records for ipv4 and AAAA records for ipv6 
+- cname maps one domain/sub domain to another
+- alias records = enable cloudfront/S3 bucket names to be at the root of a hosted zone apex
+- MX records for mail servers
+- SOA (start of authority) records = specifies authoritative info about a hosted zone such as primary name server/admin contact
