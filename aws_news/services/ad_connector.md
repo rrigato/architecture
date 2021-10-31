@@ -1,0 +1,1 @@
+- connect to corporate office managed Microsoft Active directory to sign into AWS console join ec2 instances to your on-premises domain
