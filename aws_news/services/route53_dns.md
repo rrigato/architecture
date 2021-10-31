@@ -17,3 +17,15 @@
 
 
 - time to live (tll) how long you want a dns resolver (recursive name server/ISP) to cache a record before checking with the authoritative name server to get the updated values for that record
+
+
+
+
+
+- Reusable delegation set = 4 name servers for route 53 that can be reused when migrating a large number of domains to route 53
+
+
+- DNS protocol does not allow you to have a cname as the top level node of your hosted zone (zone apex)
+
+
+- if a sub domain has a cname it cannot have another record type
