@@ -1,0 +1,4 @@
+- provides openid connect for facebook, google accounts, login with amazon
+- provides saml based login for active directory
+- user pools = authentication that creates usernames/passwords
+- identity pools = authorization that specifies what aws resources an authenticated (or unauthenticated user) can access
