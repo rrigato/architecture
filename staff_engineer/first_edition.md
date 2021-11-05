@@ -54,3 +54,10 @@
 
 
 - Remain skeptical of yourself by developing a pragmatism for new solutions and agnosticism to technical religion
+
+
+- do not give feedback on engineer style decisions that do not improve code quality
+- never fight feedback syncronously in a meeting
+  - reflect on the feedback provided and change the mind of the opposing viewpoint at a later time asyncronously
+
+- There is no such thing as a permanent decision, every decision will be reconsidered over the years
