@@ -16,3 +16,14 @@ principles of chaos engineering:
 2) Hypothesis of what will happen in control and experimental group
 3) Introduce variables that reflect real world events like hardware crashes, network connectivity, database backup recovery
 4) Prove or disprove the hypothesis
+
+- antifragility = systems that become stronger when exposed to outside stress
+
+- Example chaos engineering hypothesis
+  > under <list_adversity_being_introduced_to_system> circumstances, customers will still have a good time
+
+- chaos engineering experiments should uncover new knowledge about a system
+  - If you know an experiment will break prod, do not run it as that provides no new knowledge
+
+- Focus chaos engineering experiments on the user experience/Key KPI's of a system, not on creating a mental model of the system
+  
