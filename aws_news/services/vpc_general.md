@@ -1,0 +1,3 @@
+- VPCs can span multiple availability zones
+- Can't change ipv4 after creating, can add ipv6 after
+- Can run in shared or dedicated hardware

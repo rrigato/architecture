@@ -1,0 +1,3 @@
+- VPC subnets must be between /16 and /28
+- cannot be changed after subnet is set
+- subnets cannot span availability zones
