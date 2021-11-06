@@ -1,0 +1,2 @@
+- network ip address = first IP address in a CIDR range
+- broadcast ip address = last ip address in a CIDR range

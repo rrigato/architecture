@@ -1,0 +1,3 @@
+- does not support transitive peering
+- cannot have overlapping cidr ranges
+- Can be cross account
