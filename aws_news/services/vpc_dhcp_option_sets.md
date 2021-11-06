@@ -1,0 +1,2 @@
+- dhcp (dynamic hosting configuration protocol) = What computers use to obtain an IP address when booting and refreshes the IP address automatically over time
+- you can create a custom dhcp option set or use the default dhcp option set

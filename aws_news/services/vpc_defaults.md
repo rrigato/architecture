@@ -1,1 +1,3 @@
-- every region has a default 
+- default VPC is /16 with a /20 publc subnet in each AZ
+- default VPC comes with a default route table that points all traffic to 0.0.0.0/0, internet gateway
+- enable dns hostnames and enable public ip addresses are marked as true for the default VPC subnets

@@ -1,0 +1,4 @@
+- vpc interface endpoints = connect to public aws services or third party services via PrivateLink from a private subnet
+  - Has an elastic network interface with a private IP address that is one AZ
+- VPC gateway endpoints = DynamoDB and S3, multi-AZ, access can be controlled with VPC endpoint policies
+  - Adds a route table entry for the service
