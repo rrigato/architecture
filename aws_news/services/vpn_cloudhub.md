@@ -1,0 +1,1 @@
+- hub and spoke model where a VPC virtual private gateway is the hub and you have multiple spokes which are unique BGP Autonomous System Numbers (ASN's), one for each corporate data center private network

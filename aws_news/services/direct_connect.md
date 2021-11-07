@@ -1,0 +1,6 @@
+- Dedicated private connectivity between on-premises and AWS
+- private virtual interface (VIF) = connects to single VPC virtual private gateway in one AWS region
+- public virutal interface (VIF) = connects to public AWS services in any region without traversing the internet
+- Direct connect is not encrypted by default
+- Link aggregation groups (LAG's)= combine multiple physical connections into a single logical connection to improve speed
+- To increase reliability you can have multiple direct connection location or one direct connect location with client vpn fallover
