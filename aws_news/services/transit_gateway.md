@@ -1,0 +1,2 @@
+- full transitive routing between on-premises, direct connect and VPC's
+- transit virtual interface (VIF)= attach a direct connect gateway to a transit gateway

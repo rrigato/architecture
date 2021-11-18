@@ -1,0 +1,1 @@
+- shield standard enabled by default for a cloudfront distribution

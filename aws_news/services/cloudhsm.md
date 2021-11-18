@@ -1,0 +1,1 @@
+- hardware security module that is dedicated tenacy wheras KMS is shared tenacy
