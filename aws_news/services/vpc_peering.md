@@ -1,3 +1,3 @@
 - does not support transitive peering
-- cannot have overlapping cidr ranges
+- cannot peer overlapping cidr ranges, but you can route to overlapping cidr ranges using longest prefix wins (smallest number of IP addresses always takes priority)
 - Can be cross account

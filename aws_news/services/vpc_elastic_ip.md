@@ -1,0 +1,1 @@
+- static, public IP address allocated to a VPC

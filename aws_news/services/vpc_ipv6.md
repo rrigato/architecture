@@ -1,0 +1,2 @@
+- all ipv6 addresses are publically routable
+- egress only internet gateway = allows ipv6 outbound traffic without allowing inbound traffic
