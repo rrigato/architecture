@@ -1,0 +1,3 @@
+- network address translation (NAT) gateway = high availability in one AZ/subnet, managed by AWS, created in public subnet with an elastic IP address
+- nat instances must disable source and destination address checking
+- Nat allows outbound internet connectivity via an IGW, but does not allow the internet to make connection attempts to private instances

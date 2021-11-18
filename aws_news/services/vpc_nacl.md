@@ -1,0 +1,5 @@
+- network access control list (NACL) = applied at the subnet level
+- Matches on lowest number rule
+- Can have allow or deny rules
+- stateless = inbound and outbound traffic are evaluated independently
+- default nacl allows all inbound/outbound traffic

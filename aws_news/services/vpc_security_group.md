@@ -1,0 +1,3 @@
+- At the instance level, can be used in different subnets
+- stateful = allowing inbound allows outbound
+- only has allow rules

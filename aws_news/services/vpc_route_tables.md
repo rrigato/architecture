@@ -1,0 +1,2 @@
+- you can only have 1 route table explicitly associated per subnet
+- static routes are preferenced over dynamic routes assigned via BGP
