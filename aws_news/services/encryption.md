@@ -1,0 +1,2 @@
+- asymmetric encryption = need a separate public and private key
+- symmetric encryption (signing and verification) = use the same data key for encryption and decryption
