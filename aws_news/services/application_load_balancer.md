@@ -1,0 +1,2 @@
+- Can be an origin for cloudfront, you can require a custom CloudFront header to ensure the ALB is not accessed directly
+- ALB support SSL/TLS offloading, custom hostnames, HTTP 2, health checks, conditional routing based on headers
