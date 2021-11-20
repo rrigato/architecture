@@ -1,0 +1,3 @@
+- agent that must be installed on the ec2 instances 
+- performs network securit assessments = which ports are open 
+- performs host assessments = software vulnerabilities 

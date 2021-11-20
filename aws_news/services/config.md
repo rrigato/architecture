@@ -1,0 +1,3 @@
+- evaluates configuration against baselinem can store results in S3
+- AWS managed or custom rules
+- can trigger an SNS notification or remediation action via lambda
