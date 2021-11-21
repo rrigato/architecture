@@ -1,2 +1,3 @@
 - charged for compute, storage and data transfer out
 - cost allocation tags = AWS managed or custom tags used to bucket/analyze spend
+- cost and usage report = detailed CSV placed in S3 that can be used to drill down into expenses

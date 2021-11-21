@@ -1,0 +1,2 @@
+- dedicated server racks with socket/core visibility
+- allows you to bring existing licenses over to AWS

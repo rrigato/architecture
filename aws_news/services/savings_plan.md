@@ -1,0 +1,1 @@
+- 1/3 year commitment on spend per hour that can be split across EC2/Fargate/Lambda

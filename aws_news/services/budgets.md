@@ -1,0 +1,1 @@
+- setup custom threshold that sends notification vai SNS/email if your spend breaches that threshold

@@ -1,0 +1,2 @@
+- instances are isolated from other AWS customers at the hardware level
+- 
