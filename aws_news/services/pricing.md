@@ -1,0 +1,2 @@
+- charged for compute, storage and data transfer out
+- cost allocation tags = AWS managed or custom tags used to bucket/analyze spend
