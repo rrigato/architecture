@@ -1,0 +1,4 @@
+- spot fleet = launches/maintains on demand/spot instances
+- ec2 fleet = launches/maintains on demand/spot/RI instances
+- get a 2 minute warnign for spot termination via instance metadata and CW Events
+- spot block = uninterrupted spot instances for a predefined # of hours

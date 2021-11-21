@@ -1,2 +1,3 @@
 - standard RI = can change AZ, instance size, netowrking type
 - convertible RI = change AZ instance size/family, OS type, tenancy
+- scheduled RI = recurring compute at scheduled times during the week
