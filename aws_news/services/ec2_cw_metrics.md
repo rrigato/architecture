@@ -1,0 +1,1 @@
+- by default you do not get memory usage for ec2 Cloudwatch metrics you have to enable it as an advanced metric

@@ -1,0 +1,2 @@
+- install software on an instance and then save EBS as snapshot
+- Enables quicker boot time for new instance
