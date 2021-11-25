@@ -1,0 +1,4 @@
+- private ips are static
+- public IPs are dynamic and change when you stop the instances
+- ```http://169.254.169.254/latest/meta-data```
+  - iam role, ip address of instance, ami, instance type, security groups, spot termination time, availability zone

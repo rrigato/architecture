@@ -1,0 +1,4 @@
+- elastic network interface (ENI) = default for ec2 that provides public/private IP's, mac address
+- network interfaces can enable an ec2 instance to be accessible to multiple subnets in the same AZ (but not different AZ's)
+- elastic network adapter (ENA) = higher network bandwidth, lower inter-instance latency
+- elastic fabric adapter (EFA) = high performance compute (HPC) and ML workloads
