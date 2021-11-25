@@ -1,0 +1,3 @@
+- cluster placement groups = instances that are physically located close to each other within an AZ to reduce network latency
+- spread placement groups = can be multi-AZ, separate physical hardware for instances, used for distributed applications
+- partition placement groups = can be multi-AZ, ensures servers in a cluster are in separate physical servers

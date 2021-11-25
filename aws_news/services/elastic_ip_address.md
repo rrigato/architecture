@@ -1,0 +1,1 @@
+- public IP address that can be moved to separate AZ's, can be attached to network interfaces, billed when not in use
