@@ -1,0 +1,1 @@
+- multiple instances within the same AZ can connect to an EBS volume
