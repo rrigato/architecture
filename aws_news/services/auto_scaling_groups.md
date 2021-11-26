@@ -1,0 +1,4 @@
+- new instances do not count against ASG metrics until the warm up/cool down period has elpased
+- ASG can scale based on CW metrics, scheduled scaling, SQS
+- ASG can perform health checks, rebalancing across AZ's, life cycle hooks, instance termination prioritization/protection
+- ASG requires a launch template (instance type, Security Groups, IAM roles, and user data), min, max and desired number of instances
