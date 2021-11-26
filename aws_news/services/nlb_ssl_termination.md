@@ -1,0 +1,2 @@
+- NLB can forward a single encrypted connection to instance if the instance has a public certificate
+- NLB can offload SSL/TLS certification and create a new unencrpyted connection to instance 
