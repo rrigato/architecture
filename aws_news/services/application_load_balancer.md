@@ -1,2 +1,8 @@
+- routes level 7 traffic based on path, hostname, query string parameters, IP addresses
 - Can be an origin for cloudfront, you can require a custom CloudFront header to ensure the ALB is not accessed directly
-- ALB support SSL/TLS offloading, custom hostnames, HTTP 2, health checks, conditional routing based on headers
+- ALB support SSL/TLS offloading, custom hostnames, HTTP 2, health checks
+- Can place a security group on an ALB but not an NLB
+- target group = routes requests to registered targets
+- targets can be ec2, lambda, containers or IP addresses
+- supports x-forwarded=for http header of client ip address
+- ALB creates a new connection with its backend
