@@ -1,0 +1,1 @@
+- manage/apply WAF rules across accounts in AWS organizations

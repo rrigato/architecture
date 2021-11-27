@@ -1,0 +1,1 @@
+- ALB can offload SSL/TLS so it is unencrypted to the instance or you can have separate certs for both ALB and instance for e2e encyrption
