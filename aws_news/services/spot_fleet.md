@@ -1,2 +1,1 @@
-  
-- 
+- spot instances and on demand instances only

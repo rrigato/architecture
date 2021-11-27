@@ -1,4 +1,4 @@
-- Internet Protocol Security (IPsec) connection between AWS and 
+- Internet Protocol Security (IPsec) connection between AWS and on-premises network
 - Deploy virtual gateway for one VPC/netowrk or transit gateway for multiple VPC's/ private networks
 - Deploy a customer gateway (hardware device/software) on the corporate data center side
 - Supports static routes or dynamic (BGP) peering/routing
