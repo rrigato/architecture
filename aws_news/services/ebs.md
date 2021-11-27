@@ -1,0 +1,1 @@
+- Highly available within 1 AZ, ec2 instance must be in same AZ
