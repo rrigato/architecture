@@ -1,2 +1,2 @@
 - permissions boundaries = maximum permissions the IAM entity (user/group/role) can grant to another entity it creates, does not grant permissions or affect resource based policies 
-- Prevents permission chaining (entity creates an IAM user that has more permissions than the orignal entity has explicitly allowed)
+- Prevents permission chaining (entity creates an IAM user that has more permissions than the orignal entity was explicitly allowed)

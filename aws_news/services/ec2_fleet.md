@@ -1,1 +1,0 @@
-- configuration for requesting/maintaing on-demand/spot/reserved instances, can be cross-AZ

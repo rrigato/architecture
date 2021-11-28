@@ -1,0 +1,1 @@
+- provides source/destination ipv4, source/destination port, whether the traffic was allowed or denied, timestamp, network protocol for all trafic going to and from a VPC
