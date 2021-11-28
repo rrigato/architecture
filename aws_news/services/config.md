@@ -1,3 +1,6 @@
-- evaluates configuration against baselinem can store results in S3
+- Evaluate compliance of existing resources configuration, snapshot configurations, view historical configurations and remediation of uncompliant resources
+- Can be multi-account/multi-region with aws organizations, no custom authorization is required with AWS organizations integration
+- evaluates configuration against baseline 
+- Can send configuration item changes to S3 or SNS
 - AWS managed or custom rules
-- can trigger an SNS notification or remediation action via lambda
+- automated/manual remediation actions can be performed via SSM automation documents
