@@ -1,0 +1,2 @@
+- add an ```export``` attribute for a resource in the ```outputs``` section to be able to reference a resource across stacks
+- stack termination protection = disabled by default, allows you to prevent a user from deleting a stack

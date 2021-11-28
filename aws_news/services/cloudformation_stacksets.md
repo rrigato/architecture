@@ -1,0 +1,1 @@
+- multiple account/multi-region provisioning of a single template
