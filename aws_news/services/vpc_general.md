@@ -1,3 +1,4 @@
 - VPCs can span multiple availability zones
 - Can't change ipv4 after creating, can add ipv6 after
+  - can add secondary cidr blocks to an existing VPC
 - Can run in shared or dedicated hardware

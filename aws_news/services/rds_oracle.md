@@ -1,0 +1,1 @@
+- Oracle Real Application Cluster (RAC - provides virtualized servers on a single machine) is not supported on RDS you have to run it manually on an ec2 instance

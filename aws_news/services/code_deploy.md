@@ -1,5 +1,8 @@
-- two deployment options: 
-  - 1) in place deployment = application is stopped and upgrade is installed/validated
+- supports lambda, ec2/on-premises, ecs and cloudformation
+- two deployment types: 
+  - 1) in place deployment 
+    - application is stopped and upgrade is installed/validated
   - 2) Blue/Green deployment  
-    - canary = traffic is shifted in two increments)
-    - linear = traffic is shifted in equal increments
+    - canary = traffic is shifted in two increments
+    - linear = traffic is shifted in equal increments with an equal number of minutes between increments
+    - all-at-once
