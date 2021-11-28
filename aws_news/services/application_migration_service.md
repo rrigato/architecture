@@ -1,0 +1,3 @@
+- based on CloudEndure Migration and the successor to Server migration service
+- Use for lift and shift migrations
+- Install agent in on-premises servers, replicate to AWS, test and perform cutover
