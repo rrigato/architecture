@@ -1,0 +1,5 @@
+- cloudtrail trails = enables cloudtrail logs to be written to s3, all regions by default
+  - Can send to CW logs, trigger SNS of delivery
+  - Can be centralized in 1 bucket for an entire AWS Organization
+- Default retion is for 90 days
+- 
