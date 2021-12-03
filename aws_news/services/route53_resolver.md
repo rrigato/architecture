@@ -1,0 +1,1 @@
+- enables forwarding inbound/outbound requests between route53 and your on-premises DNS resolver

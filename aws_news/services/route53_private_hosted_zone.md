@@ -1,0 +1,2 @@
+- associated with a VPC
+- need to set ```enableDnsHostnames``` and ```enableDnsResolution`` variables to true for the VPC for private hostnames to be resolved
