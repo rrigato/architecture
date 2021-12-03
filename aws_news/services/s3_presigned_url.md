@@ -1,0 +1,1 @@
+- Provide client with a url that requires no other permissions to access an object that expires based on time
