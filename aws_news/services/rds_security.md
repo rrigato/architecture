@@ -1,0 +1,3 @@
+- can be in a VPC
+- encryption status cannot be changed after creation, must be the same across read replicas/backups/standbys
+- RDS oracle/SQL Server supports Transparent date encryption (TDE)

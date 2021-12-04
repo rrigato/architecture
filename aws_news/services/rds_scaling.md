@@ -1,0 +1,3 @@
+- scale up write workloads by changing instance size
+- Multi-AZ = creates passive standby, does not impact performance, syncronous, automatic failover, backup taken from standby
+- read replica = async, can be within an AZ, cross AZ, cross region, manually promoted to primary
