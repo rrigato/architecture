@@ -1,0 +1,4 @@
+- ec2 launch type:
+  - iam task role = permissions to a specific container/task
+  - container instance role = permissions for all tasks running on an instance
+- fargate only has a task role for permissions to all tasks/containers

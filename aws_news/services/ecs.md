@@ -1,0 +1,6 @@
+- cluster = collection of tasks or services
+- task = docker container
+- service = maintain a desired number of tasks
+- task definition is via json file
+- Using an ALB with ecs maps a dynamic port number so that multiple tasks can be listening on the same port and the same instance and be routed too
+  - you still need a nat gateway if ecs is running in a private subnet
