@@ -1,0 +1,3 @@
+- do not get root access to OS
+- aurora replica = in region read replicas with automatic failover
+- mysql replicas = cross-region read replicas that do not get automatically promoted in the event of a failure

@@ -1,0 +1,1 @@
+- read only replicas in each region that can automatically be promoted with RTO of less than 1 minute
