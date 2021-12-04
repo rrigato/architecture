@@ -1,0 +1,2 @@
+- A product in a portfolio can be by reference or copy when shared across accounts with aws organizations
+- User does not need permissions to launch the underlying product itself, just access to service catalog as service catalog uses the launch constraint for the underlying resources
