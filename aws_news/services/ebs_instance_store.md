@@ -1,0 +1,1 @@
+- ephemeral (physically attached to host), can be rebooted but not detached/shut down

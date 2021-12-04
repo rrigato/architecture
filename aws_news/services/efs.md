@@ -1,0 +1,4 @@
+- Highly available, only supports NFS 
+- Can be attached to from different AZ's, regions or on-premises
+- encryption status cannot be changed
+- have to use the IP address when connecting cross region where you can use the target id when connecting to an AZ mount point

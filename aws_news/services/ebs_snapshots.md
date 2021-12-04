@@ -1,0 +1,3 @@
+- snapshots are incremental, async, multi-AZ, stored in s3, can be booted as an AMI
+- encryption state of snapshot is maintained, you can use to encrypt an unencrypted volume
+- 
