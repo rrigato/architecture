@@ -1,0 +1,5 @@
+- When it can be invoked:
+  - 1) client request
+  - 2) origin request
+  - 3) origin response
+  - 4) client response

@@ -1,0 +1,4 @@
+- origin types = s3, elb, ec2, or an http endpoint
+- can create/maintain an ec3 security group that whitelists all of the public cloudfront IP's
+- can redirect from http to https, apply WAF ACL, restrict based on geo-location
+- server name indication (SNI) = single IP address presents multiple TLS/SSL certificates to the client
