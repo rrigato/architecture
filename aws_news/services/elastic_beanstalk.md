@@ -1,0 +1,3 @@
+- environment types:
+  - 1) http web server
+  - 2) worker = long running batch processes

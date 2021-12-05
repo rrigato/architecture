@@ -1,0 +1,1 @@
+- provides two public static ipv4 addresses that use the Amazon network to route to ec2, elastic ip address, ELB 
