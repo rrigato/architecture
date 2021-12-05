@@ -1,0 +1,2 @@
+- can send to s3, kinesis data streams, kinesis firehose
+- subscription filter = processes logs with lambda/elasticsearch

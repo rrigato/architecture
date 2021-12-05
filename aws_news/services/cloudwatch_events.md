@@ -1,0 +1,3 @@
+- near real time stream of system events
+- rules = match events to targets
+- targets = ec2 instances, lambda, kinesis, sns, step functions, sqs

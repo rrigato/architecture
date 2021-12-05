@@ -1,0 +1,3 @@
+- metric alarm = performs actions based on a single metric
+- composite alarm = use a rule that takes into account multiple alarms
+- actions include SNS topic, ec2 action, auto scaling event

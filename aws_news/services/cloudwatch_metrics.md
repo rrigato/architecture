@@ -1,0 +1,2 @@
+- ec2 default metrics do not include ram only disk I/O, network I/O, cpu, health status
+- detailed metrics include ram and are at 1 minute intervals
