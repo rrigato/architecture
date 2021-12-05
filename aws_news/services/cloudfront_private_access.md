@@ -1,0 +1,2 @@
+- cloudfront signed url = unique time based url per file for when the client does not support cookies, can whitelist IP's
+- cloudfront signed cookies = allows multiple files when you want to restrict access but not change any url's

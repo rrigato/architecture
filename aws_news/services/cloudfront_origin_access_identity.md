@@ -1,0 +1,1 @@
+- bucket policy that restricts s3 access to the origin access identity as the principal so S3 content can only be accessed via cloudfront

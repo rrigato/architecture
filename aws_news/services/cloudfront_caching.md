@@ -1,0 +1,2 @@
+- default time-to-live (TTL) is 24 hours, decreasing is best for dynamic content, increasing is best for performance
+- Cache-Control, max-age and expires http headers can be used to control the cache
