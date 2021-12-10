@@ -27,3 +27,10 @@ principles of chaos engineering:
 
 - Focus chaos engineering experiments on the user experience/Key KPI's of a system, not on creating a mental model of the system
   
+
+# slack_ch4
+- design systems that are decoupled from their initial hardware runtime environment
+- test your system resiliency to faults by validating automated retries occur with exponential backoff when upstream services fail
+- Chaos engineering is not exploratory, you should always have a hypothesis in place before inciting failure
+- Dev matching prod is not only crucial for testing new features but also for exposing previously unknown fault tolerance vulnerabilities vai chaos experiments
+- Be honest about your confidence levels of any action occurring in a dev environment being replicated in prod
