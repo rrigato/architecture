@@ -1,0 +1,1 @@
+- cannot automatically rotate credentials, only KMS can automatically rotate credentials

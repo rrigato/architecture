@@ -1,0 +1,1 @@
+- supports chef automate, opsworks stacks (chef recipies) and puppet enterprise

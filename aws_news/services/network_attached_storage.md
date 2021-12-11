@@ -1,0 +1,1 @@
+- shares file system over NFS(linux) or SMB(windows)
