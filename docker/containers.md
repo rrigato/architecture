@@ -1,0 +1,4 @@
+- hypervisor = provides virtual interfaces between hardware and software
+  - need a separate virtual machine with an Operating System for each app
+- containers are on top of the operating system instead of being bundled with the operating system
+- containers are isolated, startup quickly and include all application code and depedencies
