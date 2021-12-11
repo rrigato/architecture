@@ -44,4 +44,17 @@ principles of chaos engineering:
 
 - consistently exceeding your service level objective (SLO) will result in your clients expecting the average performance they recieve to be the public contract not the published service level objectives
 
+
 - treat experiments as you would actual outages to learn about escalation procedures for incidents
+
+
+
+- people outages = do you have documented primary and secondary ways to reach out to essential personel?
+- test your backups ability to be restored, test your ability to reboot/bootstrap servers
+- as the complexity of a system increases, the accuracy of any one engineers mental model of the entire system decreases
+
+
+# microsoft_ch6
+- even if you freeze prod deployments; security patches, credential expiration and daylight savings time adjustments can all cause unexpected outages
+
+- consider how you want your system to react when upstream services are at SLA, below SLA, above SLA 
