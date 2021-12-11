@@ -58,3 +58,12 @@ principles of chaos engineering:
 - even if you freeze prod deployments; security patches, credential expiration and daylight savings time adjustments can all cause unexpected outages
 
 - consider how you want your system to react when upstream services are at SLA, below SLA, above SLA 
+
+
+# linkedin
+- consider what you want the end user experience to be in the event of a system failure
+- common service incidents: application code throwing exceptions, service delays(latency), hard coded configuration parameters and service timeout
+- Have software engineers frequently compare and contrast their mental models of complex systems to discover any discrepancies in expectations
+- once an engineer becomes an expert of the service, they are no longer able to judge the complexity required for understanding how the system operates
+- consider what would happen to your system in the event of an upstream or downstream service failure
+- common high availability implementations: retries, timeouts, and fallback options
