@@ -61,3 +61,11 @@
   - reflect on the feedback provided and change the mind of the opposing viewpoint at a later time asyncronously
 
 - There is no such thing as a permanent decision, every decision will be reconsidered over the years
+
+
+# career_advice
+- be honest with yourself about why you are seeking a role change/career move
+- Include mentoring/code standards/best practices during performance evaluations
+- continually feed your manager with items you have accomplished, not just before a promotion
+- speak concisely, prepare your thoughts in advance and have dedicated focus in meetings
+- visibility is a transient currency, learning and skill development is a permanent one
