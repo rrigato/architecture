@@ -30,7 +30,18 @@ principles of chaos engineering:
 
 # slack_ch4
 - design systems that are decoupled from their initial hardware runtime environment
-- test your system resiliency to faults by validating automated retries occur with exponential backoff when upstream services fail
+- test your system resiliency to faults by validating that automated retries occur with exponential backoff when upstream services fail
 - Chaos engineering is not exploratory, you should always have a hypothesis in place before inciting failure
-- Dev matching prod is not only crucial for testing new features but also for exposing previously unknown fault tolerance vulnerabilities vai chaos experiments
+- Dev matching prod is not only crucial for testing new features but also for exposing previously unknown fault tolerance vulnerabilities via chaos experiments
 - Be honest about your confidence levels of any action occurring in a dev environment being replicated in prod
+
+
+# google_ch5
+- design with failure in mind and constantly validate your design is still valid
+
+- have an external engineer review the experiment plan, risks, hypothesis and fallback strategy as if they were reviewing a PR
+
+
+- consistently exceeding your service level objective (SLO) will result in your clients expecting the average performance they recieve to be the public contract not the published service level objectives
+
+- treat experiments as you would actual outages to learn about escalation procedures for incidents
