@@ -66,4 +66,18 @@ principles of chaos engineering:
 - Have software engineers frequently compare and contrast their mental models of complex systems to discover any discrepancies in expectations
 - once an engineer becomes an expert of the service, they are no longer able to judge the complexity required for understanding how the system operates
 - consider what would happen to your system in the event of an upstream or downstream service failure
-- common high availability implementations: retries, timeouts, and fallback options
+- common high availability implementation options: retries, timeouts, checkpoint backups and automated failover
+
+> if we fail feature X of the system then Y will happen and the impact will be Z
+
+
+# human_dependencies
+- map out your incident response flow and service dependencies
+- strive to discover which software engineers are single points of failure, have hidden expertise that could make them a roadblock
+
+# miscellaneous
+- Use your observability traces not just for understanding when a request broke, but also to analyze when your system recovered from an upstream error
+
+- two types of software engineering practice adoption patterns:
+  - them vs. us = technology implementation requirements are forced onto engineers
+  - process enablers = supporters/evangelists earn buyin by educating on why the process is worthwhile
