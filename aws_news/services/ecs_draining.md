@@ -1,0 +1,1 @@
+- spot instance in draining status = ECS receives a spot instance interruption notice which prevents new tasks from being placed on the instnace
