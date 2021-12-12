@@ -1,0 +1,2 @@
+- Has provisioned and on demand mode
+- Supports transactions and strongly consistent writes
