@@ -1,0 +1,1 @@
+- library to help clients consume data from Kinesis data streams

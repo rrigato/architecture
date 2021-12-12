@@ -1,0 +1,3 @@
+- managed apache hadoop/apache spark for distributed storage/ETL
+- Single AZ, where you get root access to cluster
+- Writes to/from S3/Redshift after performing ETL

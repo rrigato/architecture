@@ -1,0 +1,4 @@
+- continuous backup to s3
+- redshift spectrum = SQL over s3
+- federated query = query over RDS, S3 and redshift
+- single AZ
