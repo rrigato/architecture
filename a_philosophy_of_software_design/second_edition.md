@@ -13,3 +13,7 @@
 
 # information_hiding_ch5
 - temporal idempotency = a function/module/usecase produces the same output reguardless of the order it is run in
+
+
+# general_modules
+- A module's functionality should meet today's current needs but it's interface can be designed with future business usecases in mind
