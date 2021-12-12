@@ -1,0 +1,2 @@
+- can import openapi 3.0 spec
+- backend can be another public endpoint, lambda, ec2, elb (can be in a VPC)

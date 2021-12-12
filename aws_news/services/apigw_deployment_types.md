@@ -1,0 +1,3 @@
+- edge optimized = uses a cloudfront distribution to reduce request latency globally
+- regional endpoint = same services as the region
+- private endpoint = apigw in a VPC
