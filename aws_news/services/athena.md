@@ -1,0 +1,2 @@
+- SQL queries over CSV, JSON, parquet, ORC objects in S3
+- Can connect to other services using an aws lambda function

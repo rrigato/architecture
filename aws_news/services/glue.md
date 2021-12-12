@@ -1,0 +1,3 @@
+- data catalog = metadata defining schema of s3 objects which is required for athena queries
+- data crawler = automated schema detection
+- fully managed ETL that runs on an Apache Spark cluster

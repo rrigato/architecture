@@ -83,3 +83,14 @@ principles of chaos engineering:
   - process enablers = supporters/evangelists earn buyin by educating on why the process is worthwhile
 
 - devops can have centralized tooling teams, but each individual team is responsible for the runtime operation of their service
+
+# continuous_verification
+- continuous verification proactively montiors business outcomes
+
+- Evaluate system failures through the following heiarchy: 
+  - infrastructure
+  - application code
+  - business logic
+
+- Canary deployments = hypothesis is key KPI will remain unchanged in the presence of newly deployed code on a small amount of traffic
+  - automated rollback if the hypothesis is disproven
