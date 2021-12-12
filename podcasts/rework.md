@@ -89,3 +89,11 @@ Podcast from employees at basecamp
 
 - it is easy and cheap to commit to doing something in the future, but planning more than 1 cycle iteration in advance presumes that you know more about a future iteration's priorities now than you will as you get closer to that iteration
 
+
+
+[workaholism](https://www.rework.fm/workaholism/)
+- Apply the TDD principle of writing a failing test first to stopping your day with one implementation unsolved even if you are really enjoying the problem and in a calm state
+  - This will avoid the next day work hangover
+  - It will also act as an incentive that provides motivation for the next work day
+
+  

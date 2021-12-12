@@ -1,0 +1,2 @@
+- http 429 returned for too many requests
+- usage plans = set separate rates and burst limits for each usage plan and create client api keys from the usage plans to provide throttling

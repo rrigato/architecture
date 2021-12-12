@@ -81,3 +81,5 @@ principles of chaos engineering:
 - two types of software engineering practice adoption patterns:
   - them vs. us = technology implementation requirements are forced onto engineers
   - process enablers = supporters/evangelists earn buyin by educating on why the process is worthwhile
+
+- devops can have centralized tooling teams, but each individual team is responsible for the runtime operation of their service
