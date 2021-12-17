@@ -24,3 +24,27 @@
 
 
 
+
+
+Python 3.6 - 3.9 is now supported for aws lambda
+
+Python 2.7 was deprecated on 2022-09-30
+
+https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
+
+
+Glue DataBrew - UI to perform ETL on datasets
+
+CodeBuild supports build result public badges
+
+
+Cdk assertions library enables unit testing with CDK pipelines
+
+
+https://docs.aws.amazon.com/cdk/api/latest/python/aws_cdk.assertions/README.html
+
+
+Amazon MemoryDB = multi AZ managed version of redis, database recovery
+
+
+Data lifecycle manager supports ebs snapshots, ami creation and deprecation
