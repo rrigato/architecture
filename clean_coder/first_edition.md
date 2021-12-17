@@ -36,3 +36,9 @@
 > I don't think surgons should have to defend hand washing and I don't think software engineers should have to defend test driven development
 - trust your unit test suite enough to where if is passing your product ships
 - TDD gives engineers confidence to refactor their code without fear of breaking anything
+- View each test case as self generating documentation on how to invoke an object
+
+3 laws of TDD:
+1) No prod code until you have a failing unit test
+2) Do not write more a unit test than what is sufficient to fail the test
+3) You are not allowed to write more prod code than what is needed to pass the currently failing test
