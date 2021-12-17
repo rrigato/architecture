@@ -28,3 +28,11 @@
 - professionalism involves having the discipline to show to work fully rested and healthy so you will be at peak performance throughout the work day
 - professional developers arrange their personal lives to ensure their time working is as productive as possible
 - be polite when someone interrupts your programming context as you might be the person interrupting someone else in the future
+- clearly define what done is from a business usecase perspective before beginning development and comunicate back to stakeholders as soon as you realize a deadline is not realistic
+- professionals are honor bound to not sequester themselves adn provide help whenever it is needed
+
+
+# test_driven_development_ch5
+> I don't think surgons should have to defend hand washing and I don't think software engineers should have to defend test driven development
+- trust your unit test suite enough to where if is passing your product ships
+- TDD gives engineers confidence to refactor their code without fear of breaking anything
