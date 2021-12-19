@@ -5,7 +5,7 @@ class ValidRequest():
         return(True)
 
     def __init__(self, request_filters):
-        if type(request_filters) != dict:
+        if type(request_filters) not in (dict, type(None)):
             raise TypeError("ValidRequest - request_filters must be type dict")
         self._request_filters = request_filters
 
@@ -15,7 +15,7 @@ class ValidRequest():
 
     @request_filters.setter
     def request_filters(self, request_filters):
-        if type(request_filters) != dict:
+        if type(request_filters) not in (dict, type(None)):
             raise TypeError("ValidRequest - request_filters must be type dict")
         self.error_message=request_filters
 
@@ -28,7 +28,7 @@ class InvalidRequest():
         return(False)
 
     def __init__(self, error_message):
-        if type(error_message) != str:
+        if type(error_message) not in (str, type(None)):
             raise TypeError("InvalidRequest - error_message must be type str")
         self._error_message = error_message
 
@@ -38,6 +38,6 @@ class InvalidRequest():
 
     @error_message.setter
     def error_message(self, error_message):
-        if type(error_message) != str:
+        if type(error_message) not in (str, type(None)):
             raise TypeError("InvalidRequest - error_message must be type str")
         self.error_message=error_message
