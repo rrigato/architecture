@@ -1,6 +1,6 @@
 from projectname.validators.check_input import arg1_range
-from projectname.validators.request_objects import InvalidRequest
-from projectname.validators.request_objects import ValidRequest
+from projectname.entry.request_objects import InvalidRequest
+from projectname.entry.request_objects import ValidRequest
 
 def validate_usecase_name(arg1):
     """
@@ -29,4 +29,4 @@ def validate_usecase_name(arg1):
     if bool(arg1_range(arg1=arg1)) == False:
         return(InvalidRequest(error_message="arg1 is invalid"))
 
-    return(ValidRequest(request_filters=arg1))
+    return(ValidRequest(request_filters={"arg1": arg1}))
