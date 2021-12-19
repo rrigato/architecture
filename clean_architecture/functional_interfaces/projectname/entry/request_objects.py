@@ -14,8 +14,7 @@ class ValidRequest():
 
 
 class InvalidRequest():
-    """Value object that returns an invalid request to 
-    client with error_message
+    """Value object that returns an invalid request to client with error_message
     """
     def __bool__(self):
         return(False)
@@ -26,3 +25,9 @@ class InvalidRequest():
     @property
     def error_message(self):
         return(self._error_message)
+
+    @property.setter
+    def error_message(self, error_message):
+        if type(error_message) != str:
+            raise TypeError("InvalidRequest - error_message must be type str")
+        self.error_message=error_message
