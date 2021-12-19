@@ -5,7 +5,7 @@ class ResponseSuccess():
     def __bool__(self):
         return(True)
 
-    def __init__(response_value):
+    def __init__(self, response_value):
         self._response_value = response_value
 
     @property

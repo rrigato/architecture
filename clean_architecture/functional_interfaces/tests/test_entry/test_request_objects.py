@@ -21,6 +21,7 @@ class TestRequestObjects(unittest.TestCase):
                 self.assertEqual(mock_request_filter, mock_request_object.request_filters)
                 self.assertTrue(bool(mock_request_object))
 
+
     def test_valid_request_bad_input(self):
         """Unhappy Path ValidRequest invalid datatype for request_filters"""
         from projectname.entry.request_objects import ValidRequest
@@ -38,8 +39,5 @@ class TestRequestObjects(unittest.TestCase):
 
                 with self.assertRaises(TypeError):
                     mock_request_object = ValidRequest(request_filters=deepcopy(mock_request_filter))
-
-
-
 
 
