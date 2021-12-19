@@ -1,6 +1,5 @@
 class ResponseSuccess():
-    """usecase executed sucessfully, returning output 
-    of business logic
+    """Value Object where usecase executed sucessfully, returning output of business logic
     """
     def __bool__(self):
         return(True)
@@ -16,12 +15,14 @@ class ResponseSuccess():
 
 
 class ResponseFailure():
-    """Error occurred when processing the usecase
+    """Value Object where error occurred when processing the usecase
     """
     def __bool__(self):
         return(False)
 
-    def __init__(error_message):
+    def __init__(self, error_message):
+        if type(error_message) != str:
+            raise TypeError("InvalidRequest - error_message must be type str")
         self._error_message = error_message
 
     @property
