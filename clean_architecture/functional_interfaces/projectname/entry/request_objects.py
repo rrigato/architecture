@@ -6,7 +6,7 @@ class ValidRequest():
 
     def __init__(self, request_filters):
         if type(request_filters) not in (dict, type(None)):
-            raise TypeError("ValidRequest - request_filters must be type dict")
+            raise TypeError("ValidRequest - request_filters datatype must be a dict")
         self._request_filters = request_filters
 
     @property
@@ -23,7 +23,7 @@ class InvalidRequest():
 
     def __init__(self, error_message):
         if type(error_message) not in (str, type(None)):
-            raise TypeError("InvalidRequest - error_message must be type str")
+            raise TypeError("InvalidRequest - error_message datatype must be a str")
         self._error_message = error_message
 
     @property

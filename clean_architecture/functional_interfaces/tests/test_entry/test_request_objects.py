@@ -1,5 +1,7 @@
 from copy import deepcopy
+
 import unittest
+
 
 class TestRequestObjects(unittest.TestCase):
     def test_valid_request(self):
@@ -39,5 +41,4 @@ class TestRequestObjects(unittest.TestCase):
 
                 with self.assertRaises(TypeError):
                     mock_request_object = ValidRequest(request_filters=deepcopy(mock_request_filter))
-
 

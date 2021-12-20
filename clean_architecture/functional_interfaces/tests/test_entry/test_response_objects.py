@@ -1,5 +1,7 @@
 from copy import deepcopy
+
 import unittest
+
 
 class TestResponseObjects(unittest.TestCase):
     def test_response_success(self):

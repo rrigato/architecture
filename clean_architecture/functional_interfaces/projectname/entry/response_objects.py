@@ -22,7 +22,7 @@ class ResponseFailure():
 
     def __init__(self, error_message):
         if type(error_message) != str:
-            raise TypeError("InvalidRequest - error_message must be type str")
+            raise TypeError("ResponseFailure - error_message datatype must be a str")
         self._error_message = error_message
 
     @property
