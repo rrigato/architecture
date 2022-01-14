@@ -11,3 +11,30 @@ getattr raises an AttributeError if the attribute passed does not exist on the o
 
 
 isinstance(<potential_instance>, <object_type>)
+
+
+
+isinstance(<potential_instance>, <object_type>)
+
+iter(<collection>) = returns iterable
+
+map(<function_name>, <iterable>) = returns an iterable where <function_name> was run on every element of the <iterable>
+
+
+@property = defines getters, setters and deleters for an attribute on a property
+
+- reversed(<sequence>) = returns an iterable that is the reverse of sequence
+
+sorted(<an_iterable>) returns a sorted list from the iterable, you can provide a function to create a custom key
+
+
+@staticmethod function that can be invoked on an instance or the object, does not have an implicit cls object
+
+
+vars(<an_object>)  returns the __dict__ attribute 
+
+
+Recommends isinstance for object type comparisons
+
+
+zip(<iterators>) returns an iteratable where the ith  element is a tuple containing the ith elements of all <iterators> passed as arguements
