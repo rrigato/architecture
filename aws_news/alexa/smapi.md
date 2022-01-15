@@ -1,0 +1,1 @@
+- alexa skills management kit api (SMAPI) = rest api to update alexa skill voice interaction model, skill locales, metadata and deployment instead of using the amazon developer console

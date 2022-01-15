@@ -1,0 +1,1 @@
+- sample utterances can only contain unicode characters, spaces, periods for abbreviations, underscores, possessive apostrophes, and hyphens
