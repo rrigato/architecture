@@ -1,0 +1,3 @@
+- locales cannot be removed once your skill is published
+- secondary locales can be synced from a primary locale 
+    - example: ```en-US``` syncs to ```en-CA``
