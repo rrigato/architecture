@@ -13,3 +13,8 @@ Cloudflare durable objects = instance of a Nodejs class that provides transactio
 - This architecture pattern enables real time collaboration and removes the need for clients to refresh/poll the server to obtain updates
 
 - durable objects provides a live coordination point where CloudFlare will automatically use the edge point of presence closest to the user and migrate it as needed to minimize latency 
+
+
+# use_cases
+- shopping cart, IoT device coordination in a home, game server, live chat/comment widgets
+- durable objects supports websockets

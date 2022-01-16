@@ -42,3 +42,19 @@
 1) No prod code until you have a failing unit test
 2) Do not write more a unit test than what is sufficient to fail the test
 3) You are not allowed to write more prod code than what is needed to pass the currently failing test
+
+
+# practing_ch6
+- kata = writing the implementation of a practice problem that you already know the answer to in order to strengthen your keystrokes and mouse movements
+- wasa = one programmer writes the test case for a problem the other programmer needs to implement
+- practicing yor development skills is what you do when you are not gettting paid so that you are paid well and when you show up to work you are ready to perform
+
+
+# testing_strategy_ch8
+- UI tests should confirm the system construction since business rules have already been validated with lower level unit tests
+
+
+# time_management_ch9
+> Any technical disagreement that cannot be solved in 5 minutes of discussion will not be solved by arguing
+
+- prioritize coding when in your total concentration mode, take 30 minutes of unfocused physical activity to regain total concentration mode if you have lost it
