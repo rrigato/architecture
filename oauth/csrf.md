@@ -1,0 +1,1 @@
+- cross site-request forgery can be prevented by a client including a random state parameter and only accepting authorization responses with that state parameter returned

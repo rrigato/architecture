@@ -1,0 +1,3 @@
+- prevents authorization code from being used if it is intercepted on response to client
+- client generates a hashed secret it sends in the initial authorization request to obtain an authorization code
+- when redeeming the authorization code for an access/refresh token, the client provides unhashed secret which the token server uses the hashing algorithm to compare the initial hashed secret to the token request unhashed secret
