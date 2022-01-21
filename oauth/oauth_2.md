@@ -1,0 +1,1 @@
+- enables users to delegate access to a resource they own without sharing their username/password with the 3rd party app

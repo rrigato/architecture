@@ -1,0 +1,2 @@
+- confidential = server-to-server communications
+- public = clients executing on web/native client devices

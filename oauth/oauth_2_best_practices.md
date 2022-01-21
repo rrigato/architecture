@@ -1,0 +1,2 @@
+- secrets statically included as part of an app to multiple users should not be treated as confidential secrets
+- native apps should not use an embedded user-agent and instead should use an external user-age (ex- default browser)
