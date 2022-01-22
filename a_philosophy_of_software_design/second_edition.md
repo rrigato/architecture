@@ -17,3 +17,14 @@
 
 # general_modules
 - A module's functionality should meet today's current needs but it's interface can be designed with future business usecases in mind
+- it is more important for a function to have a simple interface than a simple implementation
+- configuration parameters provide an example of a module delegating behavior of a solution instead of solving it themselves internally
+
+# interface_splitting
+- avoid using the extract function refactor when the extracted function has a complex interface
+- two interfaces should be combinded in the client always needs the output of the first interface in order to invoke the second interface
+- blocks within ```if/else/while``` should be one line long, preferably with function calls
+
+# exception_handling
+- secondary exception handling during recovery from primary exceptions are often more subtle and complex
+- exceptions thrown by a function are part of its interface
