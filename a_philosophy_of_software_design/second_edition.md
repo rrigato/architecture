@@ -28,3 +28,12 @@
 # exception_handling
 - secondary exception handling during recovery from primary exceptions are often more subtle and complex
 - exceptions thrown by a function are part of its interface
+
+# design_it_twice_ch11
+- design multiple interface/implementation options with a time break in between on a piece of paper before selecting the optimal solution
+- the most important consideration of an interface is the ease of use for higher level software
+- when smart people are growing up, they often discover their first idea solves the problem, resulting in bad work habits that stifle their development
+
+# comments
+- if a client needs to read the function implementation in order to use an interface, no abstracton of complexity is being provided by the interface
+- strive to have interface docstrings that abstract complexity/compress cognitive load and implementations that are straight forward enough to not need comments
