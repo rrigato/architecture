@@ -1,1 +1,2 @@
+- intents/uttterances, invocation names, languages supported by your skill defined as json
 - sample utterances can only contain unicode characters, spaces, periods for abbreviations, underscores, possessive apostrophes, and hyphens
