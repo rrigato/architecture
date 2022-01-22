@@ -1,0 +1,1 @@
+- voice equilvalent of a variable, can have multiple for one intent
