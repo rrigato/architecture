@@ -7,7 +7,8 @@ HTTP/1.1 302 Found
 Location: https://client.example.com/callback_url?code=<authorization_code>
 ```
 
-4) client exchanges authorization code for access and refresh token using http post:
+4) client exchanges authorization code for access and refresh token using http post by providing their
+client secret to the token server:
 ```HTTP
 POST /token HTTP/1.1
 Host: server.example.com
@@ -15,3 +16,5 @@ Content-Type: application/x-www-form-urlencoded
 
 grant_type=authorization_code&code=<authorization_code>&redirect_uri=https://client.example.com
 ```
+
+- note that the client contacts the token server directly not through the user-agent

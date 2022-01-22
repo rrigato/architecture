@@ -1,0 +1,5 @@
+- sits on top of oauth 2.0 and provides the client authentication information (login/profile information) about the resource owner
+- identity provider = when the authorization server support openid that can be used as signle sign on
+- provide a scope of ```openid``` when kicking off the oauth2.0 flow
+- client is returned an access token and a json web token (JWT) ID token
+- jwt claims = identity attributes about the resource owner
