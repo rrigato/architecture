@@ -1,0 +1,2 @@
+- auto delegate = Alexa will ensure that the slot is populated before invoking your skill callback handler
+- intent confirmation = ensures slots are correct before sending the request to your backend

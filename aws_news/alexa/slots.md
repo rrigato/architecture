@@ -1,1 +1,3 @@
 - voice equilvalent of a variable, can have multiple for one intent
+- each slot has a data type and validation rules can be used to allow only possible values or certain ranges for numbers
+- custom slots can be provided an ID for non-numeric slot values that can be referenced in your backend
