@@ -1,0 +1,1 @@
+- speech synthesis markup language (SSML) = xml based markup language supported by utterances that allow you to vary the pitch, duration and volume of speech
