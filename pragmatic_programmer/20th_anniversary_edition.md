@@ -21,7 +21,19 @@
 
 # decoupled_systems
 - modules should never expose any unnecessary interfaces, never rely on other modules implementations, and have any context passed in as parameters
+- implementation changes should be localized to a specific unit test case 
+
+
+# reversability
+> nothing is more dangerous than an idea if it is the only one you have
+
+> there are no final decisions
+
+- delay and hide critical implementation details (3rd party api's, database schemas) behind your own abstraction layer interfaces
 
 
 # e2e_tracers
+- prioritize critical requirements and the biggest technical risks first with each tracer
+- build apps with production intent e2e across architectural layers with the smallest functionality that improves the existing customer baseline
+
 ![images/e2e_tracer.png](images/e2e_tracer.png)
