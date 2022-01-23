@@ -21,3 +21,7 @@
 
 # decoupled_systems
 - modules should never expose any unnecessary interfaces, never rely on other modules implementations, and have any context passed in as parameters
+
+
+# e2e_tracers
+![images/e2e_tracer.png](images/e2e_tracer.png)
