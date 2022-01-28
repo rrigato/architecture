@@ -58,3 +58,12 @@
 > Any technical disagreement that cannot be solved in 5 minutes of discussion will not be solved by arguing
 
 - prioritize coding when in your total concentration mode, take 30 minutes of unfocused physical activity to regain total concentration mode if you have lost it
+- breakup short bursts of focused development with time blocks reserved for adhoc/less cognitive intensive tasks
+- priority inversion = pickup a lower priority task because it is easier/quicker/more interesting than the higher priority task
+
+
+# estimation_ch10
+- pert estimates of best case, worse case and median scenarios
+- break large tasks into a series of small estimates that you can forecast independently
+
+
