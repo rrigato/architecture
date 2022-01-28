@@ -67,3 +67,6 @@
 - break large tasks into a series of small estimates that you can forecast independently
 
 
+# high_pressure_situations_ch11
+- if you do not follow your disciplines in a crisis, you do not believe in those disciplines
+- when you are in a high intensity situation double down on your software engineering disciplines/values
