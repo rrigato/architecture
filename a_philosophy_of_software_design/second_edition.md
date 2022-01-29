@@ -41,3 +41,10 @@
 - developers should be able to understand the abstraction provided by an interface without reading any code outside of its docstring and public contract
 - function implementations should assume all function contract/docstring prequisites are met
 - docstrings should capture all side effects(exceptions raised, data structures modified, changes to persistant storage)
+
+- comment types:
+1) interface comments = defines the abstraction by telling the client what they need to know to invoke the interface
+2) implementation comments = describes the details of the abstraction implementation
+
+- keep implementation details out of interface comments
+- Have a safe source getting started readme that leverages stable urls for external documentation and is linked to by all git repositories readmes
