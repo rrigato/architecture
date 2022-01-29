@@ -37,3 +37,7 @@
 # comments
 - if a client needs to read the function implementation in order to use an interface, no abstracton of complexity is being provided by the interface
 - strive to have interface docstrings that abstract complexity/compress cognitive load and implementations that are straight forward enough to not need comments
+
+- developers should be able to understand the abstraction provided by an interface without reading any code outside of its docstring and public contract
+- function implementations should assume all function contract/docstring prequisites are met
+- docstrings should capture all side effects(exceptions raised, data structures modified, changes to persistant storage)
