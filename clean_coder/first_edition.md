@@ -69,3 +69,8 @@
 # high_pressure_situations_ch11
 - if you do not follow your disciplines in a crisis, you do not believe in those disciplines
 - when you are in a high intensity situation double down on your software engineering disciplines/values
+
+
+# collaboration_ch12
+- it is good to be passionate about what you do, but it is more important to keep an eye of the goals of the people who pay you
+- professionals avoid creating knowledge silos by learning the different parts of the system and business

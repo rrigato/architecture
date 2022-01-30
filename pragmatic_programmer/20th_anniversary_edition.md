@@ -37,3 +37,10 @@
 - build apps with production intent e2e across architectural layers with the smallest functionality that improves the existing customer baseline
 
 ![images/e2e_tracer.png](images/e2e_tracer.png)
+
+- prototypes are disposable and focus on testing a specific aspect of a system
+- use a UI tool that focuses on appearance/interactions without spending time on the code/markup
+
+
+# tooling
+- the best format for persisting data is plain text because it can be understood without the application logic, parsed in any programming language, and outlives the lifespan of the application that created it
