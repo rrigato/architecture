@@ -63,7 +63,6 @@
 
 
 # estimation_ch10
-- pert estimates of best case, worse case and median scenarios
 - break large tasks into a series of small estimates that you can forecast independently
 
 

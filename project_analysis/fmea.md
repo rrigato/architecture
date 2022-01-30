@@ -1,0 +1,2 @@
+- failure mode and effects analysis = attempt to list/rank all possible failure modes that has the benefit of putting yourself in a failure first mindset
+- drawbacks include unknown unknowns, subjective interpretation of risk, what risks are considered in scope

@@ -69,3 +69,5 @@
 - continually feed your manager with items you have accomplished, not just before a promotion
 - speak concisely, prepare your thoughts in advance and have dedicated focus in meetings
 - visibility is a transient currency, learning and skill development is a permanent one
+- consider the durability of the management hiring you for a role so you do not end up in a situation where teh values that drew you into a role leave when the hiring manager changes jobs
+- don't allow momentum to pull you into a process/job role your values do not support
