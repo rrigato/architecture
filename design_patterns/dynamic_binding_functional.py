@@ -1,4 +1,3 @@
-
 def speak_cat():
     print("Meow")
 

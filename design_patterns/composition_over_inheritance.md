@@ -1,0 +1,1 @@
+- inheritance breaks encapsulation because a subclass often relies on the internal implementation details of parent classes
