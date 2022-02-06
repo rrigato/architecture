@@ -1,0 +1,1 @@
+- if you get the encapsulation and dependency management correct, you are going to be doing alright
