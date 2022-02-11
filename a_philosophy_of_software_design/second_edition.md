@@ -48,3 +48,10 @@
 
 - keep implementation details out of interface comments
 - Have a safe source getting started readme that leverages stable urls for external documentation and is linked to by all git repositories readmes
+
+- find a single place to put an implementation comment that is most obvious instead of duplicating the design decision documentation in multiple places
+- reference external documentation instead of duplicating
+
+- write the interface comments/public contract, then the test case, and finally the implementation
+- never use a commit message to document information that needs to be accessed in the future
+- invariant = property of a system that always holds true
