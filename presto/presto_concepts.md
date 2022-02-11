@@ -1,0 +1,6 @@
+- coordinator = client connection point, parses statements, plans queries
+- coordinators, workers and clients communicate via REST API's
+- connector = driver presto uses to connect to external data sources
+- catalog = contains schemas and references a data source using a connector
+- presto is designed for OLAP, not OLTP
+- presto executes ANSI SQL statements that are distributed across nodes
