@@ -1,1 +1,2 @@
 - if you get the encapsulation and dependency management correct, you are going to be doing alright
+- engineers do not ask 'how can I make this work', they ask 'how can I make this work to where I do not have to remember any details of how I did so tomorrow
