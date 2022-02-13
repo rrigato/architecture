@@ -1,0 +1,2 @@
+- [presto connectors](https://prestodb.io/blog/2019/12/23/improve-presto-planner) have an api that support pushing down filtering workloads to the raw data source
+- the same sql query can run across multiple backend data sources

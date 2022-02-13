@@ -1,0 +1,1 @@
+- allows custom connectivity to any data source using interface description language (IDL's)

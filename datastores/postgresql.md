@@ -1,0 +1,1 @@
+- postgresql has the ability to run [python scripts](https://www.postgresql.org/docs/current/plpython.html)

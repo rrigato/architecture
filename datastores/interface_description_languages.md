@@ -1,0 +1,1 @@
+- IDL's describe an interface in a language independent way that enables two programming languages to communicate
