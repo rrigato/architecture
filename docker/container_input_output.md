@@ -1,0 +1,1 @@
+- use network calls or shared volumes to perform I/O on containers

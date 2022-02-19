@@ -1,0 +1,1 @@
+java development kit = sdk fro java with everything in the JRE plus the javac compiler/javadoc for creating/compiling programs

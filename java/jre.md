@@ -1,0 +1,2 @@
+- java runtime environment = run a compiled program
+- comes with a java virtual machine (JVM), java cli command, but you cannot create new programs

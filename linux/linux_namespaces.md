@@ -1,0 +1,1 @@
+- wrap global system processes into an abstraction layer
