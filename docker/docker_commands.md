@@ -1,0 +1,2 @@
+- docker ls = lists running containers
+- docker container stop <container_name>
