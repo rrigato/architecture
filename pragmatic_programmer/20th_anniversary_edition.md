@@ -46,3 +46,9 @@
 - the best format for persisting data is plain text because it can be understood without the application logic, parsed in any programming language, and outlives the lifespan of the application that created it
 
 - Make a habit of saying 'there has to be a better way' whenever something is repetitive (replace repetition with a shell alias)
+
+# debugging_techniques
+- binary search on stack traces/input data
+- assume the root cause is always your application code
+- explain the problem out loud to check your assumptions
+- evaluate the root cause of the bug using your software engineering disciplines instead of panicing

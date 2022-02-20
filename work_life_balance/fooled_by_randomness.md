@@ -1,0 +1,1 @@
+- mathematics is principally a tool for meditation, not computation
