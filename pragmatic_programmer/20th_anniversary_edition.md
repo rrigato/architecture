@@ -52,3 +52,13 @@
 - assume the root cause is always your application code
 - explain the problem out loud to check your assumptions
 - evaluate the root cause of the bug using your software engineering disciplines instead of panicing
+
+
+# design_by_contract
+- if a functions preconditions are met by the client, that method guaruntees all postconditions and system state invariants will be met upon completion
+- design by contract is more efficient than defensive programming where data is validated everytime because a function should not be invoke unless its preconditions are met
+
+
+- dead programs tell no lies
+> to light a candle is to cast a shadow
+- the function/object for opening a resource should also close that resource
