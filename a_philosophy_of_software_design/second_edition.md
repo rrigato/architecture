@@ -55,3 +55,8 @@
 - write the interface comments/public contract, then the test case, and finally the implementation
 - never use a commit message to document information that needs to be accessed in the future
 - invariant = property of a system that always holds true
+
+
+- software should be designed for ease of reading as opposed to ease of writing
+- develop a system in increments that adds a few new abastractions, refactor a few existing abstractions each iteration
+- interface inheritance = parent class defines only a method signature that child classes must implement

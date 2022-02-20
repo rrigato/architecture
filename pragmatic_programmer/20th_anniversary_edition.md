@@ -44,3 +44,5 @@
 
 # tooling
 - the best format for persisting data is plain text because it can be understood without the application logic, parsed in any programming language, and outlives the lifespan of the application that created it
+
+- Make a habit of saying 'there has to be a better way' whenever something is repetitive (replace repetition with a shell alias)
