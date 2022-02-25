@@ -1,0 +1,2 @@
+- turns text into a numeric vector
+- word2vec = pre-trained neural network for word embedding where semantically similiar words are mapped closely to each other

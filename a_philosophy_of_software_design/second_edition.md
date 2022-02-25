@@ -60,3 +60,5 @@
 - software should be designed for ease of reading as opposed to ease of writing
 - develop a system in increments that adds a few new abastractions, refactor a few existing abstractions each iteration
 - interface inheritance = parent class defines only a method signature that child classes must implement
+
+- hypothesize what is most important before beginning a project and revist the accuracy of that hypothesis upon project completion

@@ -1,0 +1,1 @@
+- average output of decision trees built on subset of training data and randomly sample features, typically square root of n
