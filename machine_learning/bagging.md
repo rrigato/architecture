@@ -1,0 +1,1 @@
+- bootstrap aggregation = randomly sample with replacement and train a model for each subset

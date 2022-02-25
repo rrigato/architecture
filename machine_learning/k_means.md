@@ -1,0 +1,1 @@
+- unsupervised, create clusters based on getting the minimized sum of distances from the center of each cluster

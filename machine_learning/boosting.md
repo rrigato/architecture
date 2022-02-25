@@ -1,0 +1,1 @@
+- iteration of random forests where subsequent attempts learn more from misclassified examples by weighting them more

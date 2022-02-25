@@ -1,0 +1,1 @@
+- principal component analysis = dimensionality reduction technique (feature extraction)
