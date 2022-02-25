@@ -62,3 +62,15 @@
 - dead programs tell no lies
 > to light a candle is to cast a shadow
 - the function/object for opening a resource should also close that resource
+
+- ensure there is a process to expire any logging data created by your application
+- when allocating multiple resources, deallocate each resource in the opposite order they were allocated
+- verify that a resource was allocated before attempting to deallocate that resource in a finally block
+- take small development steps based on feedback from users
+
+
+# estimation_activities_that_are_guesses 
+- completion dates for months in the future
+- planning a design based on future maitenance
+- guessing future user needs
+- guessing future technology capabilities
