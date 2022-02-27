@@ -43,6 +43,7 @@ The goal is to slim down the source material into the smallest amount of actiona
   - [recommendation](#recommendation-8)
 - [webpack](#webpack)
 - [work_life_balance](#work_life_balance)
+- [static_security_scan](#static_security_scan)
 
 # aws_news
 
@@ -209,6 +210,9 @@ detect-secrets scan > .secrets.baseline
 compare all tracked files to baseline the ```results``` key should be ```{}``` if no secrets are present
 ```bash
 detect-secrets scan
+
+detect-secrets scan | \
+python3 -c "import sys, json; print(json.load(sys.stdin)['results'])"
 ```
 ```powershell
 (detect-secrets scan | ConvertFrom-Json).results
