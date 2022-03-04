@@ -1,0 +1,1 @@
+- ETL orchestration service that does not manage infrastructure, you still have to manage underlying ec2/emr

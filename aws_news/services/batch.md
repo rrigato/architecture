@@ -1,1 +1,1 @@
-- run a shell script/executable/container over aws managed or customer managed ec2/ECS resources
+- run a shell script/executable/docker container over aws managed or customer managed ec2/ECS resources
