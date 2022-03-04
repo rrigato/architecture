@@ -1,0 +1,3 @@
+- sql queries over data to/from kinesis data streams, apache kafka, and s3
+- supports existing apps using apache flink (distributed streaming computation framework in python/java/sql without any built in data storage which is what kinesis provides)
+- machine learning anamoly detection and hotspot analysis

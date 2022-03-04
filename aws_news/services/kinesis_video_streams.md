@@ -1,0 +1,1 @@
+- sends from sdk/deeplens to rekognition/sagemaker/ec2 deep learning ami
