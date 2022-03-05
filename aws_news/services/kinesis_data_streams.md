@@ -1,0 +1,5 @@
+- shards data
+- need to increase number of shards to scale producer write capacity/client read capacity
+- keeps data for a certain period of time
+- you need to scale up/down ec2/lambda/other compute to process
+- real time

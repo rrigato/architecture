@@ -1,0 +1,6 @@
+- takes data from upstream source (client app, cloudwatch, data streams, iot events) and optionally transforms with lambda/built in transformations before loading in source system (elasticsearch, splunk, redshift, AWS S3, http endpoints)
+- 
+- can batch/buffer data before sending to end destination
+- near real time
+- no sharding
+- built in transformations can be into ORC/apache parquet format
