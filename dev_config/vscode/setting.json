@@ -1,0 +1,9 @@
+{
+    "editor.fontSize": 18,
+    "window.zoomLevel": 2,
+    "editor.rulers": [
+        100
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.defaultLanguage": "markdown"
+}
