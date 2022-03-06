@@ -1,0 +1,1 @@
+- analmoly detection algorithm used by quicksight, sagemaker, athena and kinesis 

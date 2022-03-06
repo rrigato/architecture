@@ -1,0 +1,1 @@
+- combo of mechanical turk manual human labeling and automated labeling algorithm generating labels on data

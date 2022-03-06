@@ -1,0 +1,1 @@
+- spice engine = enables fast in memory processing in quicksight, additional memory can be purchased
