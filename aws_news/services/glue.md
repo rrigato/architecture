@@ -1,3 +1,4 @@
-- data catalog = metadata defining schema of s3 objects which is required for athena queries
-- data crawler = automated schema detection
-- fully managed ETL that runs on an Apache Spark cluster
+- data catalog = metadata defining schema of s3 objects which can be versioned/used by athena and redshift
+- data crawler = automated schema detection over s3/redshift/rds
+- fully managed ETL that can be written in python, spark, pyspark
+- glue etl uses machine learning to detect duplicate rows
