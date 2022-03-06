@@ -1,0 +1,2 @@
+- spark is a replacement for mapreduce processing across a distributed cluster
+- spark mllib = machine learning over a distributed cluster

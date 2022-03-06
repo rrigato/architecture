@@ -1,0 +1,3 @@
+- hdfs (ephemeral)
+- s3
+- ebs
