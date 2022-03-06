@@ -1,0 +1,1 @@
+- takes words and maps them to a vector of numbers for computing efficiency

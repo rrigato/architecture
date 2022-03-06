@@ -1,0 +1,1 @@
+- all n possible permutations of words in a document (general case of unigrams/bigrams)
