@@ -1,2 +1,4 @@
 - Long short term memory (LSTM) and GRU used for sequences such as translation/time series
 - preference tanh activation functions
+- good for web logs, language translation, stock trades
+- 

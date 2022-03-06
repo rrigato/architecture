@@ -1,0 +1,2 @@
+- oversampling
+- SMOTE (synthetic minority oversampling technique) = artificially generate underrepresented class using KNN

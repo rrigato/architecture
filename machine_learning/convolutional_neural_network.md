@@ -1,3 +1,5 @@
 - image classification
 - preference relu/maxout
 - subsample the full image into convolutions that create filters based on contrast/edges
+- pretrained CNN's = learned weights so you do not need to start at an initialized random state
+- convolution = breaks image into smaller subsections
