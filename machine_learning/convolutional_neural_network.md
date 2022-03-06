@@ -1,0 +1,3 @@
+- image classification
+- preference relu/maxout
+- subsample the full image into convolutions that create filters based on contrast/edges
