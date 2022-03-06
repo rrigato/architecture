@@ -1,0 +1,3 @@
+- use knn for imputing numeric missing data
+- use deep learning model/MICE/regression for missing categorical data
+- transformations = square, square root, natural log
