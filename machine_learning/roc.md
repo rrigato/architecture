@@ -1,0 +1,3 @@
+- receiver operating curve = plots recall versus false positive rate
+- AUC (area under ROC curve) = probability a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative one
+  - 0 to 1 with .5 being guessing and 1 being perfect

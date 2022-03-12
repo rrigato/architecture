@@ -1,0 +1,1 @@
+- root mean square error is an accuracy measurement
