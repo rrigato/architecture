@@ -1,0 +1,2 @@
+- how many training samples per epoch
+- decreasing batch sizes decreases the likelihood of getting stuck in local minima
