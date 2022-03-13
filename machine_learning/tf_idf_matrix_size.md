@@ -1,0 +1,1 @@
+```<number of documents/sentances in the corpus, number of unigrams/bigrams/n-grams in corpus>```
