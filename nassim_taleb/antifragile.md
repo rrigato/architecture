@@ -1,0 +1,5 @@
+- iatrogenesis = a well meaning treatment that is more harmful than the control
+- a 50-to-50 signal to noise ratio over the course of a year is a 5-to-95 signal to noise ratio over the course of a day
+- wealth is non-linear in terms of its responsibilities as it increases
+- shorting your companies stock is more antifragile, while having an emergency savings account is robust
+- stocism is about desiring the challenge of calamity and being indifferent to whether good or bad things are happening to you
