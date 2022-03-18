@@ -3,3 +3,12 @@
 - wealth is non-linear in terms of its responsibilities as it increases
 - shorting your companies stock is more antifragile, while having an emergency savings account is robust
 - stocism is about desiring the challenge of calamity and being indifferent to whether good or bad things are happening to you
+
+
+
+- success brings the asymmetry of having much more exposure to downside as opposed to upside risk
+- absence of evidence is not evidence of absence
+- barbell strategy = either maximize risk or maximize safety
+- Apply the barbell strategy to work by spending 90% of your time on one application that you believe will drive the majority of the value instead of diversifying across multiple applications with medium expected value
+
+- the key to consistently reading is to become bored with the book not the habit of reading
