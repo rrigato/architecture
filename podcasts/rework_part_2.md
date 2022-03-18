@@ -1,1 +1,2 @@
 - Only build a feature if the idea is exciting even if no customers ever use it
+- the individual who takes a break when they are hitting a wall is always going to be more productive than an individual that pushes through that period decreased efficiency only to burn out later in the week. 
