@@ -1,0 +1,1 @@
+- optical character recognition for forms, images, html table, pdfs

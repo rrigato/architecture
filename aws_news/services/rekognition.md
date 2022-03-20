@@ -1,0 +1,1 @@
+- custom labels = train rekognition using custom output labels
