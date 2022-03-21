@@ -1,0 +1,14 @@
+alias_name,alias_value
+g_a,git add
+g_b,git branch
+g_c,git checkout
+g_i,git init
+g_f,git fetch origin
+g_p,git pull origin
+g_r,git remote add origin
+g_v,git remote -v
+py_c,python3 -m venv avenv
+py_m,python -m
+py_r,pip install -r requirements/requirements-dev.txt
+py_t,python -m unittest
+py_v,source avenv/bin/activate
