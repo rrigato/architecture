@@ -1,9 +1,16 @@
 {
-    "editor.fontSize": 18,
-    "window.zoomLevel": 2,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
     "editor.rulers": [
         100
     ],
     "extensions.ignoreRecommendations": true,
-    "files.defaultLanguage": "markdown"
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.defaultLanguage": "markdown",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 2,
+    "window.zoomLevel": 1
 }
