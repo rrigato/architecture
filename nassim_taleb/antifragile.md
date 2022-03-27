@@ -12,3 +12,5 @@
 - Apply the barbell strategy to work by spending 90% of your time on one application that you believe will drive the majority of the value instead of diversifying across multiple applications with medium expected value
 
 - the key to consistently reading is to become bored with the book not the habit of reading
+
+- Anti-fragility is betting pennies to make a dollar while fragility is betting a dollar to make pennies
