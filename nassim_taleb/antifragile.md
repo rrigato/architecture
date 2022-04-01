@@ -14,3 +14,11 @@
 - the key to consistently reading is to become bored with the book not the habit of reading
 
 - Anti-fragility is betting pennies to make a dollar while fragility is betting a dollar to make pennies
+
+- Subtraction can be used as a medical intervention 
+
+- The anti-fragility of society is built on the fragility of humans passing on their legacy via either children or books
+
+- Knowledge is knowing where to put the burden and assumption of risk and evidence
+
+- Project timeline estimation errors are byproducts of the nonlinearity caused by it being impossible for a project to be completed in negative time
