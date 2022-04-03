@@ -6,5 +6,15 @@
         "command": "paste",
         "args": { "text": "def function_stub(arg1):\n    \"\"\"\n        Parameters\n        ----------\n            \n\n        Returns\n        -------\n\n\n        Returns\n        -------\n    \"\"\"\n    pass\n" },
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+d",
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "when": "isMac && editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "when": "isWindows && editorTextFocus"
     }
 ]
