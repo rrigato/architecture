@@ -22,3 +22,19 @@
 - Knowledge is knowing where to put the burden and assumption of risk and evidence
 
 - Project timeline estimation errors are byproducts of the nonlinearity caused by it being impossible for a project to be completed in negative time
+
+
+
+- Nutrition science often changes concerning which foods are healthiest while also neglecting to research the optimal distribution of protein and vitamins
+
+- The average of a function is not the same as the function of the average and the impact that has on issue effort estimation
+
+- Negative confirmation is more robust than positive confirmation
+
+- If you need more than one reason to do something don't do it because anything that is worth doing is obvious with a single reason
+
+- The burden of proof falls upon the intervention to demonstrate empirical evidence showing asymmetric upside compared to the status quo 
+
+- Evaluate every prediction based on whether inaccuracies provide asymetrical benefits or harms
+
+- There is a link between the stressors of exercise and the stressors of deprivation of various food groups
