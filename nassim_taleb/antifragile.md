@@ -38,3 +38,11 @@
 - Evaluate every prediction based on whether inaccuracies provide asymetrical benefits or harms
 
 - There is a link between the stressors of exercise and the stressors of deprivation of various food groups
+
+- Living one more day can either confirm your theory that you are immortal or prove that you're one day closer to your demise
+
+- As humans we reduce the dimensionality of evidence into post-hoc explanations in order for them to be remembered
+
+- Focus on predicting the consequences or outcome of an event as opposed to the probability of that event occurring
+
+- An ad hominem attack against an intellectual instead of an idea is the highest form of flattery
