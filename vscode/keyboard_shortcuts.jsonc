@@ -13,6 +13,26 @@
         "when": "isMac && editorTextFocus"
     },
     {
+        "key": "cmd+alt+tab",
+        "command": "increaseCurrentViewSize",
+        "when": "isMac"
+    },
+    {
+        "key": "cmd+alt+shift+tab",
+        "command": "decreaseCurrentViewSize",
+        "when": "isMac"
+    },
+    {
+        "key": "ctrl+alt+tab",
+        "command": "increaseCurrentViewSize",
+        "when": "isWindows"
+    },
+    {
+        "key": "ctrl+alt+shift+tab",
+        "command": "decreaseCurrentViewSize",
+        "when": "isWindows"
+    },
+    {
         "key": "ctrl+shift+d",
         "command": "editor.action.addSelectionToPreviousFindMatch",
         "when": "isWindows && editorTextFocus"
