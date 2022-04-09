@@ -74,3 +74,12 @@
 - planning a design based on future maitenance
 - guessing future user needs
 - guessing future technology capabilities
+
+
+- do not make mutation decisions on an object based on the internal state of that object
+    - tell, don't ask when mutating
+    - Either query the state of the object or issue a command mutating it
+- mutable external resources (databases, file systems, API's) should always be wrapped behind interfaces you control
+
+- draw out a state machine to visualize how your system should handle events
+- observer pattern = list of funcitons that get invoked when an event occurs
