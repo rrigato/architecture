@@ -83,3 +83,6 @@
 
 - draw out a state machine to visualize how your system should handle events
 - observer pattern = list of funcitons that get invoked when an event occurs
+
+- publish/subscribe model = publishers push events to a channel, subscribers listen to events in a channel, neither are responsible for the interface of the channel
+    - good for asyncronous handling of events, bad for observing a system wholistically

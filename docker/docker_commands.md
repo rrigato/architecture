@@ -3,3 +3,6 @@
 - ```docker exec -it <container_name> /bin/bash``` = bash shell inside root of the container
 - ```docker rm <container_name>``` = removes a stoped container
 - ```docker images``` = lists built/pulled docker images
+- ```.dockerignore``` = selectively copy relevant files
+- ```docker-compose``` = orchestrate multiple containers
+- ```docker ps``` = displays a list of running containers
