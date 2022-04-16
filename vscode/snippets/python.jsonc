@@ -1,0 +1,25 @@
+{
+    //The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    "One arguement one return function": {
+        "prefix": "f1",
+        "body": [
+            "def ${1:function_name}(${2:arguement_name}: ${3:arguement_return_data_type}) -> ${4:return_data_type}:",
+            "    \"\"\"${5:one_sentance_docstr}",
+			"        Parameters",
+			"        ----------",
+			"        ${2:arguement_name}: ${3:arguement_return_data_type}",
+			"            ${6:arguement_description}",
+			"        Returns",
+			"        ----------",
+			"        ${7:return_name}: ${4:return_data_type}",
+			"            ${8:return_value_description}",
+			"    \"\"\"",
+			"    logging.info(\"${1:function_name} - invocation begin\")",
+			"    $0",
+			"    logging.info(\"${1:function_name} - invocation end\")",
+			"    return(${4:return_data_type})"
+        ]
+    }
+}

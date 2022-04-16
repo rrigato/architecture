@@ -6,4 +6,6 @@
     - same tabstop can be used in multiple spots of the snippet
 
 - [Snippets have a large variety of built in variables](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables)
-    - random numbers, uuid, current time, filename, directory info, line number, block comments 
+    - random numbers, uuid, current time, filename, directory info, line number, block comments
+
+- you can transform snippets with regex expressions  
