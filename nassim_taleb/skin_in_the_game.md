@@ -4,3 +4,12 @@
 - A scholar should not be a libraries tool for making another library
 - Barbell strategy of long lackadaisical walks falled by intense stressor activity and exercise
 - Meta-probability = what is the probability that the probability distribution you were using is incorrect
+
+
+- Individuals adopt the principles and norms of the environment they join
+- The more you are abstracted away from the consequences of your actions, the more you likely you are to be indifferent to the consequences of those actions
+
+- Focus on the authenticity of your words not the particular diction chosen
+- Bureaucracy occurs when an individuals work is decoupled from the consequences of that work
+- morally independent = finding a profession that fits your ethics instead of trying to fit ethics into your profession 
+- Negative confirmation is more robust than positive confirmation
