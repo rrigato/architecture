@@ -22,8 +22,15 @@
         ],
         "description": "test case function stub"
     },
-    "One arguement one return function": {
+    "log statement for function": {
         "prefix": "f3",
+        "body": [
+            "logging.info(\"${1:function_name} - $0\")",
+            ],
+        "description": "log statement for function"
+    },
+    "One arguement one return function": {
+        "prefix": "f4",
         "body": [
             "def ${1:function_name}(${2:arguement_name}: ${3:arguement_return_data_type}) -> ${4:return_data_type}:",
             "    \"\"\"${5:one_sentance_docstr}",
