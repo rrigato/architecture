@@ -3,34 +3,44 @@
     // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
     // same ids are connected.
     "Zero arguements function": {
-        "prefix": "f1",
+        "prefix": "f0",
         "body": [
+            "",
+            "",
             "def ${1:function_name}() -> ${2:return_type}:",
             "    \"\"\"${3:one_sentance_docstr}",
             "    \"\"\"",
             "    logging.info(\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(\"${1:function_name} - invocation end\")",
-            "    return(${2:return_type})"
+            "    return(${2:return_type})",
+            "",
+            "",
         ],
         "description": "Zero arguements function"
     },
     "One arguement function": {
         "prefix": "f1",
         "body": [
+            "",
+            "",
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type}) -> ${4:return_type}:",
             "    \"\"\"${5:one_sentance_docstr}",
             "    \"\"\"",
             "    logging.info(\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(\"${1:function_name} - invocation end\")",
-            "    return(${4:return_type})"
+            "    return(${4:return_type})",
+            "",
+            "",
         ],
         "description": "One arguement function"
     },
     "Two arguement function": {
         "prefix": "f2",
         "body": [
+            "",
+            "",
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type} ", 
             "${4:arg_two_name}: ${4:arg_two_type}) -> ${5:return_type}:",
             "    \"\"\"${6:one_sentance_docstr}",
@@ -38,13 +48,17 @@
             "    logging.info(\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(\"${1:function_name} - invocation end\")",
-            "    return(${5:return_type})"
+            "    return(${5:return_type})",
+            "",
+            "",
         ],
         "description": "Two arguement function"
     },
     "Three arguement function": {
         "prefix": "f3",
         "body": [
+            "",
+            "",
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type}, ", 
             "${4:arg_two_name}: ${4:arg_two_type}, ",
             "${5:arg_two_name}: ${6:arg_three_type}) -> ${7:return_type}:",
@@ -53,13 +67,17 @@
             "    logging.info(\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(\"${1:function_name} - invocation end\")",
-            "    return(${7:return_type})"
+            "    return(${7:return_type})",
+            "",
+            "",
         ],
         "description": "Three arguement function"
     },
     "Four arguement function": {
         "prefix": "f4",
         "body": [
+            "",
+            "",
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type}, ", 
             "${4:arg_two_name}: ${4:arg_two_type}, ",
             "${5:arg_two_name}: ${6:arg_three_type}, ",
@@ -69,7 +87,9 @@
             "    logging.info(\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(\"${1:function_name} - invocation end\")",
-            "    return(${7:return_type})"
+            "    return(${7:return_type})",
+            "",
+            "",
         ],
         "description": "Four arguement function"
     },
@@ -84,9 +104,13 @@
     "test case function stub": {
         "prefix": "f6",
         "body": [
+            "",
+            "",
             "def test_${1:function_name}(self):",
             "    \"\"\"${2:test_case_description}\"\"\"",
             "    from ${3:project_name}.${RELATIVE_FILEPATH/.test//}$0 import ${1:function_name}",
+            "",
+            "",
         ],
         "description": "test case function stub"
     }
