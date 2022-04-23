@@ -2,7 +2,7 @@
     //The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
     // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
     // same ids are connected.
-    "Zero arguements one return function": {
+    "Zero arguements function": {
         "prefix": "f1",
         "body": [
             "def ${1:function_name}() -> ${2:return_type}:",
@@ -13,9 +13,9 @@
             "    logging.info(\"${1:function_name} - invocation end\")",
             "    return(${2:return_type})"
         ],
-        "description": "Zero arguements one return function"
+        "description": "Zero arguements function"
     },
-    "One arguement one return function": {
+    "One arguement function": {
         "prefix": "f1",
         "body": [
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type}) -> ${4:return_type}:",
@@ -26,9 +26,9 @@
             "    logging.info(\"${1:function_name} - invocation end\")",
             "    return(${4:return_type})"
         ],
-        "description": "One arguement one return function"
+        "description": "One arguement function"
     },
-    "Two arguement one return function": {
+    "Two arguement function": {
         "prefix": "f2",
         "body": [
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type} ", 
@@ -40,9 +40,9 @@
             "    logging.info(\"${1:function_name} - invocation end\")",
             "    return(${5:return_type})"
         ],
-        "description": "Two arguement one return function"
+        "description": "Two arguement function"
     },
-    "Three arguement one return function": {
+    "Three arguement function": {
         "prefix": "f3",
         "body": [
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type}, ", 
@@ -55,10 +55,26 @@
             "    logging.info(\"${1:function_name} - invocation end\")",
             "    return(${7:return_type})"
         ],
-        "description": "Three arguement one return function"
+        "description": "Three arguement function"
+    },
+    "Four arguement function": {
+        "prefix": "f4",
+        "body": [
+            "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type}, ", 
+            "${4:arg_two_name}: ${4:arg_two_type}, ",
+            "${5:arg_two_name}: ${6:arg_three_type}, ",
+            "${7:arg_two_name}: ${8:arg_three_type}) -> ${9:return_type}:",
+            "    \"\"\"${10:one_sentance_docstr}",
+            "    \"\"\"",
+            "    logging.info(\"${1:function_name} - invocation begin\")",
+            "    $0",
+            "    logging.info(\"${1:function_name} - invocation end\")",
+            "    return(${7:return_type})"
+        ],
+        "description": "Four arguement function"
     },
     "log statement for function": {
-        "prefix": "f4",
+        "prefix": "f5",
         "body": [
             "logging.info(\"${1:function_name} - $0\")",
             ],
@@ -66,7 +82,7 @@
         
     },
     "test case function stub": {
-        "prefix": "f5",
+        "prefix": "f6",
         "body": [
             "def test_${1:function_name}(self):",
             "    \"\"\"${2:test_case_description}\"\"\"",
