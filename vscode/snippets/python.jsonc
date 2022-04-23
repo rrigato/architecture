@@ -59,7 +59,7 @@
             "",
             "",
             "def ${1:function_name}(${2:arg_one_name}: ${3:arg_one_type}, ${4:arg_two_name}: ${5:arg_two_type}, ",
-            "    ${6:arg_two_name}: ${7:arg_two_type}) -> ${8:return_type}:",
+            "    ${6:arg_three_name}: ${7:arg_three_type}) -> ${8:return_type}:",
             "    \"\"\"${9:one_sentance_docstr}",
             "    \"\"\"",
             "    logging.info(\"${1:function_name} - invocation begin\")",
