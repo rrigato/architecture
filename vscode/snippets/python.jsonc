@@ -109,5 +109,22 @@
             "",
         ],
         "description": "test case function stub"
+    },
+    "main entry with logging": {
+        "prefix": "f7",
+        "body": [
+            "",
+            "",
+            "if __name__ == \"main\":",
+            "    import logging",
+            "    logging.basicConfig(",
+            "        format=\"%(asctime)s %(message)s\",",
+            "        datefmt=\"%m/%d/%Y %I:%M:%S %p\", level=logging.DEBUG",
+            "    )",
+            "    $0",
+            "",
+            "",
+        ],
+        "description": "main entry with logging"
     }
 }
