@@ -1,0 +1,3 @@
+- python 3.8+ supports ```tuple, dict, list``` whereas earlier versions of python require an import statement ```from typing import Dict```
+- multiple return values can be annotated with ```Tuple[<return_type1>, <return_type2>]```
+- ```Union[str, None]``` = type can be str or None

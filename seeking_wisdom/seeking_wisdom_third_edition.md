@@ -1,0 +1,1 @@
+- if you had to participate in the work/event/meeting that you had previously scheduled for two monthes in the future by  tomorrow, would you still feel the same way about agreeing to the commitment?
