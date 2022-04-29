@@ -2,14 +2,15 @@ alias_name,alias_value
 g_a,git add
 g_b,git branch
 g_c,git checkout
-g_i,git init
 g_f,git fetch origin
+g_i,git init
+g_l,git log
 g_m,git add *; git commit -m
 g_o,git commit -m
 g_p,git pull origin
 g_r,git remote add origin
 g_s,git status
-g_t,git tag -m
+g_t,git tag
 g_u,git push origin -u
 g_v,git remote -v
 py_c,python3 -m venv avenv

@@ -3,16 +3,7 @@
 *  or type a command key to see if you have any collisons
 *
 */
-[
-    //python function stub with docstr
-    {
-        "key": "ctrl+space+f",
-        "command": "paste",
-        "args": { "text": "def function_stub(arg1):\n    \"\"\"\n        Parameters\n        ----------\n            \n\n        Returns\n        -------\n\n\n        Returns\n        -------\n    \"\"\"\n    pass\n" },
-        "when": "editorTextFocus"
-    },
-
-    
+[    
     /**
     *Cross-platform shortcuts
     *
