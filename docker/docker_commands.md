@@ -6,3 +6,4 @@
 - ```.dockerignore``` = selectively copy relevant files
 - ```docker-compose``` = orchestrate multiple containers
 - ```docker ps``` = displays a list of running containers
+- ```docker create``` = creates a writeable container layer on top of the image, prints the container id, but does not start the container
