@@ -13,3 +13,9 @@
 - Bureaucracy occurs when an individuals work is decoupled from the consequences of that work
 - morally independent = finding a profession that fits your ethics instead of trying to fit ethics into your profession 
 - Negative confirmation is more robust than positive confirmation
+
+
+- When your private actions are opposed to your intellectual ideals you do not believe in those intellectual ideals
+- Analyze what a person means not the statements that they say
+- Summing up individual small probabilities converges to probability 1 in the limit 
+- Going into an environment shapes your habbits into the habbits of all the people that are in that environment
