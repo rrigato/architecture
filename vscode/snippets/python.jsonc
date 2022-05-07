@@ -116,7 +116,7 @@
         "body": [
             "",
             "",
-            "if __name__ == \"main\":",
+            "if __name__ == \"__main__\":",
             "    import logging",
             "    import os",
             "    os.environ[\"AWS_REGION\"] = \"us-east-1\"",

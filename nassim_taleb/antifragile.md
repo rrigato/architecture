@@ -46,3 +46,15 @@
 - Focus on predicting the consequences or outcome of an event as opposed to the probability of that event occurring
 
 - An ad hominem attack against an intellectual instead of an idea is the highest form of flattery
+
+
+
+
+- Antifragility = anything that benefits from randomness instead of being hurt by it
+- Fragility = hurt by randomness
+- Robustness = neither benefits or is hurt by randomness
+- Humans fail to recognize situations outside the context in which they usually learn about
+- Abundance is harder to handle than scarcity
+- Desperation promotes innovation
+- Only a fool thinks the tallest object they have seen is the biggest on the planet
+- Acute stress followed by relaxation promotes antifragility while prolonged periods of moderate stress promote fragility
