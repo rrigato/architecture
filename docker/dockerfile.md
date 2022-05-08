@@ -8,3 +8,5 @@
 
 - ```FROM <base_image> AS <build_stage_name>``` to enable multi stage builds
 
+- ```ARG``` = not persisted to final writable layer of image, only available when building an image
+- ```ENV``` = peristed for all build layers and writable runtime containeraw
