@@ -8,4 +8,4 @@
 while IFS=',' read -r alias_name alias_value
 do
     alias $alias_name="$alias_value"
-done < <(tail -n +2 ./shell_config/alias_commands.csv)
+done < <(tail -n +2 ~/shell_config/alias_commands.csv)
