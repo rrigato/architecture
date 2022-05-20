@@ -19,3 +19,7 @@
 - Analyze what a person means not the statements that they say
 - Summing up individual small probabilities converges to probability 1 in the limit 
 - Going into an environment shapes your habbits into the habbits of all the people that are in that environment
+
+
+- rational ignorance = you do not need to pay attention in domains where the cost of ignorance is zero
+
