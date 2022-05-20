@@ -58,3 +58,5 @@
 - Desperation promotes innovation
 - Only a fool thinks the tallest object they have seen is the biggest on the planet
 - Acute stress followed by relaxation promotes antifragility while prolonged periods of moderate stress promote fragility
+
+- Use small words to convey big ideas not big words to convey small ideas
