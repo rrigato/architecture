@@ -8,6 +8,8 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "files.defaultLanguage": "markdown",
+    //turn off line blame
+    "gitlens.currentLine.enabled": false,
     "outline.showVariables": false,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.enableMultiLinePasteWarning": false,
