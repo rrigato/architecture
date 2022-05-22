@@ -1,0 +1,22 @@
+{
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        100
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.defaultLanguage": "markdown",
+    //turn off line blame
+    "gitlens.currentLine.enabled": false,
+    "outline.showVariables": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "window.zoomLevel": 1,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 2,
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "right"
+}

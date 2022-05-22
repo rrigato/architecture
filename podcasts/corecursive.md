@@ -88,3 +88,9 @@
 - Think about distributed systems as a series of immutable transactions that whenever you need the current state you calculate all of the historical transactions from the last save point up to the current point time
 - 
 - Separate the portions of your software workloads that can be replayed without side effects from those that replaying causes side effects 
+
+
+- if you accept garbage input instead of failing the moment your program is invalid, everyone will need to interrpret garbage the same way
+
+- Timsort = python optimistic sort algorithm that has a bunch of boundary special conditions that outperforms what would be the best case scenario according to big O notation
+  - practical solutions need to be developed first, followed by theoretical justification, do not attempt to start from theory

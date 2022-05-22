@@ -1,0 +1,3 @@
+- elastic network interface (ENI) = represents a virtual network card which can be a mac address or ipv4/ipv6 private/public address
+- if an elastic network interface is in a private subnet, you must use vpc endpoints to connect to other aws services
+- an ENI in a public subnet requires an internet gateway or nat gateway for connecting to aws services

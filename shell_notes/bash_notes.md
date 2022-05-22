@@ -1,0 +1,3 @@
+- redirection ```>``` writes stdout to a new file
+- ```>>``` appends stdout to an existing file
+- piping ```|``` redirects the output of one command to another program/command
