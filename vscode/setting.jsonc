@@ -5,6 +5,9 @@
         100
     ],
     "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.template": "yaml"
+    },
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "files.defaultLanguage": "markdown",
@@ -14,6 +17,29 @@
     "outline.showVariables": false,
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.enableMultiLinePasteWarning": false,
+    //Makes cloudformation templates place nice with yaml language mode,
+    //all intrinsic CloudFormation functions can be found here:
+    //https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html
+    "yaml.customTags": [
+        "!Base64 scalar",
+        "!Cidr scalar",
+        "!And sequence",
+        "!Equals sequence",
+        "!If sequence",
+        "!Not sequence",
+        "!Or sequence",
+        "!Condition scalar",
+        "!FindInMap sequence",
+        "!GetAtt scalar",
+        "!GetAZs scalar",
+        "!ImportValue scalar",
+        "!Join sequence",
+        "!Select sequence",
+        "!Split sequence",
+        "!Sub scalar",
+        "!Transform mapping",
+        "!Ref scalar",
+    ],
     "window.zoomLevel": 1,
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
