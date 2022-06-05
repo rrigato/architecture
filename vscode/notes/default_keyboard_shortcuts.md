@@ -16,13 +16,7 @@
 
 - ```F12``` = go to defintion
 
-- ```CMD + enter``` = open an editor to the side
-
-- ```OPTION + CMD + r``` = toggle regex 
-
-- ```SHIFT + OPTION + F``` = format all code
-
-- ```CMD + K + R``` = reveal file in file explorer
+- ```CMD + return``` = open an editor to the side
 
 - ```CMD + K + P``` - copy full path to file
 
@@ -31,3 +25,14 @@
 - ```CMD + W``` = close editor
 
 - ```CMD + 1 OR 2 OR 3``` = toggle left/right/center editor groups
+
+- ```CMD + SHIFT + \``` = place cursor at matching parentheses/brackets
+
+- ```CMD + SHIFT + H``` = find and replace across workspace
+    - ```CMD + down arrow``` = move to replace input box or file match section
+        
+# while-focused-on-matches-in-search-results
+- ```CMD + left arrow``` = collapse files with matches
+
+- ```CMD + SHIFT + !``` = replace next file/match within file
+- ```CMD + OPTION + return``` = replace all matches across all files
