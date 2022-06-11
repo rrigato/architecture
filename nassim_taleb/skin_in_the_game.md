@@ -23,3 +23,10 @@
 
 - rational ignorance = you do not need to pay attention in domains where the cost of ignorance is zero
 
+- Skin in the game is good for incentives and is a moral requirement if providing advice
+
+- Fat tailed distributions are impossible to differentiate from thin tailed distributions until after a low probability, high impact event occurs
+
+- The gaussian distribution is self-referential because you need the dataset in order to figure out what your probability distribution is and then also use that probability distribution to determine how much data you need to make inferences with the dataset
+
+- A scholar should not be a libraries tool for making another library

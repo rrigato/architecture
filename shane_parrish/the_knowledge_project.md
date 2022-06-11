@@ -1,0 +1,2 @@
+- Knowledge is about knowing when to listen and ponder an argument 
+- every decision you make must be informed by first principles
