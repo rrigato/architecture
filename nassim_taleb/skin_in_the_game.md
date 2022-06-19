@@ -30,3 +30,5 @@
 - The gaussian distribution is self-referential because you need the dataset in order to figure out what your probability distribution is and then also use that probability distribution to determine how much data you need to make inferences with the dataset
 
 - A scholar should not be a libraries tool for making another library
+
+- As humans we reduce the dimensionality of evidence into post-hoc justifications in order for them to be easily remembered
