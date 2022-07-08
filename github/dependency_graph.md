@@ -1,0 +1,1 @@
+- [Dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/exploring-the-dependencies-of-a-repository) enables you to view application dependencies from a requirements file/package.json

@@ -1,0 +1,3 @@
+- patch where an object is looked up not where it is defined
+- patches return a ```MagicMock``` object
+- patching temporarily changes the name that an object points to with a different one
