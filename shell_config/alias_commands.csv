@@ -5,7 +5,7 @@ g_c,git checkout
 g_f,git fetch origin
 g_i,git init
 g_l,git log
-g_m,git add *; git commit -m
+g_m,git add --all; git commit -m
 g_o,git commit -m
 g_p,git pull origin
 g_r,git remote add origin

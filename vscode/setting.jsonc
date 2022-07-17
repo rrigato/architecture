@@ -31,6 +31,7 @@
         "!Condition scalar",
         "!FindInMap sequence",
         "!GetAtt scalar",
+        "!GetAtt sequence",
         "!GetAZs scalar",
         "!ImportValue scalar",
         "!Join sequence",
