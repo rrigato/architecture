@@ -13,6 +13,14 @@ g_s,git status
 g_t,git tag
 g_u,git push origin -u
 g_v,git remote -v
+j_d,node --inspect-brk node_modules/.bin/jest --runInBand
+j_t,node_modules/.bin/jest
+npm_b,npm run build
+npm_d,npm install --save-dev
+npm_i,npm install
+npm_l,npm run local
+npm_t,npm run test
+nvm_u,nvm use
 py_c,python3 -m venv avenv
 py_m,python -m
 py_r,pip install -r requirements/requirements-dev.txt
