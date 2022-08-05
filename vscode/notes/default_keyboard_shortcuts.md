@@ -30,9 +30,14 @@
 
 - ```CMD + SHIFT + H``` = find and replace across workspace
     - ```CMD + down arrow``` = move to replace input box or file match section
-        
+
+- ```CMD + CTRL + plus left or right arrow``` = Move editor to different editor group
+
 # while-focused-on-matches-in-search-results
 - ```CMD + left arrow``` = collapse files with matches
 
 - ```CMD + SHIFT + !``` = replace next file/match within file
 - ```CMD + OPTION + return``` = replace all matches across all files
+
+# terminal-focus 
+- ```CMD + up or down arrow``` = jump between previous command results
