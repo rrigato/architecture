@@ -92,7 +92,7 @@
     "log statement for function": {
         "prefix": "f5",
         "body": [
-            "logging.info(\"${1:function_name} - $0\")",
+            "logging.info(f\"${1:function_name} - $0\")",
             ],
             "description": "log statement for function"
         
@@ -130,5 +130,19 @@
             "",
         ],
         "description": "main entry with logging"
+    },
+    "get object properties": {
+        "prefix": "f8",
+        "body": [
+            "",
+            "",
+            "${1:object_properties} = [",
+            "    $0attr_name for attr_name in dir(${2:object_name})",
+            "    if not attr_name.startswith(\"_\")",
+            "]",
+            "",
+            
+        ],
+        "description": "public properties only"
     }
 }
