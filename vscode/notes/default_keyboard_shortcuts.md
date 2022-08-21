@@ -41,3 +41,4 @@
 
 # terminal-focus 
 - ```CMD + up or down arrow``` = jump between previous command results
+- ```CTRL + r``` = search previous commands
