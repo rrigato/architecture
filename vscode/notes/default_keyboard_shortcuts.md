@@ -33,6 +33,8 @@
 
 - ```CMD + CTRL + plus left or right arrow``` = Move editor to different editor group
 
+- ```CMD + SHIFT + Y``` = focus debug console terminal
+
 # while-focused-on-matches-in-search-results
 - ```CMD + left arrow``` = collapse files with matches
 

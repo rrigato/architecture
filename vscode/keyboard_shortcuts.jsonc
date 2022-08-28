@@ -49,6 +49,13 @@
         "command": "workbench.action.terminal.kill",
         "when": "isMac"
     },
+    /** tvratings deployment task keybinding*/
+    {
+        "key": "cmd+shift+a",
+        "command": "workbench.action.tasks.runTask",
+        "args": "tvratings deployment",
+        "when": "isMac"
+    },
 
 
     /**
