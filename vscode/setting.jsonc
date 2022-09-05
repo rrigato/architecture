@@ -9,7 +9,7 @@
         "*.template": "yaml"
     },
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
+    "files.autoSaveDelay": 500,
     "files.defaultLanguage": "markdown",
     //turn off git line level commit info because it is distracting
     "gitlens.currentLine.enabled": false, 

@@ -1,0 +1,4 @@
+- automatic service discovery = containers in a user defined bridge network can resolve other containers by IP address and container name
+- The docker default bridge network can only resolve containers by IP address
+- host networks = best when the container network stack should not be separate from the physical host of the container
+- overlay networks = best when you need containers running on different docker host hardware to communicate or for docker swarm
