@@ -2,13 +2,11 @@
 
 - ```CMD + B``` = hide the sidebar
 
-- ```CTRL + SHIFT + plus left or right arrow``` = increase selection to brackets
-
-- ```@:``` = groups symbols by type 
+- ```CTRL + SHIFT + plus left or right arrow``` = increase/decrease selection to brackets
 
 - ```CMD + K + CMD + 0``` = collapse all code
 
-- ```CMD + OPTION + [ or ]``` = collapse/expand code
+- ```CMD + OPTION + [ or ]``` = collapse/expand code section
 
 - ```CMD + K + CMD + ]``` = expand code recursively
 
@@ -19,8 +17,6 @@
 - ```CMD + return``` = open an editor to the side
 
 - ```CMD + K + P``` - copy full path to file
-
-- ```CMD + SHIFT + L``` = inserts a cursor at all selections
 
 - ```CMD + W``` = close editor
 

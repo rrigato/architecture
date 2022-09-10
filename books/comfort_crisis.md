@@ -1,0 +1,2 @@
+- physical exercise is correlated with mental health outcomes
+- Spending more time reflecting on the inevitabilities of mortality reduces the aniexty of it
