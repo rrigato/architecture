@@ -49,8 +49,22 @@
         "command": "workbench.action.terminal.kill",
         "when": "isMac"
     },
-    /** tvratings deployment task keybinding*/
     {
+        /** override go to definition*/
+        "key": "cmd+k cmd+g",
+        "command": "editor.action.revealDefinition",
+        "when": "isMac && editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        /** override copy relative path to file
+            TODO determine if you can copy module path
+        */
+        "key": "shift+alt+cmd+c",
+        "command": "copyRelativeFilePath",
+        "when": "editorFocus"
+    },
+    {
+        /** tvratings deployment task keybinding*/
         "key": "cmd+shift+a",
         "command": "workbench.action.tasks.runTask",
         "args": "tvratings deployment",

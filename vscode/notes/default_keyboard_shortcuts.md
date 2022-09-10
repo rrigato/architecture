@@ -12,7 +12,7 @@
 
 - ```CMD + SHIFT + [ or ]``` = switch between active terminals
 
-- ```F12``` = go to defintion
+- ```CMD + K + CMD + I``` = show hover
 
 - ```CMD + return``` = open an editor to the side
 
