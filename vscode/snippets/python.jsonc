@@ -144,5 +144,16 @@
             
         ],
         "description": "public properties only"
+    },
+    "Relative path module syntax": {
+        "prefix": "f9",
+        "body": [
+            //"$RELATIVE_FILEPATH"
+            // "${RELATIVE_FILEPATH/\\.py//}"
+            // "${RELATIVE_FILEPATH/[\\/]/_/}"
+            // "${RELATIVE_FILEPATH/([\\/])/./g}"
+            "${RELATIVE_FILEPATH/([\\/])|(\\.py)/./g}"
+        ],
+        "description": "Trims .py from filename"
     }
 }
