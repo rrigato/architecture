@@ -61,7 +61,18 @@
         */
         "key": "shift+alt+cmd+c",
         "command": "copyRelativeFilePath",
-        "when": "editorFocus"
+        "when": "isMac && editorFocus"
+    },
+    {
+        /** installed extension dependency:
+            mgesbert.python-path
+            https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path
+            https://github.com/mgesbert/vscode-python-path
+            
+        */
+        "key": "cmd+k cmd+p",
+        "command": "extension.copyPythonPath",
+        "when": "isMac && editorFocus"
     },
     {
         /** tvratings deployment task keybinding*/
