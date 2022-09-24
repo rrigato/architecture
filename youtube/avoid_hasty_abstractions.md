@@ -1,0 +1,3 @@
+- Make sure to remove unused functionality from an abstraciton the moment it is no longer dependended upon by multiple use cases
+- Duplication is cheaper than having the wrong abstraction
+- wait until the duplication among use cases is obvious before creating a new abstraction
