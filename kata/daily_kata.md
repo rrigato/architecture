@@ -167,6 +167,13 @@ npm_t
 </code>
 </details>
 
+- nvm install
+<details>
+<code>
+nvm_i
+</code>
+</details>
+
 - nvm use
 <details>
 <code>
@@ -220,6 +227,9 @@ py_v
 - ```()```
 - ```[]```
 - ```\```
+- ```=+-```
+- ```+```
+- ```-```
 
 # vscode
 
@@ -246,6 +256,9 @@ py_v
 
 - show hover
  <details><code>CMD + K + CMD + I </code></details>
+
+- show intellisense recommendation
+ <details><code>CTRL + space</code></details>
 
 - open an editor to the side
  <details><code>CMD + return </code></details>
@@ -285,3 +298,36 @@ py_v
 
 - search previous commands
  <details><code>CTRL + r </code></details>
+
+- change keyboard input source
+ <details><code>CTRL + OPTION + space</code></details>
+
+- find all reference
+ <details><code>CMD+K CMD+M</code></details>
+
+- go to defintion
+ <details><code>CMD+k CMD+g</code></details>
+
+- copy python pat
+ <details><code>CMD+k CMD+p</code></details>
+
+- copy relative path to file
+ <details><code>CMD + OPTION + SHIFT + C</code></details>
+
+- increase terminal/panel size
+ <details><code>shift + OPTION + m</code></details>
+
+- decrease terminal/panel size
+ <details><code>shift + OPTION + n</code></details>
+
+- kill terminal
+ <details><code>cmd + ctrl + k</code></details>
+
+- Add cursor at next match
+ <details><code>cmd + d</code></details>
+
+- Add cursor to previous match
+ <details><code>cmd + shift + d</code></details>
+
+- Skip Add cursor to previous match
+ <details><code>cmd+k cmd+d</code></details>
