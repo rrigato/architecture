@@ -1,10 +1,5 @@
+
 # bash_commands
-- alias_value
-<details>
-<code>
-alias_name
-</code>
-</details>
 
 - git add
 <details>
@@ -65,18 +60,14 @@ g_l
 </code>
 </details>
 
-- git add 
--
--all; git commit 
--m
+- git add --all; git commit -m
 <details>
 <code>
 g_m
 </code>
 </details>
 
-- git commit 
--m
+- git commit -m
 <details>
 <code>
 g_o
@@ -127,12 +118,7 @@ g_v
 </code>
 </details>
 
-- node 
--
--inspect
--brk node_modules/.bin/jest 
--
--runInBand
+- node --inspect-brk node_modules/.bin/jest --runInBand
 <details>
 <code>
 j_d
@@ -153,10 +139,7 @@ npm_b
 </code>
 </details>
 
-- npm install 
--
--save
--dev
+- npm install --save-dev
 <details>
 <code>
 npm_d
@@ -232,9 +215,13 @@ py_v
 </details>
 
 
+- iterate over keys:
+- ```0-9```
+- ```()```
+- ```[]```
+- ```\```
+
 # vscode
-
-
 
 - add a cursor
  <details><code>CMD + OPTION + up or down arrow </code></details>
