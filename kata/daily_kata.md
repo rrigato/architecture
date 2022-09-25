@@ -230,3 +230,71 @@ py_t
 py_v
 </code>
 </details>
+
+
+# vscode
+
+
+
+- add a cursor
+ <details><code>CMD + OPTION + up or down arrow </code></details>
+
+- hide the sidebar
+ <details><code>CMD + B </code></details>
+
+- increase/decrease selection to brackets
+ <details><code>CTRL + SHIFT + plus left or right arrow </code></details>
+
+- collapse all code
+ <details><code>CMD + K + CMD + 0 </code></details>
+
+- collapse/expand code section
+ <details><code>CMD + OPTION + [ or ] </code></details>
+
+- expand code recursively
+ <details><code>CMD + K + CMD + ] </code></details>
+
+- switch between active terminals
+ <details><code>CMD + SHIFT + [ or ] </code></details>
+
+- show hover
+ <details><code>CMD + K + CMD + I </code></details>
+
+- open an editor to the side
+ <details><code>CMD + return </code></details>
+
+- close editor
+ <details><code>CMD + W </code></details>
+
+- toggle left/right/center editor groups
+ <details><code>CMD + 1 OR 2 OR 3 </code></details>
+
+- place cursor at matching parentheses/brackets
+ <details><code>CMD + SHIFT + \ </code></details>
+
+- find and replace across workspace
+ <details><code>CMD + SHIFT + H </code></details>
+
+- move to replace input box or file match section
+ <details><code>CMD + down arrow </code></details>
+
+- Move editor to different editor group
+ <details><code>CMD + CTRL + plus left or right arrow </code></details>
+
+- focus debug console terminal
+ <details><code>CMD + SHIFT + Y </code></details>
+
+- collapse files with matches
+ <details><code>CMD + left arrow </code></details>
+
+- replace next file/match within file
+ <details><code>CMD + SHIFT + ! </code></details>
+
+- replace all matches across all files
+ <details><code>CMD + OPTION + return </code></details>
+
+- jump between previous command results
+ <details><code>CMD + up or down arrow </code></details>
+
+- search previous commands
+ <details><code>CTRL + r </code></details>
