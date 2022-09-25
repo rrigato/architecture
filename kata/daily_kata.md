@@ -1,6 +1,13 @@
 
 # bash_commands
 
+- detect-secrets scan | python3 -c "import sys; import json; print(json.load(sys.stdin)['results'])"
+<details>
+<code>
+d_s
+</code>
+</details>
+
 - git add
 <details>
 <code>

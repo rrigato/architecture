@@ -28,7 +28,7 @@ compare all tracked files to baseline the ```results``` key should be ```{}``` i
 detect-secrets scan
 
 detect-secrets scan | \
-python3 -c "import sys, json; print(json.load(sys.stdin)['results'])"
+python3 -c "import sys; import json; print(json.load(sys.stdin)['results'])"
 ```
 ```powershell
 (detect-secrets scan | ConvertFrom-Json).results

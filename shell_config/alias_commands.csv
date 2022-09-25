@@ -1,4 +1,5 @@
 alias_name,alias_value
+d_s,detect-secrets scan | python3 -c "import sys; import json; print(json.load(sys.stdin)['results'])"
 g_a,git add
 g_b,git branch
 g_c,git checkout
