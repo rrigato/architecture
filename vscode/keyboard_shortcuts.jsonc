@@ -74,6 +74,11 @@
         "when": "isMac && editorFocus"
     },
     {
+        "key": "cmd+k cmd+a",
+        "command": "python.sortImports",
+        "when": "isMac && editorFocus"
+    },
+    {
         /** installed extension dependency:
             mgesbert.python-path
             https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path

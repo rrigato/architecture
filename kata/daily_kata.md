@@ -188,33 +188,28 @@ nvm_u
 </code>
 </details>
 
-- python3 
--m venv avenv
+- python3 -m venv avenv
 <details>
 <code>
 py_c
 </code>
 </details>
 
-- python 
--m
+- python -m
 <details>
 <code>
 py_m
 </code>
 </details>
 
-- pip install 
--r requirements/requirements
--dev.txt
+- pip install -r requirements/requirements-dev.txt
 <details>
 <code>
 py_r
 </code>
 </details>
 
-- python 
--m unittest
+- python -m unittest
 <details>
 <code>
 py_t
@@ -315,7 +310,10 @@ py_v
 - go to defintion
  <details><code>CMD+k CMD+g</code></details>
 
-- copy python pat
+- python sort imports refactor
+ <details><code>cmd+k cmd+a</code></details>
+
+- copy python path
  <details><code>CMD+k CMD+p</code></details>
 
 - copy relative path to file
