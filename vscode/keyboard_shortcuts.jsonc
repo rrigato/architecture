@@ -68,6 +68,22 @@
         "when": "isMac && editorHasReferenceProvider"
     },
     {
+        /**override revert selected range**/
+        "key": "cmd+k cmd+r",
+        "command": "git.revertSelectedRanges",
+        "when": "isInDiffEditor || editorFocus"
+    },
+    /** - removes a default keyboard shortcut**/
+    {
+        
+        "key": "cmd+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "cmd+k cmd+r",
+        "command": "-workbench.action.keybindingsReference"
+    },
+    {
 
         "key": "shift+alt+cmd+c",
         "command": "copyRelativeFilePath",
