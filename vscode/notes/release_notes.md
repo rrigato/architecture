@@ -1,0 +1,2 @@
+- file explorer side bar search will remember what you stored last
+- 

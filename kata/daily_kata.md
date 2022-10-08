@@ -336,3 +336,12 @@ py_v
 
 - Skip Add cursor to previous match
  <details><code>cmd+k cmd+d</code></details>
+
+- revert selected range
+ <details><code>cmd+k cmd+r</code></details>
+
+- view available code actions for selected code
+ <details><code>ctrl+shift+r</code></details>
+
+- quick fix in terminal or editor
+ <details><code>cmd+.</code></details>
