@@ -1,2 +1,4 @@
 - file explorer side bar search will remember what you stored last
-- 
+- ```audioCues.taskEnded``` can enable audio validation when a task completes
+- [You can extract](https://code.visualstudio.com/updates/v1_72#_extract-to-link-definition-for-markdown) markdown link url values to a common abstraction name where they can be reused in multiple locations
+- code action support for organizing link actions at the bottom of a markdown file.

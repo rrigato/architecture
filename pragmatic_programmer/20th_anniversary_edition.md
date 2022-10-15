@@ -98,3 +98,5 @@
 - not understanding the full production considerations of why code worked in the first place will make it impossible to know what to fix when the code breaks
 - when having trouble beginning development, tell yourself you are only working on a POC
 - don't let yesterday's software engineering habits bias today's applications
+- do not get bogged down with redundant tests to try to get 100% coverage
+- 
