@@ -99,4 +99,5 @@
 - when having trouble beginning development, tell yourself you are only working on a POC
 - don't let yesterday's software engineering habits bias today's applications
 - do not get bogged down with redundant tests to try to get 100% coverage
-- 
+- unit tests ensure an interface honors its public contract
+- make sure the requirements your solutions is supposed to meet aligns with the green ```test passed``` message
