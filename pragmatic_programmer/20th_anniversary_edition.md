@@ -112,4 +112,7 @@
   - input data
   - detailed output
   - detailed debugging
-- 
+  
+- keys and secrets need to be managed separately as config files or passed as environment variables
+- do not arbitrarily require password changes, only do this for a valid reason
+- delegate encryption and authentication to third party providers
