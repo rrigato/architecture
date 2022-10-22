@@ -1,7 +1,7 @@
 
 # bash_commands
 
-- detect-secrets scan | python3 -c "import sys; import json; print(json.load(sys.stdin)['results'])"
+- ```detect-secrets scan | python3 -c "import sys; import json; print(json.load(sys.stdin)['results'])"```
 <details>
 <code>
 d_s
@@ -233,6 +233,11 @@ py_v
 - ```+```
 - ```-```
 
+
+# mac_commands
+- capture screenshot
+ <details><code>SHIFT + CMD + 3</code></details>
+
 # vscode
 
 - add a cursor
@@ -271,7 +276,7 @@ py_v
 - toggle left/right/center editor groups
  <details><code>CMD + 1 OR 2 OR 3 </code></details>
 
-- place cursor at matching parentheses/brackets
+- place cursor at matching/closest parentheses/brackets
  <details><code>CMD + SHIFT + \ </code></details>
 
 - find and replace across workspace
@@ -298,11 +303,11 @@ py_v
 - jump between previous command results
  <details><code>CMD + up or down arrow </code></details>
 
-- search previous commands
+- search previous terminal commands
  <details><code>CTRL + r </code></details>
 
 - change keyboard input source
- <details><code>CTRL + OPTION + space</code></details>
+ <details><code>CAPS LOCK</code></details>
 
 - find all reference
  <details><code>CMD+K CMD+M</code></details>

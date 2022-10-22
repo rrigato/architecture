@@ -116,3 +116,9 @@
 - keys and secrets need to be managed separately as config files or passed as environment variables
 - do not arbitrarily require password changes, only do this for a valid reason
 - delegate encryption and authentication to third party providers
+
+> the beginning of wisdom is the ability to call things by their right name
+
+- there is value in consistent project jargon, even if it is at a local rather than a global maxima
+- business rules are metadata that your system should support easy modification of
+  
