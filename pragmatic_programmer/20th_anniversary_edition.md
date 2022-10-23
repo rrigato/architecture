@@ -127,3 +127,7 @@
   - > Build the code not your ego
   - critcize the code not the person
   - understand others viewpoints before responding as different is not wrong
+  
+- the agile mindset in the real world and software development is about responding to unknowns you encounter after beginning a project
+- quality design is measured by how easy it is to change a system
+- take the smallest meangingful step towards the direction you want to be, you are making progress as long as you are incrementally closer to your goal than when you took that step.
