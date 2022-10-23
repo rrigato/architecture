@@ -121,4 +121,9 @@
 
 - there is value in consistent project jargon, even if it is at a local rather than a global maxima
 - business rules are metadata that your system should support easy modification of
-  
+
+- Corollary of Conway's law = teams that include users in the development process will produce software that demonstrates that involvement
+- human interaction in PR's/user feedback sessions/pair programming:
+  - > Build the code not your ego
+  - critcize the code not the person
+  - understand others viewpoints before responding as different is not wrong

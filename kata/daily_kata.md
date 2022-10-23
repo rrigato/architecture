@@ -235,8 +235,11 @@ py_v
 
 
 # mac_commands
-- capture screenshot
- <details><code>SHIFT + CMD + 3</code></details>
+- full screenshot
+ <details><code>CMD + SHIFT + 3</code></details>
+
+- screen shot snipping
+ <details><code>CMD + SHIFT + 4</code></details>
 
 # vscode
 
