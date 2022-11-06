@@ -1,9 +1,11 @@
 {
+    "editor.detectIndentation": false,    
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.rulers": [
         100
     ],
+    "editor.tabSize": 4,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
         "*.template": "yaml"

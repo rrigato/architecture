@@ -353,3 +353,6 @@ py_v
 
 - quick fix in terminal or editor
  <details><code>cmd+.</code></details>
+
+- wrap selection in jsx
+ <details><code>cmd+k cmd+h</code></details>
