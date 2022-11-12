@@ -38,3 +38,8 @@
 # a08-software-and-data-integrity
 - Have a security review for any public facing application changes
 
+# a09-security-logging-and-monitoring-failures
+- test an e2e trace of a logged request before going to production to ensure that you will have all required logging needed for post incident analysis
+
+# a10-server-side-request-forgery
+- Validate cloudtrail is logging all accept and deny api calls
