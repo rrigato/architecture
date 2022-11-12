@@ -23,3 +23,18 @@
 - Specifically around dependencies if the underlying infrastructure is managed
 - review application flow to ensure stack trace inforamtion is not propagated to user
 - ensure that service roles are being used to avoid having to manage credentials with your cloud provider
+
+# a06-vulnerable-and-outdated-components
+- I will die on the hill that general, untargeted security scanning does more harm than good
+  - provides white noise in the data that makes it difficult to detect actual security events 
+- Always bias towards using built ins if possible
+- ```npm audit fix``` for node dependencies
+- Running managed cloud offerings mitigates the amount of software update turnover
+- Make sure your dependencies can be easily switched out via environment variables in your pipeline
+
+# a07-identification-and-authentication-failures
+- Be cognizant of session/user identifiers stored in untrusted clients
+
+# a08-software-and-data-integrity
+- Have a security review for any public facing application changes
+
