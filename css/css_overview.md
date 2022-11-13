@@ -40,7 +40,12 @@ div{
 - outer ```display:inline``` = no new line, width/height ignored
 - ```display:inline-block``` = width, height, padding and margin are respected without the box going to a newline
 
-
+- ```vertical-align``` = sets vertical alignment for an inline lement or inline-block element inside its containing box
+- margin-collapsing = two boxes with overlapping vertical margins takes the largest of the two margins
+- overflowing inline elements wrap onto a new line if possible
+- [css box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+- alternative css box model = content width is the width visible on the page minus the border and the padding
+- margin pushes away other content, padding pushes away content from border
 
 - floated elements are always ```display:block```
 - float = element is taken out of the normal layout flow and stuck to the left or right of its parent container
