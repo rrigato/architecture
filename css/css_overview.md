@@ -1,28 +1,44 @@
 ```css
 div ul{
 /*ul inside a div*/
-}```
+}
+```
 
 ```css
 h1 + p{
 /*p directly after an h1*/
-}```
+}
+```
 
 ```css
 h1, p {
 /*h1 and p tags*/
-}```
+}
+```
 
 ```css
 div.class-name{
 /*div with class of class-name*/
-}```
+}
+```
 
 ```css
 a:hover{
 /*changes css based on hover state*/
-}```
+}
+```
 
+- at rules 
+```css
+@media(min-width: 750px)
+div{
+/*how browser should behave based on screen width of at least 750 px*/
+}
+```
+
+- outer ```display:block``` type = box will break to newline, width/height respected
+- outer ```display:inline``` = no new line, width/height ignored
+- ```display:inline-block``` = width, height, padding and margin are respected without the box going to a newline
 
 
 
