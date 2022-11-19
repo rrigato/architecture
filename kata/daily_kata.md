@@ -74,13 +74,6 @@ g_m
 </code>
 </details>
 
-- git commit -m
-<details>
-<code>
-g_o
-</code>
-</details>
-
 - git pull origin
 <details>
 <code>

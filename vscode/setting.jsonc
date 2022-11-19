@@ -1,4 +1,7 @@
 {
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },    
     "editor.detectIndentation": false,    
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
