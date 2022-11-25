@@ -32,4 +32,7 @@
 - Behaviour-driven-development = Verify business requirements are met by the system under test by using a given, when, then (GWT) test creation methodology
 
 ## mock-types
-- dummy = implements an interface to do nothing as the function under test does not require the interface to be implemented, simply passed
+- dummy = matches the public contract of an interface, but does no implementation/returns nothing as the function under test does not require the interface to be implemented, simply passed
+- stub = matches the public contract of an interface, does no implementation, but stubs out return values 
+- spy = a stub but enables the test to ask about how the spied on interface was invoked
+- spies can be dangerous since they couple the test to the implementation of the interface being tested
