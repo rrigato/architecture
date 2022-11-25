@@ -1,4 +1,4 @@
-- Reaching a high percentage of unit test coverage to check the box results in flaky tests
+- Reaching a high percentage of unit test coverage to check a box results in flaky tests
 
 ![extreme programming circle of life](images/extreme_programming_circle_of_life.png)
 
@@ -26,3 +26,10 @@
 - Every engineer on the team leaves the code in a better place than when they checked it out because they know a passing test suite meets the business requirements
 
 - software engineering is breaking down large and complex systems into a set of small problems
+
+- Delete a test case if it requires a large complicated implementation to pass
+- Think of test case implementations as involving arrange, act and assert phases
+- Behaviour-driven-development = Verify business requirements are met by the system under test by using a given, when, then (GWT) test creation methodology
+
+## mock-types
+- dummy = implements an interface to do nothing as the function under test does not require the interface to be implemented, simply passed
