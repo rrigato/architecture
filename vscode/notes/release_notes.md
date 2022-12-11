@@ -15,3 +15,17 @@
 - ```markdown.validate.enabled``` = can alert for unused or duplicated link definitions
 
 - command palette has support for an insert link to file in workspace command 
+
+# 1.74
+```json
+{
+  "explorer.autoRevealExclude": {
+    "**/node_modules": true
+  }
+}
+
+```
+- Exclude files from being auto revealed in the side panel explorer
+- You can install an extension from a local ```.vsix``` file
+
+- ```editor.indentSize``` can be used to separate tabSize from indentSize

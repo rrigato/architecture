@@ -287,6 +287,9 @@ py_v
 - focus debug console terminal
  <details><code>CMD + SHIFT + Y </code></details>
 
+- focus primary side bar
+ <details><code>CMD + 0 </code></details>
+
 - collapse files with matches
  <details><code>CMD + left arrow </code></details>
 
