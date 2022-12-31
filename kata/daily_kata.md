@@ -228,8 +228,13 @@ py_v
 
 
 # mac_commands
+- delete an unsaved file
+ <details><code>CMD + W</code></details>
+ <details><code>CMD + DELETE</code></details>
+
 - full screenshot
  <details><code>CMD + SHIFT + 3</code></details>
+
 
 - screen shot snipping
  <details><code>CMD + SHIFT + 4</code></details>
@@ -259,9 +264,6 @@ py_v
 
 - show hover
  <details><code>CMD + K + CMD + I </code></details>
-
-- show intellisense recommendation
- <details><code>CTRL + space</code></details>
 
 - open an editor to the side
  <details><code>CMD + return </code></details>
@@ -306,7 +308,7 @@ py_v
  <details><code>CTRL + r </code></details>
 
 - change keyboard input source
- <details><code>CAPS LOCK</code></details>
+ <details><code>CTRL + SPACE</code></details>
 
 - find all reference
  <details><code>CMD+K CMD+M</code></details>
