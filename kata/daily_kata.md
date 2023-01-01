@@ -239,6 +239,9 @@ py_v
 - screen shot snipping
  <details><code>CMD + SHIFT + 4</code></details>
 
+- switch focus on split screen
+ <details><code>CMD + `</code></details>
+
 # vscode
 
 - add a cursor
