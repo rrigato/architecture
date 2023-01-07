@@ -262,7 +262,7 @@ py_v
 - expand code recursively
  <details><code>CMD + K + CMD + ] </code></details>
 
-- switch between active terminals
+- switch between active terminals and editors in group
  <details><code>CMD + SHIFT + [ or ] </code></details>
 
 - show hover
@@ -270,6 +270,12 @@ py_v
 
 - open an editor to the side
  <details><code>CMD + return </code></details>
+
+- reveal command pallette
+ <details><code>CMD + SHIFT + P </code></details>
+
+- search for symbol reference in workspace
+ <details><code>CMD + P + # </code></details>
 
 - close editor
  <details><code>CMD + W </code></details>
