@@ -240,7 +240,7 @@ py_v
  <details><code>CMD + SHIFT + 4</code></details>
 
 - switch focus on split screen
- <details><code>CMD + `</code></details>
+ <details><code>CMD + TAB</code></details>
 
 # vscode
 
@@ -292,15 +292,6 @@ py_v
 - move to replace input box or file match section
  <details><code>CMD + down arrow </code></details>
 
-- Move editor to different editor group
- <details><code>CMD + CTRL + plus left or right arrow </code></details>
-
-- focus debug console terminal
- <details><code>CMD + SHIFT + Y </code></details>
-
-- focus primary side bar
- <details><code>CMD + 0 </code></details>
-
 - collapse files with matches
  <details><code>CMD + left arrow </code></details>
 
@@ -310,6 +301,21 @@ py_v
 - replace all matches across all files
  <details><code>CMD + OPTION + return </code></details>
 
+- Move editor to different editor group
+ <details><code>CMD + CTRL + plus left or right arrow </code></details>
+
+- focus debug console terminal
+ <details><code>CMD + SHIFT + Y </code></details>
+
+- find all reference
+ <details><code>CMD+K CMD+M</code></details>
+
+- focus primary side bar
+ <details><code>CMD + 0 </code></details>
+
+- go to defintion
+ <details><code>CMD+k CMD+g</code></details>
+
 - jump between previous command results
  <details><code>CMD + up or down arrow </code></details>
 
@@ -318,12 +324,6 @@ py_v
 
 - change keyboard input source
  <details><code>CTRL + SPACE</code></details>
-
-- find all reference
- <details><code>CMD+K CMD+M</code></details>
-
-- go to defintion
- <details><code>CMD+k CMD+g</code></details>
 
 - python sort imports refactor
  <details><code>cmd+k cmd+a</code></details>
