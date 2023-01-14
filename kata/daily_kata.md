@@ -216,6 +216,7 @@ py_v
 </code>
 </details>
 
+- right shift for left side of keyboard
 
 - iterate over keys:
 - ```0-9```
