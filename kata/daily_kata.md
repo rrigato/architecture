@@ -336,31 +336,34 @@ py_v
  <details><code>CMD + OPTION + SHIFT + C</code></details>
 
 - increase terminal/panel size
- <details><code>shift + OPTION + m</code></details>
+ <details><code>SHIFT + OPTION + M</code></details>
 
 - decrease terminal/panel size
- <details><code>shift + OPTION + n</code></details>
+ <details><code>SHIFT + OPTION + N</code></details>
 
 - kill terminal
- <details><code>cmd + ctrl + k</code></details>
+ <details><code>CMD + CTRL + K</code></details>
 
 - Add cursor at next match
- <details><code>cmd + d</code></details>
+ <details><code>CMD + D</code></details>
 
 - Add cursor to previous match
- <details><code>cmd + shift + d</code></details>
+ <details><code>CMD + SHIFT + D</code></details>
 
 - Skip Add cursor to previous match
- <details><code>cmd+k cmd+d</code></details>
+ <details><code>CMD+K CMD+D</code></details>
 
 - revert selected range
- <details><code>cmd+k cmd+r</code></details>
+ <details><code>CMD+K CMD+R</code></details>
 
 - view available code actions for selected code
- <details><code>ctrl+shift+r</code></details>
+ <details><code>CTRL+SHIFT+R</code></details>
 
-- quick fix in terminal or editor
- <details><code>cmd+.</code></details>
+- quick fix import
+ <details><code>CMD+.</code></details>
+
+- focus on breadcrumbs
+ <details><code>CMD + SHIFT + .</code></details>
 
 - wrap selection in jsx
- <details><code>cmd+k cmd+h</code></details>
+ <details><code>CMD+K CMD+H</code></details>
