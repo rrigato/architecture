@@ -275,8 +275,8 @@ py_v
 - reveal command pallette
  <details><code>CMD + SHIFT + P </code></details>
 
-- search for symbol reference in workspace
- <details><code>CMD + P + # </code></details>
+- go to symbol in workspace
+ <details><code>CMD + T </code></details>
 
 - close editor
  <details><code>CMD + W </code></details>
