@@ -13,7 +13,7 @@
             "    logging.info(f\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(f\"${1:function_name} - invocation end\")",
-            "    return(${2:return_type})",
+            "    return(None)",
             "",
             "",
         ],
@@ -30,7 +30,7 @@
             "    logging.info(f\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(f\"${1:function_name} - invocation end\")",
-            "    return(${4:return_type})",
+            "    return(None)",
             "",
             "",
         ],
@@ -47,7 +47,7 @@
             "    logging.info(f\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(f\"${1:function_name} - invocation end\")",
-            "    return(${6:return_type})",
+            "    return(None)",
             "",
             "",
         ],
@@ -65,7 +65,7 @@
             "    logging.info(f\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(f\"${1:function_name} - invocation end\")",
-            "    return(${8:return_type})",
+            "    return(None)",
             "",
             "",
         ],
@@ -83,7 +83,7 @@
             "    logging.info(f\"${1:function_name} - invocation begin\")",
             "    $0",
             "    logging.info(f\"${1:function_name} - invocation end\")",
-            "    return(${10:return_type})",
+            "    return(None)",
             "",
             "",
         ],
@@ -144,16 +144,5 @@
             
         ],
         "description": "public properties only"
-    },
-    "Relative path module syntax": {
-        "prefix": "f9",
-        "body": [
-            //"$RELATIVE_FILEPATH"
-            // "${RELATIVE_FILEPATH/\\.py//}"
-            // "${RELATIVE_FILEPATH/[\\/]/_/}"
-            // "${RELATIVE_FILEPATH/([\\/])/./g}"
-            "${RELATIVE_FILEPATH/([\\/])|(\\.py)/./g}"
-        ],
-        "description": "Trims .py from filename"
     }
 }
