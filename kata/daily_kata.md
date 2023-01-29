@@ -174,6 +174,13 @@ nvm_i
 </code>
 </details>
 
+- list installed node versions
+<details>
+<code>
+nvm_l
+</code>
+</details>
+
 - nvm use
 <details>
 <code>
@@ -233,17 +240,16 @@ py_v
  <details><code>CMD + W</code></details>
  <details><code>CMD + DELETE</code></details>
 
-- full screenshot
- <details><code>CMD + SHIFT + 3</code></details>
-
-
-- screen shot snipping
- <details><code>CMD + SHIFT + 4</code></details>
+- open screenshot
+ <details><code>CMD + SHIFT + 5</code></details>
 
 - switch focus on split screen
  <details><code>CMD + TAB</code></details>
 
 # vscode
+
+- change language mode
+ <details><code>CMD + K + M</code></details>
 
 - add a cursor
  <details><code>CMD + OPTION + up or down arrow </code></details>
