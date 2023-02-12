@@ -1,6 +1,10 @@
 - History is going to be dominated by an improbable event, do not try to predict what that event will be
 
-- Do not question an experts procedure question there confidence 
+- Never run to catch the train
+
+- when you have skin in the game and know what big picture projects are being accomplished, what other people think does not matter
+
+- Contempt the how a culture/countries precollections to percieved failure impacts innovation within that country/culture
 
 - the more predictions humans make the more they holistically underestimate the variance regardless of bias
 
@@ -9,8 +13,6 @@
 - Epistemic humility and skeptical empiricism 
 
 - A library full of read books is much less valuable than a bookshelf of unread books
-
-- Positive black swan events take much longer than negative black salon events 
 
 - A turkey believes in its cordial relationship with the human race with increasing confidence for the first 1000 days until the 1001st day is the day before Thanksgiving
 
