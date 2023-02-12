@@ -269,9 +269,6 @@ py_v
 - expand code recursively
  <details><code>CMD + K + CMD + ] </code></details>
 
-- switch between active terminals and editors in group
- <details><code>CMD + SHIFT + [ or ] </code></details>
-
 - show hover
  <details><code>CMD + K + CMD + I </code></details>
 
@@ -283,6 +280,21 @@ py_v
 
 - go to symbol in workspace
  <details><code>CMD + T </code></details>
+
+- focus debug console terminal
+ <details><code>CMD + SHIFT + Y </code></details>
+
+- search previous terminal commands
+ <details><code>CTRL + R </code></details>
+
+- switch between active terminals and editors in group
+ <details><code>CMD + SHIFT + [ or ] </code></details>
+
+- jump between previous command results
+ <details><code>CMD + up or down arrow </code></details>
+
+- open link in terminal
+ <details><code>CMD + SHIFT + O </code></details>
 
 - close editor
  <details><code>CMD + W </code></details>
@@ -311,9 +323,6 @@ py_v
 - Move editor to different editor group
  <details><code>CMD + CTRL + plus left or right arrow </code></details>
 
-- focus debug console terminal
- <details><code>CMD + SHIFT + Y </code></details>
-
 - find all reference
  <details><code>CMD+K CMD+M</code></details>
 
@@ -322,12 +331,6 @@ py_v
 
 - go to defintion
  <details><code>CMD+k CMD+g</code></details>
-
-- jump between previous command results
- <details><code>CMD + up or down arrow </code></details>
-
-- search previous terminal commands
- <details><code>CTRL + r </code></details>
 
 - change keyboard input source
  <details><code>CTRL + SPACE</code></details>
