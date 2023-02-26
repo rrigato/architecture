@@ -254,6 +254,12 @@ py_v
 - add a cursor
  <details><code>CMD + OPTION + up or down arrow </code></details>
 
+- increment by .1, 1, 10
+ <details><code>CMD + SHIFT + P + increment by x </code></details>
+
+- decrement .1, 1, 10
+ <details><code>CMD + SHIFT + P + decrement by x </code></details>
+
 - hide the sidebar
  <details><code>CMD + B </code></details>
 
