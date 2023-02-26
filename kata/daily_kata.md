@@ -272,9 +272,6 @@ py_v
 - show hover
  <details><code>CMD + K + CMD + I </code></details>
 
-- open an editor to the side
- <details><code>CMD + return </code></details>
-
 - reveal command pallette
  <details><code>CMD + SHIFT + P </code></details>
 
@@ -296,11 +293,14 @@ py_v
 - open link in terminal
  <details><code>CMD + SHIFT + O </code></details>
 
-- close editor
- <details><code>CMD + W </code></details>
+- open an editor to the side
+ <details><code>CMD + return </code></details>
 
 - toggle left/right/center editor groups
  <details><code>CMD + 1 OR 2 OR 3 </code></details>
+
+- close editor
+ <details><code>CMD + W </code></details>
 
 - place cursor at matching/closest parentheses/brackets
  <details><code>CMD + SHIFT + \ </code></details>

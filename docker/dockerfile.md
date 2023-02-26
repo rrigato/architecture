@@ -10,3 +10,6 @@
 
 - ```ARG``` = not persisted to final writable layer of image, only available when building an image
 - ```ENV``` = peristed for all build layers and writable runtime containeraw
+
+- Shared docker tag = reference multiple architectures 
+- simple docker tag references 1 architecture
