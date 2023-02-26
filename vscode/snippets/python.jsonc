@@ -155,5 +155,12 @@
             
         ],
         "description": "public properties only"
+    },
+    "0 based integer sequence": {
+        "prefix": "f9",
+        "body": [
+            "${CURSOR_INDEX}",
+        ],
+        "description": "using cursor index number"
     }
 }
