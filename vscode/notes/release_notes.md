@@ -8,13 +8,11 @@
   - ```audioCues.taskEnded``` 
   - ```audioCues.taskFailed```
 
-- ```list.collapseAllToFocus``` = new command for folding code recursively, effectiveness tbd
-
 - ```markdown.updateLinksOnFileMove.enabled``` = auto update markdown links
 
 - ```markdown.validate.enabled``` = can alert for unused or duplicated link definitions
 
-- command palette has support for an insert link to file in workspace command 
+
 
 # 1.74
 ```json
@@ -29,3 +27,8 @@
 - You can install an extension from a local ```.vsix``` file
 
 - ```editor.indentSize``` can be used to separate tabSize from indentSize
+
+
+# 1.76
+- Command to link to all markdown headers in current code workspace
+- sort json documents by key command
