@@ -290,7 +290,7 @@ py_v
 - search previous terminal commands
  <details><code>CTRL + R </code></details>
 
-- Toggle panel visibility
+- Focus and Toggle panel
  <details><code>CMD + J</code></details>
 
 - switch between active terminals and editors in group

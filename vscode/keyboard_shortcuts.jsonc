@@ -73,7 +73,25 @@
         "command": "git.revertSelectedRanges",
         "when": "isInDiffEditor || editorFocus"
     },
+    {
+        /**override toggle panel with
+        focus bottom panel**/
+        "key": "cmd+j",
+        "command": "workbench.action.focusPanel",
+        "when": "!panelFocus"
+    },
+    {
+        /**override toggle panel with
+        focus bottom panel**/
+        "key": "cmd+j",
+        "command": "workbench.action.togglePanel",
+        "when": "panelFocus"
+    },
     /** - removes a default keyboard shortcut**/
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    },
     {
         
         "key": "cmd+q",
