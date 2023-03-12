@@ -60,6 +60,20 @@ g_g
 </code>
 </details>
 
+- git fetch origin dev:dev
+<details>
+<code>
+g_j
+</code>
+</details>
+
+- git fetch origin master:master
+<details>
+<code>
+g_k
+</code>
+</details>
+
 - git log
 <details>
 <code>
