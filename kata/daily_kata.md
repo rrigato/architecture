@@ -307,7 +307,7 @@ py_v
 - Focus and Toggle panel
  <details><code>CMD + J</code></details>
 
-- switch between active terminals and editors in group
+- switch between active terminals
  <details><code>CMD + SHIFT + [ or ] </code></details>
 
 - jump between previous command results
@@ -348,9 +348,6 @@ py_v
 
 - find all reference
  <details><code>CMD+K CMD+M</code></details>
-
-- focus primary side bar
- <details><code>CMD + 0 </code></details>
 
 - go to defintion
  <details><code>CMD+k CMD+g</code></details>
@@ -393,9 +390,6 @@ py_v
 
 - quick fix import
  <details><code>CMD+.</code></details>
-
-- focus on breadcrumbs
- <details><code>CMD + SHIFT + .</code></details>
 
 - wrap selection in jsx
  <details><code>CMD+K CMD+H</code></details>

@@ -5,8 +5,8 @@ g_b,git branch
 g_c,git checkout
 g_d,git diff
 g_f,git fetch origin
-g_i,git init
 g_g,git branch | grep -v master | grep -v dev | xargs git branch -d
+g_i,git init
 g_j,git fetch origin dev:dev
 g_k,git fetch origin master:master
 g_l,git log
@@ -26,6 +26,7 @@ npm_i,npm install
 npm_l,npm run local
 npm_t,npm run test
 nvm_i,nvm install
+nvm_i,nvm list
 nvm_u,nvm use
 py_c,python3 -m venv avenv
 py_m,python -m
