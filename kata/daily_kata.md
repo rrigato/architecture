@@ -249,6 +249,17 @@ py_v
 - ```-```
 
 
+# azure_devops
+- Copy issue title
+ <details><code>SHIFT + OPTION + C</code></details>
+ 
+- Focus discussion thread
+ <details><code>CMD + SHIFT + D</code></details>
+ 
+- Focus search bar
+ <details><code>S</code></details>
+
+
 # mac_commands
 - delete an unsaved file
  <details><code>CMD + W</code></details>
@@ -259,6 +270,8 @@ py_v
 
 - switch focus on split screen
  <details><code>CMD + TAB</code></details>
+
+
 
 # vscode
 
