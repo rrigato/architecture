@@ -296,6 +296,15 @@ py_v
 - increase/decrease selection to brackets
  <details><code>CTRL + SHIFT + plus left or right arrow </code></details>
 
+- select line
+ <details><code>CMD + L</code></details>
+
+- undo cursor position
+ <details><code>CMD + U</code></details>
+
+- redo cursor position
+ <details><code>SHIFT + CMD + U</code></details>
+
 - collapse all code
  <details><code>CMD + K + CMD + 0 </code></details>
 
@@ -388,9 +397,6 @@ py_v
 
 - kill terminal
  <details><code>CMD + CTRL + K</code></details>
-
-- undo cursor position
- <details><code>CMD + U</code></details>
 
 - Add cursor at next match
  <details><code>CMD + D</code></details>

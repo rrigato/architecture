@@ -98,6 +98,11 @@
         "command": "-workbench.action.quit"
     },
     {
+        
+        "key": "cmd+shift+u",
+        "command": "-workbench.action.output.toggleOutput"
+    },
+    {
         "key": "cmd+k cmd+r",
         "command": "-workbench.action.keybindingsReference"
     },
@@ -118,6 +123,11 @@
     {
         "key": "cmd+k cmd+a",
         "command": "python.sortImports",
+        "when": "isMac && editorFocus"
+    },
+    {
+        "key": "cmd+shift+u",
+        "command": "cursorRedo",
         "when": "isMac && editorFocus"
     },
     {
