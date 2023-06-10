@@ -265,6 +265,9 @@ py_v
  <details><code>CMD + W</code></details>
  <details><code>CMD + DELETE</code></details>
 
+- finder search by path
+ <details><code>CMD + SHIFT + G</code></details>
+
 - open screenshot
  <details><code>CMD + SHIFT + 5</code></details>
 
@@ -386,6 +389,9 @@ py_v
 - kill terminal
  <details><code>CMD + CTRL + K</code></details>
 
+- undo cursor position
+ <details><code>CMD + U</code></details>
+
 - Add cursor at next match
  <details><code>CMD + D</code></details>
 
@@ -403,6 +409,9 @@ py_v
 
 - quick fix import
  <details><code>CMD+.</code></details>
+
+- focus breadcrumbs
+ <details><code>CMD+SHIFT+.</code></details>
 
 - wrap selection in jsx
  <details><code>CMD+K CMD+H</code></details>

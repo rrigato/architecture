@@ -1,0 +1,4 @@
+- terrible book title with some decent ideas
+- Be cognizant of your visual reactions
+- Set clear expectations around communication platform and response time
+- Avoid filling in missing information with negative stories you made up about the opposite team member
