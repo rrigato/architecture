@@ -1,9 +1,11 @@
 {
+    "breadcrumbs.symbolSortOrder": "name",
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },    
     "editor.detectIndentation": false,    
     "editor.fontSize": 16,
+    "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.rulers": [
         100
@@ -21,6 +23,9 @@
     "gitlens.codeLens.enabled": false, 
     "markdown.validate.enabled": true,
     "outline.showVariables": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.enableMultiLinePasteWarning": false,
     //Makes cloudformation templates place nice with yaml language mode,
@@ -47,10 +52,10 @@
         "!Transform mapping",
         "!Ref scalar",
     ],
-    "window.zoomLevel": 1,
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 2,
     "workbench.activityBar.visible": false,
-    "workbench.sideBar.location": "right"
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none"
 }

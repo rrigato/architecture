@@ -32,3 +32,9 @@
 # 1.76
 - Command to link to all markdown headers in current code workspace
 - sort json documents by key command
+
+
+# 1.79
+- can copy image/audio file directly from the keyboard into a markdown file
+- dev containers extensions allows you to develop locally in a container
+

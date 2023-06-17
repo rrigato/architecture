@@ -305,6 +305,12 @@ py_v
 - redo cursor position
  <details><code>SHIFT + CMD + U</code></details>
 
+- set selection anchor
+ <details><code>CMD + K + CMD + B</code></details>
+
+- select from anchor to cursor
+ <details><code>CMD + K + CMD + K</code></details>
+
 - collapse all code
  <details><code>CMD + K + CMD + 0 </code></details>
 
