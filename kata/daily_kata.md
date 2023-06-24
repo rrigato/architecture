@@ -253,6 +253,12 @@ py_v
 - Copy issue title
  <details><code>SHIFT + OPTION + C</code></details>
  
+- Create hyperlink
+ <details><code>CMD + K</code></details>
+ 
+- Create Bulleted list
+ <details><code>CMD + .</code></details>
+
 - Focus discussion thread
  <details><code>CMD + SHIFT + D</code></details>
  
@@ -310,6 +316,12 @@ py_v
 
 - select from anchor to cursor
  <details><code>CMD + K + CMD + K</code></details>
+
+- move up page without scrolling
+ <details><code>CMD + page up</code></details>
+
+- move down page without scrolling
+ <details><code>CMD + page down</code></details>
 
 - collapse all code
  <details><code>CMD + K + CMD + 0 </code></details>
