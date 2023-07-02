@@ -259,12 +259,12 @@ py_v
 - Create Bulleted list
  <details><code>CMD + .</code></details>
 
+- Create Numbered list
+ <details><code>CMD + /</code></details>
+
 - Focus discussion thread
  <details><code>CMD + SHIFT + D</code></details>
  
-- Focus search bar
- <details><code>S</code></details>
-
 
 # mac_commands
 - delete an unsaved file
@@ -280,6 +280,14 @@ py_v
 - switch focus on split screen
  <details><code>CMD + TAB</code></details>
 
+# outlook
+- archive email
+ <details><code>CTRL + E</code></details>
+
+- Switch between calendar and inboc
+ <details><code>CMD + 1</code></details>
+ <details><code>CMD + 2</code></details>
+ 
 
 
 # vscode
