@@ -38,3 +38,8 @@
 - can copy image/audio file directly from the keyboard into a markdown file
 - dev containers extensions allows you to develop locally in a container
 
+# 1.80
+- ```Help: Troubleshoot Issue``` allows you to determine whether a bug is with vscode or an extension
+- ```preLaunchTask``` key in ```.vscode/launch.json``` enables you to run a task befor debugging
+- ```envFile``` key in ```.vscode/launch.json``` enables you to [set environement variables for debugging](https://code.visualstudio.com/docs/python/environments#_environment-variables)
+- images in terminal supported for ```.six``` files
