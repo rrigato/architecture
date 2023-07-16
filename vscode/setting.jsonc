@@ -33,30 +33,31 @@
     //all intrinsic CloudFormation functions can be found here:
     //https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html
     "yaml.customTags": [
+        "!And sequence",
         "!Base64 scalar",
         "!Cidr scalar",
-        "!And sequence",
-        "!Equals sequence",
-        "!If sequence",
-        "!Not sequence",
-        "!Or sequence",
         "!Condition scalar",
+        "!Equals sequence",
         "!FindInMap sequence",
         "!GetAtt scalar",
         "!GetAtt sequence",
         "!GetAZs scalar",
+        "!If sequence",
         "!ImportValue scalar",
         "!Join sequence",
+        "!Not sequence",
+        "!Or sequence",
+        "!Ref scalar",
         "!Select sequence",
         "!Split sequence",
         "!Sub scalar",
         "!Transform mapping",
-        "!Ref scalar",
     ],
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 2,
     "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "winodw.zoomlevel": 0
 }

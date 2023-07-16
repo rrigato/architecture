@@ -298,6 +298,9 @@ py_v
 - add a cursor
  <details><code>CMD + OPTION + up or down arrow </code></details>
 
+- copy line up/down
+ <details><code>SHIFT + OPTION + up or down arrow </code></details>
+
 - increment by .1, 1, 10
  <details><code>CMD + SHIFT + P + increment by x </code></details>
 
