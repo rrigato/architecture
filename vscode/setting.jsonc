@@ -14,14 +14,16 @@
     "editor.tabSize": 4,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
-        "*.template": "yaml"
+        "*.template": "yaml",
+        "*.env": "properties"
     },
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "files.defaultLanguage": "markdown",
     //turn off git line level commit info because it is distracting
     "gitlens.currentLine.enabled": false, 
-    "gitlens.codeLens.enabled": false, 
+    "gitlens.codeLens.enabled": false,
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart", 
     "markdown.validate.enabled": true,
     "outline.showVariables": false,
     "[python]": {
