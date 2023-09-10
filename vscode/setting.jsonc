@@ -55,11 +55,13 @@
         "!Sub scalar",
         "!Transform mapping",
     ],
+    "window.commandCenter": false,
     "winodw.zoomlevel": 0,
+    "workbench.activityBar.visible": false,
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
+    "workbench.layoutControl.enabled": false,
     "workbench.editor.limit.value": 2,
-    "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none"
  
