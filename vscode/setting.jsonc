@@ -23,6 +23,7 @@
     //turn off git line level commit info because it is distracting
     "gitlens.currentLine.enabled": false, 
     "gitlens.codeLens.enabled": false,
+    "json.sortOnSave.enable": true,
     "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart", 
     "markdown.validate.enabled": true,
     "outline.showVariables": false,

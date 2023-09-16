@@ -43,3 +43,6 @@
 - ```preLaunchTask``` key in ```.vscode/launch.json``` enables you to run a task befor debugging
 - ```envFile``` key in ```.vscode/launch.json``` enables you to [set environement variables for debugging](https://code.visualstudio.com/docs/python/environments#_environment-variables)
 - images in terminal supported for ```.six``` files
+
+# 1.82
+- ```json.sortOnSave.enable``` = auto sort json files

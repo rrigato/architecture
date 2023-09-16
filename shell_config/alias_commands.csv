@@ -25,8 +25,9 @@ npm_d,npm install --save-dev
 npm_i,npm install
 npm_l,npm run local
 npm_t,npm run test
-nvm_l,nvm install
-nvm_i,nvm list
+npm_u,npm update --dev
+nvm_l,nvm list
+nvm_i,nvm install
 nvm_u,nvm use
 py_c,python3 -m venv avenv
 py_m,python -m
