@@ -25,6 +25,7 @@ npm_d,npm install --save-dev
 npm_i,npm install
 npm_l,npm run local
 npm_t,npm run test
+npm_v,npm list --depth 0
 npm_u,npm update --dev
 nvm_l,nvm list
 nvm_i,nvm install
