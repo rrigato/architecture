@@ -1,0 +1,4 @@
+- mind like water
+  - react proportionatly to events that are out of your control
+- Do not spend any time worrying about a project you do not have a next action item for
+- 
