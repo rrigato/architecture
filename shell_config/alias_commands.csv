@@ -26,8 +26,8 @@ npm_i,npm install
 npm_l,npm run local
 npm_r,rm -r node_modules
 npm_t,npm run test
-npm_v,npm list --depth 0
 npm_u,npm update --dev
+npm_v,npm list --depth 0
 nvm_l,nvm list
 nvm_i,nvm install
 nvm_u,nvm use

@@ -174,10 +174,31 @@ npm_l
 </code>
 </details>
 
+- rm -r node_modules
+<details>
+<code>
+npm_r
+</code>
+</details>
+
 - npm run test
 <details>
 <code>
 npm_t
+</code>
+</details>
+
+- npm update --dev
+<details>
+<code>
+npm_u
+</code>
+</details>
+
+- npm list --depth 0
+<details>
+<code>
+npm_v
 </code>
 </details>
 
@@ -284,7 +305,7 @@ py_v
 - archive email
  <details><code>CTRL + E</code></details>
 
-- Switch between calendar and inboc
+- Switch between calendar and inbox
  <details><code>CMD + 1</code></details>
  <details><code>CMD + 2</code></details>
  
