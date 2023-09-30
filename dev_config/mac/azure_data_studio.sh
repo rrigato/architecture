@@ -1,0 +1,1 @@
+brew install --cask azure-data-studio

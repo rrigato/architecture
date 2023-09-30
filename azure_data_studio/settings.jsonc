@@ -1,0 +1,7 @@
+{
+    "queryEditor.results.showCopyCompletedNotification": false,
+    "workbench.colorTheme": "Default Dark Azure Data Studio",
+    "workbench.editorAssociations": {
+        "*.{sqlplan}": "workbench.editor.executionplan"
+    }
+}
