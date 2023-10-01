@@ -230,10 +230,24 @@ py_c
 </code>
 </details>
 
+- rm -r avenv
+<details>
+<code>
+py_d
+</code>
+</details>
+
 - python -m
 <details>
 <code>
 py_m
+</code>
+</details>
+
+- deactivate; rm -r avenv; python3 -m venv avenv && avenv/bin/activate && pip install -r requirements/requirements-dev.txt
+<details>
+<code>
+py_n
 </code>
 </details>
 

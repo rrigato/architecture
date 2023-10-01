@@ -32,7 +32,9 @@ nvm_l,nvm list
 nvm_i,nvm install
 nvm_u,nvm use
 py_c,python3 -m venv avenv
+py_d,rm -r avenv
 py_m,python -m
+py_n,deactivate; rm -r avenv; python3 -m venv avenv && avenv/bin/activate && pip install -r requirements/requirements-dev.txt
 py_r,pip install -r requirements/requirements-dev.txt
 py_t,python -m unittest
 py_v,source avenv/bin/activate
