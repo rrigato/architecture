@@ -1,0 +1,16 @@
+/** Command Palette -> Preferences: Open Keyboard Shortcuts 
+*  can search a command name 
+*  or type a command key to see if you have any collisons
+*
+*/
+[
+    /**
+    *Mac specific shortcuts
+    *
+    */
+    {
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "key": "cmd+shift+d",
+        "when": "isMac && editorTextFocus"
+    }
+]
