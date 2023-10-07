@@ -244,17 +244,17 @@ py_m
 </code>
 </details>
 
-- deactivate; rm -r avenv; python3 -m venv avenv && avenv/bin/activate && pip install -r requirements/requirements-dev.txt
-<details>
-<code>
-py_n
-</code>
-</details>
-
 - pip install -r requirements/requirements-dev.txt
 <details>
 <code>
 py_r
+</code>
+</details>
+
+- deactivate; rm -r avenv; python3 -m venv avenv && avenv/bin/activate && pip install -r requirements/requirements-dev.txt
+<details>
+<code>
+py_s
 </code>
 </details>
 
