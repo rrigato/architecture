@@ -237,6 +237,13 @@ py_c
 </code>
 </details>
 
+- source avenv/bin/activate
+<details>
+<code>
+py_a
+</code>
+</details>
+
 - pip install -r requirements/requirements-dev.txt
 <details>
 <code>
@@ -269,13 +276,6 @@ py_r
 <details>
 <code>
 py_t
-</code>
-</details>
-
-- source avenv/bin/activate
-<details>
-<code>
-py_v
 </code>
 </details>
 
