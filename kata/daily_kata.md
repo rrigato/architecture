@@ -216,17 +216,17 @@ nvm_i
 </code>
 </details>
 
-- list installed node versions
-<details>
-<code>
-nvm_l
-</code>
-</details>
-
 - nvm use
 <details>
 <code>
 nvm_u
+</code>
+</details>
+
+- list installed node versions
+<details>
+<code>
+nvm_v
 </code>
 </details>
 
@@ -237,10 +237,10 @@ py_c
 </code>
 </details>
 
-- rm -r avenv
+- pip install -r requirements/requirements-dev.txt
 <details>
 <code>
-py_d
+py_i
 </code>
 </details>
 
@@ -251,17 +251,17 @@ py_m
 </code>
 </details>
 
-- pip install -r requirements/requirements-dev.txt
-<details>
-<code>
-py_r
-</code>
-</details>
-
-- deactivate; rm -r avenv; python3 -m venv avenv && avenv/bin/activate && pip install -r requirements/requirements-dev.txt
+- deactivate; rm -r avenv; python3 -m venv avenv && source avenv/bin/activate && pip install -r requirements/requirements-dev.txt
 <details>
 <code>
 py_s
+</code>
+</details>
+
+- rm -r avenv
+<details>
+<code>
+py_r
 </code>
 </details>
 
