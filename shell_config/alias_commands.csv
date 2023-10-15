@@ -29,13 +29,13 @@ npm_s,rm -r node_modules; npm install
 npm_t,npm run test
 npm_u,npm update --dev
 npm_v,npm list --depth 0
-nvm_l,nvm list
 nvm_i,nvm install
 nvm_u,nvm use
+nvm_v,nvm list
 py_c,python3 -m venv avenv
-py_d,rm -r avenv
+py_i,pip install -r requirements/requirements-dev.txt
 py_m,python -m
-py_r,pip install -r requirements/requirements-dev.txt
-py_s,deactivate; rm -r avenv; python3 -m venv avenv && avenv/bin/activate && pip install -r requirements/requirements-dev.txt
+py_r,rm -r avenv
+py_s,deactivate; rm -r avenv; python3 -m venv avenv && source avenv/bin/activate && pip install -r requirements/requirements-dev.txt
 py_t,python -m unittest
 py_v,source avenv/bin/activate

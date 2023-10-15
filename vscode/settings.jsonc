@@ -1,7 +1,7 @@
 {
     "breadcrumbs.symbolSortOrder": "name",
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true
+        "source.organizeImports": "always"
     },    
     "editor.detectIndentation": false,    
     "editor.fontSize": 16,
@@ -12,6 +12,7 @@
     ],
     "editor.smartSelect.selectSubwords": false,
     "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
         "*.template": "yaml",

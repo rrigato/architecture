@@ -181,6 +181,13 @@ npm_r
 </code>
 </details>
 
+- rm -r node_modules; npm install
+<details>
+<code>
+npm_s
+</code>
+</details>
+
 - npm run test
 <details>
 <code>
