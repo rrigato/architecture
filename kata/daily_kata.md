@@ -279,6 +279,13 @@ py_t
 </code>
 </details>
 
+- pip list; python --version; which python
+<details>
+<code>
+py_v
+</code>
+</details>
+
 - right shift for left side of keyboard
 
 - iterate over keys:

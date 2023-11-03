@@ -39,3 +39,4 @@ py_m,python -m
 py_r,rm -r avenv
 py_s,deactivate; rm -r avenv; python3 -m venv avenv && source avenv/bin/activate && pip install -r requirements/requirements-dev.txt
 py_t,python -m unittest
+py_v,pip list; python --version; which python
