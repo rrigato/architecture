@@ -230,17 +230,17 @@ nvm_v
 </code>
 </details>
 
-- python3 -m venv avenv
-<details>
-<code>
-py_c
-</code>
-</details>
-
 - source avenv/bin/activate
 <details>
 <code>
 py_a
+</code>
+</details>
+
+- python3 -m venv avenv
+<details>
+<code>
+py_c
 </code>
 </details>
 

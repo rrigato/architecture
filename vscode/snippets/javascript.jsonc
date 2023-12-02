@@ -1,0 +1,60 @@
+{
+    //The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    "Zero arguements function": {
+        "prefix": "f0",
+        "body": [""],
+        "description": "Zero arguements function"
+    },
+    "One arguement function": {
+        "prefix": "f1",
+        "body": [""],
+        "description": "One arguement function"
+    },
+    "Two arguement function": {
+        "prefix": "f2",
+        "body": [""],
+        "description": "Two arguement function"
+    },
+    "Three arguement function": {
+        "prefix": "f3",
+        "body": [""],
+        "description": "Three arguement function"
+    },
+    "Four arguement function": {
+        "prefix": "f4",
+        "body": [""],
+        "description": "Four arguement function"
+    },
+    "log statement for function": {
+        "prefix": "f5",
+        "body": [
+            "console.log($0);",
+            ],
+            "description": "log statement for function"
+        
+    },
+    "test case function stub": {
+        "prefix": "f6",
+        "body": [""],
+        "description": "test case function stub"
+    },
+    "main entry with logging": {
+        "prefix": "f7",
+        "body": [""],
+        "description": "main entry with logging"
+    },
+    "get object properties": {
+        "prefix": "f8",
+        "body": [""],
+        "description": "public properties only"
+    },
+    "0 based integer sequence": {
+        "prefix": "f9",
+        "body": [
+            "",
+        ],
+        "description": "using cursor index number"
+    }
+}
