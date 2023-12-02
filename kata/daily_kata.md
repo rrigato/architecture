@@ -431,6 +431,9 @@ py_v
 - place cursor at matching/closest parentheses/brackets
  <details><code>CMD + SHIFT + \ </code></details>
 
+- toggle case sensitive search
+ <details><code>CMD + OPTION + C </code></details>
+
 - find and replace across workspace
  <details><code>CMD + SHIFT + H </code></details>
 

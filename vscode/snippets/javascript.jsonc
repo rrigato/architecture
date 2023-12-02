@@ -4,7 +4,16 @@
     // same ids are connected.
     "Zero arguements function": {
         "prefix": "f0",
-        "body": [""],
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @returns {${2:function_return_type}} ${3:function_return_description}",
+            "*/",
+            "${4:export }function ${5:function_name}(){",
+            "    $0",
+            "}"
+            ,
+        ],
         "description": "Zero arguements function"
     },
     "One arguement function": {
