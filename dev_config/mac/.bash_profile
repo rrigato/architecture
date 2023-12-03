@@ -7,6 +7,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 #cp -r shell_config ~
+source ~/shell_config/bash_functions.sh
 source ~/shell_config/setup_alias.sh
 
 #cp dev_config/mac/.bash_profile ~/.bash_profile
