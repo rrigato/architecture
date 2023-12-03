@@ -18,7 +18,19 @@
     },
     "One arguement function": {
         "prefix": "f1",
-        "body": [""],
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @param {${2:arg_one_type}} ${3:arg_one_name} ${4:arg_one_description}",
+            "* @returns {${5:return_type}} ${6:return_description}",
+            "*/",
+            "${7:export }function ${8:function_name}(",
+            "    ${3:arg_one_name}",
+            "){",
+            "    $0",
+            "}"
+
+        ],
         "description": "One arguement function"
     },
     "Two arguement function": {
