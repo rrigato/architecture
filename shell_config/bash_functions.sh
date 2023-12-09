@@ -1,6 +1,12 @@
 #######################################
 # Pulls dev branch from remote repository
-# and catches up branch_name locally and remote to dev branch
+# and catches up branch_name locally and 
+# on remote to origin/dev branch
+# Example:
+#   git branch -b myfeature0
+#   git branch -b myfeature1
+#   git branch -b myfeature2
+#   catch_up myfeature 3
 #
 # Globals:
 #   dev = dev branch exists in origin and locally
@@ -9,8 +15,8 @@
 #
 # Arguments:
 #   branch_name string prefix for a branch name
-#   branch_num integer number of feature branches prefixed 
-#       with branch_num
+#   total_branch_num integer number of feature branches prefixed 
+#       with branch_name
 #######################################
 function catch_up(){
     git fetch origin
