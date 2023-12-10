@@ -35,7 +35,21 @@
     },
     "Two arguement function": {
         "prefix": "f2",
-        "body": [""],
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @param {${2:arg_one_type}} ${3:arg_one_name} ${4:arg_one_description}",
+            "* @param {${5:arg_two_type}} ${6:arg_two_name} ${7:arg_two_description}",
+            "* @returns {${8:return_type}} ${9:return_description}",
+            "*/",
+            "${10:export }function ${11:function_name}(",
+            "    ${3:arg_one_name},",
+            "    ${6:arg_two_name}",
+            "){",
+            "    $0",
+            "}"
+
+        ],
         "description": "Two arguement function"
     },
     "Three arguement function": {

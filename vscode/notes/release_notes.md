@@ -46,3 +46,11 @@
 
 # 1.82
 - ```json.sortOnSave.enable``` = auto sort json files
+
+# 1.84
+- ```SHIFT + ENTER``` = run line of python program in terminal
+
+# 1.85
+- An editor can be split into a new window
+- A terminal can be turned into an editor and then split into a new window
+- Can paste from operating system file explorer into VSCode file explorer
