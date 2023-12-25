@@ -65,5 +65,6 @@
         "!Split sequence",
         "!Sub scalar",
         "!Transform mapping",
-    ]
+    ],
+    "workbench.activityBar.location": "hidden"
 }

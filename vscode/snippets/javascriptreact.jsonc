@@ -1,0 +1,97 @@
+{
+    //The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    "Zero arguements function": {
+        "prefix": "f0",
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @returns react jsx",
+            "*/",
+            "${2:export }function ${3:function_name}(){",
+            "    $0",
+            "}"
+            ,
+        ],
+        "description": "Zero arguements function"
+    },
+    "One arguement function": {
+        "prefix": "f1",
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @param {object} props",
+            "* @param {${2:arg_one_type}} props.${3:arg_one_name} ${4:arg_one_description}",
+            "* @returns react jsx ",
+            "*/",
+            "${5:export }function ${6:function_name}({",
+            "    ${3:arg_one_name}",
+            "}){",
+            "    $0",
+            "}"
+
+        ],
+        "description": "One arguement function"
+    },
+    "Two arguement function": {
+        "prefix": "f2",
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @param {object} props",
+            "* @param {${2:arg_one_type}} props.${3:arg_one_name} ${4:arg_one_description}",
+            "* @param {${5:arg_two_type}} props.${6:arg_two_name} ${7:arg_two_description}",
+            "* @returns react jsx ",
+            "*/",
+            "${8:export }function ${9:function_name}({",
+            "    ${3:arg_one_name},",
+            "    ${6:arg_two_name}",
+            "}){",
+            "    $0",
+            "}"
+
+        ],
+        "description": "Two arguement function"
+    },
+    "Three arguement function": {
+        "prefix": "f3",
+        "body": [""],
+        "description": "Three arguement function"
+    },
+    "Four arguement function": {
+        "prefix": "f4",
+        "body": [""],
+        "description": "Four arguement function"
+    },
+    "log statement for function": {
+        "prefix": "f5",
+        "body": [
+            "console.log($0);",
+            ],
+            "description": "log statement for function"
+        
+    },
+    "test case function stub": {
+        "prefix": "f6",
+        "body": [""],
+        "description": "test case function stub"
+    },
+    "main entry with logging": {
+        "prefix": "f7",
+        "body": [""],
+        "description": "main entry with logging"
+    },
+    "get object properties": {
+        "prefix": "f8",
+        "body": [""],
+        "description": "public properties only"
+    },
+    "0 based integer sequence": {
+        "prefix": "f9",
+        "body": [
+            "",
+        ],
+        "description": "using cursor index number"
+    }
+}
