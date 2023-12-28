@@ -117,7 +117,6 @@ g_t
 </details>
 
 - git push origin 
--u
 <details>
 <code>
 g_u
@@ -125,10 +124,17 @@ g_u
 </details>
 
 - git remote 
--v
 <details>
 <code>
 g_v
+</code>
+</details>
+
+- git fetch origin; git merge origin/dev --no-edit
+
+<details>
+<code>
+g_w
 </code>
 </details>
 

@@ -2,6 +2,8 @@
 code --list-extensions | pbcopy
 ```
 eamodio.gitlens
+GitHub.copilot
+GitHub.copilot-chat
 mgesbert.python-path
 ms-python.black-formatter
 ms-python.isort

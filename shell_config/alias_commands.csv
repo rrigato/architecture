@@ -18,6 +18,7 @@ g_s,git status
 g_t,git tag
 g_u,git push origin -u
 g_v,git remote -v
+g_w,git fetch origin; git merge origin/dev --no-edit
 j_d,node --inspect-brk node_modules/.bin/jest --runInBand
 j_t,node_modules/.bin/jest
 npm_b,npm run build
