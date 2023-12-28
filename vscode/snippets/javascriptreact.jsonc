@@ -55,13 +55,49 @@
         "description": "Two arguement function"
     },
     "Three arguement function": {
+        //same body as two arguement function except and additional arguement
+        //called arg_three_name and arg_three_description
         "prefix": "f3",
-        "body": [""],
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @param {object} props",
+            "* @param {${2:arg_one_type}} props.${3:arg_one_name} ${4:arg_one_description}",
+            "* @param {${5:arg_two_type}} props.${6:arg_two_name} ${7:arg_two_description}",
+            "* @param {${8:arg_three_type}} props.${9:arg_three_name} ${10:arg_three_description}",
+            "* @returns react jsx ",
+            "*/",
+            "${11:export }function ${12:function_name}({",
+            "    ${3:arg_one_name},",
+            "    ${6:arg_two_name},",
+            "    ${9:arg_three_name}",
+            "}){",
+            "    $0",
+            "}"
+        ],
         "description": "Three arguement function"
     },
     "Four arguement function": {
         "prefix": "f4",
-        "body": [""],
+        "body": [
+            "/**${1:function_docstr}",
+            "*",
+            "* @param {object} props",
+            "* @param {${2:arg_one_type}} props.${3:arg_one_name} ${4:arg_one_description}",
+            "* @param {${5:arg_two_type}} props.${6:arg_two_name} ${7:arg_two_description}",
+            "* @param {${8:arg_three_type}} props.${9:arg_three_name} ${10:arg_three_description}",
+            "* @param {${11:arg_four_type}} props.${12:arg_four_name} ${13:arg_four_description}",
+            "* @returns react jsx ",
+            "*/",
+            "${14:export }function ${15:function_name}({",
+            "    ${3:arg_one_name},",
+            "    ${6:arg_two_name},",
+            "    ${9:arg_three_name},",
+            "    ${12:arg_four_name}",
+            "}){",
+            "    $0",
+            "}"
+        ],
         "description": "Four arguement function"
     },
     "log statement for function": {
