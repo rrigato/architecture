@@ -350,6 +350,12 @@ py_v
 - change language mode
  <details><code>CMD + K + M</code></details>
 
+- inline breakpoint
+ <details><code>no keyboard shortcut</code></details>
+
+- remove all debug breakpoints
+ <details><code>no keyboard shortcut</code></details>
+
 - add a cursor
  <details><code>CMD + OPTION + up or down arrow </code></details>
 
