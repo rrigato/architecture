@@ -25,6 +25,10 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 500,
     "files.defaultLanguage": "markdown",
+    "files.exclude": {
+        "**/build": true,
+        "**.egg-info": true
+    },
     "gitlens.codeLens.enabled": false,
     //turn off git line level commit info because it is distracting
     "gitlens.currentLine.enabled": false,
