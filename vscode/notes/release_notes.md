@@ -54,3 +54,14 @@
 - An editor can be split into a new window
 - A terminal can be turned into an editor and then split into a new window
 - Can paste from operating system file explorer into VSCode file explorer
+
+# 1.86
+- [VS Code Speech extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-speech) enables you to interact with copilot chat using speech to text software
+- You can configure autosave by file extension
+
+```bash
+# stdout of process directly into a vscode editor
+ls -l | code -
+```
+
+- ```#file:``` context variable allows you to ask about a specific file

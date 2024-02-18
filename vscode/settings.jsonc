@@ -32,6 +32,7 @@
     "gitlens.codeLens.enabled": false,
     //turn off git line level commit info because it is distracting
     "gitlens.currentLine.enabled": false,
+    "inlineChat.acceptedOrDiscardBeforeSave": false,
     "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
     "markdown.validate.enabled": true,
     "outline.showVariables": false,
@@ -70,5 +71,6 @@
         "!Sub scalar",
         "!Transform mapping",
     ],
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Catppuccin Mocha"
 }

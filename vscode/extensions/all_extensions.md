@@ -1,11 +1,13 @@
 ```bash
 code --list-extensions | pbcopy
 ```
+catppuccin.catppuccin-vsc
 eamodio.gitlens
-GitHub.copilot
-GitHub.copilot-chat
+github.copilot
+github.copilot-chat
 mgesbert.python-path
 ms-python.black-formatter
+ms-python.debugpy
 ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
