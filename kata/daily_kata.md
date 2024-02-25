@@ -347,6 +347,24 @@ py_v
 
 # vscode
 
+- accept only next word of copilot suggestion
+ <details><code>CMD + right arrow</code></details>
+
+- close inline chat
+ <details><code>ESCAPE</code></details>
+
+- next suggestion of inline chat
+ <details><code>ENTER</code></details>
+
+- accept inline chat copilot suggestion
+ <details><code>CMD + ENTER</code></details>
+
+- inline copilot chat
+ <details><code>CMD + I</code></details>
+
+- open copilot chat in editor
+ <details><code>CMD + K CMD + O</code></details>
+
 - change language mode
  <details><code>CMD + K + M</code></details>
 

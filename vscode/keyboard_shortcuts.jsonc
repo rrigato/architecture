@@ -28,6 +28,10 @@
         "key": "shift+alt+m",
         "when": "terminalFocus"
     },
+    {
+        "key": "cmd+k cmd+o",
+        "command": "workbench.action.chat.openInEditor"
+    },
     /**
     *Mac specific shortcuts
     *
