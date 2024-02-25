@@ -347,6 +347,18 @@ py_v
 
 # vscode
 
+- ask copilot chat about vscode
+ <details><code>@vscode</code></details>
+
+- ask copilot chat about a specific file
+ <details><code>#file</code></details>
+
+- ask copilot to do something in the terminal
+ <details><code>@terminal</code></details>
+
+- ask copilot about your workspace
+ <details><code>@workspace</code></details>
+
 - accept only next word of copilot suggestion
  <details><code>CMD + right arrow</code></details>
 
@@ -364,6 +376,9 @@ py_v
 
 - open copilot chat in editor
  <details><code>CMD + K CMD + O</code></details>
+
+- paste stdout of shell command into new editor
+ <details><code>echo "output that will be in editor" | code -</code></details>
 
 - change language mode
  <details><code>CMD + K + M</code></details>

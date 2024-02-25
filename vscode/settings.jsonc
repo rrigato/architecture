@@ -16,6 +16,7 @@
     ],
     "editor.smartSelect.selectSubwords": false,
     "editor.tabSize": 4,
+    //will automatically remove any trailing whitespace whenever you modify a line. 
     "editor.trimAutoWhitespace": true,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
@@ -29,6 +30,8 @@
         "**/build": true,
         "**.egg-info": true
     },
+    //will automatically remove trailing whitespace whenever you save a file.
+    "files.trimAutoWhitespace": true,
     "gitlens.codeLens.enabled": false,
     //turn off git line level commit info because it is distracting
     "gitlens.currentLine.enabled": false,
