@@ -31,7 +31,7 @@
         "**.egg-info": true
     },
     //will automatically remove trailing whitespace whenever you save a file.
-    "files.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
     "gitlens.codeLens.enabled": false,
     //turn off git line level commit info because it is distracting
     "gitlens.currentLine.enabled": false,
@@ -41,7 +41,7 @@
     "outline.showVariables": false,
     "security.promptForLocalFileProtocolHandling": false,
     "security.promptForRemoteFileProtocolHandling": false,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.fontSize": 14,
     "window.commandCenter": false,
     "workbench.editor.limit.enabled": true,

@@ -347,6 +347,9 @@ py_v
 
 # vscode
 
+- open copilot chat in editor
+ <details><code>CMD + K CMD + O</code></details>
+
 - ask copilot chat about vscode
  <details><code>@vscode</code></details>
 
@@ -373,9 +376,6 @@ py_v
 
 - inline copilot chat
  <details><code>CMD + I</code></details>
-
-- open copilot chat in editor
- <details><code>CMD + K CMD + O</code></details>
 
 - paste stdout of shell command into new editor
  <details><code>echo "output that will be in editor" | code -</code></details>
