@@ -1,0 +1,4 @@
+[
+    //links that should open from vscode terminal to browser without prompt
+    "https://dev.azure.com"
+]

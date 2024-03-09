@@ -5,7 +5,7 @@
 
 # 1.73
 - audio cues for task events:
-  - ```audioCues.taskEnded``` 
+  - ```audioCues.taskEnded```
   - ```audioCues.taskFailed```
 
 - ```markdown.updateLinksOnFileMove.enabled``` = auto update markdown links
@@ -65,3 +65,8 @@ ls -l | code -
 ```
 
 - ```#file:``` context variable allows you to ask about a specific file
+
+# 1.87
+- vscode speech can be used to enter text in an editor
+- vscode speech supports 26 languages including japanese
+- inline copilot completion for multi-cursors!!!

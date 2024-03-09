@@ -50,9 +50,9 @@ g_i
 </code>
 </details>
 
-- git branch | grep 
--v master | grep 
--v dev | xargs git branch 
+- git branch | grep
+-v master | grep
+-v dev | xargs git branch
 -d
 <details>
 <code>
@@ -116,14 +116,14 @@ g_t
 </code>
 </details>
 
-- git push origin 
+- git push origin
 <details>
 <code>
 g_u
 </code>
 </details>
 
-- git remote 
+- git remote
 <details>
 <code>
 g_v
@@ -307,10 +307,10 @@ py_v
 # azure_devops
 - Copy issue title
  <details><code>SHIFT + OPTION + C</code></details>
- 
+
 - Create hyperlink
  <details><code>CMD + K</code></details>
- 
+
 - Create Bulleted list
  <details><code>CMD + .</code></details>
 
@@ -319,7 +319,7 @@ py_v
 
 - Focus discussion thread
  <details><code>CMD + SHIFT + D</code></details>
- 
+
 
 # mac_commands
 - delete an unsaved file
@@ -342,10 +342,13 @@ py_v
 - Switch between calendar and inbox
  <details><code>CMD + 1</code></details>
  <details><code>CMD + 2</code></details>
- 
+
 
 
 # vscode
+
+- change language mode
+ <details><code>CMD + K + M</code></details>
 
 - open copilot chat in editor
  <details><code>CMD + K CMD + O</code></details>
@@ -379,9 +382,6 @@ py_v
 
 - paste stdout of shell command into new editor
  <details><code>echo "output that will be in editor" | code -</code></details>
-
-- change language mode
- <details><code>CMD + K + M</code></details>
 
 - inline breakpoint
  <details><code>no keyboard shortcut</code></details>

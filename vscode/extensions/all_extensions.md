@@ -2,7 +2,6 @@
 code --list-extensions | pbcopy
 ```
 catppuccin.catppuccin-vsc
-eamodio.gitlens
 github.copilot
 github.copilot-chat
 mgesbert.python-path
