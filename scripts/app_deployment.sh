@@ -1,7 +1,16 @@
-#! /bin/bash
 
 #exits program immediately if a command is not sucessful
 set -e
+
+if [ -z "$1" ]; then
+    echo "Missing commit message arguement 1"
+    exit 1
+fi
+
+
+git add -A
+
+git commit -m "$1"
 
 
 
@@ -21,7 +30,7 @@ deactivate
 
 
 
-git push origin master
+git push origin dev
 
 echo "----------------------"
 echo "deployment successful"

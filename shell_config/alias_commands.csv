@@ -1,5 +1,5 @@
 alias_name,alias_value
-d_s,detect-secrets scan | python3 -c "import sys; import json; print(json.load(sys.stdin)['results'])"
+d_s,detect-secrets scan | python3.11 -c "import sys; import json; print(json.load(sys.stdin)['results'])"
 g_a,git add
 g_b,git branch
 g_c,git checkout
@@ -33,11 +33,11 @@ npm_v,npm list --depth 0
 nvm_i,nvm install
 nvm_u,nvm use
 nvm_v,nvm list
-py_c,python3 -m venv avenv
+py_c,python3.11 -m venv avenv
 py_a,source avenv/bin/activate
 py_i,pip install -r requirements/requirements-dev.txt
 py_m,python -m
 py_r,rm -r avenv
-py_s,deactivate; rm -r avenv; python3 -m venv avenv && source avenv/bin/activate && pip install -r requirements/requirements-dev.txt
+py_s,deactivate; rm -r avenv; python3.11 -m venv avenv && source avenv/bin/activate && pip install -r requirements/requirements-dev.txt
 py_t,python -m unittest
 py_v,pip list; python --version; which python

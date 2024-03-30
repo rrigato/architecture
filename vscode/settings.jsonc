@@ -16,7 +16,7 @@
     ],
     "editor.smartSelect.selectSubwords": false,
     "editor.tabSize": 4,
-    //will automatically remove any trailing whitespace whenever you modify a line. 
+    //will automatically remove any trailing whitespace whenever you modify a line.
     "editor.trimAutoWhitespace": true,
     "extensions.ignoreRecommendations": true,
     "files.associations": {
@@ -42,6 +42,7 @@
     "security.promptForLocalFileProtocolHandling": false,
     "security.promptForRemoteFileProtocolHandling": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontSize": 14,
     "window.commandCenter": false,
     "workbench.editor.limit.enabled": true,
