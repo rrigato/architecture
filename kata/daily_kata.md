@@ -344,8 +344,8 @@ py_v
 - ask copilot chat about a specific file
  <details><code>#file</code></details>
 
-- ask copilot to do something in the terminal
- <details><code>@terminal</code></details>
+- ask copilot about last terminal command
+ <details><code>#terminalLastCommand</code></details>
 
 - ask copilot about your workspace
  <details><code>@workspace</code></details>
@@ -353,19 +353,19 @@ py_v
 - accept only next word of copilot suggestion
  <details><code>CMD + right arrow</code></details>
 
-- close terminal inline chat
+- copilot inline terminal close chat
  <details><code>ESCAPE</code></details>
 
-- insert github copilot inline terminal suggestion
+- copilot inline terminal insert suggestion at shell prompt
  <details><code>OPTION + ENTER</code></details>
 
-- run github copilot inline terminal suggestion
+- copilot inline terminal run suggestion
  <details><code>CMD + ENTER</code></details>
 
-- terminal inline chat edit suggestion
+- copilot inline terminal edit suggestion
  <details><code>CMD + down arrow + TAB + TAB</code></details>
 
-- terminal copilot chat
+- copilot inline terminal initialize chat
  <details><code>CMD + I</code></details>
 
 - paste stdout of shell command into new editor
