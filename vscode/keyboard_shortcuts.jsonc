@@ -1,5 +1,5 @@
-/** Command Palette -> Preferences: Open Keyboard Shortcuts 
-*  can search a command name 
+/** Command Palette -> Preferences: Open Keyboard Shortcuts
+*  can search a command name
 *  or type a command key to see if you have any collisons
 *
 */
@@ -58,6 +58,12 @@
         "when": "isMac && editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
+        "command": "list.find",
+        /** override search in file explorer*/
+        "key": "cmd+f",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
         "command": "copyRelativeFilePath",
         /** override copy relative path to file*/
         "key": "shift+alt+cmd+c",
@@ -106,7 +112,7 @@
         "command": "-workbench.action.keybindingsReference",
         "key": "cmd+k cmd+r"
     },
-    /**Assigning command pallet commands to 
+    /**Assigning command pallet commands to
     custom keys
     */
     {
@@ -135,7 +141,7 @@
             mgesbert.python-path
             https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path
             https://github.com/mgesbert/vscode-python-path
-            
+
         */
         "key": "cmd+k cmd+p",
         "when": "isMac && editorFocus"

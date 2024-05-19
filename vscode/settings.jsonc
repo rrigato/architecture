@@ -27,8 +27,8 @@
     "files.autoSaveDelay": 500,
     "files.defaultLanguage": "markdown",
     "files.exclude": {
-        "**/build": true,
-        "**.egg-info": true
+        "**.egg-info": true,
+        "**/build": true
     },
     //will automatically remove trailing whitespace whenever you save a file.
     "files.trimTrailingWhitespace": true,
@@ -42,9 +42,10 @@
     "security.promptForLocalFileProtocolHandling": false,
     "security.promptForRemoteFileProtocolHandling": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontSize": 14,
     "window.commandCenter": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.perEditorGroup": true,
     "workbench.editor.limit.value": 2,
@@ -74,7 +75,5 @@
         "!Split sequence",
         "!Sub scalar",
         "!Transform mapping",
-    ],
-    "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "Catppuccin Mocha"
+    ]
 }

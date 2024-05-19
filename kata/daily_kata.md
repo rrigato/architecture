@@ -304,23 +304,6 @@ py_v
 - ```-```
 
 
-# azure_devops
-- Copy issue title
- <details><code>SHIFT + OPTION + C</code></details>
-
-- Create hyperlink
- <details><code>CMD + K</code></details>
-
-- Create Bulleted list
- <details><code>CMD + .</code></details>
-
-- Create Numbered list
- <details><code>CMD + /</code></details>
-
-- Focus discussion thread
- <details><code>CMD + SHIFT + D</code></details>
-
-
 # mac_commands
 - delete an unsaved file
  <details><code>CMD + W</code></details>
@@ -339,10 +322,12 @@ py_v
 - archive email
  <details><code>CTRL + E</code></details>
 
+- Create hyperlink
+ <details><code>CMD + K</code></details>
+
 - Switch between calendar and inbox
  <details><code>CMD + 1</code></details>
  <details><code>CMD + 2</code></details>
-
 
 
 # vscode
@@ -359,8 +344,8 @@ py_v
 - ask copilot chat about a specific file
  <details><code>#file</code></details>
 
-- ask copilot to do something in the terminal
- <details><code>@terminal</code></details>
+- ask copilot about last terminal command
+ <details><code>#terminalLastCommand</code></details>
 
 - ask copilot about your workspace
  <details><code>@workspace</code></details>
@@ -368,16 +353,19 @@ py_v
 - accept only next word of copilot suggestion
  <details><code>CMD + right arrow</code></details>
 
-- close inline chat
+- copilot inline terminal close chat
  <details><code>ESCAPE</code></details>
 
-- next suggestion of inline chat
- <details><code>ENTER</code></details>
+- copilot inline terminal insert suggestion at shell prompt
+ <details><code>OPTION + ENTER</code></details>
 
-- accept inline chat copilot suggestion
+- copilot inline terminal run suggestion
  <details><code>CMD + ENTER</code></details>
 
-- inline copilot chat
+- copilot inline terminal edit suggestion
+ <details><code>CMD + down arrow + TAB + TAB</code></details>
+
+- copilot inline terminal initialize chat
  <details><code>CMD + I</code></details>
 
 - paste stdout of shell command into new editor
@@ -415,12 +403,6 @@ py_v
 
 - redo cursor position
  <details><code>SHIFT + CMD + U</code></details>
-
-- set selection anchor
- <details><code>CMD + K + CMD + B</code></details>
-
-- select from anchor to cursor
- <details><code>CMD + K + CMD + K</code></details>
 
 - move up page without scrolling
  <details><code>CMD + page up</code></details>
@@ -514,6 +496,12 @@ py_v
 
 - copy relative path to file
  <details><code>CMD + OPTION + SHIFT + C</code></details>
+
+- Go up one line in the terminal
+ <details><code>CMD + OPTION + page up</code></details>
+
+- Go down one line in the terminal
+ <details><code>CMD + OPTION + page down</code></details>
 
 - increase terminal/panel size
  <details><code>SHIFT + OPTION + M</code></details>
