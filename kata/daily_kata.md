@@ -304,23 +304,6 @@ py_v
 - ```-```
 
 
-# azure_devops
-- Copy issue title
- <details><code>SHIFT + OPTION + C</code></details>
-
-- Create hyperlink
- <details><code>CMD + K</code></details>
-
-- Create Bulleted list
- <details><code>CMD + .</code></details>
-
-- Create Numbered list
- <details><code>CMD + /</code></details>
-
-- Focus discussion thread
- <details><code>CMD + SHIFT + D</code></details>
-
-
 # mac_commands
 - delete an unsaved file
  <details><code>CMD + W</code></details>
@@ -416,12 +399,6 @@ py_v
 - redo cursor position
  <details><code>SHIFT + CMD + U</code></details>
 
-- set selection anchor
- <details><code>CMD + K + CMD + B</code></details>
-
-- select from anchor to cursor
- <details><code>CMD + K + CMD + K</code></details>
-
 - move up page without scrolling
  <details><code>CMD + page up</code></details>
 
@@ -514,6 +491,12 @@ py_v
 
 - copy relative path to file
  <details><code>CMD + OPTION + SHIFT + C</code></details>
+
+- Go up one line in the terminal
+ <details><code>CMD + OPTION + page up</code></details>
+
+- Go down one line in the terminal
+ <details><code>CMD + OPTION + page down</code></details>
 
 - increase terminal/panel size
  <details><code>SHIFT + OPTION + M</code></details>
