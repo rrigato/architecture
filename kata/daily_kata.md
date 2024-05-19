@@ -322,10 +322,12 @@ py_v
 - archive email
  <details><code>CTRL + E</code></details>
 
+- Create hyperlink
+ <details><code>CMD + K</code></details>
+
 - Switch between calendar and inbox
  <details><code>CMD + 1</code></details>
  <details><code>CMD + 2</code></details>
-
 
 
 # vscode
@@ -351,16 +353,19 @@ py_v
 - accept only next word of copilot suggestion
  <details><code>CMD + right arrow</code></details>
 
-- close inline chat
+- close terminal inline chat
  <details><code>ESCAPE</code></details>
 
-- next suggestion of inline chat
- <details><code>ENTER</code></details>
+- insert github copilot inline terminal suggestion
+ <details><code>OPTION + ENTER</code></details>
 
-- accept inline chat copilot suggestion
+- run github copilot inline terminal suggestion
  <details><code>CMD + ENTER</code></details>
 
-- inline copilot chat
+- terminal inline chat edit suggestion
+ <details><code>CMD + down arrow + TAB + TAB</code></details>
+
+- terminal copilot chat
  <details><code>CMD + I</code></details>
 
 - paste stdout of shell command into new editor
