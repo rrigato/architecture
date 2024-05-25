@@ -1,2 +1,1 @@
-- [setup script for mac](../dev_config/mac/.bash_profile)
-  
+- [setup mac zsh](../dev_config/mac/.zshrc)
