@@ -329,6 +329,12 @@ py_v
  <details><code>CMD + 1</code></details>
  <details><code>CMD + 2</code></details>
 
+# slack
+- hyperlink selected text
+ <details><code> CMD + SHIFT + U</code></details>
+
+- mark message as unread
+ <details><code> CMD + SHIFT + U</code></details>
 
 # vscode
 
