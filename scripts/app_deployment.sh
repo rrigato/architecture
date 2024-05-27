@@ -28,6 +28,7 @@ fi
 
 deactivate
 
+git push origin dev
 
 echo "pushed to remote"
 
