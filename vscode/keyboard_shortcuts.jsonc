@@ -32,6 +32,11 @@
         "key": "cmd+k cmd+o",
         "command": "workbench.action.chat.openInEditor"
     },
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus"
+    },
     /**
     *Mac specific shortcuts
     *
