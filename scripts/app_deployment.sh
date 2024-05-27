@@ -29,8 +29,15 @@ fi
 deactivate
 
 
+echo "pushed to remote"
 
-git push origin dev
+gh pr create --title "$1" \
+--body "Automated PR creation" \
+--head dev \
+--base master
+
+echo "created PR"
+
 
 echo "----------------------"
 echo "deployment successful"
