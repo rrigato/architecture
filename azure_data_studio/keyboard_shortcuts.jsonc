@@ -1,9 +1,38 @@
-/** Command Palette -> Preferences: Open Keyboard Shortcuts 
-*  can search a command name 
+/** Command Palette -> Preferences: Open Keyboard Shortcuts
+*  can search a command name
 *  or type a command key to see if you have any collisons
 *
 */
 [
+    /**
+    *Cross-platform shortcuts
+    *
+    */
+    {
+        "command": "workbench.action.increaseViewSize",
+        "key": "shift+alt+n",
+        "when": "!terminalFocus"
+    },
+    {
+        "command": "workbench.action.terminal.resizePaneUp",
+        "key": "shift+alt+n",
+        "when": "terminalFocus"
+    },
+    {
+        "command": "workbench.action.decreaseViewSize",
+        "key": "shift+alt+m",
+        "when": "!terminalFocus"
+    },
+    {
+        "command": "workbench.action.terminal.resizePaneDown",
+        "key": "shift+alt+m",
+        "when": "terminalFocus"
+    },
+    /**Override from default*/
+    {
+        "command": "runCurrentQueryKeyboardAction",
+        "key": "cmd+k cmd+s"
+    },
     /**
     *Mac specific shortcuts
     *
@@ -12,5 +41,15 @@
         "command": "editor.action.addSelectionToPreviousFindMatch",
         "key": "cmd+shift+d",
         "when": "isMac && editorTextFocus"
+    },
+    /**Remove default shortcuts
+    */
+    {
+        "command": "-workbench.action.quit",
+        "key": "cmd+q"
+    },
+    {
+        "command": "-workbench.action.openGlobalKeybindings",
+        "key": "cmd+k cmd+s"
     }
 ]
