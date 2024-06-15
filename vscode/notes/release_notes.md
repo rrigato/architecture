@@ -70,3 +70,6 @@ ls -l | code -
 - vscode speech can be used to enter text in an editor
 - vscode speech supports 26 languages including japanese
 - inline copilot completion for multi-cursors!!!
+
+# 1.90
+- github enterprise license enables copilot chat to enrich results with information provided by a web search using the ```@github``` context

@@ -347,8 +347,12 @@ py_v
 - ask copilot chat about vscode
  <details><code>@vscode</code></details>
 
+
 - ask copilot chat about a specific file
  <details><code>#file</code></details>
+
+- pass selection as context to copilot chat
+ <details><code>#selection</code></details>
 
 - ask copilot about last terminal command
  <details><code>#terminalLastCommand</code></details>
