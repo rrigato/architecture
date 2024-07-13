@@ -236,17 +236,24 @@ nvm_v
 </code>
 </details>
 
-- source avenv/bin/activate
+- activate virtualenv by name
 <details>
 <code>
 py_a
 </code>
 </details>
 
-- python3 -m venv avenv
+- create virtualenv by name
 <details>
 <code>
 py_c
+</code>
+</details>
+
+- deactivate virtualenv
+<details>
+<code>
+py_d
 </code>
 </details>
 
@@ -257,6 +264,13 @@ py_i
 </code>
 </details>
 
+- list virtualenv
+<details>
+<code>
+py_l
+</code>
+</details>
+
 - python -m
 <details>
 <code>
@@ -264,7 +278,14 @@ py_m
 </code>
 </details>
 
-- rm -r avenv
+- install python version
+<details>
+<code>
+py_n
+</code>
+</details>
+
+- remove a virtualenv
 <details>
 <code>
 py_r
@@ -282,6 +303,13 @@ py_s
 <details>
 <code>
 py_t
+</code>
+</details>
+
+- use a python version globally
+<details>
+<code>
+py_u
 </code>
 </details>
 

@@ -33,11 +33,15 @@ npm_v,npm list --depth 0
 nvm_i,nvm install
 nvm_u,nvm use
 nvm_v,nvm list
-py_c,python3.11 -m venv avenv
-py_a,source avenv/bin/activate
+py_a,pyenv activate
+py_c,pyenv virtualenv
+py_d,pyenv deactivate
 py_i,pip install -r requirements/requirements-dev.txt
+py_l,pyenv virtualenvs
 py_m,python -m
-py_r,rm -r avenv
+py_n,pyenv install
+py_r,pyenv uninstall
 py_s,deactivate; rm -r avenv; python3.11 -m venv avenv && source avenv/bin/activate && pip install -r requirements/requirements-dev.txt
 py_t,python -m unittest
+py_u,pyenv global
 py_v,pip list; python --version; which python
