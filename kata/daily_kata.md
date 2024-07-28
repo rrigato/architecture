@@ -285,7 +285,7 @@ py_n
 </code>
 </details>
 
-- remove a virtualenv
+- remove a virtualenv by name
 <details>
 <code>
 py_r
@@ -484,6 +484,21 @@ py_v
 - open link in terminal
  <details><code>CMD + SHIFT + O </code></details>
 
+- Go up one line in the terminal
+ <details><code>CMD + OPTION + page up</code></details>
+
+- Go down one line in the terminal
+ <details><code>CMD + OPTION + page down</code></details>
+
+- increase terminal/panel size
+ <details><code>SHIFT + OPTION + M</code></details>
+
+- decrease terminal/panel size
+ <details><code>SHIFT + OPTION + N</code></details>
+
+- kill terminal
+ <details><code>CMD + CTRL + K</code></details>
+
 - open an editor to the side
  <details><code>CMD + return </code></details>
 
@@ -526,29 +541,11 @@ py_v
 - change keyboard input source
  <details><code>CTRL + SPACE</code></details>
 
-- python sort imports refactor
- <details><code>cmd+k cmd+a</code></details>
-
 - copy python path
  <details><code>CMD+k CMD+p</code></details>
 
 - copy relative path to file
  <details><code>CMD + OPTION + SHIFT + C</code></details>
-
-- Go up one line in the terminal
- <details><code>CMD + OPTION + page up</code></details>
-
-- Go down one line in the terminal
- <details><code>CMD + OPTION + page down</code></details>
-
-- increase terminal/panel size
- <details><code>SHIFT + OPTION + M</code></details>
-
-- decrease terminal/panel size
- <details><code>SHIFT + OPTION + N</code></details>
-
-- kill terminal
- <details><code>CMD + CTRL + K</code></details>
 
 - Add cursor at next match
  <details><code>CMD + D</code></details>
