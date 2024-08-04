@@ -32,9 +32,7 @@
     },
     //will automatically remove trailing whitespace whenever you save a file.
     "files.trimTrailingWhitespace": true,
-    "gitlens.codeLens.enabled": false,
-    //turn off git line level commit info because it is distracting
-    "gitlens.currentLine.enabled": false,
+    "git.mergeEditor": true,
     "inlineChat.acceptedOrDiscardBeforeSave": false,
     "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
     "markdown.validate.enabled": true,
