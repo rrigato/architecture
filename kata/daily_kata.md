@@ -536,7 +536,7 @@ py_v
  <details><code>CMD + OPTION + return </code></details>
 
 - find all reference
- <details><code>CMD+K CMD+M</code></details>
+ <details><code>CMD+K CMD+A</code></details>
 
 - go to defintion
  <details><code>CMD+k CMD+g</code></details>
