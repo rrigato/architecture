@@ -73,3 +73,10 @@ ls -l | code -
 
 # 1.90
 - github enterprise license enables copilot chat to enrich results with information provided by a web search using the ```@github``` context
+
+# 1.92
+- Vscode extension that enables you to open [Edge Developer tools](https://marketplace.visualstudio.com/items?itemName=ms-edgedevtools.vscode-edge-devtools)
+- ```/runCommand``` in copilot chat, search for and execute a vscode command
+- ```/new``` create new files in copilot chat
+- vscode chat now uses GPT-4o model
+- Can add attachments to vscode chat
