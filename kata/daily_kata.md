@@ -332,6 +332,10 @@ py_v
 - ```-```
 
 
+# brew_package_manage
+- fetch updates and upgrade brew packages
+ <details><code>b_u</code></details>
+
 # chatgpt_client
 - ask chatgpt native app a question
  <details><code>OPTION + SPACE</code></details>
