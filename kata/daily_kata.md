@@ -332,6 +332,15 @@ py_v
 - ```-```
 
 
+# brew_package_manage
+- fetch updates and upgrade brew packages
+ <details><code>b_u</code></details>
+
+# chatgpt_client
+- ask chatgpt native app a question
+ <details><code>OPTION + SPACE</code></details>
+
+
 # mac_commands
 - delete an unsaved file
  <details><code>CMD + W</code></details>
@@ -358,8 +367,6 @@ py_v
  <details><code>CMD + 2</code></details>
 
 # slack
-- hyperlink selected text
- <details><code> CMD + SHIFT + U</code></details>
 
 - mark message as unread
  <details><code> CMD + SHIFT + U</code></details>

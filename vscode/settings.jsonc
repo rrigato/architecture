@@ -3,6 +3,8 @@
         "editor.formatOnType": true
     },
     "breadcrumbs.symbolSortOrder": "name",
+    "debug.showVariableTypes": true,
+    "debugpy.showPythonInlineValues": true,
     "editor.codeActionsOnSave": {
         "source.organizeImports": "always",
         "source.sort.json": "always"
