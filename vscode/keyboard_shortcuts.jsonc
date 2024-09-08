@@ -156,6 +156,28 @@
         "when": "editorTextFocus"
     },
     {
+        "args": {
+            "by": "line",
+            "to": "up",
+            "select": true,
+            "value": 5
+        },
+        "command": "cursorMove",
+        "key": "shift+alt+pageup",
+        "when": "editorTextFocus"
+    },
+    {
+        "args": {
+            "by": "line",
+            "to": "down",
+            "select": true,
+            "value": 5
+        },
+        "command": "cursorMove",
+        "key": "shift+alt+pagedown",
+        "when": "editorTextFocus"
+    },
+    {
         "command": "extension.copyPythonPath",
         /** installed extension dependency:
             mgesbert.python-path
