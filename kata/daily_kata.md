@@ -1,6 +1,9 @@
 
 # bash_commands
 
+- fetch updates and upgrade brew packages
+ <details><code>b_u</code></details>
+
 - ```detect-secrets scan | python3 -c "import sys; import json; print(json.load(sys.stdin)['results'])"```
 <details>
 <code>
@@ -236,6 +239,13 @@ nvm_v
 </code>
 </details>
 
+- pipe stdout to clipboard
+<details>
+<code>
+p_c
+</code>
+</details>
+
 - activate virtualenv by name
 <details>
 <code>
@@ -332,7 +342,7 @@ py_v
 - ```-```
 
 
-# brew_package_manage
+# brew_commands
 - fetch updates and upgrade brew packages
  <details><code>b_u</code></details>
 
