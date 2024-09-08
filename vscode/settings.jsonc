@@ -14,7 +14,7 @@
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.rulers": [
-        100
+        72
     ],
     "editor.smartSelect.selectSubwords": false,
     "editor.tabSize": 4,
@@ -39,6 +39,7 @@
     "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
     "markdown.validate.enabled": true,
     "outline.showVariables": false,
+    "python.analysis.inlayHints.callArgumentNames": "all",
     "security.promptForLocalFileProtocolHandling": false,
     "security.promptForRemoteFileProtocolHandling": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",

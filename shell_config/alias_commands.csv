@@ -34,6 +34,7 @@ npm_v,npm list --depth 0
 nvm_i,nvm install
 nvm_u,nvm use
 nvm_v,nvm list
+p_c,| pbcopy
 py_a,pyenv activate
 py_c,pyenv virtualenv
 py_d,pyenv deactivate
