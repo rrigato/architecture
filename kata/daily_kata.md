@@ -453,6 +453,18 @@ py_v
 - select line
  <details><code>CMD + L</code></details>
 
+- select 5 lines up
+ <details><code>SHIFT + OPTION + uparrow</code></details>
+
+- select 5 lines down
+ <details><code>SHIFT + OPTION + downarrow</code></details>
+
+- move 5 lines up
+ <details><code>OPTION + uparrow</code></details>
+
+- move 5 lines down
+ <details><code>OPTION + downarrow</code></details>
+
 - undo cursor position
  <details><code>CMD + U</code></details>
 
