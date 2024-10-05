@@ -239,7 +239,7 @@ nvm_v
 </code>
 </details>
 
-- pipe stdout to clipboard
+- paste clipboard to terminal
 <details>
 <code>
 p_c
@@ -342,9 +342,6 @@ py_v
 - ```-```
 
 
-# brew_commands
-- fetch updates and upgrade brew packages
- <details><code>b_u</code></details>
 
 # chatgpt_client
 - ask chatgpt native app a question
