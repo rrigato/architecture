@@ -239,7 +239,7 @@ nvm_v
 </code>
 </details>
 
-- pipe stdout to clipboard
+- paste clipboard to terminal
 <details>
 <code>
 p_c
@@ -342,9 +342,6 @@ py_v
 - ```-```
 
 
-# brew_commands
-- fetch updates and upgrade brew packages
- <details><code>b_u</code></details>
 
 # chatgpt_client
 - ask chatgpt native app a question
@@ -452,6 +449,18 @@ py_v
 
 - select line
  <details><code>CMD + L</code></details>
+
+- select 5 lines up
+ <details><code>SHIFT + OPTION + uparrow</code></details>
+
+- select 5 lines down
+ <details><code>SHIFT + OPTION + downarrow</code></details>
+
+- move 5 lines up
+ <details><code>OPTION + uparrow</code></details>
+
+- move 5 lines down
+ <details><code>OPTION + downarrow</code></details>
 
 - undo cursor position
  <details><code>CMD + U</code></details>

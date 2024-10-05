@@ -6,7 +6,6 @@
     "debug.showVariableTypes": true,
     "debugpy.showPythonInlineValues": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": "always",
         "source.sort.json": "always"
     },
     "editor.detectIndentation": false,
