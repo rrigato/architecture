@@ -1,12 +1,25 @@
+
+# refer to catch_up function for arguements
+function validate_args() {
+    if [ -z "$1" ]; then
+        echo "Missing commit message argument 1"
+        return 1
+    fi
+    return 0
+
+}
+
 #######################################
 # Pulls dev branch from remote repository
-# and catches up branch_name locally and 
+# and catches up branch_name locally and
 # on remote to origin/dev branch
 # Example:
-#   git branch -b myfeature0
-#   git branch -b myfeature1
-#   git branch -b myfeature2
-#   catch_up myfeature 3
+#   git branch -b myfeature_0
+#   git branch -b myfeature_1
+#   git branch -b myfeature_2
+#   catch_up myfeature_ myfeature_0 2
+#   catches up branches myfeature_3, myfeature_4, myfeature_5
+#   catch_up myfeature_ myfeature_3 5
 #
 # Globals:
 #   dev = dev branch exists in origin and locally
@@ -15,10 +28,18 @@
 #
 # Arguments:
 #   branch_name string prefix for a branch name
-#   total_branch_num integer number of feature branches prefixed 
-#       with branch_name
+#   remote_branch_name string branch in remote
+#       that you need to catch up to
+#   start_number integer suffix to start from
+#   final_branch_number integer number of branch to finish
+#       catching up to, inclusive of the branch on this number
 #######################################
 function catch_up(){
+    validate_args "$@"
+
+    if [ $? -ne 0 ]; then
+        return 1
+    fi
     git fetch origin
     git checkout dev
     git merge origin/dev
@@ -30,5 +51,5 @@ function catch_up(){
             git merge "$((branch_num - 1))" --no-edit
             git push "$1$branch_num"
         done
-    
+
 }
