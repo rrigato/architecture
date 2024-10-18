@@ -80,3 +80,12 @@ ls -l | code -
 - ```/new``` create new files in copilot chat
 - vscode chat now uses GPT-4o model
 - Can add attachments to vscode chat
+
+
+# 1.93
+- ```Option+CMD+F``` for searching in the debug console
+  
+# 1.94
+- ```@vscode``` ```/startDebugging``` for setting up launch.json
+- copilot ```/setupTests``` slash command for setting up testing environment
+- ```"problemMatcher": "$python"``` in ```task.json``` default problem matcher
