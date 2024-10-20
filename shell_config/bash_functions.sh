@@ -1,8 +1,20 @@
 
 # refer to catch_up function for arguements
-function validate_args() {
+function validate_catch_up() {
     if [ -z "$1" ]; then
-        echo "Missing commit message argument 1"
+        echo "Missing branch_name_prefix argument 1"
+        return 1
+    fi
+    if [ -z "$1" ]; then
+        echo "Missing remote_branch_name argument 2"
+        return 1
+    fi
+    if [ -z "$1" ]; then
+        echo "Missing start_number_suffix argument 3"
+        return 1
+    fi
+    if [ -z "$1" ]; then
+        echo "Missing final_branch_number argument 4"
         return 1
     fi
     return 0
@@ -27,15 +39,15 @@ function validate_args() {
 #   origin = remote git url
 #
 # Arguments:
-#   branch_name string prefix for a branch name
+#   branch_name_prefix string prefix for a branch name
 #   remote_branch_name string branch in remote
 #       that you need to catch up to
-#   start_number integer suffix to start from
+#   start_number_suffix integer suffix to start from
 #   final_branch_number integer number of branch to finish
 #       catching up to, inclusive of the branch on this number
 #######################################
 function catch_up(){
-    validate_args "$@"
+    validate_catch_up "$@"
 
     if [ $? -ne 0 ]; then
         return 1
