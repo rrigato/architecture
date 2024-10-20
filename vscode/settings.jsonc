@@ -38,7 +38,6 @@
     "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
     "markdown.validate.enabled": true,
     "outline.showVariables": false,
-    "python.analysis.inlayHints.callArgumentNames": "all",
     "security.promptForLocalFileProtocolHandling": false,
     "security.promptForRemoteFileProtocolHandling": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",

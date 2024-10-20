@@ -239,13 +239,6 @@ nvm_v
 </code>
 </details>
 
-- paste clipboard to terminal
-<details>
-<code>
-p_c
-</code>
-</details>
-
 - activate virtualenv by name
 <details>
 <code>
