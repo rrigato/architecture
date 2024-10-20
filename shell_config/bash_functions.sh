@@ -5,15 +5,15 @@ function validate_catch_up() {
         echo "Missing branch_name_prefix argument 1"
         return 1
     fi
-    if [ -z "$1" ]; then
+    if [ -z "$2" ]; then
         echo "Missing remote_branch_name argument 2"
         return 1
     fi
-    if [ -z "$1" ]; then
+    if [ -z "$3" ]; then
         echo "Missing start_number_suffix argument 3"
         return 1
     fi
-    if [ -z "$1" ]; then
+    if [ -z "$4" ]; then
         echo "Missing final_branch_number argument 4"
         return 1
     fi
