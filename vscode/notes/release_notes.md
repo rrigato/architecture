@@ -84,8 +84,12 @@ ls -l | code -
 
 # 1.93
 - ```Option+CMD+F``` for searching in the debug console
-  
+
 # 1.94
 - ```@vscode``` ```/startDebugging``` for setting up launch.json
 - copilot ```/setupTests``` slash command for setting up testing environment
 - ```"problemMatcher": "$python"``` in ```task.json``` default problem matcher
+
+# 1.95
+- Can ask copilot for a code review ```github.copilot.chat.reviewSelection.instructions``` and provide custom instructions
+- pylance provides automatic docstrs

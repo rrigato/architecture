@@ -388,7 +388,7 @@ py_v
 - change language mode
  <details><code>CMD + K + M</code></details>
 
-- open copilot chat in editor
+- Focus/hide copilot chat editor
  <details><code>CMD + K CMD + O</code></details>
 
 - ask copilot chat about vscode
