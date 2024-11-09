@@ -368,6 +368,18 @@ py_v
 
 # slack
 
+
+- code block
+ <details><code> CMD + SHIFT + OPTION + C</code></details>
+
+- code selected text
+ <details><code> CMD + SHIFT + C</code></details>
+
+
+- create a link
+ <details><code> CMD + SHIFT + U</code></details>
+
+
 - mark message as unread
  <details><code> CMD + SHIFT + U</code></details>
 
@@ -376,7 +388,7 @@ py_v
 - change language mode
  <details><code>CMD + K + M</code></details>
 
-- open copilot chat in editor
+- Focus/hide copilot chat editor
  <details><code>CMD + K CMD + O</code></details>
 
 - ask copilot chat about vscode
@@ -384,7 +396,7 @@ py_v
 
 
 - ask copilot chat about a specific file
- <details><code>#file</code></details>
+ <details><code># + file_name</code></details>
 
 - pass selection as context to copilot chat
  <details><code>#selection</code></details>
@@ -394,6 +406,9 @@ py_v
 
 - ask copilot about your workspace
  <details><code>@workspace</code></details>
+
+- ask copilot to explain something with workspace context
+ <details><code>@workspace /explain</code></details>
 
 - accept only next word of copilot suggestion
  <details><code>CMD + right arrow</code></details>

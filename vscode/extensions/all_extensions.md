@@ -17,6 +17,8 @@ code --install-extension ms-toolsai.jupyter-renderers
 code --install-extension ms-toolsai.vscode-jupyter-cell-tags
 code --install-extension ms-toolsai.vscode-jupyter-slideshow
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.copilot-mermaid-diagram
+code --install-extension ms-vscode.vscode-copilot-vision
 code --install-extension redhat.vscode-yaml
 code --install-extension yzhang.markdown-all-in-one
 ```

@@ -29,7 +29,7 @@
         "when": "terminalFocus"
     },
     {
-        "command": "workbench.action.chat.openInEditor",
+        "command": "workbench.panel.chat.view.copilot.focus",
         "key": "cmd+k cmd+o"
     },
     {
