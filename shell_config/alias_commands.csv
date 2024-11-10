@@ -5,6 +5,7 @@ g_a,git add
 g_b,git branch
 g_c,git checkout
 g_d,git diff
+g_e, git blame
 g_f,git fetch origin
 g_g,git branch | grep -v master | grep -v dev | xargs git branch -d
 g_i,git init
