@@ -39,6 +39,13 @@ g_d
 </code>
 </details>
 
+- git blame specify lines
+<details>
+<code>
+g_e -L 4,8 file_name
+</code>
+</details>
+
 - git fetch origin
 <details>
 <code>
@@ -389,7 +396,13 @@ py_v
  <details><code>CMD + K + M</code></details>
 
 - Focus/hide copilot chat editor
- <details><code>CMD + K CMD + O</code></details>
+ <details><code>CMD + CTRL + I</code></details>
+
+- New chat in copilot
+ <details><code>CTRL + L</code></details>
+
+- Show copilot chat history
+ <details><code>CMD + K + CMD + O</code></details>
 
 - ask copilot chat about vscode
  <details><code>@vscode</code></details>

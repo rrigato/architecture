@@ -29,7 +29,7 @@
         "when": "terminalFocus"
     },
     {
-        "command": "workbench.panel.chat.view.copilot.focus",
+        "command": "workbench.action.chat.history",
         "key": "cmd+k cmd+o"
     },
     {
@@ -116,6 +116,11 @@
     {
         "command": "-workbench.action.keybindingsReference",
         "key": "cmd+k cmd+r"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
     },
     /**Assigning command pallet commands to
     custom keys
