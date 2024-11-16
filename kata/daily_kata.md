@@ -42,7 +42,7 @@ g_d
 - git blame specify lines
 <details>
 <code>
-g_e -L 4,8 file_name
+g_e -L line_start_number,line_end_number file_name
 </code>
 </details>
 
@@ -342,12 +342,6 @@ py_v
 - ```-```
 
 
-
-# chatgpt_client
-- ask chatgpt native app a question
- <details><code>OPTION + SPACE</code></details>
-
-
 # mac_commands
 - delete an unsaved file
  <details><code>CMD + W</code></details>
@@ -398,7 +392,7 @@ py_v
 - Focus/hide copilot chat editor
  <details><code>CMD + CTRL + I</code></details>
 
-- New chat in copilot
+- New chat window copilot chat
  <details><code>CTRL + L</code></details>
 
 - Show copilot chat history
