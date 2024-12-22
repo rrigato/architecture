@@ -42,7 +42,6 @@
     "security.promptForLocalFileProtocolHandling": false,
     "security.promptForRemoteFileProtocolHandling": false,
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.fontLigatures": true,
     "terminal.integrated.fontSize": 14,
     "window.commandCenter": false,
     "workbench.activityBar.location": "hidden",
