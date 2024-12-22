@@ -2,10 +2,11 @@
 code --list-extensions | pbcopy
 ```
 ```bash
-code --install-extension catppuccin.catppuccin-vsc
 code --install-extension github.copilot
 code --install-extension github.copilot-chat
+code --install-extension mechatroner.rainbow-csv
 code --install-extension mgesbert.python-path
+code --install-extension mhutchie.git-graph
 code --install-extension ms-python.black-formatter
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.isort
@@ -19,6 +20,9 @@ code --install-extension ms-toolsai.vscode-jupyter-slideshow
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.copilot-mermaid-diagram
 code --install-extension ms-vscode.vscode-copilot-vision
+code --install-extension rangav.vscode-thunder-client
 code --install-extension redhat.vscode-yaml
+code --install-extension tyriar.theme-sapphire
 code --install-extension yzhang.markdown-all-in-one
+
 ```
