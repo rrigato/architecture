@@ -16,4 +16,5 @@ PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+# terminal markup starship
 eval "$(starship init zsh)"

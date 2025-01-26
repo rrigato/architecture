@@ -48,3 +48,9 @@ py_s,deactivate; rm -r avenv; python3.11 -m venv avenv && source avenv/bin/activ
 py_t,python -m unittest
 py_u,pyenv global
 py_v,pip list; python --version; which python
+t_i, terraform init
+t_l, terraform validate
+t_n, tfenv install
+t_p, terraform plan
+t_u, tfenv use
+t_v, tfenv list; terraform --version
