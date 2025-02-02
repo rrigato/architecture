@@ -384,6 +384,27 @@ py_v
 - mark message as unread
  <details><code> CMD + SHIFT + U</code></details>
 
+# terraform
+
+- terraform init
+ <details><code>t_i</code></details>
+
+- tfenv install
+ <details><code>t_n</code></details>
+
+- terraform plan
+ <details><code>t_p</code></details>
+
+- terraform validate
+ <details><code>t_t</code></details>
+
+- tfenv use
+ <details><code>t_u</code></details>
+
+- tfenv list; terraform --version
+ <details><code>t_v</code></details>
+
+
 # vscode
 
 - change language mode
