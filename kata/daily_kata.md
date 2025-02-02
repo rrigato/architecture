@@ -389,14 +389,14 @@ py_v
 - terraform init
  <details><code>t_i</code></details>
 
-- terraform validate
- <details><code>t_l</code></details>
-
 - tfenv install
  <details><code>t_n</code></details>
 
 - terraform plan
  <details><code>t_p</code></details>
+
+- terraform validate
+ <details><code>t_t</code></details>
 
 - tfenv use
  <details><code>t_u</code></details>

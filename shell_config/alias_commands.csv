@@ -49,8 +49,8 @@ py_t,python -m unittest
 py_u,pyenv global
 py_v,pip list; python --version; which python
 t_i, terraform init
-t_l, terraform validate
 t_n, tfenv install
 t_p, terraform plan
+t_t, terraform validate
 t_u, tfenv use
 t_v, tfenv list; terraform --version
