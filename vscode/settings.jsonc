@@ -35,6 +35,7 @@
     "files.trimTrailingWhitespace": true,
     "git.blame.statusBarItem.enabled": true,
     "git.mergeEditor": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
     "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
     "markdown.validate.enabled": true,
     "outline.showVariables": false,

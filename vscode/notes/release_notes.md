@@ -95,9 +95,11 @@ ls -l | code -
 - pylance provides automatic docstrs
 
 # 1.96
-
-
 - Use `#` or `#sym` to add a symbol to Copilot Chat.
 - Use `github.copilot.chat.commitMessageGeneration.instructions` for custom editing of a commit message in GitHub Copilot Chat.
 - Use `terminal.integrated.fontLigatures` to enable fancy terminal fonts with ligatures.
 - Use [@vscode/chat-extension-utils](https://github.com/microsoft/vscode-chat-extension-utils) to build a custom VS Code extension.
+
+# 1.97
+- remote index for `@workspace` chat participant saves code symbols in github for large projects
+- Go To Implementations Python command to go to all implementations of an interface
