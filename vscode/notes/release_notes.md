@@ -103,3 +103,8 @@ ls -l | code -
 # 1.97
 - remote index for `@workspace` chat participant saves code symbols in github for large projects
 - Go To Implementations Python command to go to all implementations of an interface
+
+# 1.98
+- `#codebase` copilot chat agent which can search local workspace for references
+- `terminal.integrated.suggest.enabled` for terminal suggestions including support for alias commands
+- The `$CDPATH` environment variable is now supported by the integrated terminal
