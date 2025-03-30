@@ -9,7 +9,8 @@
 # 1. Fetch all remote changes
 # 2. Switch to master branch
 # 3. Pull latest changes from remote master
-# 4. Create or checkout the specified branch
+# 4. Delete all local branches except master
+# 5. Create a new branch with the provided name
 #
 # Arguments:
 #   branch-name: The name of the branch to create or checkout
