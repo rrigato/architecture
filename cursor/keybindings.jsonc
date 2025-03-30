@@ -1,0 +1,256 @@
+/** Command Palette -> Preferences: Open Keyboard Shortcuts
+*  can search a command name
+*  or type a command key to see if you have any collisons
+*
+*/
+[
+    /**
+    *Cross-platform shortcuts
+    *
+    */
+    {
+        "command": "workbench.action.increaseViewSize",
+        "key": "shift+alt+n",
+        "when": "!terminalFocus"
+    },
+    {
+        "command": "workbench.action.terminal.resizePaneUp",
+        "key": "shift+alt+n",
+        "when": "terminalFocus"
+    },
+    {
+        "command": "workbench.action.decreaseViewSize",
+        "key": "shift+alt+m",
+        "when": "!terminalFocus"
+    },
+    {
+        "command": "workbench.action.terminal.resizePaneDown",
+        "key": "shift+alt+m",
+        "when": "terminalFocus"
+    },
+    {
+        "command": "explorer.newFile",
+        "key": "cmd+n",
+        "when": "explorerViewletFocus"
+    },
+    /**
+    *Mac specific shortcuts
+    *
+    */
+    {
+        "command": "editor.action.addSelectionToPreviousFindMatch",
+        "key": "cmd+shift+d",
+        "when": "isMac && editorTextFocus"
+    },
+    {
+        "command": "decreaseCurrentViewSize",
+        "key": "cmd+alt+shift+tab",
+        "when": "isMac"
+    },
+    {
+        "command": "workbench.action.terminal.kill",
+        "key": "cmd+ctrl+k",
+        "when": "isMac"
+    },
+    {
+        "command": "editor.action.revealDefinition",
+        /** override go to definition*/
+        "key": "cmd+k cmd+g",
+        "when": "isMac && editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "command": "list.find",
+        /** override search in file explorer*/
+        "key": "cmd+f",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "command": "copyRelativeFilePath",
+        /** override copy relative path to file*/
+        "key": "shift+alt+cmd+c",
+        "when": "isMac && editorFocus"
+    },
+    {
+        "command": "references-view.findReferences",
+        /** override find all references*/
+        "key": "cmd+k cmd+a",
+        "when": "isMac && editorHasReferenceProvider"
+    },
+    {
+        "command": "workbench.action.focusPanel",
+        /**override toggle panel with
+        focus bottom panel**/
+        "key": "cmd+j",
+        "when": "!panelFocus"
+    },
+    {
+        "command": "workbench.action.togglePanel",
+        /**override toggle panel with
+        focus bottom panel**/
+        "key": "cmd+j",
+        "when": "panelFocus"
+    },
+    /** - removes a default keyboard shortcut**/
+    {
+        "command": "-workbench.action.togglePanel",
+        "key": "cmd+j"
+    },
+    {
+        "command": "-workbench.action.quit",
+        "key": "cmd+q"
+    },
+    {
+        "command": "-workbench.action.output.toggleOutput",
+        "key": "cmd+shift+u"
+    },
+    {
+        "command": "git.revertSelectedRanges",
+        /**override revert selected range**/
+        "key": "cmd+k cmd+r",
+        "when": "isInDiffEditor || editorFocus"
+    },
+    {
+        "command": "-workbench.action.keybindingsReference",
+        "key": "cmd+k cmd+r"
+    },
+    {
+        "command": "-markdown.extension.editing.toggleBold",
+        "key": "cmd+b",
+        "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+    },
+    /**Assigning command pallet commands to
+    custom keys
+    */
+    {
+        "command": "copyRelativeFilePath",
+        "key": "shift+alt+cmd+c",
+        "when": "isMac && editorFocus"
+    },
+    {
+        "command": "editor.emmet.action.wrapWithAbbreviation",
+        //wrap selection with html
+        "key": "cmd+k cmd+h"
+    },
+    {
+        "command": "cursorRedo",
+        "key": "cmd+shift+u",
+        "when": "isMac && editorFocus"
+    },
+    {
+        "args": {
+            "by": "line",
+            "to": "up",
+            "value": 5
+        },
+        "command": "cursorMove",
+        "key": "alt+pageup",
+        "when": "editorTextFocus"
+    },
+    {
+        "args": {
+            "by": "line",
+            "to": "down",
+            "value": 5
+        },
+        "command": "cursorMove",
+        "key": "alt+pagedown",
+        "when": "editorTextFocus"
+    },
+    {
+        "args": {
+            "by": "line",
+            "select": true,
+            "to": "up",
+            "value": 5
+        },
+        "command": "cursorMove",
+        "key": "shift+alt+pageup",
+        "when": "editorTextFocus"
+    },
+    {
+        "args": {
+            "by": "line",
+            "select": true,
+            "to": "down",
+            "value": 5
+        },
+        "command": "cursorMove",
+        "key": "shift+alt+pagedown",
+        "when": "editorTextFocus"
+    },
+    {
+        "command": "extension.copyPythonPath",
+        /** installed extension dependency:
+            mgesbert.python-path
+            https://marketplace.visualstudio.com/items?itemName=mgesbert.python-path
+            https://github.com/mgesbert/vscode-python-path
+
+        */
+        "key": "cmd+k cmd+p",
+        "when": "isMac && editorFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "workbench.action.terminal.chat.start",
+        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-workbench.action.terminal.chat.start",
+        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "cursorai.action.generateInTerminal",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-cursorai.action.generateInTerminal",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "-keybindings.editor.recordSearchKeys",
+        "when": "inKeybindings && inKeybindingsSearch"
+    },
+    {
+        "key": "cmd+r cmd+k",
+        "command": "-editor.action.defineKeybinding",
+        "when": "resource == 'vscode-userdata:/Users/ryan/Library/Application%20Support/Cursor/User/keybindings.json'"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "-aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "ctrl+cmd+i",
+        "command": "-workbench.action.chat.open",
+        "when": "chatPanelParticipantRegistered || chatSetupInstalled"
+    },
+    {
+        "key": "ctrl+cmd+i",
+        "command": "composer.openChatAsEditor"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+r cmd+d",
+        "command": "-editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    }
+]

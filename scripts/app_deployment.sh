@@ -8,9 +8,11 @@ if [ -z "$1" ]; then
 fi
 
 
-git add -A
-
-git commit -m "$1"
+# Check if there are any changes in the working directory
+if ! git diff-index --quiet HEAD --; then
+    git add -A
+    git commit -m "$1"
+fi
 
 
 
