@@ -190,13 +190,67 @@
         "when": "isMac && editorFocus"
     },
     {
-        "key": "shift+cmd+k",
-        "command": "aipopup.action.modal.generate",
-        "when": "editorFocus && !composerBarIsVisible"
+        "key": "cmd+i",
+        "command": "workbench.action.terminal.chat.start",
+        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-workbench.action.terminal.chat.start",
+        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
     },
     {
         "key": "cmd+k",
         "command": "-aipopup.action.modal.generate",
         "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "cursorai.action.generateInTerminal",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-cursorai.action.generateInTerminal",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "-keybindings.editor.recordSearchKeys",
+        "when": "inKeybindings && inKeybindingsSearch"
+    },
+    {
+        "key": "cmd+r cmd+k",
+        "command": "-editor.action.defineKeybinding",
+        "when": "resource == 'vscode-userdata:/Users/ryan/Library/Application%20Support/Cursor/User/keybindings.json'"
+    },
+    {
+        "key": "alt+cmd+k",
+        "command": "aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "-aipopup.action.modal.generate",
+        "when": "editorFocus && !composerBarIsVisible"
+    },
+    {
+        "key": "ctrl+cmd+i",
+        "command": "-workbench.action.chat.open",
+        "when": "chatPanelParticipantRegistered || chatSetupInstalled"
+    },
+    {
+        "key": "ctrl+cmd+i",
+        "command": "composer.openChatAsEditor"
+    },
+    {
+        "key": "cmd+k cmd+d",
+        "command": "editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+r cmd+d",
+        "command": "-editor.action.moveSelectionToNextFindMatch",
+        "when": "editorFocus"
     }
 ]
