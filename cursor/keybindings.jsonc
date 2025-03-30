@@ -190,67 +190,79 @@
         "when": "isMac && editorFocus"
     },
     {
-        "key": "cmd+i",
         "command": "workbench.action.terminal.chat.start",
-        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
-    },
-    {
         "key": "cmd+i",
-        "command": "-workbench.action.terminal.chat.start",
         "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
     },
     {
-        "key": "cmd+k",
+        "command": "-workbench.action.terminal.chat.start",
+        "key": "cmd+i",
+        "when": "terminalChatAgentRegistered && terminalFocusInAny && terminalHasBeenCreated || terminalChatAgentRegistered && terminalFocusInAny && terminalProcessSupported"
+    },
+    {
         "command": "-aipopup.action.modal.generate",
+        "key": "cmd+k",
         "when": "editorFocus && !composerBarIsVisible"
     },
     {
-        "key": "alt+cmd+k",
         "command": "cursorai.action.generateInTerminal",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
-        "key": "cmd+k",
-        "command": "-cursorai.action.generateInTerminal",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
         "key": "alt+cmd+k",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "command": "-cursorai.action.generateInTerminal",
+        "key": "cmd+k",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
         "command": "-keybindings.editor.recordSearchKeys",
+        "key": "alt+cmd+k",
         "when": "inKeybindings && inKeybindingsSearch"
     },
     {
-        "key": "cmd+r cmd+k",
         "command": "-editor.action.defineKeybinding",
+        "key": "cmd+r cmd+k",
         "when": "resource == 'vscode-userdata:/Users/ryan/Library/Application%20Support/Cursor/User/keybindings.json'"
     },
     {
-        "key": "alt+cmd+k",
         "command": "aipopup.action.modal.generate",
+        "key": "alt+cmd+k",
         "when": "editorFocus && !composerBarIsVisible"
     },
     {
-        "key": "shift+cmd+k",
         "command": "-aipopup.action.modal.generate",
+        "key": "shift+cmd+k",
         "when": "editorFocus && !composerBarIsVisible"
     },
     {
-        "key": "ctrl+cmd+i",
         "command": "-workbench.action.chat.open",
+        "key": "ctrl+cmd+i",
         "when": "chatPanelParticipantRegistered || chatSetupInstalled"
     },
     {
-        "key": "ctrl+cmd+i",
-        "command": "composer.openChatAsEditor"
+        "command": "composer.openChatAsEditor",
+        "key": "ctrl+cmd+i"
     },
     {
-        "key": "cmd+k cmd+d",
         "command": "editor.action.moveSelectionToNextFindMatch",
+        "key": "cmd+k cmd+d",
         "when": "editorFocus"
     },
     {
-        "key": "cmd+r cmd+d",
         "command": "-editor.action.moveSelectionToNextFindMatch",
+        "key": "cmd+r cmd+d",
         "when": "editorFocus"
+    },
+    {
+        "command": "workbench.panel.repl.view.focus",
+        "key": "shift+cmd+y"
+    },
+    {
+        "command": "workbench.action.debug.selectandstart",
+        "key": "alt+cmd+y"
+    },
+    {
+        "command": "-aichat.insertselectionintochat",
+        "key": "shift+cmd+l"
     }
 ]
