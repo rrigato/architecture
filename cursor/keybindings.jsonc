@@ -264,5 +264,15 @@
     {
         "command": "-aichat.insertselectionintochat",
         "key": "shift+cmd+l"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+r cmd+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
     }
 ]

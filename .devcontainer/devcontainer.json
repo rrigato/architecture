@@ -1,0 +1,5 @@
+{
+    "name": "Basic Remote Workspace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "postCreateCommand": "git config --global user.email 'ryanrigato@gmail.com' && git config --global user.name 'rrigato'"
+}
