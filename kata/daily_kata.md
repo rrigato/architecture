@@ -413,11 +413,8 @@ py_v
 - Focus/hide copilot chat editor
  <details><code>CMD + CTRL + I</code></details>
 
-- New chat window copilot chat
- <details><code>CTRL + L</code></details>
-
-- Show copilot chat history
- <details><code>CMD + K + CMD + O</code></details>
+- Show chat history
+ <details><code>down arrow</code></details>
 
 - ask copilot chat about vscode
  <details><code>@vscode</code></details>
@@ -441,7 +438,7 @@ py_v
 - accept only next word of copilot suggestion
  <details><code>CMD + right arrow</code></details>
 
-- copilot inline terminal close chat
+- inline terminal close chat
  <details><code>ESCAPE</code></details>
 
 - copilot inline terminal insert suggestion at shell prompt
@@ -450,11 +447,9 @@ py_v
 - copilot inline terminal run suggestion
  <details><code>CMD + ENTER</code></details>
 
-- copilot inline terminal edit suggestion
- <details><code>CMD + down arrow + TAB + TAB</code></details>
 
-- copilot inline terminal initialize chat
- <details><code>CMD + I</code></details>
+- inline terminal initialize chat
+ <details><code>CMD + OPTION + K</code></details>
 
 - paste stdout of shell command into new editor
  <details><code>echo "output that will be in editor" | code -</code></details>
