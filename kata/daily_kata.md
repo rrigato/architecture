@@ -410,43 +410,26 @@ py_v
 - change language mode
  <details><code>CMD + K + M</code></details>
 
-- Focus/hide copilot chat editor
- <details><code>CMD + CTRL + I</code></details>
+- open chat mode menu
+ <details><code>CMD + .</code></details>
+
+- Chat with selected editor context
+ <details><code>CMD + L</code></details>
+
+- Focus/hide chat in editor
+ <details><code>CMD + OPTION + K</code></details>
 
 - Show chat history
  <details><code>down arrow</code></details>
 
-- ask copilot chat about vscode
- <details><code>@vscode</code></details>
-
-
-- ask copilot chat about a specific file
- <details><code># + file_name</code></details>
-
-- pass selection as context to copilot chat
- <details><code>#selection</code></details>
-
 - ask copilot about last terminal command
  <details><code>#terminalLastCommand</code></details>
-
-- ask copilot about your workspace
- <details><code>@workspace</code></details>
-
-- ask copilot to explain something with workspace context
- <details><code>@workspace /explain</code></details>
-
-- accept only next word of copilot suggestion
- <details><code>CMD + right arrow</code></details>
-
-- inline terminal close chat
- <details><code>ESCAPE</code></details>
 
 - copilot inline terminal insert suggestion at shell prompt
  <details><code>OPTION + ENTER</code></details>
 
 - copilot inline terminal run suggestion
  <details><code>CMD + ENTER</code></details>
-
 
 - inline terminal initialize chat
  <details><code>CMD + OPTION + K</code></details>
