@@ -282,15 +282,5 @@
     {
         "key": "cmd+'",
         "command": "composerMode.chat"
-    },
-    {
-        "key": "cmd+ctrl+right",
-        "command": "runCommands",
-        "args": {
-          "commands": [
-            "workbench.action.showCommands",
-            "workbench.action.moveEditorToNextGroup"
-          ]
-        }
     }
 ]

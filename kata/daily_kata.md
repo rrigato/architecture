@@ -545,8 +545,11 @@ py_v
 - toggle left/right/center editor groups
  <details><code>CMD + 1 OR 2 OR 3 </code></details>
 
-- Move editor to different editor group
- <details><code>CMD + CTRL + plus left or right arrow </code></details>
+- moveEditorToNextGroup
+ <details><code>CMD + CTRL + right </code></details>
+
+- moveEditorToPreviousGroup
+ <details><code>CMD + CTRL + left</code></details>
 
 - Toggle maximize editor group
  <details><code>CMD + K + CMD + M</code></details>
