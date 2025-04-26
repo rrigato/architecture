@@ -410,39 +410,20 @@ py_v
 - change language mode
  <details><code>CMD + K + M</code></details>
 
-- Focus/hide copilot chat editor
- <details><code>CMD + CTRL + I</code></details>
+- open chat mode menu
+ <details><code>CMD + .</code></details>
 
-- New chat window copilot chat
- <details><code>CTRL + L</code></details>
+- Chat with selected editor context
+ <details><code>CMD + L</code></details>
 
-- Show copilot chat history
- <details><code>CMD + K + CMD + O</code></details>
+- Focus/hide chat in editor
+ <details><code>CMD + OPTION + K</code></details>
 
-- ask copilot chat about vscode
- <details><code>@vscode</code></details>
-
-
-- ask copilot chat about a specific file
- <details><code># + file_name</code></details>
-
-- pass selection as context to copilot chat
- <details><code>#selection</code></details>
+- Show chat history
+ <details><code>down arrow</code></details>
 
 - ask copilot about last terminal command
  <details><code>#terminalLastCommand</code></details>
-
-- ask copilot about your workspace
- <details><code>@workspace</code></details>
-
-- ask copilot to explain something with workspace context
- <details><code>@workspace /explain</code></details>
-
-- accept only next word of copilot suggestion
- <details><code>CMD + right arrow</code></details>
-
-- copilot inline terminal close chat
- <details><code>ESCAPE</code></details>
 
 - copilot inline terminal insert suggestion at shell prompt
  <details><code>OPTION + ENTER</code></details>
@@ -450,11 +431,8 @@ py_v
 - copilot inline terminal run suggestion
  <details><code>CMD + ENTER</code></details>
 
-- copilot inline terminal edit suggestion
- <details><code>CMD + down arrow + TAB + TAB</code></details>
-
-- copilot inline terminal initialize chat
- <details><code>CMD + I</code></details>
+- inline terminal initialize chat
+ <details><code>CMD + OPTION + K</code></details>
 
 - paste stdout of shell command into new editor
  <details><code>echo "output that will be in editor" | code -</code></details>
@@ -567,8 +545,11 @@ py_v
 - toggle left/right/center editor groups
  <details><code>CMD + 1 OR 2 OR 3 </code></details>
 
-- Move editor to different editor group
- <details><code>CMD + CTRL + plus left or right arrow </code></details>
+- moveEditorToNextGroup
+ <details><code>CMD + CTRL + right </code></details>
+
+- moveEditorToPreviousGroup
+ <details><code>CMD + CTRL + left</code></details>
 
 - Toggle maximize editor group
  <details><code>CMD + K + CMD + M</code></details>
