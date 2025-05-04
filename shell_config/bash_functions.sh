@@ -1,3 +1,40 @@
+#!/bin/bash
+
+# Function: bw
+# Description: Branch workflow automation function that creates and switches to a new branch
+#              while ensuring the local master branch is up to date with the remote.
+# Usage: bw <branch-name>
+# Arguments:
+#   branch-name: The name of the branch to create or checkout
+# Example:
+#   bw feature/new-feature
+
+bw() {
+    if [ $# -eq 0 ]; then
+        echo "Error: Please provide a branch name as an argument"
+        echo "Usage: bw <branch-name>"
+        return 1
+    fi
+
+    local BRANCH_NAME=$1
+
+    # Fetch all remote changes
+    echo "Fetching remote changes..."
+    git fetch --all
+
+    echo "Switching to master branch..."
+    git checkout master
+
+    echo "Deleting all branches except master..."
+    git branch | grep -v "master" | xargs git branch -D
+
+    # Pull latest changes from remote master
+    echo "Pulling latest changes from remote master..."
+    git pull origin master
+
+    git checkout -b "$BRANCH_NAME"
+}
+
 
 # refer to catch_up function for arguements
 function validate_catch_up() {
