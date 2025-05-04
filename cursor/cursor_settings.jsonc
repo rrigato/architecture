@@ -1,0 +1,80 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "breadcrumbs.symbolSortOrder": "name",
+    "debug.showVariableTypes": true,
+    "editor.codeActionsOnSave": {
+        "source.sort.json": "always"
+    },
+    "editor.detectIndentation": false,
+    "editor.fontSize": 16,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        72
+    ],
+    "editor.smartSelect.selectSubwords": false,
+    "editor.tabSize": 4,
+    "editor.trimAutoWhitespace": true,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.env": "properties",
+        "*.template": "yaml"
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500,
+    "files.defaultLanguage": "markdown",
+    "files.exclude": {
+        "**.egg-info": true,
+        "**/build": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "git.blame.statusBarItem.enabled": true,
+    "git.mergeEditor": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+    "markdown.validate.enabled": true,
+    "outline.showVariables": false,
+    "python.experiments.optOutFrom": [
+        "pythonTerminalEnvVarActivation"
+    ],
+    "security.promptForLocalFileProtocolHandling": false,
+    "security.promptForRemoteFileProtocolHandling": false,
+    "[terraform]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.suggest.enabled": true,
+    "window.commandCenter": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 2,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "yaml.customTags": [
+        "!And sequence",
+        "!Base64 scalar",
+        "!Cidr scalar",
+        "!Condition scalar",
+        "!Equals sequence",
+        "!FindInMap sequence",
+        "!GetAtt scalar",
+        "!GetAtt sequence",
+        "!GetAZs scalar",
+        "!If sequence",
+        "!ImportValue scalar",
+        "!Join sequence",
+        "!Not sequence",
+        "!Or sequence",
+        "!Ref scalar",
+        "!Select sequence",
+        "!Split sequence",
+        "!Sub scalar",
+        "!Transform mapping"
+    ],
+    "workbench.colorTheme": "SynthWave '84"
+}

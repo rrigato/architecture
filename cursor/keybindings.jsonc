@@ -282,5 +282,9 @@
     {
         "key": "cmd+'",
         "command": "composerMode.chat"
+    },
+    {
+        "key": "cmd+k cmd+o",
+        "command": "composer.showComposerHistory"
     }
 ]
