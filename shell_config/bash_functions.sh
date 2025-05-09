@@ -104,7 +104,8 @@ function xb() {
 }
 
 #######################################
-# Creates a commit with the given message and creates a pull request
+# Creates a commit with the given message
+# and creates a pull request in the remote repository
 # Globals:
 #   git = git installed
 #   gh = GitHub CLI installed
