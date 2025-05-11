@@ -98,14 +98,18 @@ function xb() {
     echo "Fetching remote changes..."
     git fetch --all
 
+    # If not on the default branch merge default branch into local default branch
+    if [ "$(git rev-parse --abbrev-ref HEAD)" != "$DEFAULT_BRANCH" ]; then
+        echo "Merging $DEFAULT_BRANCH into local $DEFAULT_BRANCH..."
+        git merge "$DEFAULT_BRANCH"
+    fi
+
     echo "Switching to $DEFAULT_BRANCH branch..."
     git checkout "$DEFAULT_BRANCH"
 
     echo "Deleting all branches except $DEFAULT_BRANCH..."
     git branch | grep -v "$DEFAULT_BRANCH" | xargs git branch -D
 
-    echo "Pulling latest changes from remote $DEFAULT_BRANCH..."
-    git pull origin "$DEFAULT_BRANCH"
 
     git checkout -b "$BRANCH_NAME"
 }
