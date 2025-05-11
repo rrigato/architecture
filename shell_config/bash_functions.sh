@@ -85,20 +85,27 @@ function xb() {
     fi
 
     local BRANCH_NAME=$1
+    local DEFAULT_BRANCH=$(
+        git symbolic-ref refs/remotes/origin/HEAD \
+        | sed 's@^refs/remotes/origin/@@'
+    )
 
-    # Fetch all remote changes
+    if [ -z "$DEFAULT_BRANCH" ]; then
+        echo "Error: Could not determine default branch"
+        return 1
+    fi
+
     echo "Fetching remote changes..."
     git fetch --all
 
-    echo "Switching to master branch..."
-    git checkout master
+    echo "Switching to $DEFAULT_BRANCH branch..."
+    git checkout "$DEFAULT_BRANCH"
 
-    echo "Deleting all branches except master..."
-    git branch | grep -v "master" | xargs git branch -D
+    echo "Deleting all branches except $DEFAULT_BRANCH..."
+    git branch | grep -v "$DEFAULT_BRANCH" | xargs git branch -D
 
-    # Pull latest changes from remote master
-    echo "Pulling latest changes from remote master..."
-    git pull origin master
+    echo "Pulling latest changes from remote $DEFAULT_BRANCH..."
+    git pull origin "$DEFAULT_BRANCH"
 
     git checkout -b "$BRANCH_NAME"
 }
@@ -127,7 +134,7 @@ function xr() {
 
     # Check if there are any changes in the working directory
     if ! git diff-index --quiet HEAD --; then
-        git add -A
+        git add -A .
         git commit -m "$1"
     fi
 
