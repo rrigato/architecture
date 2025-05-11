@@ -78,40 +78,43 @@ function catch_up(){
 #   xb feature/new-feature
 #######################################
 function xb() {
-    if [ $# -eq 0 ]; then
-        echo "Error: Please provide a branch name as an argument"
-        echo "Usage: xb <branch-name>"
-        return 1
-    fi
+    #run in a subshell to prevent crashing invoking shell session
+    (
+        set -e
+        if [ $# -eq 0 ]; then
+            echo "Error: Please provide a branch name as an argument"
+            echo "Usage: xb <branch-name>"
+            return 1
+        fi
+        local BRANCH_NAME=$1
+        local DEFAULT_BRANCH=$(
+            git symbolic-ref refs/remotes/origin/HEAD \
+            | sed 's@^refs/remotes/origin/@@'
+        )
 
-    local BRANCH_NAME=$1
-    local DEFAULT_BRANCH=$(
-        git symbolic-ref refs/remotes/origin/HEAD \
-        | sed 's@^refs/remotes/origin/@@'
+        if [ -z "$DEFAULT_BRANCH" ]; then
+            echo "Error: Could not determine default branch"
+            return 1
+        fi
+
+        echo "Fetching remote changes..."
+        git fetch --all
+
+        # If not on the default branch merge default branch into local default branch
+        if [ "$(git rev-parse --abbrev-ref HEAD)" != "$DEFAULT_BRANCH" ]; then
+            echo "Merging $DEFAULT_BRANCH into local $DEFAULT_BRANCH..."
+            git fetch origin "$DEFAULT_BRANCH":"$DEFAULT_BRANCH"
+        fi
+
+        echo "Switching to $DEFAULT_BRANCH branch..."
+        git checkout "$DEFAULT_BRANCH"
+
+        echo "Deleting all branches except $DEFAULT_BRANCH..."
+        git branch | grep -v "$DEFAULT_BRANCH" | xargs git branch -D
+
+
+        git checkout -b "$BRANCH_NAME"
     )
-
-    if [ -z "$DEFAULT_BRANCH" ]; then
-        echo "Error: Could not determine default branch"
-        return 1
-    fi
-
-    echo "Fetching remote changes..."
-    git fetch --all
-
-    # If not on the default branch merge default branch into local default branch
-    if [ "$(git rev-parse --abbrev-ref HEAD)" != "$DEFAULT_BRANCH" ]; then
-        echo "Merging $DEFAULT_BRANCH into local $DEFAULT_BRANCH..."
-        git merge "$DEFAULT_BRANCH"
-    fi
-
-    echo "Switching to $DEFAULT_BRANCH branch..."
-    git checkout "$DEFAULT_BRANCH"
-
-    echo "Deleting all branches except $DEFAULT_BRANCH..."
-    git branch | grep -v "$DEFAULT_BRANCH" | xargs git branch -D
-
-
-    git checkout -b "$BRANCH_NAME"
 }
 
 #######################################
