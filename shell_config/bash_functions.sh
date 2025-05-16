@@ -95,7 +95,6 @@ function xb() {
         return 1
     fi
 
-    echo "Fetching remote changes..."
     git fetch --all
 
     # If not on the default branch merge default branch into local default branch
@@ -104,7 +103,6 @@ function xb() {
         git merge "$DEFAULT_BRANCH"
     fi
 
-    echo "Switching to $DEFAULT_BRANCH branch..."
     git checkout "$DEFAULT_BRANCH"
 
     echo "Deleting all branches except $DEFAULT_BRANCH..."

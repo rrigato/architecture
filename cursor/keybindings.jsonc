@@ -286,5 +286,15 @@
     {
         "key": "cmd+k cmd+o",
         "command": "composer.showComposerHistory"
+    },
+    {
+        "key": "cmd+k p",
+        "command": "copyFilePath",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+r alt+cmd+c",
+        "command": "-copyFilePath",
+        "when": "editorFocus"
     }
 ]
