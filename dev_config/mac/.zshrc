@@ -1,8 +1,7 @@
-#cp -r shell_config ~
-#cp dev_config/mac/.zshrc ~
+#Make sure to run scripts/full_zsh_setup.sh
 source ~/shell_config/bash_functions.sh
 source ~/shell_config/setup_alias.sh
-
+source ~/shell_config/load_zsh_secrets.sh
 
 #nvm to path
 export NVM_DIR="$HOME/.nvm"

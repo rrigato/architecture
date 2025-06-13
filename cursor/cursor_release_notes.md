@@ -7,3 +7,8 @@
 - `@folders` adds an entire folder to context
 - multi root workspaces with multiple folders available
 - export chat to markdown
+
+# 1.0
+- BugBot = Plugin to automatically review github PRs
+- cursor memories remembers facts from converstations at a project level
+- supports mcp integration
