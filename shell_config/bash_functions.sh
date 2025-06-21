@@ -137,20 +137,28 @@ function xr() {
         return 1
     fi
 
+    if [ -z "$2" ]; then
+        echo "Missing target branch argument"
+        return 1
+    fi
+
+    local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+    local TARGET_BRANCH=$2
+
     # Check if there are any changes in the working directory
     if ! git diff-index --quiet HEAD --; then
         git add -A .
         git commit -m "$1"
     fi
 
-    git push origin dev
+    git push origin "$CURRENT_BRANCH"
 
     echo "pushed to remote"
 
     gh pr create --title "$1" \
         --body "Automated PR creation" \
-        --head dev \
-        --base master
+        --head "$CURRENT_BRANCH" \
+        --base "$TARGET_BRANCH"
 
     echo "created PR"
     echo "----------------------"
