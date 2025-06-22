@@ -22,6 +22,19 @@ function validate_catch_up() {
 
 }
 
+# refer to xr function for arguments
+function validate_xr() {
+    if [ -z "$1" ]; then
+        echo "Missing commit message argument 1"
+        return 1
+    fi
+    if [ -z "$2" ]; then
+        echo "Missing target branch argument 2"
+        return 1
+    fi
+    return 0
+}
+
 #######################################
 # Pulls dev branch from remote repository
 # and catches up branch_name locally and
@@ -132,13 +145,9 @@ function xb() {
 #   commit_message: The message to use for the commit and PR title
 #######################################
 function xr() {
-    if [ -z "$1" ]; then
-        echo "Missing commit message argument"
-        return 1
-    fi
+    validate_xr "$@"
 
-    if [ -z "$2" ]; then
-        echo "Missing target branch argument"
+    if [ $? -ne 0 ]; then
         return 1
     fi
 
