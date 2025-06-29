@@ -37,13 +37,9 @@ function g_j() {
             return 1
         fi
 
-        echo "Merging $CURRENT_BRANCH into $TARGET_BRANCH..."
+        git fetch origin
+        git fetch origin "$TARGET_BRANCH":"$TARGET_BRANCH"
 
-        git fetch origin:"$TARGET_BRANCH"
-
-        echo "Successfully merged $CURRENT_BRANCH into $TARGET_BRANCH"
-        echo "----------------------"
-        echo "merge successful"
     )
 }
 
