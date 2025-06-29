@@ -1,5 +1,51 @@
 #!/bin/bash
 
+#######################################
+# Description: Intelligently remote origin dev or develop branch into current branch
+# Usage: g_j
+# Globals:
+#   git = git installed
+#   origin = remote git url
+#
+# Arguments:
+#   None
+#
+# Example:
+#   g_j
+#   # Merges current branch into dev if dev exists, otherwise into develop
+#######################################
+function g_j() {
+    # Run in a subshell to prevent crashing invoking shell session
+    (
+        set -e
+
+        local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+        # Fetch latest from remote to check available branches
+        git fetch origin
+
+        # Check if dev branch exists in remote origin
+        if git ls-remote --heads origin dev | grep -q dev; then
+            local TARGET_BRANCH="dev"
+        # Check if develop branch exists in remote origin
+        elif git ls-remote --heads origin develop | grep -q develop; then
+            local TARGET_BRANCH="develop"
+        else
+            echo "Error: Neither dev nor develop branch found in remote origin"
+            return 1
+        fi
+
+        git fetch origin
+        git fetch origin "$TARGET_BRANCH":"$TARGET_BRANCH"
+
+        echo "merged origin $TARGET_BRANCH into local"
+
+    )
+}
+
+
+
+
 # refer to catch_up function for arguements
 function validate_catch_up() {
     if [ -z "$1" ]; then
