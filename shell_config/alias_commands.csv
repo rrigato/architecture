@@ -9,7 +9,6 @@ g_e, git blame
 g_f,git fetch origin
 g_g,git branch | grep -v master | grep -v dev | xargs git branch -d
 g_i,git init
-g_j,git fetch origin dev:dev
 g_k,git fetch origin master:master
 g_l,git log
 g_m,git add --all; git commit -m
