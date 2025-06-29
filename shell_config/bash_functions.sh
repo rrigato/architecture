@@ -26,11 +26,9 @@ function g_j() {
 
         # Check if dev branch exists in remote origin
         if git ls-remote --heads origin dev | grep -q dev; then
-            echo "Found dev branch in remote origin"
             local TARGET_BRANCH="dev"
         # Check if develop branch exists in remote origin
         elif git ls-remote --heads origin develop | grep -q develop; then
-            echo "Found develop branch in remote origin"
             local TARGET_BRANCH="develop"
         else
             echo "Error: Neither dev nor develop branch found in remote origin"
@@ -39,6 +37,8 @@ function g_j() {
 
         git fetch origin
         git fetch origin "$TARGET_BRANCH":"$TARGET_BRANCH"
+
+        echo "merged origin $TARGET_BRANCH into local"
 
     )
 }
