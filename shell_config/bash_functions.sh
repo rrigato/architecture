@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #######################################
-# Description: Intelligently remote origin dev or develop branch into current branch
+# Description: Intelligently merges remote origin
+# dev or develop branch into the local version of that branch
 # Usage: g_j
 # Globals:
 #   git = git installed
@@ -10,9 +11,6 @@
 # Arguments:
 #   None
 #
-# Example:
-#   g_j
-#   # Merges current branch into dev if dev exists, otherwise into develop
 #######################################
 function g_j() {
     # Run in a subshell to prevent crashing invoking shell session
@@ -43,8 +41,46 @@ function g_j() {
     )
 }
 
+#######################################
+# Description: Intelligently merges remote origin
+# master or main branch into the local version of that branch
+# Usage: g_k
+# Globals:
+#   git = git installed
+#   origin = remote git url
+#
+# Arguments:
+#   None
+#
+#######################################
+function g_k() {
+    # Run in a subshell to prevent crashing invoking shell session
+    (
+        set -e
 
+        local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
+        # Fetch latest from remote to check available branches
+        git fetch origin
+
+        # Check if master branch exists in remote origin
+        if git ls-remote --heads origin master | grep -q master; then
+            local TARGET_BRANCH="master"
+        # Check if main branch exists in remote origin
+        elif git ls-remote --heads origin main | grep -q main; then
+            local TARGET_BRANCH="main"
+        else
+            echo "Error: Neither master nor main branch found in remote origin"
+            return 1
+        fi
+
+        git fetch origin
+        git fetch origin "$TARGET_BRANCH":"$TARGET_BRANCH"
+
+        echo "merged origin $TARGET_BRANCH into local"
+
+    )
+}
 
 # refer to catch_up function for arguements
 function validate_catch_up() {
