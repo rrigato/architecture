@@ -227,31 +227,36 @@ function xb() {
 #   commit_message: The message to use for the commit and PR title
 #######################################
 function xr() {
-    validate_xr "$@"
+    # Run in a subshell to prevent crashing invoking shell session
+    (
+        set -e
 
-    if [ $? -ne 0 ]; then
-        return 1
-    fi
+        validate_xr "$@"
 
-    local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-    local TARGET_BRANCH=$2
+        if [ $? -ne 0 ]; then
+            return 1
+        fi
 
-    # Check if there are any changes in the working directory
-    if ! git diff-index --quiet HEAD --; then
-        git add -A .
-        git commit -m "$1"
-    fi
+        local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+        local TARGET_BRANCH=$2
 
-    git push origin "$CURRENT_BRANCH"
+        # Check if there are any changes in the working directory
+        if ! git diff-index --quiet HEAD --; then
+            git add -A .
+            git commit -m "$1"
+        fi
 
-    echo "pushed to remote"
+        git push origin "$CURRENT_BRANCH"
 
-    gh pr create --title "$1" \
-        --body "Automated PR creation" \
-        --head "$CURRENT_BRANCH" \
-        --base "$TARGET_BRANCH"
+        echo "pushed to remote"
 
-    echo "created PR"
-    echo "----------------------"
-    echo "deployment successful"
+        gh pr create --title "$1" \
+            --body "Automated PR creation" \
+            --head "$CURRENT_BRANCH" \
+            --base "$TARGET_BRANCH"
+
+        echo "created PR"
+        echo "----------------------"
+        echo "deployment successful"
+    )
 }
