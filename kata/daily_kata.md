@@ -488,13 +488,22 @@ py_v
 - move down page without scrolling
  <details><code>CMD + page down</code></details>
 
-- collapse all code
+- fold all code in editor
  <details><code>CMD + K + CMD + 0 </code></details>
 
-- collapse/expand code section
- <details><code>CMD + OPTION + [ or ] </code></details>
+- unfold all code in editor
+ <details><code>CMD + K + CMD + J </code></details>
 
-- expand code recursively
+- fold code section
+ <details><code>CMD + OPTION + [ </code></details>
+
+- unfold code section
+ <details><code>CMD + OPTION + ] </code></details>
+
+- fold code recursively
+ <details><code>CMD + K + CMD + [ </code></details>
+
+- unfold code recursively
  <details><code>CMD + K + CMD + ] </code></details>
 
 - show hover
