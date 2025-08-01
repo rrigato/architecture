@@ -12,3 +12,7 @@
 - BugBot = Plugin to automatically review github PRs
 - cursor memories remembers facts from converstations at a project level
 - supports mcp integration
+
+# 1.2
+- You can queue up multiple simiple tasks for the cursor agent and order them
+- Cursor agent can resolve merge conflicts
