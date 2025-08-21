@@ -336,5 +336,15 @@
         "key": "cmd+r cmd+[",
         "command": "-editor.foldRecursively",
         "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+k m",
+        "command": "workbench.action.editor.changeLanguageMode",
+        "when": "!notebookEditorFocused"
+    },
+    {
+        "key": "cmd+r m",
+        "command": "-workbench.action.editor.changeLanguageMode",
+        "when": "!notebookEditorFocused"
     }
 ]
