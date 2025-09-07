@@ -16,3 +16,9 @@
 # 1.2
 - You can queue up multiple simiple tasks for the cursor agent and order them
 - Cursor agent can resolve merge conflicts
+
+# 1.3
+- Composer agent can run a terminal in the background
+
+# 1.5
+- Cursor background agents can draft up a pull request from a linear project maangement issue or a github comment
