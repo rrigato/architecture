@@ -240,8 +240,9 @@ function xr() {
         local CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
         local TARGET_BRANCH=$2
 
-        # Check if there are any changes in the working directory
-        if ! git diff-index --quiet HEAD --; then
+        # Check if there are any changes
+        # in the working directory (including untracked files)
+        if [ -n "$(git status --porcelain)" ]; then
             git add -A .
             git commit -m "$1"
         fi
