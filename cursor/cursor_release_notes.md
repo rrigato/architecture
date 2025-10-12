@@ -22,3 +22,7 @@
 
 # 1.5
 - Cursor background agents can draft up a pull request from a linear project maangement issue or a github comment
+
+# 1.6
+- `.cursor/commands/[command].md` = add custom commands [to the project repo](https://cursor.com/docs/agent/chat/commands) command can be accessed with a `/<name_of_markdown_file>`
+- [MCP Resources](https://modelcontextprotocol.io/specification/2025-06-18/server/resources) = allow applications to share data that provides context to language models such as database schemas or files
