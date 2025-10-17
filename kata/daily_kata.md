@@ -405,7 +405,7 @@ py_v
  <details><code>t_v</code></details>
 
 
-# vscode
+# vscode/cursor
 
 - change language mode
  <details><code>CMD + K + M</code></details>
@@ -421,6 +421,9 @@ py_v
 
 - Show chat history
  <details><code>down arrow</code></details>
+
+- Cursor Plan Mode
+ <details><code>CMD+SHIFT+OPTION+P</code></details>
 
 - ask copilot about last terminal command
  <details><code>#terminalLastCommand</code></details>
