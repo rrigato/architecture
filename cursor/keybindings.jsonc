@@ -346,5 +346,14 @@
         "key": "cmd+r m",
         "command": "-workbench.action.editor.changeLanguageMode",
         "when": "!notebookEditorFocused"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-composer.createNewComposerTab",
+        "when": "composerFocused || activeEditor == 'workbench.editor.composer' || focusedView =~ /^workbench.panel.aichat.view/"
+    },
+    {
+        "key": "shift+alt+cmd+p",
+        "command": "composerMode.plan"
     }
 ]
