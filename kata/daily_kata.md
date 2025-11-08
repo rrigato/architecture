@@ -527,6 +527,9 @@ py_v
 - Focus and Toggle panel
  <details><code>CMD + J</code></details>
 
+- Toggle between editor and agent
+ <details><code>CMD + E</code></details>
+
 - switch between active terminals
  <details><code>CMD + SHIFT + [ or ] </code></details>
 
