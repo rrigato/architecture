@@ -355,5 +355,9 @@
     {
         "key": "shift+alt+cmd+p",
         "command": "composerMode.plan"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "-composer.newAgentChat"
     }
 ]
