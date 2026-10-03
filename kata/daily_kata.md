@@ -407,6 +407,9 @@ py_v
 
 # vscode/cursor
 
+- open worktree in new window
+ <details><code>cursor -n &lt;worktree&gt;</code></details>
+
 - change language mode
  <details><code>CMD + K + M</code></details>
 
